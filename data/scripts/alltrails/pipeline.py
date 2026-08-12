@@ -3,17 +3,7 @@ from session import build_headers
 from trail import find_api_key, scrape_page, populate_trail_data
 from reviews import fetch_reviews
 
-def main(args):
-    if len(args) != 2:
-        sys.exit(f"usage: python pipeline.py <trail_id> <trail_url>\n\ngot {len(args)} argument(s): {args}")
-
-    trail_id, trail_url = args
-
-    if not trail_id.isdigit():
-        sys.exit(f"trail_id must be numeric, got: {trail_id!r}")
-    if not trail_url.startswith("https://www.alltrails.com/trail/"):
-        sys.exit(f"trail_url doesn't look like an AllTrails trail page: {trail_url!r}")
-
+def main(trail_id, trail_url):
     headers = build_headers(trail_url)
 
     try:
@@ -37,4 +27,16 @@ def main(args):
         sys.exit(f"failed to fetch reviews for {trail_id}: {exc}")
 
 if __name__ == "__main__":
-    main(sys.argv[1:])
+    args = sys.argv[1:]
+    
+    if len(args) != 2:
+        sys.exit(f"usage: python pipeline.py <trail_id> <trail_url>\n\ngot {len(args)} argument(s): {args}")
+    
+    trail_id, trail_url = args
+
+    if not trail_id.isdigit():
+        sys.exit(f"trail_id must be numeric, got: {trail_id!r}")
+    if not trail_url.startswith("https://www.alltrails.com/trail/"):
+        sys.exit(f"trail_url doesn't look like an AllTrails trail page: {trail_url!r}")
+        
+    main(trail_id, trail_url)

@@ -1,5 +1,4 @@
 import re
-import sys
 
 from session import USER_AGENT, make_session
 
