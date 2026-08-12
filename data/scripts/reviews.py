@@ -80,7 +80,7 @@ if __name__ == "__main__":
 
     reviews = fetch_reviews(session, headers, TRAIL_ID, api_key)
 
-    out_path = os.path.join(DATA_DIR, "raw_reviews", "the_crack_trail_reviews.json")
+    out_path = os.path.join(DATA_DIR, "datasets", "raw_reviews", "the_crack_trail_reviews.json")
     with open(out_path, "w", encoding="utf-8") as f:
         json.dump(reviews, f, indent=2, ensure_ascii=False)
 

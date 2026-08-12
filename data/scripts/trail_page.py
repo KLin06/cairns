@@ -78,14 +78,16 @@ if __name__ == "__main__":
     print(f"discovered API key: {api_key}")
     print(f"trail: {trail_metadata['name']}")
 
-    trail_path = os.path.join(DATA_DIR, "raw_descriptions", "the_crack_trail_info.json")
+    datasets_dir = os.path.join(DATA_DIR, "datasets")
+
+    trail_path = os.path.join(datasets_dir, "raw_descriptions", "the_crack_trail_info.json")
     with open(trail_path, "w", encoding="utf-8") as f:
         json.dump(trail_metadata, f, indent=2, ensure_ascii=False)
     print(f"saved trail info to {trail_path}")
 
     reviews = fetch_reviews(session, HEADERS, TRAIL_ID, api_key)
 
-    reviews_path = os.path.join(DATA_DIR, "raw_reviews", "the_crack_trail_reviews.json")
+    reviews_path = os.path.join(datasets_dir, "raw_reviews", "the_crack_trail_reviews.json")
     with open(reviews_path, "w", encoding="utf-8") as f:
         json.dump(reviews, f, indent=2, ensure_ascii=False)
 

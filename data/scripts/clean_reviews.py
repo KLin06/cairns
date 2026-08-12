@@ -5,7 +5,8 @@ import pandas as pd
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 DATA_DIR = os.path.dirname(SCRIPT_DIR)
-path = os.path.join(DATA_DIR, "raw_reviews", "the_crack_trail_reviews.json")
+DATASETS_DIR = os.path.join(DATA_DIR, "datasets")
+path = os.path.join(DATASETS_DIR, "raw_reviews", "the_crack_trail_reviews.json")
 
 df = pd.read_json(path)
 df.set_index("id", inplace=True)
@@ -49,7 +50,7 @@ df.drop(
     inplace=True,
 )
 
-new_path = os.path.join(DATA_DIR, "cleaned_reviews", "the_crack_trail_reviews_cleaned.json")
+new_path = os.path.join(DATASETS_DIR, "cleaned_reviews", "the_crack_trail_reviews_cleaned.json")
 
 # pandas' to_json(indent=...) pads empty lists/dicts with a stray blank
 # line. Let pandas handle date serialization, then hand the compact JSON
