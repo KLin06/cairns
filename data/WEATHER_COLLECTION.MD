@@ -1,0 +1,2 @@
+Trails can remain muddy for 24 hours - a full week after raining, depending on the type of soil and coverage (tree coverage, sandy vs clay soil, temperature)
+Rocks can remain slippery for a few hours - 48 hours depending on type of rocks (sandstone vs granite) ->  will probably have to fetch terrain
