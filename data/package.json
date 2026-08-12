@@ -1,0 +1,20 @@
+{
+  "name": "cairns-backend",
+  "version": "1.0.0",
+  "description": "Apify-based scraper for trail data",
+  "type": "module",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "dev": "node --watch main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apify-client": "^1.7.0"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
