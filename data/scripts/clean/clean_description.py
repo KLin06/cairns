@@ -1,10 +1,7 @@
 import json
 import os
-import sys
 
-sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-
-from paths import DATASETS_DIR
+from scripts.paths import DATASETS_DIR
 
 _explore_index = None
 

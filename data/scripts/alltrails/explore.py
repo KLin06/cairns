@@ -1,12 +1,9 @@
 import json
 import os
-import sys
 
-sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-
-from paths import DATASETS_DIR
-from session import build_headers
-from trail import fetch_trail_page, find_api_key
+from scripts.paths import DATASETS_DIR
+from scripts.alltrails.session import build_headers
+from scripts.alltrails.trail import fetch_trail_page, find_api_key
 
 EXPLORE_URL = "https://www.alltrails.com/api/alltrails/explore/v1/search?nls=false"
 

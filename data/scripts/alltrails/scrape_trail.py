@@ -1,7 +1,8 @@
 import sys
-from session import build_headers
-from trail import find_api_key, scrape_page, populate_trail_data
-from reviews import fetch_reviews
+
+from scripts.alltrails.session import build_headers
+from scripts.alltrails.trail import find_api_key, scrape_page, populate_trail_data
+from scripts.alltrails.reviews import fetch_reviews
 
 def main(trail_id, trail_url):
     headers = build_headers(trail_url)

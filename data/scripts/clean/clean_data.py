@@ -1,7 +1,7 @@
 import sys
 
-from clean_description import clean_description
-from clean_reviews import clean_reviews
+from scripts.clean.clean_description import clean_description
+from scripts.clean.clean_reviews import clean_reviews
 
 def main(trail_id):
     try:

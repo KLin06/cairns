@@ -1,13 +1,10 @@
 import json
 import os
-import sys
-
-sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 
 import matplotlib.pyplot as plt
 
-from paths import DATASETS_DIR
-from label_conditions_keyword import label_comment, conditions, MODEL_NAME
+from scripts.paths import DATASETS_DIR
+from scripts.enrich.label.label_conditions_keyword import label_comment, conditions, MODEL_NAME
 
 TRAIL_ID = "10268327"
 

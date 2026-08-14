@@ -1,12 +1,9 @@
 import json
 import os
 import re
-import sys
 
-sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-
-from paths import DATASETS_DIR
-from session import make_session
+from scripts.paths import DATASETS_DIR
+from scripts.alltrails.session import make_session
 
 
 def find_api_key(html):

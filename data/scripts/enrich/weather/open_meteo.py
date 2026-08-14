@@ -2,7 +2,7 @@ import json
 
 from curl_cffi import requests
 
-from dateutils import shift_days, to_date, today
+from scripts.enrich.weather.dateutils import shift_days, to_date, today
 
 FORECAST_URL = "https://api.open-meteo.com/v1/forecast"
 ARCHIVE_URL = "https://archive-api.open-meteo.com/v1/archive"

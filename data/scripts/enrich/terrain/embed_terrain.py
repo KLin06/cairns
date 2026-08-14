@@ -2,12 +2,10 @@ import sys
 import os
 import json
 
-sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
+from scripts.paths import DATASETS_DIR
 
-from paths import DATASETS_DIR
-
-from bedrock import fetch_rock_type
-from soil import fetch_soil_type
+from scripts.enrich.terrain.bedrock import fetch_rock_type
+from scripts.enrich.terrain.soil import fetch_soil_type
 
 def main(trail_id):
     path = os.path.join(DATASETS_DIR, "cleaned_descriptions", f"{trail_id}.json")

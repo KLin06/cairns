@@ -1,6 +1,6 @@
 import re
 
-from session import USER_AGENT, make_session
+from scripts.alltrails.session import USER_AGENT, make_session
 
 HEADERS = {"User-Agent": USER_AGENT}
 
@@ -11,7 +11,7 @@ HEADERS = {"User-Agent": USER_AGENT}
 CREATED_AT_RE = re.compile(r'\\?"created_at\\?":\\?"([^"\\]+)')
 
 
-def get_recording_date(recording_id):
+def get_recording_date(session, recording_id):
     """Fetch the activity start date for an AllTrails recording, given its numeric id."""
     session = make_session()
 

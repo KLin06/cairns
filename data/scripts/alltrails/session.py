@@ -1,12 +1,9 @@
 import os
-import sys
-
-sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from curl_cffi import requests
 from dotenv import load_dotenv
 
-from paths import DATA_DIR
+from scripts.paths import DATA_DIR
 
 load_dotenv(os.path.join(DATA_DIR, ".env"))
 SESSION_COOKIE = os.environ["ALLTRAILS_SESSION_COOKIE"]

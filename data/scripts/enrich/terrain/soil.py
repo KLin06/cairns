@@ -1,4 +1,4 @@
-from client import query_point
+from scripts.enrich.terrain.client import query_point
 
 # Ontario government ArcGIS REST service (LIO) - public, no key required.
 SOIL_URL = "https://ws.lioservices.lrc.gov.on.ca/arcgis2/rest/services/LIO_OPEN_DATA/LIO_Open05/MapServer/9/query"

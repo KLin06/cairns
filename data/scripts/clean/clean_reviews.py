@@ -1,12 +1,9 @@
 import json
 import os
-import sys
 
 import pandas as pd
 
-sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-
-from paths import DATASETS_DIR
+from scripts.paths import DATASETS_DIR
 
 def clean_reviews(trail_id):
     path = os.path.join(DATASETS_DIR, "raw_reviews", f"{trail_id}.json")
@@ -22,6 +19,7 @@ def clean_reviews(trail_id):
         df[col] = df[col].apply(lambda items: [item["name"] for item in items] if isinstance(items, list) else [])
 
     df["hasRecording"] = df["associatedRecording"].apply(lambda r: isinstance(r, dict))
+    df["recordingId"] = df["associatedRecording"].apply(lambda r: r["id"] if isinstance(r, dict) else None)
 
     df = df[df["activity"].isin(["Hiking", "Backpacking"])]
 

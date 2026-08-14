@@ -1,4 +1,4 @@
-from client import query_point
+from scripts.enrich.terrain.client import query_point
 
 # Ontario government ArcGIS REST service (GeologyOntario) - public, no key required.
 BEDROCK_URL = "https://ws.lioservices.lrc.gov.on.ca/arcgis2/rest/services/GeologyOntario/GeologyOntario_Map/MapServer/57/query"

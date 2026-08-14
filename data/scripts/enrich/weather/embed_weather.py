@@ -3,11 +3,9 @@ import os
 import json
 import pandas as pd
 
-sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
-
-from paths import DATASETS_DIR
-from dateutils import to_date, shift_days
-from open_meteo import fetch_historical_weather
+from scripts.paths import DATASETS_DIR
+from scripts.enrich.weather.dateutils import to_date, shift_days
+from scripts.enrich.weather.open_meteo import fetch_historical_weather
 
 WEEK_AHEAD = -7
 
