@@ -12,8 +12,8 @@ CREATED_AT_RE = re.compile(r'\\?"created_at\\?":\\?"([^"\\]+)')
 
 
 def get_recording_date(session, recording_id):
-    """Fetch the activity start date for an AllTrails recording, given its numeric id."""
-    session = make_session()
+    if session is None:
+        session = make_session()
 
     url = f"https://www.alltrails.com/explore/recording/{recording_id}"
     resp = session.get(url, headers=HEADERS, timeout=60)
