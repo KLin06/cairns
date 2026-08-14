@@ -1,6 +1,7 @@
 import json
 import os
 import random
+import threading
 import time
 
 import pandas as pd
@@ -19,6 +20,17 @@ HISTORY_DAYS = 7
 _reviews_cache = {}
 _description_cache = {}
 
+# A trail's lat/lng is fixed, so the HISTORY_DAYS window only depends on the
+# weather_date - many reviews on the same trail land on the same date (or
+# get enriched in the same run before that changes), so caching per
+# (trail_id, weather_date) avoids re-fetching identical Open-Meteo requests.
+# This matters beyond just speed: Open-Meteo's free tier caps out around
+# 10,000 calls/day, and enriching every review with its own uncached call
+# would blow well past that across the full trail set. Locked since
+# enrich_trail.py runs this loop across a thread pool.
+_weather_cache = {}
+_weather_cache_lock = threading.Lock()
+
 # Minimum spacing between requests to alltrails.com - only recording-date
 # lookups hit their site directly (weather goes to Open-Meteo, unrelated
 # limit). Module-level so it applies whether enrich_data is called once or
@@ -33,14 +45,30 @@ RECORDING_FETCH_JITTER = 4.0
 _last_recording_fetch_time = 0.0
 
 
+_recording_fetch_lock = threading.Lock()
+
+
 def _rate_limited_recording_date(recording_id):
     global _last_recording_fetch_time
-    wait_for = RECORDING_FETCH_MIN_INTERVAL + random.uniform(0, RECORDING_FETCH_JITTER)
-    elapsed = time.monotonic() - _last_recording_fetch_time
-    if elapsed < wait_for:
-        time.sleep(wait_for - elapsed)
-    _last_recording_fetch_time = time.monotonic()
+    with _recording_fetch_lock:
+        wait_for = RECORDING_FETCH_MIN_INTERVAL + random.uniform(0, RECORDING_FETCH_JITTER)
+        elapsed = time.monotonic() - _last_recording_fetch_time
+        if elapsed < wait_for:
+            time.sleep(wait_for - elapsed)
+        _last_recording_fetch_time = time.monotonic()
     return get_recording_date(None, recording_id)
+
+
+def _cached_historical_weather(trail_id, lat, lng, weather_date):
+    key = (trail_id, weather_date)
+    with _weather_cache_lock:
+        cached = _weather_cache.get(key)
+    if cached is not None:
+        return cached
+    weather = fetch_historical_weather(lat, lng, shift_days(weather_date, -HISTORY_DAYS), weather_date)
+    with _weather_cache_lock:
+        _weather_cache[key] = weather
+    return weather
 
 
 def _load_reviews(trail_id):
@@ -71,15 +99,43 @@ def find_review(trail_id, review_id):
     return matches.iloc[0]
 
 
+# Canonical set of trail-condition categories the model actually cares
+# about, mapped from every raw spelling that can show up across our own
+# keyword/embedding labels and AllTrails' own obstacles/trailConditions
+# tags. AllTrails' tag vocabulary covers more than physical conditions
+# (e.g. "Fee", "Great!", "Well maintained" are about cost/experience, not
+# terrain) and spells the same condition differently depending on the
+# source (trailConditions has its own "Buggy" tag where obstacles just
+# says "Bugs"; our labeler says "snowy", AllTrails' own tag says "Snow") -
+# a raw tag not in this map (None) is dropped rather than kept, since it's
+# noise for a mud/ice/slip conditions model, not signal.
+CONDITION_CATEGORY_MAP = {
+    "bugs": "bugs",
+    "buggy": "bugs",
+    "dusty": "dusty",
+    "flooded": "flooded",
+    "muddy": "muddy",
+    "icy": "icy",
+    "rocky": "rock",
+    "scramble": "scramble",
+    "slippery": "slippery",
+    "snow": "snow",
+    "snowy": "snow",
+}
+
+
 def _merged_conditions(review, labels):
     """Combine our own keyword/embedding-derived condition labels with
     AllTrails' own obstacles/trailConditions tags into one deduplicated
-    list, e.g. {"muddy": True, ...} + ["Bugs"] + ["Muddy", "Muddy"]
-    -> ["muddy", "bugs"]. Lowercased so "Muddy" (AllTrails tag) and "muddy"
+    list of canonical categories (see CONDITION_CATEGORY_MAP), e.g.
+    {"muddy": True, ...} + ["Bugs"] + ["Muddy", "Muddy"] ->
+    ["muddy", "bugs"]. Lowercased so "Muddy" (AllTrails tag) and "muddy"
     (our label key) collapse into the same entry instead of duplicating."""
     labeled = [category for category, matched in labels.items() if matched]
     tagged = review.get("obstacles", []) + review.get("trailConditions", [])
-    return list(dict.fromkeys(c.lower() for c in labeled + tagged))
+    raw = (c.lower() for c in labeled + tagged)
+    mapped = (CONDITION_CATEGORY_MAP.get(c) for c in raw)
+    return list(dict.fromkeys(c for c in mapped if c is not None))
 
 
 def enrich_data(trail_id, review_id, use_recording_date=False):
@@ -127,12 +183,7 @@ def enrich_data(trail_id, review_id, use_recording_date=False):
     description = _load_description(trail_id)
 
     weather_date = to_date(recording_date) if recording_date else to_date(review["date"])
-    weather = fetch_historical_weather(
-        description["latitude"],
-        description["longitude"],
-        shift_days(weather_date, -HISTORY_DAYS),
-        weather_date,
-    )
+    weather = _cached_historical_weather(trail_id, description["latitude"], description["longitude"], weather_date)
 
     labels, _ = label_comment(review.get("comment"))
     conditions = _merged_conditions(review, labels)

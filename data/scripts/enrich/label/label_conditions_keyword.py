@@ -215,7 +215,13 @@ def label_comment(comment):
     matched = {condition: False for condition in conditions}
     details = []
 
-    sentences = [s.strip() for s in sent_tokenize(comment or "") if s.strip()]
+    # `comment or ""` looks like it handles "no comment", but pandas
+    # represents a missing comment as NaN (a float), and NaN is truthy in
+    # Python (`float("nan") or "" -> nan`, not ""), so that fallback never
+    # actually triggers for NaN - only for None/empty-string. Check the
+    # type explicitly instead of relying on truthiness.
+    comment = comment if isinstance(comment, str) else ""
+    sentences = [s.strip() for s in sent_tokenize(comment) if s.strip()]
     if not sentences:
         return matched, details
 

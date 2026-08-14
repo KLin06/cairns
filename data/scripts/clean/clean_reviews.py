@@ -11,17 +11,28 @@ def clean_reviews(trail_id):
     df = pd.read_json(path)
     df = df.rename(columns={"id": "reviewId"})
 
-    df = df[df["comment_lang"] == "en-US"]
+    # comment_lang is blank for far more reviews than are actually
+    # non-English - mostly reviews with no comment text at all (nothing to
+    # language-detect), plus some reviews AllTrails just never ran
+    # detection on despite having real English text. A strict `== "en-US"`
+    # filter throws all of those out along with genuine foreign-language
+    # reviews. Keep everything except reviews explicitly tagged as a
+    # non-English language instead.
+    df = df[df["comment_lang"].isna() | (df["comment_lang"] == "en-US")]
+
+    # A review with no comment has nothing for the condition labeler to
+    # work with - drop it here rather than passing it through to
+    # enrichment, so label_comment never has to special-case a
+    # missing/NaN comment.
+    df = df[df["comment"].notna()]
 
     df["activity"] = df["activity"].apply(lambda a: a["name"] if isinstance(a, dict) else None)
 
-    for col in ["ratingAttributes", "infoAttributes", "obstacles", "trailConditions", "commentFeatures"]:
+    for col in ["obstacles", "trailConditions"]:
         df[col] = df[col].apply(lambda items: [item["name"] for item in items] if isinstance(items, list) else [])
 
     df["hasRecording"] = df["associatedRecording"].apply(lambda r: isinstance(r, dict))
     df["recordingId"] = df["associatedRecording"].apply(lambda r: r["id"] if isinstance(r, dict) else None)
-
-    df = df[df["activity"].isin(["Hiking", "Backpacking"])]
 
     df.drop(
         columns=[
@@ -44,6 +55,9 @@ def clean_reviews(trail_id):
             "comment_lang",
             "dataUid",
             "metadata",
+            "ratingAttributes",
+            "infoAttributes",
+            "commentFeatures",
         ],
         inplace=True,
     )

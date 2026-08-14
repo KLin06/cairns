@@ -1,6 +1,7 @@
 import json
 import os
 import sys
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
 from scripts.paths import DATASETS_DIR
 from scripts.enrich.enrich_review import enrich_data, _load_reviews
@@ -9,8 +10,17 @@ from scripts.enrich.enrich_description import enrich_description, save_enriched_
 
 CHECKPOINT_EVERY = 50
 
+# Reviews are enriched concurrently since enrich_data is I/O-bound (mostly
+# waiting on the Open-Meteo weather request) - the GIL doesn't block that
+# kind of wait, so threads give a real speedup. Kept modest rather than
+# "one thread per review": Open-Meteo's free tier caps out around 10,000
+# calls/day, and per-(trail_id, date) weather caching (see
+# _cached_historical_weather in enrich_review.py) already cuts duplicate
+# calls - this just bounds how bursty the true cache-miss calls can get.
+MAX_WORKERS = 8
 
-def enrich_trail(trail_id, checkpoint_every=CHECKPOINT_EVERY, use_recording_date=False):
+
+def enrich_trail(trail_id, checkpoint_every=CHECKPOINT_EVERY, use_recording_date=False, max_workers=MAX_WORKERS):
     """Enrich every review for a trail (see enrich_data's docstring for what
     use_recording_date controls). When True, reviews with no attached
     recording are skipped (enrich_data returns None for them), tracked
@@ -18,9 +28,11 @@ def enrich_trail(trail_id, checkpoint_every=CHECKPOINT_EVERY, use_recording_date
     error, just data we don't have a reliable hike date for. When False
     (the default), nothing gets skipped for this reason.
 
-    Saves a checkpoint every `checkpoint_every` enriched reviews so a crash
-    or rate-limit ban partway through a long trail doesn't lose everything
-    already fetched - each checkpoint overwrites the same
+    Reviews are enriched concurrently across `max_workers` threads. Saves a
+    checkpoint every `checkpoint_every` enriched reviews (in whatever order
+    they finish, not review order - order doesn't matter for storage) so a
+    crash or rate-limit ban partway through a long trail doesn't lose
+    everything already fetched - each checkpoint overwrites the same
     enriched_reviews/{trail_id}.json that the final save writes to.
 
     Also enriches and saves the trail's description (terrain data) first,
@@ -34,29 +46,40 @@ def enrich_trail(trail_id, checkpoint_every=CHECKPOINT_EVERY, use_recording_date
 
     reviews = _load_reviews(trail_id)
     review_ids = reviews["reviewId"].tolist()
+    total = len(review_ids)
 
     enriched_reviews = []
     errors = []
     skipped_review_ids = []
+    completed = 0
 
-    for i, review_id in enumerate(review_ids, 1):
+    def _run(review_id):
         try:
-            result = enrich_data(trail_id, review_id, use_recording_date=use_recording_date)
+            return review_id, enrich_data(trail_id, review_id, use_recording_date=use_recording_date), None
         except Exception as exc:
-            errors.append({"reviewId": review_id, "error": str(exc)})
-            print(f"[{i}/{len(review_ids)}] failed on review {review_id}: {exc}")
-            continue
+            return review_id, None, exc
 
-        if result is None:
-            skipped_review_ids.append(review_id)
-            print(f"[{i}/{len(review_ids)}] skipped review {review_id} (no recording)")
-            continue
-
-        enriched_reviews.append(result)
-        print(f"[{i}/{len(review_ids)}] enriched review {review_id}")
-
-        if checkpoint_every and len(enriched_reviews) % checkpoint_every == 0:
-            save_enriched_trail(trail_id, enriched_reviews)
+    # Only _run() above executes on the worker threads - as_completed()
+    # yields to whichever thread is iterating it (here, the caller of
+    # enrich_trail), so everything below runs on a single thread one future
+    # at a time. No lock needed: enriched_reviews/errors/skipped_review_ids/
+    # completed are never touched concurrently.
+    with ThreadPoolExecutor(max_workers=max_workers) as pool:
+        futures = [pool.submit(_run, review_id) for review_id in review_ids]
+        for future in as_completed(futures):
+            review_id, result, exc = future.result()
+            completed += 1
+            if exc is not None:
+                errors.append({"reviewId": review_id, "error": str(exc)})
+                print(f"[{completed}/{total}] failed on review {review_id}: {exc}")
+            elif result is None:
+                skipped_review_ids.append(review_id)
+                print(f"[{completed}/{total}] skipped review {review_id} (no recording)")
+            else:
+                enriched_reviews.append(result)
+                print(f"[{completed}/{total}] enriched review {review_id}")
+                if checkpoint_every and len(enriched_reviews) % checkpoint_every == 0:
+                    save_enriched_trail(trail_id, enriched_reviews)
 
     print(
         f"\n{len(enriched_reviews)} enriched, {len(skipped_review_ids)} skipped "

@@ -1,4 +1,6 @@
 import json
+import random
+import time
 
 from curl_cffi import requests
 
@@ -9,6 +11,14 @@ ARCHIVE_URL = "https://archive-api.open-meteo.com/v1/archive"
 
 ARCHIVE_LAG_DAYS = 5  # ERA5 archive isn't finalized for the last ~5 days
 MAX_FORECAST_PAST_DAYS = 92  # Open-Meteo forecast endpoint's past-data limit
+
+# Open-Meteo's short-window rate limit can trip even with the per-(trail,
+# date) cache and a modest thread count, since a burst of distinct dates
+# still means a burst of real requests. Retry with exponential backoff +
+# jitter instead of failing the review outright - a 429 here is transient,
+# not a real error about that review's data.
+MAX_RETRIES = 5
+RETRY_BASE_DELAY = 2.0
 
 DAILY_VARS = [
     "temperature_2m_max",
@@ -29,9 +39,15 @@ CURRENT_VARS = [
 
 
 def _get(url, params):
-    resp = requests.get(url, params=params, timeout=30)
-    resp.raise_for_status()
-    return resp.json()
+    for attempt in range(MAX_RETRIES):
+        resp = requests.get(url, params=params, timeout=30)
+        if resp.status_code == 429 and attempt < MAX_RETRIES - 1:
+            wait = RETRY_BASE_DELAY * (2 ** attempt) + random.uniform(0, 1)
+            print(f"Open-Meteo rate limited (429), retrying in {wait:.1f}s (attempt {attempt + 1}/{MAX_RETRIES})")
+            time.sleep(wait)
+            continue
+        resp.raise_for_status()
+        return resp.json()
 
 
 def _zip_daily(daily):
