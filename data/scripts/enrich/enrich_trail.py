@@ -4,7 +4,7 @@ import sys
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 from scripts.paths import DATASETS_DIR
-from scripts.enrich.enrich_review import enrich_data, _load_reviews
+from scripts.enrich.enrich_review import enrich_data, _load_reviews, preload_trail_weather
 from scripts.enrich.enrich_description import enrich_description, save_enriched_description
 
 
@@ -41,12 +41,20 @@ def enrich_trail(trail_id, checkpoint_every=CHECKPOINT_EVERY, use_recording_date
     of the review loop, but a trail's enriched_descriptions/{trail_id}.json
     should exist alongside its enriched_reviews/{trail_id}.json for
     build_training_table.py to join against, and this is the one place
-    that enriches a whole trail end to end."""
+    that enriches a whole trail end to end.
+
+    Also preloads the trail's entire weather history in one bulk request
+    (see preload_trail_weather) before the review loop starts - single
+    thread, no concurrency to coordinate, and every review's own weather
+    lookup below just slices out of what's already fetched instead of
+    hitting Open-Meteo per review."""
     save_enriched_description(trail_id, enrich_description(trail_id))
 
     reviews = _load_reviews(trail_id)
     review_ids = reviews["reviewId"].tolist()
     total = len(review_ids)
+
+    preload_trail_weather(trail_id)
 
     enriched_reviews = []
     errors = []

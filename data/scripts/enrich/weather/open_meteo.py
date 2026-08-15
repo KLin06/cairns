@@ -1,10 +1,11 @@
 import json
 import random
 import time
+from datetime import timedelta
 
 from curl_cffi import requests
 
-from scripts.enrich.weather.dateutils import shift_days, to_date, today
+from scripts.enrich.weather.dateutils import shift_days, to_api_date, to_date, today
 
 FORECAST_URL = "https://api.open-meteo.com/v1/forecast"
 ARCHIVE_URL = "https://archive-api.open-meteo.com/v1/archive"
@@ -129,6 +130,59 @@ def fetch_historical_weather(lat, lng, start_date, end_date):
         "timezone": "auto",
     }
     return _zip_daily(_get(ARCHIVE_URL, params)["daily"])
+
+
+def fetch_full_history(lat, lng, start_date, end_date):
+    """Every day of daily weather in [start_date, end_date] (inclusive),
+    date-sorted, in as few requests as possible - meant for pre-fetching a
+    trail's *entire* review-history date range in one shot (see
+    preload_trail_weather in enrich_review.py), instead of the old
+    approach of one small request per review's own HISTORY_DAYS window.
+    A trail with a thousand reviews spanning years used to mean up to a
+    thousand API calls; this makes it 1-2, since one archive request can
+    cover a multi-year range just as easily as an 8-day one.
+
+    start_date/end_date: "YYYY-MM-DD" strings, inclusive.
+
+    Splits the range at the ERA5 archive's lag boundary: the bulk of the
+    range (up to ARCHIVE_LAG_DAYS days before today) comes from one
+    archive request, and only the last few not-yet-finalized days (if
+    end_date reaches that recently) need a second, small request to the
+    forecast endpoint's own recent-past data - mirroring the single-date
+    fallback in fetch_historical_weather, just applied to a whole range
+    instead of one day at a time."""
+    today_date = to_date(today())
+    start = to_date(start_date)
+    end = to_date(end_date)
+    archive_cutoff = today_date - timedelta(days=ARCHIVE_LAG_DAYS)
+
+    records = []
+
+    archive_end = min(end, archive_cutoff)
+    if start <= archive_end:
+        params = {
+            "latitude": lat,
+            "longitude": lng,
+            "start_date": to_api_date(start),
+            "end_date": to_api_date(archive_end),
+            "daily": ",".join(DAILY_VARS),
+            "timezone": "auto",
+        }
+        records += _zip_daily(_get(ARCHIVE_URL, params)["daily"])
+
+    if end > archive_cutoff:
+        recent_start = max(start, archive_cutoff + timedelta(days=1))
+        params = {
+            "latitude": lat,
+            "longitude": lng,
+            "start_date": to_api_date(recent_start),
+            "end_date": to_api_date(end),
+            "daily": ",".join(DAILY_VARS),
+            "timezone": "auto",
+        }
+        records += _zip_daily(_get(FORECAST_URL, params)["daily"])
+
+    return records
 
 
 def fetch_forecast_with_history(lat, lng, date, history_days=7):

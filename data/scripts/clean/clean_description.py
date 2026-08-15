@@ -29,37 +29,42 @@ def clean_description(trail_id):
     if explore_record is None:
         raise KeyError(f"trail {trail_id} not found in the explore index - re-run explore.py or check the id")
 
-    address = trail_info["address"]
+    # Not every trail's raw_descriptions/explore-index record has every
+    # field (some trails are missing e.g. duration_minutes or area_name
+    # entirely, not just null) - only lat/lng stay required below, since
+    # weather/terrain enrichment can't do anything without coordinates;
+    # everything else degrades to None rather than failing the whole trail.
+    address = trail_info.get("address") or {}
     geo = trail_info["geo"]
-    rating = trail_info["aggregateRating"]
+    rating = trail_info.get("aggregateRating") or {}
 
     cleaned = {
         "trailId": trail_info["trailId"],
-        "trailSlug": explore_record["slug"],
-        "name": trail_info["name"],
-        "description": trail_info["description"],
-        "addressLocality": address["addressLocality"],
+        "trailSlug": explore_record.get("slug"),
+        "name": trail_info.get("name"),
+        "description": trail_info.get("description"),
+        "addressLocality": address.get("addressLocality"),
         "latitude": float(geo["latitude"]),
         "longitude": float(geo["longitude"]),
-        "ratingValue": rating["ratingValue"],
-        "reviewCount": rating["reviewCount"],
-        "worstRating": rating["worstRating"],
-        "bestRating": rating["bestRating"],
-        "images": trail_info["image"],
-        "features": trail_info["features"],
+        "ratingValue": rating.get("ratingValue"),
+        "reviewCount": rating.get("reviewCount"),
+        "worstRating": rating.get("worstRating"),
+        "bestRating": rating.get("bestRating"),
+        "images": trail_info.get("image"),
+        "features": trail_info.get("features") or [],
         "surfaceTypes": [
             {
                 "label": s["surfaceType"]["label"].lower(),
-                "percentOfSurface": s["percentOfSurface"],
-                "totalLength": s["totalLength"],
+                "percentOfSurface": s.get("percentOfSurface"),
+                "totalLength": s.get("totalLength"),
             }
-            for s in trail_info["surfaceTypes"]
+            for s in (trail_info.get("surfaceTypes") or [])
         ],
-        "length": explore_record["length"],
-        "durationMinutes": explore_record["duration_minutes"],
-        "difficultyRating": explore_record["difficulty_rating"],
-        "areaName": explore_record["area_name"],
-        "popularity": explore_record["popularity"],
+        "length": explore_record.get("length"),
+        "durationMinutes": explore_record.get("duration_minutes"),
+        "difficultyRating": explore_record.get("difficulty_rating"),
+        "areaName": explore_record.get("area_name"),
+        "popularity": explore_record.get("popularity"),
     }
 
     new_path = os.path.join(DATASETS_DIR, "cleaned_descriptions", f"{trail_id}.json")

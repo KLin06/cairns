@@ -7,8 +7,8 @@ import time
 import pandas as pd
 
 from scripts.paths import DATASETS_DIR
-from scripts.enrich.weather.dateutils import to_date, shift_days
-from scripts.enrich.weather.open_meteo import fetch_historical_weather
+from scripts.enrich.weather.dateutils import to_date, to_api_date, shift_days
+from scripts.enrich.weather.open_meteo import fetch_historical_weather, fetch_full_history
 from scripts.enrich.label.label_conditions_keyword import label_comment
 from scripts.enrich.recording.get_recording_date import get_recording_date
 
@@ -20,14 +20,18 @@ HISTORY_DAYS = 7
 _reviews_cache = {}
 _description_cache = {}
 
-# A trail's lat/lng is fixed, so the HISTORY_DAYS window only depends on the
-# weather_date - many reviews on the same trail land on the same date (or
-# get enriched in the same run before that changes), so caching per
-# (trail_id, weather_date) avoids re-fetching identical Open-Meteo requests.
-# This matters beyond just speed: Open-Meteo's free tier caps out around
-# 10,000 calls/day, and enriching every review with its own uncached call
-# would blow well past that across the full trail set. Locked since
-# enrich_trail.py runs this loop across a thread pool.
+# Per-trail preloaded weather, {trail_id: {date_str: daily_record}} - see
+# preload_trail_weather. This is the primary path: one (or two) bulk
+# requests per trail up front instead of one small request per review.
+_trail_weather_cache = {}
+_trail_weather_lock = threading.Lock()
+
+# Fallback path for weather_dates preload_trail_weather didn't cover (e.g.
+# enrich_data called directly without preloading, or a recording date that
+# lands outside the range of any review's own posted date) - caches per
+# (trail_id, weather_date) so repeat/concurrent fallback calls for the same
+# date still only hit Open-Meteo once. Locked since enrich_trail.py runs
+# this loop across a thread pool.
 _weather_cache = {}
 _weather_cache_lock = threading.Lock()
 
@@ -59,6 +63,29 @@ def _rate_limited_recording_date(recording_id):
     return get_recording_date(None, recording_id)
 
 
+def preload_trail_weather(trail_id):
+    """Fetch a trail's *entire* weather history - from HISTORY_DAYS before
+    its earliest review's date through its latest review's date - in one
+    (or two, near the ERA5 archive-lag boundary) bulk requests, and cache
+    it by date. Call once per trail before enriching any of its reviews
+    (see enrich_trail.py); _weather_window then slices each review's own
+    HISTORY_DAYS window out of this instead of Open-Meteo being hit once
+    per review. A trail with a thousand reviews used to mean up to a
+    thousand API calls for weather alone; this makes it 1-2, which is the
+    difference between comfortably fitting under Open-Meteo's daily quota
+    and blowing through it many times over."""
+    reviews = _load_reviews(trail_id)
+    description = _load_description(trail_id)
+
+    dates = pd.to_datetime(reviews["date"]).dt.date
+    start_date = shift_days(dates.min(), -HISTORY_DAYS)
+    end_date = to_api_date(dates.max())
+
+    records = fetch_full_history(description["latitude"], description["longitude"], start_date, end_date)
+    with _trail_weather_lock:
+        _trail_weather_cache[trail_id] = {r["date"]: r for r in records}
+
+
 def _cached_historical_weather(trail_id, lat, lng, weather_date):
     key = (trail_id, weather_date)
     with _weather_cache_lock:
@@ -69,6 +96,24 @@ def _cached_historical_weather(trail_id, lat, lng, weather_date):
     with _weather_cache_lock:
         _weather_cache[key] = weather
     return weather
+
+
+def _weather_window(trail_id, lat, lng, weather_date):
+    """HISTORY_DAYS+1 days of weather ending at weather_date. Sliced out
+    of the trail's preloaded range (see preload_trail_weather) when
+    available; falls back to a one-off cached fetch otherwise (e.g.
+    preload_trail_weather was never called, or weather_date falls outside
+    the range it preloaded - a recording date can land earlier/later than
+    any review's own posted date)."""
+    with _trail_weather_lock:
+        by_date = _trail_weather_cache.get(trail_id)
+
+    if by_date is not None:
+        needed_dates = [shift_days(weather_date, -n) for n in range(HISTORY_DAYS, -1, -1)]
+        if all(d in by_date for d in needed_dates):
+            return [by_date[d] for d in needed_dates]
+
+    return _cached_historical_weather(trail_id, lat, lng, weather_date)
 
 
 def _load_reviews(trail_id):
@@ -183,7 +228,7 @@ def enrich_data(trail_id, review_id, use_recording_date=False):
     description = _load_description(trail_id)
 
     weather_date = to_date(recording_date) if recording_date else to_date(review["date"])
-    weather = _cached_historical_weather(trail_id, description["latitude"], description["longitude"], weather_date)
+    weather = _weather_window(trail_id, description["latitude"], description["longitude"], weather_date)
 
     labels, _ = label_comment(review.get("comment"))
     conditions = _merged_conditions(review, labels)

@@ -34,6 +34,11 @@ def clean_reviews(trail_id):
     df["hasRecording"] = df["associatedRecording"].apply(lambda r: isinstance(r, dict))
     df["recordingId"] = df["associatedRecording"].apply(lambda r: r["id"] if isinstance(r, dict) else None)
 
+    # errors="ignore": pandas only creates a column if at least one review
+    # in this trail's raw JSON has it - a trail where every review happens
+    # to omit e.g. comment_source (not uncommon for low-review-count
+    # trails) means that column just doesn't exist here, which isn't an
+    # error, there's nothing to drop.
     df.drop(
         columns=[
             "comment_original",
@@ -60,6 +65,7 @@ def clean_reviews(trail_id):
             "commentFeatures",
         ],
         inplace=True,
+        errors="ignore",
     )
 
     new_path = os.path.join(DATASETS_DIR, "cleaned_reviews", f"{trail_id}.json")
