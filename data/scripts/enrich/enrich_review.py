@@ -14,6 +14,23 @@ from scripts.enrich.recording.get_recording_date import get_recording_date
 
 HISTORY_DAYS = 7
 
+# Lookback window (days before the hike, hike day itself excluded - see
+# _antecedent_precip_index) for the antecedent precipitation index. Wider
+# than HISTORY_DAYS on purpose: HISTORY_DAYS's per-day columns
+# (weather_d0_*...weather_d7_*) are meant to distinguish "rained
+# yesterday" from "rained a week ago", but neither they nor a single day's
+# reading can tell a trail that's been saturated for two weeks apart from
+# one that just had a single wet day - that's what this is for. 14 days is
+# a starting point (roughly matches typical soil-drainage timescales), not
+# a validated constant.
+ANTECEDENT_DAYS = 14
+
+# Per-day decay applied going backwards from the hike (see
+# _antecedent_precip_index) - a storm 1-2 days back should count for much
+# more than one 2 weeks back. 0.9/day gives roughly a 6-7 day half-life;
+# not tuned against real data yet, just a plausible starting point.
+ANTECEDENT_DECAY = 0.9
+
 # Keyed by trail_id, not a single global - enriching reviews across multiple
 # trails in one run shouldn't evict each other's cached data, and repeat
 # calls for the same trail shouldn't re-read its files.
@@ -34,6 +51,13 @@ _trail_weather_lock = threading.Lock()
 # this loop across a thread pool.
 _weather_cache = {}
 _weather_cache_lock = threading.Lock()
+
+# Same fallback role as _weather_cache, but for the wider ANTECEDENT_DAYS
+# window - kept separate since it's a different date range per
+# (trail_id, weather_date) key and would otherwise collide with/overwrite
+# the HISTORY_DAYS-window cache entry for the same key.
+_antecedent_cache = {}
+_antecedent_cache_lock = threading.Lock()
 
 # Minimum spacing between requests to alltrails.com - only recording-date
 # lookups hit their site directly (weather goes to Open-Meteo, unrelated
@@ -77,8 +101,11 @@ def preload_trail_weather(trail_id):
     reviews = _load_reviews(trail_id)
     description = _load_description(trail_id)
 
+    # Widest lookback either HISTORY_DAYS or ANTECEDENT_DAYS needs, so one
+    # preload covers both _weather_window and _antecedent_window without a
+    # second bulk request.
     dates = pd.to_datetime(reviews["date"]).dt.date
-    start_date = shift_days(dates.min(), -HISTORY_DAYS)
+    start_date = shift_days(dates.min(), -max(HISTORY_DAYS, ANTECEDENT_DAYS))
     end_date = to_api_date(dates.max())
 
     records = fetch_full_history(description["latitude"], description["longitude"], start_date, end_date)
@@ -114,6 +141,54 @@ def _weather_window(trail_id, lat, lng, weather_date):
             return [by_date[d] for d in needed_dates]
 
     return _cached_historical_weather(trail_id, lat, lng, weather_date)
+
+
+def _antecedent_window(trail_id, lat, lng, weather_date):
+    """ANTECEDENT_DAYS of weather immediately before weather_date, NOT
+    including the hike day itself (day 0 is already fully represented by
+    weather_d0_rain/snow from _weather_window - including it here would
+    just double-count it into the index). Same slice-from-preload-else-
+    fallback-fetch shape as _weather_window."""
+    with _trail_weather_lock:
+        by_date = _trail_weather_cache.get(trail_id)
+
+    if by_date is not None:
+        needed_dates = [shift_days(weather_date, -n) for n in range(ANTECEDENT_DAYS, 0, -1)]
+        if all(d in by_date for d in needed_dates):
+            return [by_date[d] for d in needed_dates]
+
+    key = (trail_id, weather_date)
+    with _antecedent_cache_lock:
+        cached = _antecedent_cache.get(key)
+    if cached is not None:
+        return cached
+
+    records = fetch_historical_weather(
+        lat, lng, shift_days(weather_date, -ANTECEDENT_DAYS), shift_days(weather_date, -1)
+    )
+    with _antecedent_cache_lock:
+        _antecedent_cache[key] = records
+    return records
+
+
+def _antecedent_precip_index(daily_records):
+    """Exponentially-decayed sum of rain + snow (water-equivalent) over
+    the ANTECEDENT_DAYS before the hike day, each day weighted
+    ANTECEDENT_DECAY^(days_before_hike - 1) so a storm 1-2 days back
+    counts far more than one from two weeks back - a rough Antecedent
+    Precipitation Index, standard in hydrology for approximating soil
+    saturation from a rainfall time series without a real soil-moisture
+    model.
+
+    daily_records is date-sorted ascending (oldest first, like
+    historicalWeather) - reversed here so days_before_hike counts up from
+    1 starting at the day right before the hike."""
+    index = 0.0
+    for days_before_hike, record in enumerate(reversed(daily_records), start=1):
+        rain = record.get("rain_sum") or 0
+        snow = record.get("snowfall_sum") or 0
+        index += (rain + snow) * (ANTECEDENT_DECAY ** (days_before_hike - 1))
+    return round(index, 3)
 
 
 def _load_reviews(trail_id):
@@ -157,12 +232,9 @@ def find_review(trail_id, review_id):
 CONDITION_CATEGORY_MAP = {
     "bugs": "bugs",
     "buggy": "bugs",
-    "dusty": "dusty",
     "flooded": "flooded",
     "muddy": "muddy",
     "icy": "icy",
-    "rocky": "rock",
-    "scramble": "scramble",
     "slippery": "slippery",
     "snow": "snow",
     "snowy": "snow",
@@ -229,6 +301,7 @@ def enrich_data(trail_id, review_id, use_recording_date=False):
 
     weather_date = to_date(recording_date) if recording_date else to_date(review["date"])
     weather = _weather_window(trail_id, description["latitude"], description["longitude"], weather_date)
+    antecedent = _antecedent_window(trail_id, description["latitude"], description["longitude"], weather_date)
 
     labels, _ = label_comment(review.get("comment"))
     conditions = _merged_conditions(review, labels)
@@ -242,6 +315,9 @@ def enrich_data(trail_id, review_id, use_recording_date=False):
         # thaw), and this is the hike date, not review["date"], so it stays
         # correct even when the review was posted weeks later.
         "dayOfYear": weather_date.timetuple().tm_yday,
+        # saturation signal weather_d0-d7 can't capture on its own - see
+        # _antecedent_precip_index.
+        "antecedentPrecipIndex": _antecedent_precip_index(antecedent),
     }
     if use_recording_date:
         enriched["recordingDate"] = recording_date
