@@ -39,9 +39,15 @@ const ONTARIO_BOUNDS: maplibregl.LngLatBoundsLike = [
   [-71.2221, 59.241],
 ]
 
-// Track and Tower Trail, Algonquin Provincial Park - first test marker,
-// coords from the trail's _geoloc in the explore pipeline data.
-const TRACK_AND_TOWER: [number, number] = [-78.57765, 45.55999]
+// Cup and Saucer Trail, Manitoulin Island - first test marker, coords from
+// the trail's _geoloc in the explore pipeline data. (Track and Tower was
+// the original placeholder here, but its route geometry couldn't be
+// fetched during dev due to an AllTrails bot-protection block on our
+// network - Cup and Saucer already has verified geometry on disk.)
+const DEMO_TRAIL_ID = '10024848'
+const DEMO_TRAIL_CENTER: [number, number] = [-82.11391, 45.85331]
+
+const API_BASE = 'http://localhost:8000'
 
 export default function Map() {
   const containerRef = useRef<HTMLDivElement>(null)
@@ -60,9 +66,39 @@ export default function Map() {
     map.addControl(new maplibregl.NavigationControl(), 'top-right')
 
     new maplibregl.Marker()
-      .setLngLat(TRACK_AND_TOWER)
-      .setPopup(new maplibregl.Popup().setText('Track and Tower Trail'))
+      .setLngLat(DEMO_TRAIL_CENTER)
+      .setPopup(new maplibregl.Popup().setText('Cup and Saucer Trail'))
       .addTo(map)
+
+    map.on('load', () => {
+      fetch(`${API_BASE}/trails/${DEMO_TRAIL_ID}/geometry`)
+        .then((res) => {
+          if (!res.ok) throw new Error(`geometry fetch failed: ${res.status}`)
+          return res.json()
+        })
+        .then((geojson: maplibregl.GeoJSONSourceSpecification['data']) => {
+          map.addSource('demo-trail-route', { type: 'geojson', data: geojson })
+          map.addLayer({
+            id: 'demo-trail-route',
+            type: 'line',
+            source: 'demo-trail-route',
+            layout: { 'line-join': 'round', 'line-cap': 'round' },
+            paint: { 'line-color': '#e8590c', 'line-width': 4 },
+          })
+
+          const coords = (geojson as GeoJSON.FeatureCollection).features.flatMap(
+            (f) => (f.geometry as GeoJSON.LineString).coordinates as [number, number][],
+          )
+          if (coords.length > 0) {
+            const bounds = coords.reduce(
+              (b, c) => b.extend(c),
+              new maplibregl.LngLatBounds(coords[0], coords[0]),
+            )
+            map.fitBounds(bounds, { padding: 60 })
+          }
+        })
+        .catch((err) => console.error('failed to load trail geometry', err))
+    })
 
     mapRef.current = map
 
