@@ -1,11 +1,13 @@
 import argparse
 import json
 import os
+import time
 
 import pandas as pd
 
 from scripts.paths import DATASETS_DIR
 from scripts.alltrails.scrape_trail import main as scrape_trail
+from scripts.alltrails.trail import fetch_and_save_geometry
 from scripts.clean.clean_data import main as clean_trail
 from scripts.enrich.enrich_trail import enrich_trail, save_enriched_trail
 
@@ -16,7 +18,14 @@ EXPLORE_PATH = os.path.join(DATASETS_DIR, "explore", "top_100_ontario_trails.jso
 # everything from scratch.
 STATE_PATH = os.path.join(DATASETS_DIR, "explore", "pipeline_state.json")
 
-STAGES = ["scrape", "clean", "enrich"]
+STAGES = ["scrape", "clean", "enrich", "geometry"]
+
+# AllTrails' bot-detection (DataDome) flagged our IP/session after a burst
+# of geometry requests fired with no delay between them - a paced,
+# one-trail-at-a-time cadence (visit the page, then one API call, then
+# wait) cleared it. Keep this delay so re-running this stage doesn't
+# retrigger that.
+GEOMETRY_DELAY_SECONDS = 4
 
 
 def _load_trails():
@@ -58,7 +67,12 @@ def _run_enrich(trail_id, url):
         raise RuntimeError(f"{len(errors)} review(s) failed: {errors[:3]}")
 
 
-STAGE_FUNCS = {"scrape": _run_scrape, "clean": _run_clean, "enrich": _run_enrich}
+def _run_geometry(trail_id, url):
+    fetch_and_save_geometry(trail_id, url)
+    time.sleep(GEOMETRY_DELAY_SECONDS)
+
+
+STAGE_FUNCS = {"scrape": _run_scrape, "clean": _run_clean, "enrich": _run_enrich, "geometry": _run_geometry}
 
 
 def run_stage(stage, retry_failed=False, from_id=None):
@@ -121,11 +135,12 @@ def run_stage(stage, retry_failed=False, from_id=None):
 #   python -m scripts.trails scrape
 #   python -m scripts.trails clean
 #   python -m scripts.trails enrich
+#   python -m scripts.trails geometry
 #   python -m scripts.trails enrich --retry-failed
 #   python -m scripts.trails scrape --from-id 12345678
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(
-        description="Run one stage (scrape/clean/enrich) of the trail pipeline across every trail in the explore index."
+        description="Run one stage (scrape/clean/enrich/geometry) of the trail pipeline across every trail in the explore index."
     )
     parser.add_argument("stage", choices=STAGES)
     parser.add_argument(

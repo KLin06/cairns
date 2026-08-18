@@ -3,7 +3,7 @@ import os
 import re
 
 from scripts.paths import DATASETS_DIR
-from scripts.alltrails.session import make_session
+from scripts.alltrails.session import make_session, build_headers
 
 
 def find_api_key(html):
@@ -36,6 +36,7 @@ def populate_trail_data(session, trail_id, headers, api_key, html):
     trail_metadata["surfaceTypes"] = fetch_surface_types(session, trail_id, headers, api_key)
 
     trail_path = os.path.join(DATASETS_DIR, "raw_descriptions", f"{trail_id}.json")
+    os.makedirs(os.path.dirname(trail_path), exist_ok=True)
     with open(trail_path, "w", encoding="utf-8") as f:
         json.dump(trail_metadata, f, indent=2, ensure_ascii=False)
     print(f"saved trail info to {trail_path}")
@@ -43,11 +44,95 @@ def populate_trail_data(session, trail_id, headers, api_key, html):
     return trail_metadata
 
 
+def save_route_geometry(session, trail_id, headers, api_key):
+    route_geometry = fetch_route_geometry(session, trail_id, headers, api_key)
+
+    geometry_path = os.path.join(DATASETS_DIR, "route_geometry", f"{trail_id}.json")
+    os.makedirs(os.path.dirname(geometry_path), exist_ok=True)
+    with open(geometry_path, "w", encoding="utf-8") as f:
+        json.dump(route_geometry, f, indent=2, ensure_ascii=False)
+    print(f"saved route geometry to {geometry_path}")
+
+    return route_geometry
+
+
+def fetch_and_save_geometry(trail_id, trail_url):
+    # Standalone entry point for the "geometry" pipeline stage - visits the
+    # trail page fresh (rather than reusing cached HTML) so the session has
+    # the cookies AllTrails' bot-detection expects from a normal page visit
+    # before the API call, same pattern as populate_trail_data.
+    headers = build_headers(trail_url)
+    session, html = fetch_trail_page(trail_url, headers)
+    api_key = find_api_key(html)
+    return save_route_geometry(session, trail_id, headers, api_key)
+
+
 def fetch_surface_types(session, trail_id, headers, api_key):
     url = f"https://www.alltrails.com/api/alltrails/trails/{trail_id}/surface_types?key={api_key}"
     resp = session.get(url, headers=headers)
     resp.raise_for_status()
     return resp.json()["surfaceTypes"]["aggregation"]
+
+
+def _decode_polyline(encoded, precision=5):
+    # Google Encoded Polyline Algorithm Format - AllTrails serves route
+    # geometry this way rather than as raw GeoJSON/coordinate arrays.
+    factor = 10 ** precision
+    index = 0
+    length = len(encoded)
+    lat = 0
+    lng = 0
+    coords = []
+
+    while index < length:
+        result = 0
+        shift = 0
+        while True:
+            b = ord(encoded[index]) - 63
+            index += 1
+            result |= (b & 0x1f) << shift
+            shift += 5
+            if b < 0x20:
+                break
+        lat += ~(result >> 1) if result & 1 else (result >> 1)
+
+        result = 0
+        shift = 0
+        while True:
+            b = ord(encoded[index]) - 63
+            index += 1
+            result |= (b & 0x1f) << shift
+            shift += 5
+            if b < 0x20:
+                break
+        lng += ~(result >> 1) if result & 1 else (result >> 1)
+
+        coords.append([lat / factor, lng / factor])
+
+    return coords
+
+
+def fetch_route_geometry(session, trail_id, headers, api_key):
+    url = f"https://www.alltrails.com/api/alltrails/trails/{trail_id}?key={api_key}&detail=offline&include_pending=true"
+    resp = session.get(url, headers=headers)
+    resp.raise_for_status()
+    trail_data = resp.json()["trails"][0]
+
+    default_map = trail_data.get("defaultMap") or {}
+    routes = default_map.get("routes") or []
+
+    segments = [
+        _decode_polyline(points_data)
+        for route in routes
+        for line_segment in (route.get("lineSegments") or [])
+        if (points_data := (line_segment.get("polyline") or {}).get("pointsData"))
+    ]
+
+    return {
+        "mapId": default_map.get("id"),
+        "trailGeoStats": trail_data.get("trailGeoStats"),
+        "segments": segments,
+    }
 
 
 def fetch_trail_page(trail_url, headers):
@@ -63,6 +148,7 @@ def scrape_page(trail_id, trail_url, headers):
     session, html = fetch_trail_page(trail_url, headers)
 
     html_path = os.path.join(DATASETS_DIR, "html", f"{trail_id}.html")
+    os.makedirs(os.path.dirname(html_path), exist_ok=True)
     with open(html_path, "w", encoding="utf-8") as f:
         f.write(html)
     print(f"saved trail page html to {html_path}")
