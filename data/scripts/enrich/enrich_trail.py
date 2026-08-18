@@ -20,6 +20,22 @@ CHECKPOINT_EVERY = 50
 MAX_WORKERS = 8
 
 
+def _load_existing_enriched(trail_id, review_ids):
+    """Reviews already enriched and saved from a previous (possibly
+    interrupted/failed) run of this trail, keyed by reviewId - {} if
+    there's no enriched_reviews/{trail_id}.json yet. Filtered down to
+    review_ids still present in the trail's current cleaned reviews, so a
+    stale entry left over from before a cleaning-filter change doesn't
+    resurrect a review that shouldn't be there anymore."""
+    path = os.path.join(DATASETS_DIR, "enriched_reviews", f"{trail_id}.json")
+    if not os.path.exists(path):
+        return {}
+    with open(path, "r", encoding="utf-8") as f:
+        existing = json.load(f)
+    still_valid = set(review_ids)
+    return {r["reviewId"]: r for r in existing if r["reviewId"] in still_valid}
+
+
 def enrich_trail(trail_id, checkpoint_every=CHECKPOINT_EVERY, use_recording_date=False, max_workers=MAX_WORKERS):
     """Enrich every review for a trail (see enrich_data's docstring for what
     use_recording_date controls). When True, reviews with no attached
@@ -28,12 +44,19 @@ def enrich_trail(trail_id, checkpoint_every=CHECKPOINT_EVERY, use_recording_date
     error, just data we don't have a reliable hike date for. When False
     (the default), nothing gets skipped for this reason.
 
+    Resumes from whatever's already in enriched_reviews/{trail_id}.json
+    (see _load_existing_enriched) instead of re-enriching a trail from
+    scratch every time it's retried - a trail that failed because one
+    review exhausted its Open-Meteo retry budget shouldn't mean redoing
+    the hundreds of reviews that already succeeded.
+
     Reviews are enriched concurrently across `max_workers` threads. Saves a
     checkpoint every `checkpoint_every` enriched reviews (in whatever order
     they finish, not review order - order doesn't matter for storage) so a
     crash or rate-limit ban partway through a long trail doesn't lose
     everything already fetched - each checkpoint overwrites the same
-    enriched_reviews/{trail_id}.json that the final save writes to.
+    enriched_reviews/{trail_id}.json that the final save writes to, and
+    that partial progress is exactly what gets resumed from above.
 
     Also enriches and saves the trail's description (terrain data) first,
     before touching any review - enrich_data reads weather off the
@@ -54,12 +77,17 @@ def enrich_trail(trail_id, checkpoint_every=CHECKPOINT_EVERY, use_recording_date
     review_ids = reviews["reviewId"].tolist()
     total = len(review_ids)
 
+    already_enriched = _load_existing_enriched(trail_id, review_ids)
+    remaining_ids = [rid for rid in review_ids if rid not in already_enriched]
+    if already_enriched:
+        print(f"resuming {trail_id}: {len(already_enriched)} already enriched, {len(remaining_ids)} remaining")
+
     preload_trail_weather(trail_id)
 
-    enriched_reviews = []
+    enriched_reviews = list(already_enriched.values())
     errors = []
     skipped_review_ids = []
-    completed = 0
+    completed = len(already_enriched)
 
     def _run(review_id):
         try:
@@ -73,7 +101,7 @@ def enrich_trail(trail_id, checkpoint_every=CHECKPOINT_EVERY, use_recording_date
     # at a time. No lock needed: enriched_reviews/errors/skipped_review_ids/
     # completed are never touched concurrently.
     with ThreadPoolExecutor(max_workers=max_workers) as pool:
-        futures = [pool.submit(_run, review_id) for review_id in review_ids]
+        futures = [pool.submit(_run, review_id) for review_id in remaining_ids]
         for future in as_completed(futures):
             review_id, result, exc = future.result()
             completed += 1
