@@ -42,6 +42,7 @@ def fetch_reviews(session, trail_id, headers, api_key, per_page=PER_PAGE):
         time.sleep(2)
 
     reviews_path = os.path.join(DATASETS_DIR, "raw_reviews", f"{trail_id}.json")
+    os.makedirs(os.path.dirname(reviews_path), exist_ok=True)
     with open(reviews_path, "w", encoding="utf-8") as f:
         json.dump(all_reviews, f, indent=2, ensure_ascii=False)
 

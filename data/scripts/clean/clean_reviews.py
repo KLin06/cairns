@@ -69,6 +69,7 @@ def clean_reviews(trail_id):
     )
 
     new_path = os.path.join(DATASETS_DIR, "cleaned_reviews", f"{trail_id}.json")
+    os.makedirs(os.path.dirname(new_path), exist_ok=True)
 
     records = json.loads(df.to_json(orient="records", force_ascii=False, date_format="iso"))
     with open(new_path, "w", encoding="utf-8") as f:

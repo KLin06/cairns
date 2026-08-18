@@ -68,6 +68,7 @@ def clean_description(trail_id):
     }
 
     new_path = os.path.join(DATASETS_DIR, "cleaned_descriptions", f"{trail_id}.json")
+    os.makedirs(os.path.dirname(new_path), exist_ok=True)
 
     with open(new_path, "w", encoding="utf-8") as f:
         json.dump(cleaned, f, indent=2, ensure_ascii=False)
