@@ -7,7 +7,18 @@ import numpy as np
 import pandas as pd
 
 from scripts.paths import DATASETS_DIR
-from scripts.enrich.enrich_review import HISTORY_DAYS
+from scripts.enrich.enrich_review import HISTORY_DAYS, CONDITION_CATEGORY_MAP
+
+# The canonical set a review's `conditions` list is allowed to contain -
+# CONDITION_CATEGORY_MAP's own values, not its keys (several raw spellings
+# map to the same canonical category, e.g. "buggy"/"bugs" -> "bugs").
+# Enforced again here, not just at enrichment time, because reviews
+# enriched before a CONDITION_CATEGORY_MAP change (e.g. when "rocky"/
+# "scramble" got dropped from it) still have the old categories baked into
+# their saved `conditions` list on disk - re-enriching every trail just to
+# purge stale categories would be wasteful when filtering them out here is
+# just as correct and free.
+VALID_CONDITIONS = set(CONDITION_CATEGORY_MAP.values())
 
 ENRICHED_REVIEWS_DIR = os.path.join(DATASETS_DIR, "enriched_reviews")
 DESCRIPTIONS_DIR = os.path.join(DATASETS_DIR, "enriched_descriptions")
@@ -46,6 +57,7 @@ REVIEW_DROP_FIELDS = {
     "difficulty",
     "activity",
     "rating",
+    "date"
 }
 
 
@@ -64,11 +76,15 @@ def _clean_scalar(value):
     return value
 
 
-# daily weather field -> short column-name stub
+# daily weather field -> short column-name stub. precipitation_sum is
+# deliberately excluded: it's just rain_sum + snowfall_sum's water
+# equivalent (verified against real data - every day where precip != rain
+# lines up exactly with a nonzero snow value, zero unexplained cases), so
+# keeping it alongside rain/snow would be pure redundant information, not
+# an extra signal.
 _WEATHER_FIELDS = {
     "temperature_2m_max": "tempMax",
     "temperature_2m_min": "tempMin",
-    "precipitation_sum": "precip",
     "rain_sum": "rain",
     "snowfall_sum": "snow",
     "windspeed_10m_max": "windMax",
@@ -159,7 +175,10 @@ def _flatten_review(review, description_flat, trail_features, surface_types):
     # Multi-hot/percent columns are filled in afterwards (see
     # build_training_table) once the full vocabulary across every review is
     # known - stash the raw lists here rather than picking columns per-row.
-    flat["_conditions"] = review.get("conditions") or []
+    # Filtered to VALID_CONDITIONS so a stale category left over from an
+    # older CONDITION_CATEGORY_MAP (e.g. "rock"/"scramble") can't sneak a
+    # column back in.
+    flat["_conditions"] = [c for c in (review.get("conditions") or []) if c in VALID_CONDITIONS]
     flat["_trailFeatures"] = trail_features
     flat["_surfaceTypes"] = surface_types
     return flat
@@ -233,12 +252,6 @@ def build_training_table(trail_ids=None):
     df = _add_multi_hot(df, "_trailFeatures", "feature")
     df = _add_surface_percentages(df, "_surfaceTypes", "trail_surface")
 
-    # date columns arrive as strings (JSON has no native datetime) - parse
-    # once so downstream code gets real Timestamps instead of re-parsing
-    # ad hoc, then drop the tz AllTrails always reports as UTC-labelled
-    # local time, which isn't meaningful for a per-trail weather join.
-    df["date"] = pd.to_datetime(df["date"], utc=True).dt.tz_localize(None)
-
     for column in df.columns:
         if df[column].dtype == object:
             # Only clean genuinely mixed/dirty columns - across-the-board
@@ -263,5 +276,4 @@ if __name__ == "__main__":
     args = sys.argv[1:]
     trail_ids = args or None
     table = build_training_table(trail_ids)
-    print(table.columns)
     save_training_table(table)
