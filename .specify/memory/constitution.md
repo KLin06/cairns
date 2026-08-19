@@ -1,15 +1,14 @@
 <!--
 Sync Impact Report
-- Version change: (unversioned template) → 1.0.0
-- Modified principles: n/a (initial ratification)
+- Version change: 1.0.0 → 1.1.0
+- Modified principles: none (additive amendment)
 - Added sections:
-  - Core Principles I–VIII (Endpoint Separation, Feature Parity, Forecast Horizon,
-    Shared Date State, Single Continuous Scroll, Popularity Granularity Honesty,
-    Pipeline-Gated Trail Data, Honest Uncertainty)
-  - Data & Pipeline Integrity (Section 2)
-  - Governance
-- Removed sections: none (first fill of template placeholders)
+  - Core Principles IX (Selective Field Storage), X (Scoped JSONB Usage)
+- Removed sections: none
 - Deferred items: none
+- Rationale for MINOR bump: two new principles added ahead of introducing a
+  Postgres-backed trail data store; no existing principle was redefined or
+  removed.
 -->
 
 # Trail Conditions App Constitution
@@ -100,6 +99,31 @@ Rationale: the model is real but imperfect and trained on unevenly
 distributed review volume; presenting a bare probability without context
 overstates what the app actually knows about a given trail.
 
+### IX. Selective Field Storage
+Trail data storage MUST hold only the fields the application actually
+consumes — selectively extracted from whichever pipeline stage
+(`raw_descriptions`, `cleaned_descriptions`, or `enriched_descriptions`)
+originates them. It MUST NOT be a wholesale dump of a pipeline stage's
+full JSON output into the database. If a field from any stage isn't read
+by a backend service or displayed on the frontend, it does not belong in
+storage.
+Rationale: storing whole pipeline artifacts "just in case" would recreate
+the same flat-file sprawl this migration exists to fix, just inside a
+database instead of on disk — and every unused field is a schema-drift
+risk with no offsetting value.
+
+### X. Scoped JSONB Usage
+JSON/JSONB columns are reserved for fields that are genuinely irregular
+or variable in shape (e.g. route coordinates/geometry, variable-length
+tag or feature lists) — not a dumping ground for anything merely
+inconvenient to model as typed columns. Any field with a fixed,
+predictable shape (name, difficulty rating, length, latitude/longitude)
+MUST be a real typed column, not JSONB.
+Rationale: JSONB that could have been a typed column loses indexing,
+constraints, and query ergonomics for no structural reason — its use
+should be a deliberate response to genuine shape irregularity, not a
+default.
+
 ## Data & Pipeline Integrity
 
 Trail data flows through a fixed pipeline: scrape (AllTrails) → clean →
@@ -131,4 +155,4 @@ these principles; a plan that violates one of them needs either a spec
 change (dropping the requirement that causes the conflict) or an explicit,
 documented exception — not a silent workaround in `plan.md`.
 
-**Version**: 1.0.0 | **Ratified**: 2026-08-18 | **Last Amended**: 2026-08-18
+**Version**: 1.1.0 | **Ratified**: 2026-08-18 | **Last Amended**: 2026-08-18
