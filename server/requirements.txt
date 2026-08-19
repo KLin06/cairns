@@ -5,3 +5,5 @@ pandas
 curl_cffi
 pytest
 httpx
+psycopg2-binary
+python-dotenv

@@ -25,6 +25,13 @@ Then visit `http://localhost:8000/docs` for the interactive API docs
   + `cleaned_reviews/`.
 - `GET /trails/{trail_id}/activity` - working, aggregates
   `cleaned_reviews/` dates.
+- `python -m db.backfill [trail_id ...]` - populates the `trails` /
+  `trail_activity` / `trail_geometry` Postgres tables
+  (`db/migrations/0001_trail_data_storage.sql`) from the same
+  `data/datasets/` pipeline output the endpoints above already read, reusing
+  their derivation logic. Safe to re-run (upserts, skips unchanged rows); a
+  trail with no `enriched_descriptions/{trail_id}.json` is skipped, not an
+  error. See `specs/003-trail-storage-backfill/contracts/cli.md`.
 - `GET /trails/{trail_id}/weather` - working, reuses
   `data/scripts/enrich/weather/open_meteo.py`'s `fetch_forecast` (see
   `specs/001-weather-forecast-endpoint/`). Default window is today through
