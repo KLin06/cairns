@@ -25,6 +25,20 @@ Then visit `http://localhost:8000/docs` for the interactive API docs
   + `cleaned_reviews/`.
 - `GET /trails/{trail_id}/activity` - working, aggregates
   `cleaned_reviews/` dates.
+- `GET /trails/{trail_id}/weather` - working, reuses
+  `data/scripts/enrich/weather/open_meteo.py`'s `fetch_forecast` (see
+  `specs/001-weather-forecast-endpoint/`). Default window is today through
+  +14 days; accepts `date` or `start_date`/`end_date` instead. Rejects past
+  dates and dates beyond Open-Meteo's ~16-day horizon with `422`; an
+  unenriched trail returns `404`; upstream failures return `502`/`503`
+  depending on whether they were rate-limiting. Short-TTL (30 min)
+  in-process cache per trail.
 - `GET /trails/{trail_id}/conditions` - **stubbed**, returns 501. See the
   TODO in `app/services/conditions.py` for what's left (forecast fetch +
   feature reconstruction + model inference).
+
+## Tests
+
+```bash
+pytest
+```
