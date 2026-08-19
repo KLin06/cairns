@@ -1,0 +1,104 @@
+import type { ReactNode } from 'react'
+import ThemeToggle from './ThemeToggle'
+
+interface SidebarSection {
+  id: 'explore' | 'saved' | 'favorited' | 'plans'
+  label: string
+  enabled: boolean
+  icon: ReactNode
+}
+
+const ICON_PROPS = {
+  width: 18,
+  height: 18,
+  viewBox: '0 0 24 24',
+  fill: 'none',
+  stroke: 'currentColor',
+  strokeWidth: 2,
+  strokeLinecap: 'round' as const,
+  strokeLinejoin: 'round' as const,
+}
+
+// FR-001-FR-003: all four sections visible, only Explore functional/active.
+// FR-024: the other three do nothing beyond existing, visibly, in this list
+// - no navigation, no state, no API calls wired to them.
+const SECTIONS: SidebarSection[] = [
+  {
+    id: 'explore',
+    label: 'Explore',
+    enabled: true,
+    icon: (
+      <svg {...ICON_PROPS}>
+        <polygon points="3 11 22 2 13 21 11 13 3 11" />
+      </svg>
+    ),
+  },
+  {
+    id: 'saved',
+    label: 'Saved',
+    enabled: false,
+    icon: (
+      <svg {...ICON_PROPS}>
+        <path d="M19 21 12 16l-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z" />
+      </svg>
+    ),
+  },
+  {
+    id: 'favorited',
+    label: 'Favorited',
+    enabled: false,
+    icon: (
+      <svg {...ICON_PROPS}>
+        <path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.6l-1-1a5.5 5.5 0 0 0-7.8 7.8l1 1L12 21l7.8-7.8 1-1a5.5 5.5 0 0 0 0-7.6z" />
+      </svg>
+    ),
+  },
+  {
+    id: 'plans',
+    label: 'Plans',
+    enabled: false,
+    icon: (
+      <svg {...ICON_PROPS}>
+        <rect x="3" y="4" width="18" height="18" rx="2" />
+        <path d="M3 10h18M8 2v4M16 2v4" />
+      </svg>
+    ),
+  },
+]
+
+export default function Sidebar() {
+  return (
+    <nav aria-label="Main" className="flex w-56 flex-col border-r border-(--color-border) bg-(--color-base-100)">
+      <div className="border-b border-(--color-border) px-4 py-4">
+        <span className="text-lg font-bold tracking-tight text-(--color-accent)">Cairns</span>
+      </div>
+
+      <div className="flex flex-col">
+        {SECTIONS.map((section) => {
+          const isActive = section.id === 'explore'
+          return (
+            <button
+              key={section.id}
+              type="button"
+              disabled={!section.enabled}
+              aria-current={isActive ? 'page' : undefined}
+              className={
+                'flex items-center gap-3 border-b border-l-4 border-(--color-border) px-4 py-3 text-left text-sm ' +
+                (isActive
+                  ? 'border-l-(--color-accent) bg-(--color-base-200) font-medium text-(--color-accent)'
+                  : 'cursor-not-allowed border-l-transparent text-(--color-neutral-content) opacity-50')
+              }
+            >
+              {section.icon}
+              {section.label}
+            </button>
+          )
+        })}
+      </div>
+
+      <div className="mt-auto border-t border-(--color-border) p-3">
+        <ThemeToggle />
+      </div>
+    </nav>
+  )
+}

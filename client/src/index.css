@@ -1,9 +1,57 @@
 @import "tailwindcss";
-@plugin "daisyui";
+@plugin "daisyui" {
+  themes: false;
+}
+@import "./theme/tokens.css";
 
 html,
 body,
 #root {
   height: 100%;
   margin: 0;
+  font-family: var(--font-sans);
+}
+
+/* FR-006: accent-colored pin markers, teardrop-shaped like a classic map
+   pin (not a plain dot). Plain CSS, not Tailwind utility classes, since
+   Map.tsx sets this className/innerHTML on DOM elements it creates
+   directly (outside JSX), which Tailwind's compiler doesn't scan. */
+.trail-marker {
+  cursor: pointer;
+  transform-origin: 50% 100%; /* the pin's tip, so scaling grows upward, not off-center */
+  transition: transform 120ms ease;
+}
+.trail-marker-pin {
+  fill: var(--color-accent-hex);
+  stroke: var(--color-base-100);
+  stroke-width: 1.5px;
+}
+.trail-marker-hole {
+  fill: var(--color-base-100);
+}
+/* Pressed/selected state: the marker itself pops up in size and the pin's
+   own fill deepens, so the active trail is unmistakable at a glance. */
+.trail-marker--active {
+  transform: scale(1.3);
+}
+.trail-marker--active .trail-marker-pin {
+  fill: color-mix(in oklch, var(--color-accent-hex), black 20%);
+  filter: drop-shadow(0 2px 3px rgb(0 0 0 / 0.35));
+}
+
+/* Compass: MapLibre's default icon has a dark-gray north triangle - this
+   recolors just the north (upward) triangle red so it reads as a true
+   compass needle, keeping the south triangle neutral. */
+.maplibregl-ctrl button.maplibregl-ctrl-compass .maplibregl-ctrl-icon {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2229%22%20height%3D%2229%22%20viewBox%3D%220%200%2029%2029%22%3E%3Cpath%20fill%3D%22%23dc2626%22%20d%3D%22m10.5%2014%204-8%204%208z%22%2F%3E%3Cpath%20fill%3D%22%23999%22%20d%3D%22m10.5%2016%204%208%204-8z%22%2F%3E%3C%2Fsvg%3E") !important;
+}
+
+/* FR-019: MapLibre's own NavigationControl chrome hardcodes a white
+   background (its dark-icon CSS variant is gated on Windows' forced-colors
+   mode, not a general dark theme) - it doesn't re-theme on its own, so
+   this inverts it in dark mode to match every other surface. invert+
+   hue-rotate(180) approximately preserves the compass's own hand-picked
+   colors (red/gray above) while still flipping the white background dark. */
+[data-theme='cairns-dark'] .maplibregl-ctrl-group {
+  filter: invert(1) hue-rotate(180deg);
 }

@@ -1,0 +1,7 @@
+/speckit-specify  → spec.md      (what & why, no implementation)
+/speckit-clarify   → spec.md      (fills gaps via targeted Q&A)
+/speckit-checklist → checklists/  (optional, sanity-check requirements)
+/speckit-plan      → plan.md      (how — tech approach, tied to your actual stack)
+/speckit-tasks      → tasks.md     (ordered, actionable task list)
+/speckit-analyze   → report        (cross-checks spec/plan/tasks for contradictions)
+/speckit-implement → code          (executes tasks.md against the real repo)

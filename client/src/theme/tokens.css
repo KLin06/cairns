@@ -1,0 +1,88 @@
+/* Design tokens contract - specs/004-mvp-frontend-design/contracts/design-tokens.md.
+   Every component in this feature MUST consume these tokens (color/radius/
+   typography) rather than hardcoding values - this file is the single source
+   of truth for both themes. */
+
+@import "@fontsource-variable/inter";
+
+@theme {
+  --font-sans: "Inter Variable", ui-sans-serif, system-ui, sans-serif;
+}
+
+/* cairns-light: neutral slate base + single warm amber accent. */
+[data-theme="cairns-light"] {
+  color-scheme: light;
+  --color-base-100: oklch(100% 0 0);
+  --color-base-200: oklch(97% 0.003 264);
+  --color-base-300: oklch(93% 0.005 264);
+  --color-base-content: oklch(21% 0.02 264);
+  --color-neutral: oklch(45% 0.02 264);
+  --color-neutral-content: oklch(55% 0.02 264);
+  --color-accent: oklch(70% 0.16 55);
+  --color-accent-content: oklch(20% 0.03 55);
+  --color-border: oklch(90% 0.006 264);
+  /* MapLibre paint expressions (the route line) can't consume oklch() CSS
+     custom properties directly - this mirrors --color-accent as a plain
+     hex value read via getComputedStyle() in Map.tsx rather than
+     referenced as CSS. */
+  --color-accent-hex: #d97706;
+  /* daisyUI still requires primary/secondary/info/success/warning/error to be
+     defined - this app only uses base/neutral/accent per FR-015, so these
+     alias to neutral/accent rather than introducing new hues. */
+  --color-primary: var(--color-accent);
+  --color-primary-content: var(--color-accent-content);
+  --color-secondary: var(--color-neutral);
+  --color-secondary-content: var(--color-base-100);
+  --color-info: var(--color-accent);
+  --color-info-content: var(--color-accent-content);
+  --color-success: var(--color-accent);
+  --color-success-content: var(--color-accent-content);
+  --color-warning: var(--color-accent);
+  --color-warning-content: var(--color-accent-content);
+  --color-error: oklch(58% 0.22 27);
+  --color-error-content: oklch(97% 0.01 27);
+  --radius-field: 1rem;
+  --radius-box: 1.5rem;
+  --radius-selector: 9999px;
+  --size-field: 0.25rem;
+  --size-selector: 0.25rem;
+  --border: 1px;
+  --depth: 0;
+  --noise: 0;
+}
+
+/* cairns-dark: same base/accent relationship, inverted lightness - a real
+   second theme (FR-019), not a CSS filter/invert over the light one. */
+[data-theme="cairns-dark"] {
+  color-scheme: dark;
+  --color-base-100: oklch(21% 0.015 264);
+  --color-base-200: oklch(25% 0.015 264);
+  --color-base-300: oklch(30% 0.015 264);
+  --color-base-content: oklch(93% 0.006 264);
+  --color-neutral: oklch(70% 0.01 264);
+  --color-neutral-content: oklch(65% 0.015 264);
+  --color-accent: oklch(75% 0.15 55);
+  --color-accent-content: oklch(18% 0.03 55);
+  --color-border: oklch(35% 0.015 264);
+  --color-accent-hex: #f59e0b;
+  --color-primary: var(--color-accent);
+  --color-primary-content: var(--color-accent-content);
+  --color-secondary: var(--color-neutral);
+  --color-secondary-content: var(--color-base-100);
+  --color-info: var(--color-accent);
+  --color-info-content: var(--color-accent-content);
+  --color-success: var(--color-accent);
+  --color-success-content: var(--color-accent-content);
+  --color-warning: var(--color-accent);
+  --color-warning-content: var(--color-accent-content);
+  --color-error: oklch(65% 0.2 27);
+  --color-error-content: oklch(15% 0.03 27);
+  --radius-field: 1rem;
+  --radius-box: 1.5rem;
+  --radius-selector: 9999px;
+  --size-field: 0.25rem;
+  --size-selector: 0.25rem;
+  --border: 1px;
+  --depth: 0;
+  --noise: 0;
+}

@@ -5,6 +5,7 @@ from app.routers.trails import router as trails_router
 
 app = FastAPI(title="Trail Conditions API")
 
+# python -m uvicorn app.main:app --reload --port 8000
 # Local dev only - client (Vite, port 5173) and server (FastAPI, port 8000)
 # run as separate processes with no reverse proxy in front yet.
 app.add_middleware(
