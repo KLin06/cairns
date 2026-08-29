@@ -1,8 +1,10 @@
 import type { ReactNode } from 'react'
 import ThemeToggle from './ThemeToggle'
 
+export type SidebarView = 'explore' | 'saved'
+
 interface SidebarSection {
-  id: 'explore' | 'saved' | 'favorited' | 'plans'
+  id: SidebarView | 'plans'
   label: string
   enabled: boolean
   icon: ReactNode
@@ -19,9 +21,9 @@ const ICON_PROPS = {
   strokeLinejoin: 'round' as const,
 }
 
-// FR-001-FR-003: all four sections visible, only Explore functional/active.
-// FR-024: the other three do nothing beyond existing, visibly, in this list
-// - no navigation, no state, no API calls wired to them.
+// FR-001: Explore and Saved are both functional/navigable; the previously-
+// separate Favorited entry is gone (spec 006 consolidates it into Saved).
+// Plans remains an existing disabled placeholder, unaffected.
 const SECTIONS: SidebarSection[] = [
   {
     id: 'explore',
@@ -36,20 +38,10 @@ const SECTIONS: SidebarSection[] = [
   {
     id: 'saved',
     label: 'Saved',
-    enabled: false,
+    enabled: true,
     icon: (
       <svg {...ICON_PROPS}>
         <path d="M19 21 12 16l-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z" />
-      </svg>
-    ),
-  },
-  {
-    id: 'favorited',
-    label: 'Favorited',
-    enabled: false,
-    icon: (
-      <svg {...ICON_PROPS}>
-        <path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.6l-1-1a5.5 5.5 0 0 0-7.8 7.8l1 1L12 21l7.8-7.8 1-1a5.5 5.5 0 0 0 0-7.6z" />
       </svg>
     ),
   },
@@ -66,7 +58,12 @@ const SECTIONS: SidebarSection[] = [
   },
 ]
 
-export default function Sidebar() {
+interface SidebarProps {
+  activeView: SidebarView
+  onSelect: (view: SidebarView) => void
+}
+
+export default function Sidebar({ activeView, onSelect }: SidebarProps) {
   return (
     <nav aria-label="Main" className="flex w-56 flex-col border-r border-(--color-border) bg-(--color-base-100)">
       <div className="border-b border-(--color-border) px-4 py-4">
@@ -75,18 +72,21 @@ export default function Sidebar() {
 
       <div className="flex flex-col">
         {SECTIONS.map((section) => {
-          const isActive = section.id === 'explore'
+          const isActive = section.id === activeView
           return (
             <button
               key={section.id}
               type="button"
               disabled={!section.enabled}
               aria-current={isActive ? 'page' : undefined}
+              onClick={section.enabled ? () => onSelect(section.id as SidebarView) : undefined}
               className={
                 'flex items-center gap-3 border-b border-l-4 border-(--color-border) px-4 py-3 text-left text-sm ' +
                 (isActive
                   ? 'border-l-(--color-accent) bg-(--color-base-200) font-medium text-(--color-accent)'
-                  : 'cursor-not-allowed border-l-transparent text-(--color-neutral-content) opacity-50')
+                  : section.enabled
+                    ? 'border-l-transparent text-(--color-base-content) hover:bg-(--color-base-200)'
+                    : 'cursor-not-allowed border-l-transparent text-(--color-neutral-content) opacity-50')
               }
             >
               {section.icon}

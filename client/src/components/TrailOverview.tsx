@@ -5,6 +5,12 @@ export interface OverviewState {
   data: TrailOverviewData | null
 }
 
+interface TrailOverviewProps {
+  state: OverviewState
+  isSaved: boolean
+  onToggleSave: () => void
+}
+
 function Skeleton({ className }: { className: string }) {
   return <div className={`animate-pulse rounded-field bg-(--color-base-300) ${className}`} />
 }
@@ -118,6 +124,28 @@ function TagIcon() {
   )
 }
 
+// FR-003/FR-004: reflects and toggles the trail's single saved/bookmark
+// flag - filled when saved, outline when not, flipping in the same click
+// that fires onToggleSave (no separate confirmation step).
+function BookmarkButton({ isSaved, onToggleSave }: { isSaved: boolean; onToggleSave: () => void }) {
+  return (
+    <button
+      type="button"
+      onClick={onToggleSave}
+      aria-label={isSaved ? 'Remove from saved trails' : 'Save this trail'}
+      aria-pressed={isSaved}
+      className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full text-(--color-accent) transition hover:bg-(--color-base-200)"
+    >
+      <svg width="20" height="20" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor">
+        <path
+          d="M19 21 12 16l-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"
+          style={{ fill: isSaved ? 'currentColor' : 'none' }}
+        />
+      </svg>
+    </button>
+  )
+}
+
 // FR-012/FR-013: name, difficulty, length, duration, surface breakdown, and
 // feature chips, each with its own loading placeholder while pending.
 // Layout borrows its shape from a smart-home dashboard reference (per user
@@ -125,7 +153,7 @@ function TagIcon() {
 // icon+label facts inline beneath it, and stadium-shaped rows for the
 // surface breakdown instead of a progress bar - this app's existing
 // amber-accent/slate tokens throughout, no new palette.
-export default function TrailOverview({ state }: { state: OverviewState }) {
+export default function TrailOverview({ state, isSaved, onToggleSave }: TrailOverviewProps) {
   if (state.status === 'loading') {
     return (
       <div className="flex flex-col gap-2">
@@ -174,11 +202,14 @@ export default function TrailOverview({ state }: { state: OverviewState }) {
         />
       )}
 
-      <div>
-        {/* AllTrails puts the park/area name as a small line above the
-            trail name (a breadcrumb, not a caption). */}
-        {areaName && <p className={`mb-0.5 ${EYEBROW}`}>{areaName}</p>}
-        <h2 className="text-xl font-semibold text-(--color-base-content)">{name ?? 'Unnamed trail'}</h2>
+      <div className="flex items-start justify-between gap-2">
+        <div>
+          {/* AllTrails puts the park/area name as a small line above the
+              trail name (a breadcrumb, not a caption). */}
+          {areaName && <p className={`mb-0.5 ${EYEBROW}`}>{areaName}</p>}
+          <h2 className="text-xl font-semibold text-(--color-base-content)">{name ?? 'Unnamed trail'}</h2>
+        </div>
+        <BookmarkButton isSaved={isSaved} onToggleSave={onToggleSave} />
       </div>
 
       {/* Muted status line under the heading - rating/length/duration

@@ -1,11 +1,13 @@
 import { useEffect, useRef, useState } from 'react'
 import Map, { type MapHandle, type MapView } from './components/Map'
-import Sidebar from './components/Sidebar'
+import Sidebar, { type SidebarView } from './components/Sidebar'
+import SavedTrailsScreen from './components/SavedTrailsScreen'
 import TrailPanel from './components/TrailPanel'
 import TrailOverview, { type OverviewState } from './components/TrailOverview'
 import PopularityChart, { type PopularityState } from './components/PopularityChart'
 import WeatherSection, { type ConditionsDateState, type WeatherWindowState } from './components/WeatherSection'
 import DaySelectionSection from './components/DaySelectionSection'
+import { loadSavedTrails, persistSavedTrails, type SavedTrailEntry } from './savedTrails'
 import {
   getTrailActivity,
   getTrailConditions,
@@ -68,6 +70,24 @@ function App() {
   const mapHandleRef = useRef<MapHandle>(null)
   const [trails, setTrails] = useState<TrailMarker[]>([])
   const [panel, setPanel] = useState<PanelState>(EMPTY_PANEL)
+  // FR-002: which main-content screen is showing - a plain state swap
+  // (research.md decision 1), not a router; Explore fully replaces Saved
+  // and vice versa, never stacked.
+  const [activeView, setActiveView] = useState<SidebarView>('explore')
+  // FR-005/FR-006/FR-015: single saved/bookmark flag per trail, lifted here
+  // so the trail panel's icon and the Saved screen's rows/pins always read
+  // the same set and update together (research.md decision 2).
+  const [savedTrails, setSavedTrails] = useState<SavedTrailEntry[]>(() => loadSavedTrails())
+
+  function toggleSaved(trailId: string) {
+    setSavedTrails((prev) => {
+      const next = prev.some((e) => e.trailId === trailId)
+        ? prev.filter((e) => e.trailId !== trailId)
+        : [...prev, { trailId, savedAt: new Date().toISOString() }]
+      persistSavedTrails(next)
+      return next
+    })
+  }
   // Dedupes in-flight/completed conditions requests per (trailId, date) -
   // requestConditions is called both for the selected date (Weather
   // section) and, once Day Selection mounts, for every date in the window,
@@ -118,8 +138,10 @@ function App() {
 
   // FR-007: clicking a marker (first time, or while a panel is already
   // open for a different trail) sets/updates this same panel state, never
-  // unmounts/remounts TrailPanel.
-  function handleSelectTrail(trailId: string, viewBeforeSelect: MapView) {
+  // unmounts/remounts TrailPanel. viewBeforeSelect is null when opened from
+  // the Saved screen's list/map (no Explore-map view to restore to later -
+  // dismiss() is a no-op on mapViewBeforeOpen in that case).
+  function handleSelectTrail(trailId: string, viewBeforeSelect: MapView | null) {
     requestedConditionsRef.current = new Set()
     setPanel((prev) => ({
       selectedTrailId: trailId,
@@ -214,22 +236,38 @@ function App() {
 
   return (
     <div className="flex h-screen w-screen bg-(--color-base-200)">
-      <Sidebar />
-      {/* The map fills this entire area; the panel is an absolutely
-          positioned overlay within it (not a flex sibling that would push
-          the map and leave a flat background gutter behind the panel) -
-          it floats directly on top of the map, as its own card. */}
+      <Sidebar activeView={activeView} onSelect={setActiveView} />
+      {/* The active screen (Explore map or Saved) fills this entire area;
+          the panel is an absolutely positioned overlay within it (not a
+          flex sibling that would push it and leave a flat background
+          gutter behind the panel) - it floats directly on top, as its own
+          card, regardless of which screen is underneath (FR-002: Saved is
+          real navigation that replaces this area, not an overlay on top of
+          Explore). */}
       <div className="relative flex-1">
-        <Map
-          ref={mapHandleRef}
-          trails={trails}
-          route={panel.route.data}
-          selectedTrailId={panel.selectedTrailId}
-          onSelectTrail={handleSelectTrail}
-        />
+        {activeView === 'explore' ? (
+          <Map
+            ref={mapHandleRef}
+            trails={trails}
+            route={panel.route.data}
+            selectedTrailId={panel.selectedTrailId}
+            onSelectTrail={handleSelectTrail}
+          />
+        ) : (
+          <SavedTrailsScreen
+            trails={trails}
+            savedTrails={savedTrails}
+            onToggleSave={toggleSaved}
+            onSelectTrail={(trailId) => handleSelectTrail(trailId, null)}
+          />
+        )}
         {panel.selectedTrailId && (
           <TrailPanel onDismiss={handleDismiss}>
-            <TrailOverview state={panel.overview} />
+            <TrailOverview
+              state={panel.overview}
+              isSaved={panel.overview.data ? savedTrails.some((e) => e.trailId === panel.overview.data!.trailId) : false}
+              onToggleSave={() => panel.overview.data && toggleSaved(panel.overview.data.trailId)}
+            />
             <PopularityChart state={panel.popularity} />
             {/* Day Selection ("best days to go") sits above the Weather
                 section's predictions by design - pick which day looks best
