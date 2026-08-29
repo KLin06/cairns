@@ -26,6 +26,10 @@
      hex value read via getComputedStyle() in Map.tsx rather than
      referenced as CSS. */
   --color-accent-hex: #d97706;
+  /* Same hex-mirror need as --color-accent-hex, for the cluster circles'
+     stroke ring (Map.tsx) - a WebGL paint property, so it needs a resolvable
+     hex, not oklch(). */
+  --color-base-100-hex: #ffffff;
   /* daisyUI still requires primary/secondary/info/success/warning/error to be
      defined - this app only uses base/neutral/accent per FR-015, so these
      alias to neutral/accent rather than introducing new hues. */
@@ -65,6 +69,7 @@
   --color-accent-content: oklch(18% 0.03 55);
   --color-border: oklch(35% 0.015 264);
   --color-accent-hex: #f59e0b;
+  --color-base-100-hex: #1e2128;
   --color-primary: var(--color-accent);
   --color-primary-content: var(--color-accent-content);
   --color-secondary: var(--color-neutral);

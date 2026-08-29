@@ -7,6 +7,10 @@ export interface PopularityState {
 
 const MONTH_LABELS = ['J', 'F', 'M', 'A', 'M', 'J', 'J', 'A', 'S', 'O', 'N', 'D']
 const BAR_TRACK_HEIGHT_PX = 64
+// Same type-scale tiers as TrailOverview.tsx (kept local rather than a
+// shared import - two files, not worth a shared module yet).
+const EYEBROW = 'text-xs font-semibold uppercase tracking-wide text-(--color-neutral-content)'
+const META = 'text-xs text-(--color-neutral-content)'
 
 // research.md decision 3: a hand-rolled 12-bar chart, no charting library -
 // renders correctly in its all-zero state (totalReviews === 0) per Edge
@@ -17,7 +21,7 @@ export default function PopularityChart({ state }: { state: PopularityState }) {
   }
 
   if (state.status === 'error' || !state.data) {
-    return <p className="text-sm text-(--color-neutral-content)">Popularity data couldn't be loaded.</p>
+    return <p className={META}>Popularity data couldn't be loaded.</p>
   }
 
   const counts = MONTH_LABELS.map((_, i) => state.data!.byMonth[String(i + 1)] ?? 0)
@@ -27,8 +31,8 @@ export default function PopularityChart({ state }: { state: PopularityState }) {
   return (
     <div>
       <div className="mb-2 flex items-baseline justify-between">
-        <h3 className="text-sm text-(--color-neutral-content)">Popularity by month</h3>
-        <span className="text-xs text-(--color-neutral-content)">{state.data.totalReviews} reviews</span>
+        <h3 className={EYEBROW}>Popularity by month</h3>
+        <span className={META}>{state.data.totalReviews} reviews</span>
       </div>
       <div className="flex h-24 items-end gap-1.5">
         {counts.map((count, i) => (

@@ -1,6 +1,7 @@
 import json
 import os
 import random
+import sys
 import threading
 import time
 
@@ -14,22 +15,16 @@ from scripts.enrich.recording.get_recording_date import get_recording_date
 
 HISTORY_DAYS = 7
 
-# Lookback window (days before the hike, hike day itself excluded - see
-# _antecedent_precip_index) for the antecedent precipitation index. Wider
-# than HISTORY_DAYS on purpose: HISTORY_DAYS's per-day columns
-# (weather_d0_*...weather_d7_*) are meant to distinguish "rained
-# yesterday" from "rained a week ago", but neither they nor a single day's
-# reading can tell a trail that's been saturated for two weeks apart from
-# one that just had a single wet day - that's what this is for. 14 days is
-# a starting point (roughly matches typical soil-drainage timescales), not
-# a validated constant.
-ANTECEDENT_DAYS = 14
-
-# Per-day decay applied going backwards from the hike (see
-# _antecedent_precip_index) - a storm 1-2 days back should count for much
-# more than one 2 weeks back. 0.9/day gives roughly a 6-7 day half-life;
-# not tuned against real data yet, just a plausible starting point.
-ANTECEDENT_DECAY = 0.9
+# server/ has no runtime dependency on data/scripts (see server/app/config.py) -
+# the antecedent-precipitation-index formula is shared with the live
+# inference path (server/app/services/conditions.py) via a one-directional
+# import the other way, so it can't drift out of sync between training-time
+# enrichment and live inference (constitution Principle II). ANTECEDENT_DAYS/
+# ANTECEDENT_DECAY live alongside it in feature_flatten.py now.
+_SERVER_DIR = os.path.join(os.path.dirname(os.path.dirname(DATASETS_DIR)), "server")
+if _SERVER_DIR not in sys.path:
+    sys.path.insert(0, _SERVER_DIR)
+from app.services.feature_flatten import ANTECEDENT_DAYS, antecedent_precip_index  # noqa: E402
 
 # Keyed by trail_id, not a single global - enriching reviews across multiple
 # trails in one run shouldn't evict each other's cached data, and repeat
@@ -171,26 +166,6 @@ def _antecedent_window(trail_id, lat, lng, weather_date):
     return records
 
 
-def _antecedent_precip_index(daily_records):
-    """Exponentially-decayed sum of rain + snow (water-equivalent) over
-    the ANTECEDENT_DAYS before the hike day, each day weighted
-    ANTECEDENT_DECAY^(days_before_hike - 1) so a storm 1-2 days back
-    counts far more than one from two weeks back - a rough Antecedent
-    Precipitation Index, standard in hydrology for approximating soil
-    saturation from a rainfall time series without a real soil-moisture
-    model.
-
-    daily_records is date-sorted ascending (oldest first, like
-    historicalWeather) - reversed here so days_before_hike counts up from
-    1 starting at the day right before the hike."""
-    index = 0.0
-    for days_before_hike, record in enumerate(reversed(daily_records), start=1):
-        rain = record.get("rain_sum") or 0
-        snow = record.get("snowfall_sum") or 0
-        index += (rain + snow) * (ANTECEDENT_DECAY ** (days_before_hike - 1))
-    return round(index, 3)
-
-
 def _load_reviews(trail_id):
     """Load and cache a trail's cleaned reviews (DataFrame, keyed by reviewId
     lookups), reading cleaned_reviews/{trail_id}.json at most once."""
@@ -316,8 +291,8 @@ def enrich_data(trail_id, review_id, use_recording_date=False):
         # correct even when the review was posted weeks later.
         "dayOfYear": weather_date.timetuple().tm_yday,
         # saturation signal weather_d0-d7 can't capture on its own - see
-        # _antecedent_precip_index.
-        "antecedentPrecipIndex": _antecedent_precip_index(antecedent),
+        # feature_flatten.antecedent_precip_index.
+        "antecedentPrecipIndex": antecedent_precip_index(antecedent),
     }
     if use_recording_date:
         enriched["recordingDate"] = recording_date

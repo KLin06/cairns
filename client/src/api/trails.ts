@@ -27,6 +27,8 @@ export interface TrailOverview {
   surfaceTypes: SurfaceType[]
   terrain: { rockSlipRisk: string | null; soilDrainage: string | null }
   features: string[]
+  imageUrl: string | null
+  areaName: string | null
 }
 
 export interface TrailPopularity {
@@ -35,6 +37,46 @@ export interface TrailPopularity {
   byDayOfWeek: Record<string, number>
   totalReviews: number
 }
+
+export interface DailyWeather {
+  date: string
+  tempMaxC: number | null
+  tempMinC: number | null
+  precipMm: number | null
+  windMaxKmh: number | null
+  snowCm: number | null
+}
+
+export interface WeatherWindow {
+  trailId: string
+  days: DailyWeather[]
+}
+
+export interface ConditionResult {
+  probability: number
+  predicted: boolean
+}
+
+export interface ConditionsConfidence {
+  reviewCount: number
+  limitedData: boolean
+}
+
+export interface ConditionsResponse {
+  trailId: string
+  date: string
+  conditions: Record<string, ConditionResult>
+  modelVersion: string
+  confidence: ConditionsConfidence
+}
+
+// US3: the caller needs to tell "outside forecast range" apart from "trail
+// not in the pipeline" apart from "upstream unavailable" (FR-008), so
+// conditions errors carry their errorType/message through instead of
+// collapsing to null the way fetchOrNull's 404-only convention does.
+export type ConditionsResult =
+  | { ok: true; data: ConditionsResponse }
+  | { ok: false; errorType: string; message: string; validRange?: { from: string; to: string } }
 
 async function fetchOrNull<T>(url: string): Promise<T | null> {
   const res = await fetch(url)
@@ -55,10 +97,33 @@ export function getTrailGeometry(trailId: string): Promise<GeoJSON.FeatureCollec
   return fetchOrNull<GeoJSON.FeatureCollection>(`${API_BASE}/trails/${trailId}/geometry`)
 }
 
-// contracts/trail-list-dependency.md: the real listing endpoint doesn't
-// exist yet, so this reads a local fixture behind the same shape - swapping
-// in the real endpoint later is a one-line change (the fetch call below).
+// One call per trail selection covers the whole ~16-day window (research.md
+// decision 5's frontend mirror) - the Weather section and Day Selection
+// strip both read out of this same fetch rather than re-fetching per date.
+export function getTrailWeatherWindow(
+  trailId: string,
+  startDate: string,
+  endDate: string,
+): Promise<WeatherWindow | null> {
+  return fetchOrNull<WeatherWindow>(
+    `${API_BASE}/trails/${trailId}/weather?start_date=${startDate}&end_date=${endDate}`,
+  )
+}
+
+export async function getTrailConditions(trailId: string, date: string): Promise<ConditionsResult> {
+  const res = await fetch(`${API_BASE}/trails/${trailId}/conditions?date=${date}`)
+  if (res.ok) return { ok: true, data: (await res.json()) as ConditionsResponse }
+
+  const body = await res.json().catch(() => null)
+  const detail = body?.detail
+  if (detail?.errorType) {
+    return { ok: false, errorType: detail.errorType, message: detail.message, validRange: detail.validRange ?? undefined }
+  }
+  return { ok: false, errorType: 'unknown', message: `request failed: ${res.status}` }
+}
+
 export async function listTrails(): Promise<TrailMarker[]> {
-  const fixture = (await import('./trailListFixture.json')).default as { trails: TrailMarker[] }
-  return fixture.trails
+  const res = await fetch(`${API_BASE}/trails`)
+  if (!res.ok) throw new Error(`request to ${API_BASE}/trails failed: ${res.status}`)
+  return (await res.json()) as TrailMarker[]
 }

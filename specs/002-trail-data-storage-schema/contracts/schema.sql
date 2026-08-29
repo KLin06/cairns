@@ -18,6 +18,8 @@ CREATE TABLE trails (
     soil_drainage       TEXT,
     surface_types       JSONB,
     features            JSONB,
+    image_url           TEXT, -- added in migration 0002_add_trail_image.sql; first URL from enriched_descriptions' "images" array
+    area_name           TEXT, -- added in migration 0003_add_trail_area_name.sql; enriched_descriptions' "areaName" field
     updated_at          TIMESTAMPTZ NOT NULL DEFAULT now(),
 
     CONSTRAINT surface_types_is_array

@@ -27,6 +27,12 @@ invert.
 pairing) appears anywhere in a component's styling, that's a contract violation - flag it in review
 rather than assuming it's intentional.
 
+**Exception**: the trail overview's surface-mix bar (`TrailOverview.tsx`) is a categorical chart -
+each `surfaceTypes` entry is a distinct category, not a state or action, so it uses a small
+qualitative palette (`amber-500`/`emerald-500`/`sky-500`/`violet-500`/`rose-500`) instead of the
+site accent, the same way a dashboard's chart legend would. This is deliberately scoped to that one
+chart - don't extend it to buttons, links, or anything actionable, which stay accent-only.
+
 ## Corner radius (daisyUI v5 native variables)
 
 | Token | Applies to | Target value |
@@ -42,6 +48,10 @@ side panels conventionally read (an edge-to-edge flush panel looks structurally 
 rounded outer corner floating in the middle of the viewport edge). Document this exception at the
 component level (`TrailPanel.tsx`) so it doesn't get "fixed" into a floating rounded corner later
 by someone pattern-matching FR-014 too literally.
+
+**Second exception**: the trail photo (`TrailOverview.tsx`) is square-cornered and bleeds full-width
+to the panel's edges, not `rounded-box`-clipped and inset like other cards. This matches AllTrails'
+own trail-photo treatment and is intentional - don't "fix" it into a rounded, inset image either.
 
 ## Typography
 

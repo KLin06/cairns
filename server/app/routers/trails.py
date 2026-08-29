@@ -2,12 +2,23 @@ from datetime import date as date_type
 
 from fastapi import APIRouter, Query
 
-from app.schemas import ActivityResponse, ConditionsResponse, RouteGeometry, TrailInfo, WeatherResponse
+from app.schemas import ActivityResponse, ConditionsResponse, RouteGeometry, TrailInfo, TrailMarker, WeatherResponse
 from app.services.activity import get_trail_activity
 from app.services.conditions import get_trail_conditions
 from app.services.trail_geometry import get_trail_geometry
 from app.services.trail_info import get_trail_info
+from app.services.trail_list import get_trail_list
 from app.services.weather import get_trail_weather
+
+# Separate from `router` below (which is prefixed /trails/{trail_id} for
+# every per-trail endpoint) since a listing has no trail_id to match.
+list_router = APIRouter(prefix="/trails", tags=["trails"])
+
+
+@list_router.get("", response_model=list[TrailMarker])
+def trail_list():
+    return get_trail_list()
+
 
 router = APIRouter(prefix="/trails/{trail_id}", tags=["trails"])
 

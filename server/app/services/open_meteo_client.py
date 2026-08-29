@@ -55,3 +55,27 @@ def fetch_forecast(lat, lng, days=7):
         "timezone": "auto",
     }
     return _zip_daily(_get(FORECAST_URL, params)["daily"])
+
+
+def fetch_forecast_range(lat, lng, start_date, end_date):
+    """Daily weather for [start_date, end_date] (both "YYYY-MM-DD" strings,
+    inclusive) via the forecast endpoint's own start_date/end_date params -
+    spans both recent past (no ERA5 archive lag, unlike the archive API) and
+    the ~16-day forecast horizon in one call. Used by conditions.py, which
+    (unlike this module's plain fetch_forecast) needs weather from *before*
+    the requested date too (the weather_d1-d7 lookback + the antecedent
+    precipitation window - see app/services/feature_flatten.py), so one
+    wide-range call covering every date conditions might be asked about
+    replaces what would otherwise be a call per requested date. Adapted from
+    fetch_forecast_with_history in data/scripts/enrich/weather/open_meteo.py
+    (same start_date/end_date mechanism, generalized to a fixed range
+    instead of one target date + lookback - see research.md decision 5)."""
+    params = {
+        "latitude": lat,
+        "longitude": lng,
+        "daily": ",".join(DAILY_VARS),
+        "start_date": start_date,
+        "end_date": end_date,
+        "timezone": "auto",
+    }
+    return _zip_daily(_get(FORECAST_URL, params)["daily"])

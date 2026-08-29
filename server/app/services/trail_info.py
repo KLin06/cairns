@@ -63,6 +63,7 @@ def derive_trail_record(trail_id: str) -> dict | None:
     soil = terrain_data.get("soil") or {}
     surface_types = description.get("surfaceTypes") or None
     features = description.get("features") or None
+    images = description.get("images") or []
 
     return {
         "trail_id": str(trail_id),
@@ -82,6 +83,11 @@ def derive_trail_record(trail_id: str) -> dict | None:
         "soil_drainage": soil.get("drainage"),
         "surface_types": surface_types,
         "features": features,
+        # First of the scraped AllTrails photo URLs, if any - selective field
+        # storage (constitution IX) means one representative image, not the
+        # whole gallery array.
+        "image_url": images[0] if images else None,
+        "area_name": description.get("areaName"),
     }
 
 
@@ -121,4 +127,6 @@ def get_trail_info(trail_id: str) -> TrailInfo:
             soilDrainage=row["soil_drainage"],
         ),
         features=row["features"] or [],
+        imageUrl=row["image_url"],
+        areaName=row["area_name"],
     )

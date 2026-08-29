@@ -40,9 +40,17 @@ Then visit `http://localhost:8000/docs` for the interactive API docs
   unenriched trail returns `404`; upstream failures return `502`/`503`
   depending on whether they were rate-limiting. Short-TTL (30 min)
   in-process cache per trail.
-- `GET /trails/{trail_id}/conditions` - **stubbed**, returns 501. See the
-  TODO in `app/services/conditions.py` for what's left (forecast fetch +
-  feature reconstruction + model inference).
+- `GET /trails/{trail_id}/conditions` - working, real model-backed
+  predictions from `data/datasets/models/condition_models.joblib` (see
+  `specs/005-weather-conditions-ui/`). Feature assembly shares
+  `app/services/feature_flatten.py` with the offline training-table builder
+  (`data/scripts/model/build_training_table.py`) so training-time and
+  inference-time features can't drift apart. Same date-horizon/error-type
+  conventions as `/weather` (`422`/`404`/`502`/`503`), plus a `confidence`
+  object (review-count-based) on every response. One wide-range weather
+  fetch per trail (30 min in-process cache, single-flight per trail_id to
+  avoid a cache-stampede when the client requests every day in the window
+  at once for the best-days strip).
 
 ## Tests
 

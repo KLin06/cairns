@@ -28,7 +28,7 @@ existing response shape (`server/app/schemas.py`'s `TrailInfo`) - no new fields 
 | `lengthMeters` | `number \| null` | |
 | `durationMinutes` | `number \| null` | |
 | `hasScrambling` | `boolean` | Not currently displayed per spec's FR-012 field list, but present in the response - reserved for a later feature, not shown in this scope's Overview |
-| `surfaceTypes` | `{label: string, percentOfSurface: number \| null}[]` | |
+| `surfaceTypes` | `{label: string, percentOfSurface: number \| null}[]` | Rendered as a stacked, color-coded progress bar (largest share first) plus a legend, not a sentence - see design-tokens.md's categorical-chart exception |
 | `terrain` | `{rockSlipRisk: string \| null, soilDrainage: string \| null}` | Not displayed per FR-012's field list - reserved, not this scope |
 | `features` | `string[]` | Rendered as chips |
 

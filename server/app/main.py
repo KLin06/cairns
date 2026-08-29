@@ -1,6 +1,7 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
+from app.routers.trails import list_router as trail_list_router
 from app.routers.trails import router as trails_router
 
 app = FastAPI(title="Trail Conditions API")
@@ -15,6 +16,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+app.include_router(trail_list_router)
 app.include_router(trails_router)
 
 

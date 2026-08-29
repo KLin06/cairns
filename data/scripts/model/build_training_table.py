@@ -7,7 +7,17 @@ import numpy as np
 import pandas as pd
 
 from scripts.paths import DATASETS_DIR
-from scripts.enrich.enrich_review import HISTORY_DAYS, CONDITION_CATEGORY_MAP
+from scripts.enrich.enrich_review import CONDITION_CATEGORY_MAP
+
+# server/ has no runtime dependency on data/scripts (see server/app/config.py) -
+# the dependency runs the other way here: this offline table-builder imports
+# the shared row-flattening logic from server/ rather than the reverse, so
+# training-time and live-inference feature assembly can't drift apart
+# (constitution Principle II) without both call sites failing to import.
+_SERVER_DIR = os.path.join(os.path.dirname(os.path.dirname(DATASETS_DIR)), "server")
+if _SERVER_DIR not in sys.path:
+    sys.path.insert(0, _SERVER_DIR)
+from app.services.feature_flatten import flatten_description, flatten_weather  # noqa: E402
 
 # The canonical set a review's `conditions` list is allowed to contain -
 # CONDITION_CATEGORY_MAP's own values, not its keys (several raw spellings
@@ -23,25 +33,6 @@ VALID_CONDITIONS = set(CONDITION_CATEGORY_MAP.values())
 ENRICHED_REVIEWS_DIR = os.path.join(DATASETS_DIR, "enriched_reviews")
 DESCRIPTIONS_DIR = os.path.join(DATASETS_DIR, "enriched_descriptions")
 OUT_DIR = os.path.join(DATASETS_DIR, "training_table")
-
-# Trail-description fields that carry no predictive signal (raw text/media/
-# ids) or are constant across every trail (worstRating/bestRating are
-# always AllTrails' fixed 0-5 scale) - not worth a column each.
-DESCRIPTION_DROP_FIELDS = {
-    "trailId",
-    "trailSlug",
-    "name",
-    "description",
-    "images",
-    "worstRating",
-    "bestRating",
-    "ratingValue",
-    "reviewCount",
-    "durationMinutes",
-    "areaName",
-    "popularity",
-    "addressLocality",
-}
 
 # Review fields that are either raw text already mined into `conditions`
 # (comment), internal bookkeeping (recordingId/hasRecording), or already
@@ -76,89 +67,17 @@ def _clean_scalar(value):
     return value
 
 
-# daily weather field -> short column-name stub. precipitation_sum is
-# deliberately excluded: it's just rain_sum + snowfall_sum's water
-# equivalent (verified against real data - every day where precip != rain
-# lines up exactly with a nonzero snow value, zero unexplained cases), so
-# keeping it alongside rain/snow would be pure redundant information, not
-# an extra signal.
-_WEATHER_FIELDS = {
-    "temperature_2m_max": "tempMax",
-    "temperature_2m_min": "tempMin",
-    "rain_sum": "rain",
-    "snowfall_sum": "snow",
-    "windspeed_10m_max": "windMax",
-}
-
-
-def _flatten_weather(daily_records):
-    """Keep each day of the HISTORY_DAYS lead-up as its own columns
-    (weather_d0_* = the hike day itself, weather_d7_* = a week before)
-    instead of collapsing the week into one aggregate - rain the day
-    before a hike makes for a muddy trail in a way rain a week before
-    (likely already drained/dried) doesn't, and averaging the two together
-    erases exactly that distinction.
-
-    historicalWeather (see fetch_historical_weather) is date-sorted
-    ascending, oldest first, hike day last - indexed here from the end so
-    "d0" always means the hike day regardless of how many records came
-    back (fewer than HISTORY_DAYS+1 near the ERA5 archive lag, for
-    instance)."""
-    daily_records = daily_records or []
-    flat = {}
-    for day_offset in range(HISTORY_DAYS + 1):
-        index_from_end = day_offset + 1
-        record = daily_records[-index_from_end] if index_from_end <= len(daily_records) else {}
-        for api_field, stub in _WEATHER_FIELDS.items():
-            flat[f"weather_d{day_offset}_{stub}"] = record.get(api_field)
-    return flat
-
-
-def _flatten_terrain(terrain):
-    """terrainData is {"rock": {...} | None, "soil": {...} | None} (see
-    scripts/enrich/enrich_description.py) - reduced to just the four
-    fields that actually carry model signal for trail conditions, not
-    every raw/derived terrain field:
-    - rockSlipRisk: wet-rock traction rating (rock_classification.py)
-    - soilDrainageRank: ordinal 0 (best drained) - 6 (worst, most
-      mud-prone)
-    - soilTextureMudPotential: ordinal 0-2 mud potential from soil texture
-    - soilTextureGroup: broad texture class (clay/silt/loam/sand/organic/
-      rock)
-    Everything else (rockType/rockDescription/geologicEra/soilName/
-    parentMaterial/etc.) is identifying/descriptive detail without direct
-    predictive value, so it's dropped here rather than carried into the
-    training table."""
-    terrain = terrain or {}
-    rock = terrain.get("rock") or {}
-    soil = terrain.get("soil") or {}
-    return {
-        "terrain_rockSlipRisk": rock.get("rockSlipRisk"),
-        "terrain_soilDrainageRank": soil.get("drainageRank"),
-        "terrain_soilTextureMudPotential": soil.get("textureMudPotential"),
-        "terrain_soilTextureGroup": soil.get("textureGroup"),
-    }
-
-
-def _flatten_description(description):
-    terrain = description.get("terrainData")
-    flat = {
-        f"trail_{k}": v
-        for k, v in description.items()
-        if k not in DESCRIPTION_DROP_FIELDS and k != "terrainData"
-    }
-    features = flat.pop("trail_features", None) or []
-    # surfaceTypes is a list of {label, percentOfSurface, totalLength} -
-    # picking only the dominant surface would silently throw away real
-    # mixed-surface trails (e.g. a 55/45 gravel/natural split reads almost
-    # the same as pure gravel). Kept as a raw list here and expanded into
-    # one percent column per surface label later (see
-    # `_add_surface_percentages` in build_training_table), so every surface
-    # present is represented by its actual share instead of being reduced
-    # to a single winner.
-    surface_types = flat.pop("trail_surfaceTypes", None) or []
-    flat.update(_flatten_terrain(terrain))
-    return flat, features, surface_types
+# _flatten_weather/_flatten_terrain/_flatten_description used to live here -
+# now imported from server/app/services/feature_flatten.py (see the sys.path
+# bootstrap above) so this offline table-builder and the live inference path
+# in server/app/services/conditions.py can't drift apart (constitution
+# Principle II). surfaceTypes is a list of {label, percentOfSurface,
+# totalLength} - picking only the dominant surface would silently throw away
+# real mixed-surface trails (e.g. a 55/45 gravel/natural split reads almost
+# the same as pure gravel), so flatten_description keeps it as a raw list,
+# expanded into one percent column per surface label below (see
+# `_add_surface_percentages`), every surface present represented by its
+# actual share instead of being reduced to a single winner.
 
 
 def _load_description(trail_id):
@@ -169,7 +88,7 @@ def _load_description(trail_id):
 
 def _flatten_review(review, description_flat, trail_features, surface_types):
     flat = {k: v for k, v in review.items() if k not in REVIEW_DROP_FIELDS}
-    flat.update(_flatten_weather(review.get("historicalWeather")))
+    flat.update(flatten_weather(review.get("historicalWeather")))
     flat.update(description_flat)
 
     # Multi-hot/percent columns are filled in afterwards (see
@@ -239,7 +158,7 @@ def build_training_table(trail_ids=None):
             reviews = json.load(f)
 
         description = _load_description(trail_id)
-        description_flat, trail_features, surface_types = _flatten_description(description)
+        description_flat, trail_features, surface_types = flatten_description(description)
 
         for review in reviews:
             rows.append(_flatten_review(review, description_flat, trail_features, surface_types))

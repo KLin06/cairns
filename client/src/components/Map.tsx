@@ -23,6 +23,17 @@ const OSM_STYLE: maplibregl.StyleSpecification = {
       id: 'osm',
       type: 'raster',
       source: 'osm',
+      // Stock OSM raster tiles read as a cartoonish, unstyled tutorial demo
+      // (saturated green/tan/blue) next to everything else in this app.
+      // These are WebGL raster paint properties (per-layer), not a CSS
+      // filter on the canvas - a canvas-level filter would also mute the
+      // accent-colored cluster circles/route line painted on the same
+      // canvas in layers above this one, which is not the goal here.
+      paint: {
+        'raster-saturation': -0.35,
+        'raster-contrast': -0.05,
+        'raster-brightness-max': 0.96,
+      },
     },
   ],
 }
@@ -41,12 +52,22 @@ const ONTARIO_BOUNDS: maplibregl.LngLatBoundsLike = [
 ]
 
 const ROUTE_SOURCE_ID = 'selected-trail-route'
+const TRAILS_SOURCE_ID = 'trails'
+const CLUSTERS_LAYER_ID = 'clusters'
+const CLUSTER_COUNT_LAYER_ID = 'cluster-count'
 
 // MapLibre paint expressions can't consume oklch() CSS custom properties
 // directly - --color-accent-hex (theme/tokens.css) is the same accent as a
 // plain hex value MapLibre's own color parser can resolve.
 function getAccentColor(): string {
   return getComputedStyle(document.documentElement).getPropertyValue('--color-accent-hex').trim() || '#d97706'
+}
+
+// The cluster circles' stroke ring, so two nearby-but-separate clusters
+// (or a cluster sitting on a busy stretch of tiles) stay visually distinct
+// instead of blending into the map or each other.
+function getBaseColor(): string {
+  return getComputedStyle(document.documentElement).getPropertyValue('--color-base-100-hex').trim() || '#ffffff'
 }
 
 export interface MapView {
@@ -118,38 +139,163 @@ const Map = forwardRef<MapHandle, MapProps>(function Map({ trails, route, select
     }
   }, [])
 
-  // FR-005/FR-006: one accent-colored pin marker per eligible trail.
-  // Unlike the route layer below, maplibregl.Marker doesn't need the style
-  // or tiles to be loaded - it's a plain DOM element positioned via the
-  // map's transform, which exists as soon as the Map instance is
-  // constructed - so this deliberately does NOT gate on mapReadyRef/'load'.
+  // FR-005/FR-006, plus clustering for dense areas: MapLibre's native
+  // clustering only works on a GeoJSON source rendered via layers (circle/
+  // symbol), not on individual maplibregl.Marker DOM elements - so this is
+  // a hybrid. A clustered GeoJSON source + two canvas layers draws the
+  // cluster circles (accent-colored, sized by count); the existing DOM pin
+  // markers (teardrop shape, black hole, active-state scale-up) are kept,
+  // but only for trails that are CURRENTLY unclustered at the current
+  // zoom/viewport - querySourceFeatures tells us which those are, re-run on
+  // every 'data'/'moveend' so the pin set updates as the user pans/zooms.
+  const trailsByIdRef = useRef(new globalThis.Map<string, TrailMarker>())
+  trailsByIdRef.current = new globalThis.Map(trails.map((t) => [t.trailId, t]))
+
   useEffect(() => {
     const map = mapRef.current
     if (!map) return
 
-    for (const marker of markersRef.current.values()) marker.remove()
-    const next = new globalThis.Map<string, maplibregl.Marker>()
-    for (const trail of trails) {
+    const geojson: GeoJSON.FeatureCollection<GeoJSON.Point, { trailId: string }> = {
+      type: 'FeatureCollection',
+      features: trails.map((t) => ({
+        type: 'Feature',
+        properties: { trailId: t.trailId },
+        geometry: { type: 'Point', coordinates: [t.longitude, t.latitude] },
+      })),
+    }
+
+    function createPinMarker(trail: TrailMarker): maplibregl.Marker {
       const el = document.createElement('div')
       el.className = 'trail-marker'
       el.setAttribute('role', 'button')
       el.setAttribute('aria-label', trail.name)
-      el.innerHTML = `<svg viewBox="0 0 24 32" width="26" height="34"><path class="trail-marker-pin" d="${PIN_PATH}"/><circle class="trail-marker-hole" cx="12" cy="12" r="4.5"/></svg>`
+      // viewBox is padded 1 unit beyond the pin's own 0-24/0-32 bounds (not
+      // 0 0 24 32 tightly) - the pin's top point and the circle's left/right
+      // extremes all sit exactly on those original edges, and an SVG stroke
+      // is centered on the path by default, so half of it painted outside
+      // the tight viewBox and was getting clipped by the SVG's default
+      // overflow:hidden (most visible at the top). The bottom edge (32)
+      // stays untouched since the pin's tip sits there and anchor:'bottom'
+      // below depends on it lining up with the element's actual bottom.
+      //
+      // Center hole: a plain solid black circle, not a transparent mask
+      // cutout - simpler, and reads as a deliberate "pin head" hole against
+      // any map tile color instead of showing whatever's underneath.
+      el.innerHTML = `<svg viewBox="-1 -1 26 33" width="23" height="30"><path class="trail-marker-pin" d="${PIN_PATH}"/><circle class="trail-marker-hole" cx="12" cy="12" r="4"/></svg>`
       el.addEventListener('click', (e) => {
         e.stopPropagation()
         onSelectTrailRef.current(trail.trailId, {
-          center: map.getCenter().toArray() as [number, number],
-          zoom: map.getZoom(),
+          center: map!.getCenter().toArray() as [number, number],
+          zoom: map!.getZoom(),
         })
       })
       // anchor: 'bottom' - the pin's tip (the path's point at y=32), not
       // its bounding-box center, is what marks the trail's coordinate.
-      next.set(
-        trail.trailId,
-        new maplibregl.Marker({ element: el, anchor: 'bottom' }).setLngLat([trail.longitude, trail.latitude]).addTo(map),
-      )
+      return new maplibregl.Marker({ element: el, anchor: 'bottom' })
+        .setLngLat([trail.longitude, trail.latitude])
+        .addTo(map!)
     }
-    markersRef.current = next
+
+    // Re-derives which trails are currently unclustered (individually
+    // visible) and reconciles the DOM marker set to match - adds pins for
+    // newly-unclustered trails, removes pins for trails that just merged
+    // into a cluster (or panned out of the loaded tile set entirely).
+    function refreshPins() {
+      const features = map!.querySourceFeatures(TRAILS_SOURCE_ID, {
+        filter: ['!', ['has', 'point_count']],
+      })
+      const unclusteredIds = new Set(features.map((f) => String(f.properties?.trailId)))
+
+      for (const [trailId, marker] of markersRef.current) {
+        if (!unclusteredIds.has(trailId)) {
+          marker.remove()
+          markersRef.current.delete(trailId)
+        }
+      }
+      for (const trailId of unclusteredIds) {
+        if (markersRef.current.has(trailId)) continue
+        const trail = trailsByIdRef.current.get(trailId)
+        if (!trail) continue
+        markersRef.current.set(trailId, createPinMarker(trail))
+      }
+    }
+
+    function onClusterClick(e: maplibregl.MapMouseEvent) {
+      const features = map!.queryRenderedFeatures(e.point, { layers: [CLUSTERS_LAYER_ID] })
+      const clusterId = features[0]?.properties?.cluster_id
+      const source = map!.getSource(TRAILS_SOURCE_ID) as maplibregl.GeoJSONSource | undefined
+      if (clusterId === undefined || !source) return
+      source
+        .getClusterExpansionZoom(clusterId)
+        .then((zoom) => {
+          map!.easeTo({ center: (features[0].geometry as GeoJSON.Point).coordinates as [number, number], zoom })
+        })
+        .catch(() => {})
+    }
+
+    function setUp() {
+      const existingSource = map!.getSource(TRAILS_SOURCE_ID)
+      if (existingSource && existingSource.type === 'geojson') {
+        ;(existingSource as maplibregl.GeoJSONSource).setData(geojson)
+        refreshPins()
+        return
+      }
+
+      map!.addSource(TRAILS_SOURCE_ID, {
+        type: 'geojson',
+        data: geojson,
+        cluster: true,
+        clusterMaxZoom: 14,
+        // clusterRadius is the max screen-pixel distance between points for
+        // them to merge into one cluster - 50px was grouping markers that
+        // read as clearly separate locations on screen. Smaller radius =
+        // markers must be closer together before they're treated as "the
+        // same area", so distant markers stay as their own pins/clusters.
+        clusterRadius: 30,
+      })
+      map!.addLayer({
+        id: CLUSTERS_LAYER_ID,
+        type: 'circle',
+        source: TRAILS_SOURCE_ID,
+        filter: ['has', 'point_count'],
+        paint: {
+          'circle-color': getAccentColor(),
+          // Bigger clusters read darker/more opaque, not just numerically
+          // larger - a density cue you can read without parsing the count
+          // label, the way a heatmap legend would.
+          'circle-opacity': ['step', ['get', 'point_count'], 0.55, 5, 0.7, 10, 0.85, 25, 0.95],
+          'circle-radius': ['step', ['get', 'point_count'], 12, 5, 16, 10, 20, 25, 24],
+          // A ring around every cluster (in the theme's own base color, not
+          // a fixed white/black) so adjacent clusters that are close on
+          // screen but didn't merge stay legibly separate instead of
+          // visually bleeding into one blob.
+          'circle-stroke-color': getBaseColor(),
+          'circle-stroke-width': ['step', ['get', 'point_count'], 1.5, 10, 2, 25, 2.5],
+        },
+      })
+      map!.addLayer({
+        id: CLUSTER_COUNT_LAYER_ID,
+        type: 'symbol',
+        source: TRAILS_SOURCE_ID,
+        filter: ['has', 'point_count'],
+        layout: { 'text-field': ['get', 'point_count_abbreviated'], 'text-size': 12, 'text-font': ['Noto Sans Bold'] },
+        paint: { 'text-color': '#ffffff' },
+      })
+
+      map!.on('click', CLUSTERS_LAYER_ID, onClusterClick)
+      map!.on('mouseenter', CLUSTERS_LAYER_ID, () => {
+        map!.getCanvas().style.cursor = 'pointer'
+      })
+      map!.on('mouseleave', CLUSTERS_LAYER_ID, () => {
+        map!.getCanvas().style.cursor = ''
+      })
+      map!.on('data', refreshPins)
+      map!.on('moveend', refreshPins)
+      refreshPins()
+    }
+
+    if (mapReadyRef.current) setUp()
+    else map.once('load', setUp)
 
     return () => {
       for (const marker of markersRef.current.values()) marker.remove()
@@ -207,12 +353,41 @@ const Map = forwardRef<MapHandle, MapProps>(function Map({ trails, route, select
       if (map.getLayer(ROUTE_SOURCE_ID)) {
         map.setPaintProperty(ROUTE_SOURCE_ID, 'line-color', getAccentColor())
       }
+      if (map.getLayer(CLUSTERS_LAYER_ID)) {
+        map.setPaintProperty(CLUSTERS_LAYER_ID, 'circle-color', getAccentColor())
+        map.setPaintProperty(CLUSTERS_LAYER_ID, 'circle-stroke-color', getBaseColor())
+      }
     })
     observer.observe(document.documentElement, { attributes: true, attributeFilter: ['data-theme'] })
     return () => observer.disconnect()
   }, [])
 
-  return <div ref={containerRef} className="h-full w-full" />
+  return (
+    <div className="relative h-full w-full">
+      <div ref={containerRef} className="h-full w-full" />
+      {/* Legend: nothing on the map itself explains why some trails render
+          as a pin and others as a numbered circle - a one-time visual
+          glossary, styled with the same card/rounded-box/border language as
+          the trail panel rather than the map's own default chrome. */}
+      <div className="pointer-events-none absolute left-4 top-4 flex flex-col gap-1.5 rounded-box border border-(--color-border) bg-(--color-base-100)/90 px-3 py-2 text-xs text-(--color-base-content) shadow-lg backdrop-blur-sm">
+        <div className="flex items-center gap-2">
+          <svg width="12" height="16" viewBox="-1 -1 26 33" aria-hidden="true">
+            <path fill="var(--color-accent-hex)" stroke="var(--color-base-100)" strokeWidth="1" d={PIN_PATH} />
+          </svg>
+          <span>Single trail</span>
+        </div>
+        <div className="flex items-center gap-2">
+          <span
+            className="flex h-4 w-4 items-center justify-center rounded-full text-[9px] font-bold text-white"
+            style={{ backgroundColor: 'var(--color-accent-hex)' }}
+          >
+            3
+          </span>
+          <span>Multiple trails</span>
+        </div>
+      </div>
+    </div>
+  )
 })
 
 export default Map

@@ -24,10 +24,10 @@ body,
 .trail-marker-pin {
   fill: var(--color-accent-hex);
   stroke: var(--color-base-100);
-  stroke-width: 1.5px;
+  stroke-width: 1px; /* thinner to match the smaller rendered size - 1.5px read as chunky at 18x24 */
 }
 .trail-marker-hole {
-  fill: var(--color-base-100);
+  fill: black;
 }
 /* Pressed/selected state: the marker itself pops up in size and the pin's
    own fill deepens, so the active trail is unmistakable at a glance. */
@@ -46,6 +46,24 @@ body,
   background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2229%22%20height%3D%2229%22%20viewBox%3D%220%200%2029%2029%22%3E%3Cpath%20fill%3D%22%23dc2626%22%20d%3D%22m10.5%2014%204-8%204%208z%22%2F%3E%3Cpath%20fill%3D%22%23999%22%20d%3D%22m10.5%2016%204%208%204-8z%22%2F%3E%3C%2Fsvg%3E") !important;
 }
 
+/* MapLibre's default control chrome (square corners, hard drop shadow) is
+   the single biggest "unstyled default" tell on the map - these are purely
+   geometric overrides (radius/border/shadow/hover), not colors, so they
+   stay compatible with the invert-based dark-mode trick below (inverting a
+   border-radius or box-shadow is a no-op; only actual paint colors flip). */
+.maplibregl-ctrl-group {
+  border-radius: var(--radius-field) !important;
+  overflow: hidden;
+  border: 1px solid oklch(90% 0.006 264);
+  box-shadow: 0 1px 3px rgb(0 0 0 / 0.15) !important;
+}
+.maplibregl-ctrl-group button + button {
+  border-top: 1px solid oklch(90% 0.006 264);
+}
+.maplibregl-ctrl-group button:hover {
+  background-color: oklch(96% 0.004 264) !important;
+}
+
 /* FR-019: MapLibre's own NavigationControl chrome hardcodes a white
    background (its dark-icon CSS variant is gated on Windows' forced-colors
    mode, not a general dark theme) - it doesn't re-theme on its own, so
@@ -53,5 +71,16 @@ body,
    hue-rotate(180) approximately preserves the compass's own hand-picked
    colors (red/gray above) while still flipping the white background dark. */
 [data-theme='cairns-dark'] .maplibregl-ctrl-group {
+  filter: invert(1) hue-rotate(180deg);
+}
+
+/* The invert+hue-rotate above only approximately preserves the compass's
+   own hand-picked red/gray (it's a general-purpose "flip to dark" trick,
+   not an exact hue-preserving transform) - applying the identical filter
+   again, scoped to just the compass button, cancels the ancestor's filter
+   for that one element (invert(invert(x))=x, hue-rotate(180+180)=360=
+   identity), so the north arrow renders as the exact #dc2626 red defined
+   above in both themes, not an approximation. */
+[data-theme='cairns-dark'] .maplibregl-ctrl button.maplibregl-ctrl-compass {
   filter: invert(1) hue-rotate(180deg);
 }

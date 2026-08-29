@@ -16,6 +16,13 @@ class Terrain(BaseModel):
     soilDrainage: Optional[str]
 
 
+class TrailMarker(BaseModel):
+    trailId: str
+    name: str
+    latitude: float
+    longitude: float
+
+
 class TrailInfo(BaseModel):
     trailId: str
     name: Optional[str]
@@ -26,6 +33,8 @@ class TrailInfo(BaseModel):
     surfaceTypes: list[SurfaceType]
     terrain: Terrain
     features: list[str]
+    imageUrl: Optional[str]
+    areaName: Optional[str]
 
 
 class ConditionResult(BaseModel):
@@ -33,11 +42,17 @@ class ConditionResult(BaseModel):
     predicted: bool
 
 
+class ConditionsConfidence(BaseModel):
+    reviewCount: int
+    limitedData: bool
+
+
 class ConditionsResponse(BaseModel):
     trailId: str
     date: str
     conditions: dict[str, ConditionResult]
     modelVersion: str
+    confidence: ConditionsConfidence
 
 
 class ActivityResponse(BaseModel):

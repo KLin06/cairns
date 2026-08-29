@@ -1,5 +1,12 @@
 # Contract: Trail-List Dependency (assumed, not built by this feature)
 
+**Status: resolved.** `GET /trails` now exists (`server/app/routers/trails.py`'s `list_router`,
+backed by `server/app/services/trail_list.py`), returning a bare `TrailMarker[]` (not the
+`{"trails": [...]}` wrapper guessed below - a placeholder guess, not a commitment, per this doc's
+own framing). `client/src/api/trails.ts`'s `listTrails()` calls it directly; the fixture file this
+doc describes has been removed. Left below as the historical record of the assumption this feature
+made.
+
 Per spec.md's Assumptions, this feature depends on a backend capability to enumerate all
 backfill-eligible trails for map markers. That endpoint does not exist yet (today's backend only
 supports per-trail-id lookups: `/trails/{id}/info`, `/activity`, `/geometry`) and building it is

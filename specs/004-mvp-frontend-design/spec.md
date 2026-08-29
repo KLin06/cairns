@@ -134,10 +134,13 @@ illegible/low-contrast text or leftover hardcoded colors from the other theme.
   the backend's own "empty but present" design for this case.
 - What happens when a trail's surface type or feature list is empty/unknown? That part of the
   Overview section is omitted or shown as "not available," not rendered as a broken/empty chip.
-- What happens when many trail markers are close together at a given zoom level? Markers may
-  visually overlap; clustering/decluttering behavior is not specified by this spec and is
-  reasonable to defer, but markers must remain individually clickable at a zoom level where they
-  are visually distinct.
+- What happens when many trail markers are close together at a given zoom level? Implemented:
+  nearby markers merge into a numbered cluster circle (MapLibre's native GeoJSON clustering),
+  color/opacity-coded by count so denser clusters read visibly denser, with a stroke ring so two
+  separately-clustered groups that end up close together on screen stay legible instead of
+  blending together. Clicking a cluster zooms/centers to expand it. A legend explains the
+  pin-vs-cluster distinction. Markers remain individually clickable once unclustered at a given
+  zoom/viewport.
 - What happens if a user clicks a second marker while a panel is already open for a different
   trail? The panel's content updates to the newly-clicked trail without a close/reopen animation
   cycle - it reads as one panel updating, not two panels swapping.
@@ -176,6 +179,16 @@ illegible/low-contrast text or leftover hardcoded colors from the other theme.
 - **FR-008**: When an open trail has route geometry available, the map MUST render that trail's
   route as a line in the accent color; when unavailable, no route line is drawn and this MUST NOT
   be treated as an error.
+- **FR-008a**: Markers that are close together at the current zoom MUST merge into a single
+  numbered cluster circle rather than rendering as unreadable overlapping pins; larger clusters
+  MUST be visually distinguishable from smaller ones (not uniform regardless of count), and
+  clicking a cluster MUST zoom/center the map to expand it. A legend MUST be present explaining
+  the single-pin-vs-cluster distinction.
+- **FR-008b**: The base map tiles MUST use a muted/desaturated treatment rather than the raw
+  default OSM raster style, applied as tile-layer paint properties (not a canvas-wide filter, which
+  would also mute the accent-colored cluster/route layers drawn on top). The zoom and compass
+  controls MUST be restyled (rounded corners, softened shadow, theme-aware hover) to match the
+  rest of the app's visual language rather than using MapLibre's unstyled default chrome.
 
 **Trail detail panel**
 
