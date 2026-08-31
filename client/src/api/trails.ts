@@ -3,7 +3,7 @@
 // than throwing, matching FR-008's "absent data is not an error" convention
 // (data-model.md's PanelState treats this as its own 'absent' status).
 
-export const API_BASE = 'http://localhost:8000'
+export const API_BASE = import.meta.env.VITE_API_BASE ?? 'http://localhost:8000'
 
 export interface TrailMarker {
   trailId: string

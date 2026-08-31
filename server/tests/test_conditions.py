@@ -1,8 +1,11 @@
+import io
 import json
-from datetime import date, timedelta
+from datetime import date, datetime, timedelta, timezone
 
+import joblib
 import numpy as np
 import pytest
+from botocore.exceptions import ClientError
 from fastapi.testclient import TestClient
 
 from app.main import app
@@ -298,3 +301,101 @@ def test_repeated_requests_within_window_hit_upstream_once(enriched_trail, monke
     assert first.status_code == 200
     assert second.status_code == 200
     assert call_count["n"] == 1
+
+
+# --- S3 model loading (specs/007-docker-containerization) -------------------
+
+
+class _FakeS3Client:
+    """Stands in for boto3.client("s3") - records call count and returns a
+    scripted get_object response or raises a scripted exception."""
+
+    def __init__(self, response=None, error=None):
+        self._response = response
+        self._error = error
+        self.call_count = 0
+
+    def get_object(self, Bucket, Key):
+        self.call_count += 1
+        if self._error is not None:
+            raise self._error
+        return self._response
+
+
+def _joblib_bytes(obj):
+    buf = io.BytesIO()
+    joblib.dump(obj, buf)
+    return buf.getvalue()
+
+
+def _s3_response(body_bytes, last_modified):
+    return {"Body": io.BytesIO(body_bytes), "LastModified": last_modified}
+
+
+def test_load_model_bundle_fetches_from_s3_and_uses_last_modified_as_version(monkeypatch):
+    monkeypatch.setattr(conditions_module, "MODEL_S3_BUCKET", "cairns-models")
+    monkeypatch.setattr(conditions_module, "MODEL_S3_KEY", "condition_models.joblib")
+    raw_bundle = {"models": {}, "thresholds": {}, "features": FEATURES}
+    fake_client = _FakeS3Client(
+        response=_s3_response(_joblib_bytes(raw_bundle), datetime(2026, 3, 14, tzinfo=timezone.utc))
+    )
+    monkeypatch.setattr(conditions_module.boto3, "client", lambda service: fake_client)
+
+    bundle = conditions_module._load_model_bundle()
+
+    assert bundle["version"] == "2026-03-14"
+    assert bundle["features"] == FEATURES
+    assert fake_client.call_count == 1
+
+
+def test_load_model_bundle_caches_after_first_fetch(monkeypatch):
+    monkeypatch.setattr(conditions_module, "MODEL_S3_BUCKET", "cairns-models")
+    monkeypatch.setattr(conditions_module, "MODEL_S3_KEY", "condition_models.joblib")
+    raw_bundle = {"models": {}, "thresholds": {}, "features": FEATURES}
+    fake_client = _FakeS3Client(
+        response=_s3_response(_joblib_bytes(raw_bundle), datetime(2026, 3, 14, tzinfo=timezone.utc))
+    )
+    monkeypatch.setattr(conditions_module.boto3, "client", lambda service: fake_client)
+
+    conditions_module._load_model_bundle()
+    conditions_module._load_model_bundle()
+
+    assert fake_client.call_count == 1
+
+
+def test_load_model_bundle_missing_config_returns_503(monkeypatch):
+    monkeypatch.setattr(conditions_module, "MODEL_S3_BUCKET", None)
+    monkeypatch.setattr(conditions_module, "MODEL_S3_KEY", None)
+
+    with pytest.raises(Exception) as exc_info:
+        conditions_module._load_model_bundle()
+
+    assert exc_info.value.status_code == 503
+    assert exc_info.value.detail["errorType"] == "model_unavailable"
+
+
+def test_load_model_bundle_missing_s3_object_returns_503(monkeypatch):
+    monkeypatch.setattr(conditions_module, "MODEL_S3_BUCKET", "cairns-models")
+    monkeypatch.setattr(conditions_module, "MODEL_S3_KEY", "condition_models.joblib")
+    not_found = ClientError({"Error": {"Code": "NoSuchKey", "Message": "not found"}}, "GetObject")
+    fake_client = _FakeS3Client(error=not_found)
+    monkeypatch.setattr(conditions_module.boto3, "client", lambda service: fake_client)
+
+    with pytest.raises(Exception) as exc_info:
+        conditions_module._load_model_bundle()
+
+    assert exc_info.value.status_code == 503
+    assert exc_info.value.detail["errorType"] == "model_unavailable"
+
+
+def test_load_model_bundle_corrupted_artifact_returns_500(monkeypatch):
+    monkeypatch.setattr(conditions_module, "MODEL_S3_BUCKET", "cairns-models")
+    monkeypatch.setattr(conditions_module, "MODEL_S3_KEY", "condition_models.joblib")
+    fake_client = _FakeS3Client(response=_s3_response(b"not a joblib file", datetime(2026, 3, 14, tzinfo=timezone.utc)))
+    monkeypatch.setattr(conditions_module.boto3, "client", lambda service: fake_client)
+
+    with pytest.raises(Exception) as exc_info:
+        conditions_module._load_model_bundle()
+
+    assert exc_info.value.status_code == 500
+    assert exc_info.value.detail["errorType"] == "model_corrupted"

@@ -41,8 +41,11 @@ Then visit `http://localhost:8000/docs` for the interactive API docs
   depending on whether they were rate-limiting. Short-TTL (30 min)
   in-process cache per trail.
 - `GET /trails/{trail_id}/conditions` - working, real model-backed
-  predictions from `data/datasets/models/condition_models.joblib` (see
-  `specs/005-weather-conditions-ui/`). Feature assembly shares
+  predictions from `condition_models.joblib`, fetched from S3
+  (`MODEL_S3_BUCKET`/`MODEL_S3_KEY`, see
+  `specs/007-docker-containerization/contracts/s3-model-object.md`) and
+  cached in memory for the process lifetime rather than read off local disk
+  (see `specs/005-weather-conditions-ui/`). Feature assembly shares
   `app/services/feature_flatten.py` with the offline training-table builder
   (`data/scripts/model/build_training_table.py`) so training-time and
   inference-time features can't drift apart. Same date-horizon/error-type
@@ -57,3 +60,16 @@ Then visit `http://localhost:8000/docs` for the interactive API docs
 ```bash
 pytest
 ```
+
+## Docker
+
+Run the full stack (Postgres + this server + the client) via
+`docker compose up --build` from the repo root instead of running this
+service standalone - see `../.env.example` for the required environment
+variables (`DATABASE_URL`, `MODEL_S3_BUCKET`/`MODEL_S3_KEY`, AWS
+credentials, `CLIENT_ORIGIN`) and
+`../specs/007-docker-containerization/quickstart.md` for a full validation
+walkthrough. `data/` (the scrape/clean/enrich/train pipeline) is
+intentionally not part of the compose stack - it stays a separate,
+manually-run process whose only job is to eventually publish
+`condition_models.joblib` to S3.

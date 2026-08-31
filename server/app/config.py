@@ -12,5 +12,9 @@ DATASETS_DIR = os.path.join(REPO_ROOT, "data", "datasets")
 CLEANED_REVIEWS_DIR = os.path.join(DATASETS_DIR, "cleaned_reviews")
 ENRICHED_DESCRIPTIONS_DIR = os.path.join(DATASETS_DIR, "enriched_descriptions")
 ROUTE_GEOMETRY_DIR = os.path.join(DATASETS_DIR, "route_geometry")
-MODELS_DIR = os.path.join(DATASETS_DIR, "models")
-CONDITION_MODELS_PATH = os.path.join(MODELS_DIR, "condition_models.joblib")
+
+# condition_models.joblib now lives in S3 (see specs/007-docker-containerization)
+# instead of data/datasets/models/ - fetched by conditions.py via boto3 and
+# cached in memory for the process lifetime, not read off local disk.
+MODEL_S3_BUCKET = os.environ.get("MODEL_S3_BUCKET")
+MODEL_S3_KEY = os.environ.get("MODEL_S3_KEY")

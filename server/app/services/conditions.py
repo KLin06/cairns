@@ -1,15 +1,19 @@
+import io
 import json
+import logging
 import os
 import threading
 import time
 from datetime import date as date_cls
-from datetime import datetime, timedelta
+from datetime import timedelta
 
+import boto3
 import joblib
 import pandas as pd
+from botocore.exceptions import BotoCoreError, ClientError
 from fastapi import HTTPException
 
-from app.config import CONDITION_MODELS_PATH, ENRICHED_DESCRIPTIONS_DIR
+from app.config import ENRICHED_DESCRIPTIONS_DIR, MODEL_S3_BUCKET, MODEL_S3_KEY
 from app.schemas import ConditionResult, ConditionsConfidence, ConditionsResponse, ValidRange, WeatherErrorDetail
 from app.services.activity import get_trail_activity
 from app.services.feature_flatten import ANTECEDENT_DAYS, antecedent_precip_index, flatten_description, flatten_weather
@@ -42,23 +46,60 @@ _TRAIL_LOCKS: dict[str, threading.Lock] = {}
 
 _MODEL_BUNDLE: dict | None = None
 
+_logger = logging.getLogger(__name__)
+
 
 def _error(status_code: int, error_type: str, message: str, valid_range: ValidRange | None = None) -> HTTPException:
     detail = WeatherErrorDetail(errorType=error_type, message=message, validRange=valid_range)
     return HTTPException(status_code=status_code, detail=detail.model_dump(by_alias=True))
 
 
+def _fetch_model_bundle_from_s3() -> dict:
+    """Downloads condition_models.joblib from S3 (see
+    specs/007-docker-containerization/contracts/s3-model-object.md) and
+    deserializes it from an in-memory buffer - no local file ever hits disk.
+    version comes from the S3 object's LastModified, not local file mtime
+    (a freshly-downloaded file's mtime would just be "now", not the date the
+    model was actually trained - see research.md section 1). Raises the same
+    structured HTTPException shape as the rest of this module (_error) so a
+    fetch/deserialize failure surfaces as a clear API error (FR-009) instead
+    of an unhandled 500."""
+    if not MODEL_S3_BUCKET or not MODEL_S3_KEY:
+        _logger.error("MODEL_S3_BUCKET and MODEL_S3_KEY must both be set to load the conditions model")
+        raise _error(503, "model_unavailable", "conditions model is not configured (missing S3 bucket/key)")
+
+    s3 = boto3.client("s3")
+    try:
+        response = s3.get_object(Bucket=MODEL_S3_BUCKET, Key=MODEL_S3_KEY)
+    except ClientError as exc:
+        error_code = exc.response.get("Error", {}).get("Code")
+        _logger.error("failed to fetch model from s3://%s/%s: %s", MODEL_S3_BUCKET, MODEL_S3_KEY, error_code or exc)
+        raise _error(503, "model_unavailable", f"could not fetch conditions model from S3 ({error_code or exc})") from exc
+    except BotoCoreError as exc:
+        _logger.error("failed to reach S3 for s3://%s/%s: %s", MODEL_S3_BUCKET, MODEL_S3_KEY, exc)
+        raise _error(503, "model_unavailable", f"could not reach S3 to fetch conditions model ({exc})") from exc
+
+    version = response["LastModified"].date().isoformat()
+    body = response["Body"].read()
+    try:
+        bundle = joblib.load(io.BytesIO(body))
+    except Exception as exc:
+        _logger.error("model artifact at s3://%s/%s failed to deserialize: %s", MODEL_S3_BUCKET, MODEL_S3_KEY, exc)
+        raise _error(500, "model_corrupted", "conditions model artifact in S3 is corrupted or unreadable") from exc
+
+    bundle["version"] = version
+    return bundle
+
+
 def _load_model_bundle() -> dict:
     """Loaded once per process (not per-request, per the original TODO) and
     cached in this module-level global - {"models": {condition: fitted
-    model}, "features": [...], "thresholds": {condition: float}} from
-    train_model.py, plus a "version" derived from the artifact's own mtime
-    (auto-advances on retrain without a code change)."""
+    model}, "features": [...], "thresholds": {condition: float}, "version":
+    ...} - fetched from S3 on first call, then reused for the rest of the
+    process's lifetime (FR-005: at most one S3 fetch per process)."""
     global _MODEL_BUNDLE
     if _MODEL_BUNDLE is None:
-        bundle = joblib.load(CONDITION_MODELS_PATH)
-        bundle["version"] = datetime.fromtimestamp(os.path.getmtime(CONDITION_MODELS_PATH)).date().isoformat()
-        _MODEL_BUNDLE = bundle
+        _MODEL_BUNDLE = _fetch_model_bundle_from_s3()
     return _MODEL_BUNDLE
 
 
