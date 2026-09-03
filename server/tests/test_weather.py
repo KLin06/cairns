@@ -1,6 +1,6 @@
-import json
 from datetime import date, timedelta
 
+import psycopg2
 import pytest
 from fastapi.testclient import TestClient
 
@@ -21,11 +21,22 @@ def _clear_cache():
 
 
 @pytest.fixture
-def enriched_trail(tmp_path, monkeypatch):
-    """Writes a fake enriched_descriptions/{trail_id}.json and points the
-    weather service at tmp_path instead of the real dataset directory."""
-    monkeypatch.setattr(weather_module, "ENRICHED_DESCRIPTIONS_DIR", str(tmp_path))
-    (tmp_path / f"{TRAIL_ID}.json").write_text(json.dumps({"latitude": 45.85, "longitude": -82.11}))
+def enriched_trail(db_conn, test_database_url, monkeypatch):
+    """Inserts a minimal trails row (specs/002-trail-data-storage-schema) -
+    _get_trail_location now reads this table instead of
+    enriched_descriptions/{trail_id}.json (specs/007-docker-containerization).
+    weather_module.get_connection is repointed at the test database (same
+    pattern as test_backfill.py's patched_get_connection) since db_conn
+    itself uses TEST_DATABASE_URL but the HTTP request under test goes
+    through weather.py's own get_connection(), which otherwise reads
+    DATABASE_URL."""
+    monkeypatch.setattr(weather_module, "get_connection", lambda: psycopg2.connect(test_database_url))
+    with db_conn.cursor() as cur:
+        cur.execute(
+            "INSERT INTO trails (trail_id, name, latitude, longitude, has_scrambling) VALUES (%s, %s, %s, %s, %s)",
+            (TRAIL_ID, "Test Trail", 45.85, -82.11, False),
+        )
+    db_conn.commit()
     return TRAIL_ID
 
 
@@ -66,9 +77,10 @@ def test_default_window_returns_15_days_starting_today(enriched_trail, monkeypat
     assert body["days"][-1]["date"] == (TODAY + timedelta(days=14)).isoformat()
 
 
-def test_unenriched_trail_returns_404_trail_unavailable(tmp_path, monkeypatch):
-    monkeypatch.setattr(weather_module, "ENRICHED_DESCRIPTIONS_DIR", str(tmp_path))
-
+def test_unenriched_trail_returns_404_trail_unavailable(db_conn, test_database_url, monkeypatch):
+    # No row inserted for this trail_id - db_conn's TRUNCATE (conftest.py)
+    # guarantees a clean, empty trails table per test.
+    monkeypatch.setattr(weather_module, "get_connection", lambda: psycopg2.connect(test_database_url))
     resp = client.get("/trails/00000000/weather")
 
     assert resp.status_code == 404

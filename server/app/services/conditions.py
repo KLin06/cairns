@@ -1,7 +1,5 @@
 import io
-import json
 import logging
-import os
 import threading
 import time
 from datetime import date as date_cls
@@ -12,12 +10,14 @@ import joblib
 import pandas as pd
 from botocore.exceptions import BotoCoreError, ClientError
 from fastapi import HTTPException
+from psycopg2.extras import RealDictCursor
 
-from app.config import ENRICHED_DESCRIPTIONS_DIR, MODEL_S3_BUCKET, MODEL_S3_KEY
+from app.config import MODEL_S3_BUCKET, MODEL_S3_KEY
 from app.schemas import ConditionResult, ConditionsConfidence, ConditionsResponse, ValidRange, WeatherErrorDetail
 from app.services.activity import get_trail_activity
 from app.services.feature_flatten import ANTECEDENT_DAYS, antecedent_precip_index, flatten_description, flatten_weather
 from app.services.open_meteo_client import MAX_FORECAST_DAYS, fetch_forecast_range
+from db.connection import get_connection
 
 # train_model.py's CATEGORICAL_COLUMNS - a training-config fact (which
 # columns HistGradientBoostingClassifier needs as pandas `category` dtype),
@@ -121,20 +121,50 @@ def _resolve_and_validate_date(date_str: str) -> date_cls:
 
 
 def _load_description(trail_id: str) -> dict:
-    path = os.path.join(ENRICHED_DESCRIPTIONS_DIR, f"{trail_id}.json")
-    if not os.path.exists(path):
+    """Reads the trails table (specs/002-trail-data-storage-schema) instead
+    of enriched_descriptions/{trail_id}.json directly, reconstructing a dict
+    shaped exactly like the old raw description JSON - flatten_description()
+    (shared with build_training_table.py, constitution Principle II) reads
+    specific top-level/terrainData keys and is not itself touched by this
+    migration. soil_drainage_rank/soil_texture_mud_potential/
+    soil_texture_group (migration 0004) are the trails-table columns added
+    specifically because flatten_terrain needs them and the pre-existing
+    soil_drainage column is a different source field ("drainage"), not
+    reusable here."""
+    conn = get_connection()
+    try:
+        with conn.cursor(cursor_factory=RealDictCursor) as cur:
+            cur.execute("SELECT * FROM trails WHERE trail_id = %s", (str(trail_id),))
+            row = cur.fetchone()
+    finally:
+        conn.close()
+
+    if row is None:
         raise _error(
             404,
             "trail_unavailable",
             f"trail {trail_id!r} has no enriched description - has it been through the enrich pipeline stage?",
         )
 
-    with open(path, "r", encoding="utf-8") as f:
-        description = json.load(f)
-
-    if description.get("latitude") is None or description.get("longitude") is None:
+    if row["latitude"] is None or row["longitude"] is None:
         raise _error(404, "trail_unavailable", f"trail {trail_id!r} has no location on record")
-    return description
+
+    return {
+        "latitude": row["latitude"],
+        "longitude": row["longitude"],
+        "length": row["length_meters"],
+        "difficultyRating": row["difficulty_rating"],
+        "features": row["features"] or [],
+        "surfaceTypes": row["surface_types"] or [],
+        "terrainData": {
+            "rock": {"rockSlipRisk": row["rock_slip_risk"]},
+            "soil": {
+                "drainageRank": row["soil_drainage_rank"],
+                "textureMudPotential": row["soil_texture_mud_potential"],
+                "textureGroup": row["soil_texture_group"],
+            },
+        },
+    }
 
 
 def _classify_upstream_error(exc: Exception) -> HTTPException:

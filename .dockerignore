@@ -1,0 +1,23 @@
+# Root-level .dockerignore - applies to any Docker build whose context is
+# the repo root (currently: aws/lambda's Lambda image, built via
+# aws/cdk/lib/inference-stack.ts's fromImageAsset). Without this, CDK's
+# asset staging hashes/copies the ENTIRE repo - including client/node_modules,
+# server/venv, aws/cdk/node_modules (itself), .git, and data/ (which has a
+# 400MB+ file in it) - before docker build even runs. That's what made a
+# deploy hang for 30+ minutes with no CloudFormation activity at all.
+
+.git/
+client/
+data/
+specs/
+aws/cdk/
+aws/*.md
+server/venv/
+server/.venv/
+server/.env
+server/.pytest_cache/
+server/tests/
+server/README.md
+**/__pycache__/
+**/*.pyc
+*.md

@@ -81,6 +81,14 @@ def derive_trail_record(trail_id: str) -> dict | None:
         "has_scrambling": _compute_has_scrambling(trail_id),
         "rock_slip_risk": rock.get("rockSlipRisk"),
         "soil_drainage": soil.get("drainage"),
+        # Model-only fields (server/app/services/feature_flatten.py's
+        # flatten_terrain) - distinct from soil_drainage above, which is a
+        # different source field ("drainage") used for display, not the
+        # model. Backfilled here so conditions.py's live read-path never
+        # needs enriched_descriptions/{trail_id}.json directly.
+        "soil_drainage_rank": _as_int(soil.get("drainageRank")),
+        "soil_texture_mud_potential": _as_int(soil.get("textureMudPotential")),
+        "soil_texture_group": soil.get("textureGroup"),
         "surface_types": surface_types,
         "features": features,
         # First of the scraped AllTrails photo URLs, if any - selective field

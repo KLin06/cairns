@@ -24,6 +24,9 @@ TRAIL_COLUMNS = [
     "features",
     "image_url",
     "area_name",
+    "soil_drainage_rank",
+    "soil_texture_mud_potential",
+    "soil_texture_group",
 ]
 ACTIVITY_COLUMNS = ["by_month", "by_day_of_week", "total_reviews"]
 
@@ -51,11 +54,13 @@ def upsert_trail(conn, record: dict) -> bool:
             INSERT INTO trails (
                 trail_id, name, latitude, longitude, difficulty_rating,
                 length_meters, duration_minutes, has_scrambling,
-                rock_slip_risk, soil_drainage, surface_types, features, image_url, area_name, updated_at
+                rock_slip_risk, soil_drainage, surface_types, features, image_url, area_name,
+                soil_drainage_rank, soil_texture_mud_potential, soil_texture_group, updated_at
             ) VALUES (
                 %(trail_id)s, %(name)s, %(latitude)s, %(longitude)s, %(difficulty_rating)s,
                 %(length_meters)s, %(duration_minutes)s, %(has_scrambling)s,
-                %(rock_slip_risk)s, %(soil_drainage)s, %(surface_types)s, %(features)s, %(image_url)s, %(area_name)s, now()
+                %(rock_slip_risk)s, %(soil_drainage)s, %(surface_types)s, %(features)s, %(image_url)s, %(area_name)s,
+                %(soil_drainage_rank)s, %(soil_texture_mud_potential)s, %(soil_texture_group)s, now()
             )
             ON CONFLICT (trail_id) DO UPDATE SET
                 name = EXCLUDED.name,
@@ -71,6 +76,9 @@ def upsert_trail(conn, record: dict) -> bool:
                 features = EXCLUDED.features,
                 image_url = EXCLUDED.image_url,
                 area_name = EXCLUDED.area_name,
+                soil_drainage_rank = EXCLUDED.soil_drainage_rank,
+                soil_texture_mud_potential = EXCLUDED.soil_texture_mud_potential,
+                soil_texture_group = EXCLUDED.soil_texture_group,
                 updated_at = now()
             """,
             {

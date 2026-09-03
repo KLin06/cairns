@@ -1,12 +1,13 @@
 import io
-import json
 from datetime import date, datetime, timedelta, timezone
 
 import joblib
 import numpy as np
+import psycopg2
 import pytest
 from botocore.exceptions import ClientError
 from fastapi.testclient import TestClient
+from psycopg2.extras import Json
 
 from app.main import app
 from app.services import conditions as conditions_module
@@ -68,24 +69,49 @@ def _clear_cache():
 
 
 @pytest.fixture
-def enriched_trail(tmp_path, monkeypatch):
-    monkeypatch.setattr(conditions_module, "ENRICHED_DESCRIPTIONS_DIR", str(tmp_path))
-    (tmp_path / f"{TRAIL_ID}.json").write_text(
-        json.dumps(
+def enriched_trail(db_conn, test_database_url, monkeypatch):
+    """Inserts a trails row directly (specs/002-trail-data-storage-schema) -
+    _load_description now reads this table instead of
+    enriched_descriptions/{trail_id}.json (specs/007-docker-containerization),
+    so this fixture exercises the same live read-path production traffic
+    does, not a stand-in file. conditions_module.get_connection is
+    repointed at the test database the same way test_backfill.py's
+    patched_get_connection does - db_conn itself uses TEST_DATABASE_URL, but
+    the HTTP request under test goes through conditions.py's own
+    get_connection(), which otherwise reads DATABASE_URL."""
+    monkeypatch.setattr(conditions_module, "get_connection", lambda: psycopg2.connect(test_database_url))
+    with db_conn.cursor() as cur:
+        cur.execute(
+            """
+            INSERT INTO trails (
+                trail_id, name, latitude, longitude, length_meters, difficulty_rating,
+                has_scrambling, rock_slip_risk, soil_drainage_rank, soil_texture_mud_potential,
+                soil_texture_group, surface_types, features
+            ) VALUES (
+                %(trail_id)s, %(name)s, %(latitude)s, %(longitude)s, %(length_meters)s, %(difficulty_rating)s,
+                %(has_scrambling)s, %(rock_slip_risk)s, %(soil_drainage_rank)s, %(soil_texture_mud_potential)s,
+                %(soil_texture_group)s, %(surface_types)s, %(features)s
+            )
+            """,
             {
+                "trail_id": TRAIL_ID,
+                "name": "Test Trail",
                 "latitude": 45.85,
                 "longitude": -82.11,
-                "length": 8368.5,
-                "difficultyRating": 3,
-                "features": ["Forests", "Lakes"],
-                "surfaceTypes": [{"label": "natural", "percentOfSurface": 90}, {"label": "gravel", "percentOfSurface": 10}],
-                "terrainData": {
-                    "rock": {"rockSlipRisk": "moderate"},
-                    "soil": {"drainageRank": 3, "textureMudPotential": 1, "textureGroup": "loam"},
-                },
-            }
+                "length_meters": 8368.5,
+                "difficulty_rating": 3,
+                "has_scrambling": False,
+                "rock_slip_risk": "moderate",
+                "soil_drainage_rank": 3,
+                "soil_texture_mud_potential": 1,
+                "soil_texture_group": "loam",
+                "surface_types": Json(
+                    [{"label": "natural", "percentOfSurface": 90}, {"label": "gravel", "percentOfSurface": 10}]
+                ),
+                "features": Json(["Forests", "Lakes"]),
+            },
         )
-    )
+    db_conn.commit()
     return TRAIL_ID
 
 
@@ -205,23 +231,21 @@ def test_no_activity_row_treated_as_zero_reviews_not_an_error(enriched_trail, mo
 # --- User Story 3: edges (date horizon, trail/upstream availability) ------
 
 
-def test_unenriched_trail_returns_404_trail_unavailable(tmp_path, monkeypatch):
-    monkeypatch.setattr(conditions_module, "ENRICHED_DESCRIPTIONS_DIR", str(tmp_path))
-
+def test_unenriched_trail_returns_404_trail_unavailable(db_conn, test_database_url, monkeypatch):
+    # No row inserted for this trail_id - db_conn's TRUNCATE (conftest.py)
+    # guarantees a clean, empty trails table per test.
+    monkeypatch.setattr(conditions_module, "get_connection", lambda: psycopg2.connect(test_database_url))
     resp = client.get("/trails/00000000/conditions")
 
     assert resp.status_code == 404
     assert resp.json()["detail"]["errorType"] == "trail_unavailable"
 
 
-def test_trail_with_no_location_returns_404(tmp_path, monkeypatch):
-    monkeypatch.setattr(conditions_module, "ENRICHED_DESCRIPTIONS_DIR", str(tmp_path))
-    (tmp_path / f"{TRAIL_ID}.json").write_text(json.dumps({"latitude": None, "longitude": None}))
-
-    resp = client.get(f"/trails/{TRAIL_ID}/conditions")
-
-    assert resp.status_code == 404
-    assert resp.json()["detail"]["errorType"] == "trail_unavailable"
+# There is no DB-backed equivalent of the old "trail exists but has null
+# latitude/longitude" 404 case: trails.latitude/longitude are NOT NULL
+# (migration 0001), so such a row can never exist once a trail is actually
+# backfilled - _load_description's None-check is retained defensively, but
+# is no longer reachable via real data the way the old flat-file check was.
 
 
 def test_past_date_rejected_422(enriched_trail):

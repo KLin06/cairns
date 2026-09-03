@@ -1,14 +1,13 @@
-import json
-import os
 import time
 from datetime import date as date_cls
 from datetime import timedelta
 
 from fastapi import HTTPException
+from psycopg2.extras import RealDictCursor
 
-from app.config import ENRICHED_DESCRIPTIONS_DIR
 from app.schemas import DailyWeather, ValidRange, WeatherErrorDetail, WeatherResponse
 from app.services.open_meteo_client import MAX_FORECAST_DAYS, fetch_forecast
+from db.connection import get_connection
 
 # Reuse fetch_forecast's own retry/backoff (see MAX_RETRIES/RETRY_BASE_DELAY in
 # open_meteo.py) rather than adding a second one here - a 429 that survives
@@ -24,18 +23,26 @@ def _error(status_code: int, error_type: str, message: str, valid_range: ValidRa
 
 
 def _get_trail_location(trail_id: str) -> tuple[float, float]:
-    path = os.path.join(ENRICHED_DESCRIPTIONS_DIR, f"{trail_id}.json")
-    if not os.path.exists(path):
+    """Reads the trails table (specs/002-trail-data-storage-schema) instead
+    of enriched_descriptions/{trail_id}.json directly - same migration as
+    conditions.py's _load_description, see specs/007-docker-containerization
+    for why the live read-path no longer touches the raw pipeline output."""
+    conn = get_connection()
+    try:
+        with conn.cursor(cursor_factory=RealDictCursor) as cur:
+            cur.execute("SELECT latitude, longitude FROM trails WHERE trail_id = %s", (str(trail_id),))
+            row = cur.fetchone()
+    finally:
+        conn.close()
+
+    if row is None:
         raise _error(
             404,
             "trail_unavailable",
             f"trail {trail_id!r} has no enriched description - has it been through the enrich pipeline stage?",
         )
 
-    with open(path, "r", encoding="utf-8") as f:
-        data = json.load(f)
-
-    lat, lng = data.get("latitude"), data.get("longitude")
+    lat, lng = row["latitude"], row["longitude"]
     if lat is None or lng is None:
         raise _error(404, "trail_unavailable", f"trail {trail_id!r} has no location on record")
     return lat, lng

@@ -1,3 +1,4 @@
+import glob
 import os
 
 import psycopg2
@@ -8,7 +9,7 @@ from dotenv import load_dotenv
 SERVER_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 load_dotenv(os.path.join(SERVER_DIR, ".env"))
 
-MIGRATION_PATH = os.path.join(SERVER_DIR, "db", "migrations", "0001_trail_data_storage.sql")
+MIGRATIONS_DIR = os.path.join(SERVER_DIR, "db", "migrations")
 
 
 def _resolve_test_database_url():
@@ -43,13 +44,17 @@ def test_database_url():
 
     conn = psycopg2.connect(url)
     conn.autocommit = True
-    with open(MIGRATION_PATH, "r", encoding="utf-8") as f:
-        migration_sql = f.read()
-    with conn.cursor() as cur:
-        try:
-            cur.execute(migration_sql)
-        except psycopg2.errors.DuplicateTable:
-            pass
+    # Applies every migration in order (0001, 0002, ... - not just the first
+    # one), tolerating each already being applied from a prior test run
+    # against a persistent test database.
+    for migration_path in sorted(glob.glob(os.path.join(MIGRATIONS_DIR, "*.sql"))):
+        with open(migration_path, "r", encoding="utf-8") as f:
+            migration_sql = f.read()
+        with conn.cursor() as cur:
+            try:
+                cur.execute(migration_sql)
+            except (psycopg2.errors.DuplicateTable, psycopg2.errors.DuplicateColumn):
+                pass
     conn.close()
     return url
 
