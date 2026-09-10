@@ -6,6 +6,7 @@ from psycopg2.extras import RealDictCursor
 
 from app.config import ROUTE_GEOMETRY_DIR
 from app.schemas import LineStringGeometry, RouteFeature, RouteGeometry
+from app.services import data_store
 from db.connection import get_connection
 
 
@@ -45,13 +46,17 @@ def get_trail_geometry(trail_id: str) -> RouteGeometry:
     populated by server/db/backfill.py from the same route_geometry file
     derive_trail_geometry() above reads directly - that function stays
     file-based for the backfill script; this one is the live read-path."""
-    conn = get_connection()
-    try:
-        with conn.cursor(cursor_factory=RealDictCursor) as cur:
-            cur.execute("SELECT geometry FROM trail_geometry WHERE trail_id = %s", (str(trail_id),))
-            row = cur.fetchone()
-    finally:
-        conn.close()
+    if data_store.enabled():
+        geometry = data_store.get_geometry(trail_id)
+        row = {"geometry": geometry} if geometry is not None else None
+    else:
+        conn = get_connection()
+        try:
+            with conn.cursor(cursor_factory=RealDictCursor) as cur:
+                cur.execute("SELECT geometry FROM trail_geometry WHERE trail_id = %s", (str(trail_id),))
+                row = cur.fetchone()
+        finally:
+            conn.close()
 
     if row is None:
         raise HTTPException(

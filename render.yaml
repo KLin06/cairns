@@ -1,0 +1,42 @@
+# Render Blueprint for the Cairns backend. Deploy via Render dashboard:
+# New + -> Blueprint -> point at this repo. Only the client (Vercel) and
+# data/ pipeline are outside this blueprint's scope.
+#
+# Default backend here is DATA_BACKEND=memory (see
+# server/app/services/data_store.py): no database to provision or backfill,
+# server/app/config.py-adjacent JSON dataset is baked straight into the
+# image by Dockerfile.render. This is the "just deploy it" path.
+#
+# To use the Postgres-backed path instead (DATA_BACKEND=postgres, the same
+# behavior docker-compose uses locally - see
+# specs/007-docker-containerization/contracts/env-vars.md): add a
+# `databases:` block provisioning a Postgres instance, point this service's
+# dockerfilePath/dockerContext back at ./server/Dockerfile and ./server, add
+# a DATABASE_URL env var (`fromDatabase`), and run the schema migrations +
+# `python -m db.backfill` against it once (see aws/README.md's "Populate the
+# database" section for the same steps against a different Postgres target).
+services:
+  - type: web
+    name: cairns-server
+    runtime: docker
+    plan: free
+    dockerfilePath: ./Dockerfile.render
+    dockerContext: .
+    healthCheckPath: /health
+    envVars:
+      - key: DATA_BACKEND
+        value: memory
+      - key: MODEL_S3_BUCKET
+        sync: false
+      - key: MODEL_S3_KEY
+        value: condition_models.joblib
+      - key: AWS_REGION
+        value: us-east-1
+      - key: AWS_ACCESS_KEY_ID
+        sync: false
+      - key: AWS_SECRET_ACCESS_KEY
+        sync: false
+      - key: CLIENT_ORIGIN
+        sync: false
+      - key: CLIENT_ORIGIN_REGEX
+        sync: false

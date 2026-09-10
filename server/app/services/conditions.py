@@ -14,6 +14,7 @@ from psycopg2.extras import RealDictCursor
 
 from app.config import MODEL_S3_BUCKET, MODEL_S3_KEY
 from app.schemas import ConditionResult, ConditionsConfidence, ConditionsResponse, ValidRange, WeatherErrorDetail
+from app.services import data_store
 from app.services.activity import get_trail_activity
 from app.services.feature_flatten import ANTECEDENT_DAYS, antecedent_precip_index, flatten_description, flatten_weather
 from app.services.open_meteo_client import MAX_FORECAST_DAYS, fetch_forecast_range
@@ -131,13 +132,16 @@ def _load_description(trail_id: str) -> dict:
     specifically because flatten_terrain needs them and the pre-existing
     soil_drainage column is a different source field ("drainage"), not
     reusable here."""
-    conn = get_connection()
-    try:
-        with conn.cursor(cursor_factory=RealDictCursor) as cur:
-            cur.execute("SELECT * FROM trails WHERE trail_id = %s", (str(trail_id),))
-            row = cur.fetchone()
-    finally:
-        conn.close()
+    if data_store.enabled():
+        row = data_store.get_trail(trail_id)
+    else:
+        conn = get_connection()
+        try:
+            with conn.cursor(cursor_factory=RealDictCursor) as cur:
+                cur.execute("SELECT * FROM trails WHERE trail_id = %s", (str(trail_id),))
+                row = cur.fetchone()
+        finally:
+            conn.close()
 
     if row is None:
         raise _error(

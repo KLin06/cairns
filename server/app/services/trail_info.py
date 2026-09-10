@@ -6,6 +6,7 @@ from psycopg2.extras import RealDictCursor
 
 from app.config import CLEANED_REVIEWS_DIR, ENRICHED_DESCRIPTIONS_DIR
 from app.schemas import SurfaceType, Terrain, TrailInfo
+from app.services import data_store
 from db.connection import get_connection
 
 # What fraction of a trail's reviews need to mention "Scramble" (AllTrails'
@@ -105,13 +106,16 @@ def get_trail_info(trail_id: str) -> TrailInfo:
     files derive_trail_record() above reads directly - that function stays
     file-based because the backfill script still needs it as its own source
     of truth; this one is the live read-path, migrated off flat files."""
-    conn = get_connection()
-    try:
-        with conn.cursor(cursor_factory=RealDictCursor) as cur:
-            cur.execute("SELECT * FROM trails WHERE trail_id = %s", (str(trail_id),))
-            row = cur.fetchone()
-    finally:
-        conn.close()
+    if data_store.enabled():
+        row = data_store.get_trail(trail_id)
+    else:
+        conn = get_connection()
+        try:
+            with conn.cursor(cursor_factory=RealDictCursor) as cur:
+                cur.execute("SELECT * FROM trails WHERE trail_id = %s", (str(trail_id),))
+                row = cur.fetchone()
+        finally:
+            conn.close()
 
     if row is None:
         raise HTTPException(

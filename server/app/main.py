@@ -17,9 +17,15 @@ _client_origins = ["http://localhost:5173"]
 if os.environ.get("CLIENT_ORIGIN"):
     _client_origins.append(os.environ["CLIENT_ORIGIN"])
 
+# Vercel gives every branch/PR its own preview URL (e.g.
+# https://cairns-<hash>-<team>.vercel.app), which CLIENT_ORIGIN's single
+# exact match can't cover - CLIENT_ORIGIN_REGEX is an optional second allow
+# rule for that pattern, left unset (matches nothing) unless the deploy sets
+# it. CLIENT_ORIGIN stays the production domain's exact match.
 app.add_middleware(
     CORSMiddleware,
     allow_origins=_client_origins,
+    allow_origin_regex=os.environ.get("CLIENT_ORIGIN_REGEX"),
     allow_methods=["GET"],
     allow_headers=["*"],
 )

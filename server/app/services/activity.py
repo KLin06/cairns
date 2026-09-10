@@ -6,6 +6,7 @@ from psycopg2.extras import RealDictCursor
 
 from app.config import CLEANED_REVIEWS_DIR
 from app.schemas import ActivityResponse
+from app.services import data_store
 from db.connection import get_connection
 
 _DAY_NAMES = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]
@@ -48,13 +49,16 @@ def get_trail_activity(trail_id: str) -> ActivityResponse:
     server/db/backfill.py from the same cleaned_reviews file
     derive_trail_activity() above reads directly - that function stays
     file-based for the backfill script; this one is the live read-path."""
-    conn = get_connection()
-    try:
-        with conn.cursor(cursor_factory=RealDictCursor) as cur:
-            cur.execute("SELECT * FROM trail_activity WHERE trail_id = %s", (str(trail_id),))
-            row = cur.fetchone()
-    finally:
-        conn.close()
+    if data_store.enabled():
+        row = data_store.get_activity(trail_id)
+    else:
+        conn = get_connection()
+        try:
+            with conn.cursor(cursor_factory=RealDictCursor) as cur:
+                cur.execute("SELECT * FROM trail_activity WHERE trail_id = %s", (str(trail_id),))
+                row = cur.fetchone()
+        finally:
+            conn.close()
 
     if row is None:
         raise HTTPException(status_code=404, detail=f"trail {trail_id!r} has no cleaned reviews")

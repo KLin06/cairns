@@ -1,0 +1,33 @@
+# Render deploy image for the backend, DATA_BACKEND=memory mode (see
+# render.yaml and server/app/services/data_store.py). Distinct from
+# server/Dockerfile (used by docker-compose for local dev, Postgres-backed)
+# because this one needs data/datasets/ baked in, which means a build
+# context of the repo root instead of server/ alone.
+FROM python:3.11-slim
+
+# Same WORKDIR-depth reasoning as server/Dockerfile: config.py's REPO_ROOT
+# derivation only matters for path construction, not for where files
+# actually land - COPY destinations below are absolute so this still works
+# regardless of WORKDIR depth. Kept at /srv for parity with server/Dockerfile.
+WORKDIR /srv
+
+COPY server/requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
+
+COPY server/app ./app
+COPY server/db ./db
+
+# The whole dataset is ~15MB (enriched_descriptions: 296K, cleaned_reviews:
+# 9.9M, route_geometry: 4.7M) - small enough to bake into the image rather
+# than needing S3 or a volume. Paths must land at /data/datasets/... to
+# match config.py's DATASETS_DIR (REPO_ROOT/data/datasets, and REPO_ROOT
+# resolves to "/" from /srv/app two dirname() calls up).
+COPY data/datasets/enriched_descriptions /data/datasets/enriched_descriptions
+COPY data/datasets/cleaned_reviews /data/datasets/cleaned_reviews
+COPY data/datasets/route_geometry /data/datasets/route_geometry
+
+ENV DATA_BACKEND=memory
+
+EXPOSE 8000
+
+CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8000"]

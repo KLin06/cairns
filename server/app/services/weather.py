@@ -6,6 +6,7 @@ from fastapi import HTTPException
 from psycopg2.extras import RealDictCursor
 
 from app.schemas import DailyWeather, ValidRange, WeatherErrorDetail, WeatherResponse
+from app.services import data_store
 from app.services.open_meteo_client import MAX_FORECAST_DAYS, fetch_forecast
 from db.connection import get_connection
 
@@ -27,13 +28,16 @@ def _get_trail_location(trail_id: str) -> tuple[float, float]:
     of enriched_descriptions/{trail_id}.json directly - same migration as
     conditions.py's _load_description, see specs/007-docker-containerization
     for why the live read-path no longer touches the raw pipeline output."""
-    conn = get_connection()
-    try:
-        with conn.cursor(cursor_factory=RealDictCursor) as cur:
-            cur.execute("SELECT latitude, longitude FROM trails WHERE trail_id = %s", (str(trail_id),))
-            row = cur.fetchone()
-    finally:
-        conn.close()
+    if data_store.enabled():
+        row = data_store.get_trail(trail_id)
+    else:
+        conn = get_connection()
+        try:
+            with conn.cursor(cursor_factory=RealDictCursor) as cur:
+                cur.execute("SELECT latitude, longitude FROM trails WHERE trail_id = %s", (str(trail_id),))
+                row = cur.fetchone()
+        finally:
+            conn.close()
 
     if row is None:
         raise _error(
