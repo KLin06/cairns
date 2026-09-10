@@ -10,14 +10,19 @@ Real, deployable infrastructure for [specs/008-aws-async-inference](../specs/008
 aws/
 ├── SYSTEM_DESIGN.md         # requirements, capacity estimate, architecture, deep dive, bottlenecks
 ├── DESIGN_JUSTIFICATION.md  # the same argument, in plain language
-├── README.md                # this file - how to actually deploy it
-├── cdk/                # the CDK app (TypeScript) that provisions everything
-│   ├── bin/aws.ts       # entry point, reads deploy-time context
+├── README.md                # this file - how to actually deploy it (CDK instructions below)
+├── cdk/                 # the CDK app (TypeScript) that provisions everything - this README covers it
+│   ├── bin/aws.ts        # entry point, reads deploy-time context
 │   └── lib/inference-stack.ts  # SQS + DLQ, DynamoDB table, Lambda, alarms, IAM
-└── lambda/              # the worker's container image
-    ├── Dockerfile        # reuses server/app + server/db unmodified
-    └── handler.py        # SQS batch handler
+├── terraform/            # equivalent provisioning in Terraform/HCL - see terraform/README.md
+│   ├── vpc.tf, database.tf, queue.tf, dynamodb.tf, lambda.tf, alerts.tf, outputs.tf
+│   └── README.md          # how it differs from the CDK version, and the naming-collision note
+└── lambda/               # the worker's container image - shared by both CDK and Terraform
+    ├── Dockerfile         # reuses server/app + server/db unmodified
+    └── handler.py         # SQS batch handler
 ```
+
+**Two provisioning tools, one identical architecture**: `cdk/` and `terraform/` both deploy the exact same resources (same names, same fixes learned from real deploy attempts — see the "Revision note" in [specs/008-aws-async-inference/plan.md](../specs/008-aws-async-inference/plan.md)). Use whichever tool you prefer; don't run both against the same AWS account at once — they'd collide on resource names by design. `terraform/README.md` has the switch-over steps if you're moving from one to the other.
 
 ## Deploying this creates real, billed AWS resources
 
