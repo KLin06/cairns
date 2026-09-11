@@ -8,7 +8,16 @@
 
 .git/
 client/
-data/
+# data/ is excluded wholesale (raw scrapes, models, html, a 400MB+ file -
+# see above) except the three subdirs Dockerfile.render's memory-backend
+# build needs (server/app/services/data_store.py) - order matters here,
+# each level must be un-ignored before its own contents can be.
+data/*
+!data/datasets
+data/datasets/*
+!data/datasets/enriched_descriptions
+!data/datasets/cleaned_reviews
+!data/datasets/route_geometry
 specs/
 aws/cdk/
 aws/*.md
