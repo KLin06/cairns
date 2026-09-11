@@ -1,0 +1,70 @@
+{
+  "trailId": "10026164",
+  "trailSlug": "trail/canada/ontario/burnt-point-loop--2",
+  "name": "Burnt Point Loop",
+  "description": "Head out on this 5.3-km loop trail near Tobermory, Ontario. Generally considered a moderately challenging route, it takes an average of 1 h 20 min to complete. This is a very popular area for hiking, mountain biking, and snowshoeing, so you'll likely encounter other people while exploring. The best times to visit this trail are May through October. Dogs are welcome, but must be on a leash.",
+  "addressLocality": "Tobermory, Ontario, Canada",
+  "latitude": 45.25715,
+  "longitude": -81.65632,
+  "ratingValue": 4.7,
+  "reviewCount": 1478,
+  "worstRating": "0",
+  "bestRating": "5",
+  "images": [
+    "https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMTA5NTY5NjQ5Lzg5ODNlNTk1Mjk4MGZlYTcwNzM3NWMzNGNhOWUyY2QzLmpwZyIsImVkaXRzIjp7InRvRm9ybWF0Ijoid2VicCIsInJlc2l6ZSI6eyJ3aWR0aCI6IjUwMCIsImhlaWdodCI6IjUwMCIsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ=="
+  ],
+  "features": [
+    "Fee required",
+    "Dogs on leash",
+    "Kid-friendly"
+  ],
+  "surfaceTypes": [
+    {
+      "label": "natural",
+      "percentOfSurface": 74.19,
+      "totalLength": 3888.98
+    },
+    {
+      "label": "gravel",
+      "percentOfSurface": 23.85,
+      "totalLength": 1250.32
+    },
+    {
+      "label": "unknown",
+      "percentOfSurface": 1.96,
+      "totalLength": 102.68
+    }
+  ],
+  "length": 5310.822,
+  "durationMinutes": 80,
+  "difficultyRating": "3",
+  "areaName": "Fathom Five National Marine Park",
+  "popularity": 98.8368,
+  "terrainData": {
+    "rock": {
+      "rockType": " ",
+      "rockDescription": "Sandstone, shale, dolostone, siltstone",
+      "geologicProvince": " ",
+      "geologicEra": "PALEOZOIC (251.0 Ma to 542.0 Ma)",
+      "rockCategories": [
+        "carbonate_sedimentary",
+        "coarse_clastic_sedimentary",
+        "fine_clastic_sedimentary"
+      ],
+      "rockSlipRisk": "high"
+    },
+    "soil": {
+      "soilName": "BREYPEN",
+      "texture": "rockland",
+      "textureGroup": "rock",
+      "textureMudPotential": 0,
+      "drainage": "variable",
+      "drainageRank": null,
+      "slopePercent": 3.5,
+      "stoniness": 3,
+      "parentMaterial": null
+    },
+    "percentNearWater": 26.7,
+    "waterCrossingCount": 6
+  }
+}

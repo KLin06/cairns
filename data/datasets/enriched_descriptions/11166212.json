@@ -1,0 +1,60 @@
+{
+  "trailId": "11166212",
+  "trailSlug": "trail/canada/ontario/maureen-smith-bruce-bennett-heritage-loop",
+  "name": "Maureen Smith - Bruce - Bennett Heritage Loop",
+  "description": "Check out this 6.4-km loop trail near Ballinafad, Ontario. Generally considered a moderately challenging route, it takes an average of 1 h 26 min to complete. This is a very popular area for hiking, mountain biking, and snowshoeing, so you'll likely encounter other people while exploring. The trail is open year-round and is beautiful to visit anytime. Dogs are welcome, but must be on a leash.",
+  "addressLocality": "Ballinafad, Ontario, Canada",
+  "latitude": 43.69224,
+  "longitude": -79.98341,
+  "ratingValue": 4.7,
+  "reviewCount": 948,
+  "worstRating": "0",
+  "bestRating": "5",
+  "images": [
+    "https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvNzQ4NDc3ODAvY2E0OTc4MTBkYzRhNTQ5YjY2Y2VhYTg3ZGI5NDJjMDcuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJ3ZWJwIiwicmVzaXplIjp7IndpZHRoIjoiNTAwIiwiaGVpZ2h0IjoiNTAwIiwiZml0IjoiaW5zaWRlIn0sInJvdGF0ZSI6bnVsbCwianBlZyI6eyJ0cmVsbGlzUXVhbnRpc2F0aW9uIjp0cnVlLCJvdmVyc2hvb3REZXJpbmdpbmciOnRydWUsIm9wdGltaXNlU2NhbnMiOnRydWUsInF1YW50aXNhdGlvblRhYmxlIjozfX19"
+  ],
+  "features": [
+    "Dogs on leash",
+    "Kid-friendly",
+    "Forests"
+  ],
+  "surfaceTypes": [
+    {
+      "label": "unknown",
+      "percentOfSurface": 100,
+      "totalLength": 6434.77
+    }
+  ],
+  "length": 6437.36,
+  "durationMinutes": 86,
+  "difficultyRating": "3",
+  "areaName": "Silver Creek Conservation Area",
+  "popularity": 97.7915,
+  "terrainData": {
+    "rock": {
+      "rockType": " ",
+      "rockDescription": "Sandstone, shale, dolostone, siltstone",
+      "geologicProvince": " ",
+      "geologicEra": "PALEOZOIC (251.0 Ma to 542.0 Ma)",
+      "rockCategories": [
+        "carbonate_sedimentary",
+        "coarse_clastic_sedimentary",
+        "fine_clastic_sedimentary"
+      ],
+      "rockSlipRisk": "high"
+    },
+    "soil": {
+      "soilName": "DUMFRIES LOAM",
+      "texture": "loam",
+      "textureGroup": "loam",
+      "textureMudPotential": 1,
+      "drainage": "well",
+      "drainageRank": 2,
+      "slopePercent": 12.0,
+      "stoniness": 4,
+      "parentMaterial": null
+    },
+    "percentNearWater": 27.2,
+    "waterCrossingCount": 7
+  }
+}

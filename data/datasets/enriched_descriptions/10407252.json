@@ -1,0 +1,69 @@
+{
+  "trailId": "10407252",
+  "trailSlug": "trail/canada/ontario/rattlesnake-and-crawford-lake-loop",
+  "name": "Rattlesnake Point and Crawford Lake",
+  "description": "Experience this 10.6-km out-and-back trail near Milton, Ontario. Generally considered a moderately challenging route, it takes an average of 2 h 32 min to complete. This is a very popular area for birding, hiking, and snowshoeing, so you'll likely encounter other people while exploring. The trail is open year-round and is beautiful to visit anytime. Dogs are welcome, but must be on a leash.",
+  "addressLocality": "Milton, Ontario, Canada",
+  "latitude": 43.4689,
+  "longitude": -79.91796,
+  "ratingValue": 4.7,
+  "reviewCount": 1335,
+  "worstRating": "0",
+  "bestRating": "5",
+  "images": [
+    "https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvNDE3NjExMzQvMDZlZGU2Nzc1OWZiNzg2ODM1ZTk3ZTU5ODdkZjczMmEuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJ3ZWJwIiwicmVzaXplIjp7IndpZHRoIjoiNTAwIiwiaGVpZ2h0IjoiNTAwIiwiZml0IjoiaW5zaWRlIn0sInJvdGF0ZSI6bnVsbCwianBlZyI6eyJ0cmVsbGlzUXVhbnRpc2F0aW9uIjp0cnVlLCJvdmVyc2hvb3REZXJpbmdpbmciOnRydWUsIm9wdGltaXNlU2NhbnMiOnRydWUsInF1YW50aXNhdGlvblRhYmxlIjozfX19"
+  ],
+  "features": [
+    "Fee required",
+    "Dogs on leash",
+    "Kid-friendly"
+  ],
+  "surfaceTypes": [
+    {
+      "label": "natural",
+      "percentOfSurface": 69.91,
+      "totalLength": 7442.92
+    },
+    {
+      "label": "unknown",
+      "percentOfSurface": 23.5,
+      "totalLength": 2501.54
+    },
+    {
+      "label": "wood",
+      "percentOfSurface": 6.6,
+      "totalLength": 702.18
+    }
+  ],
+  "length": 10621.644,
+  "durationMinutes": 152,
+  "difficultyRating": "3",
+  "areaName": "Rattlesnake Point Conservation Area",
+  "popularity": 99.2777,
+  "terrainData": {
+    "rock": {
+      "rockType": " ",
+      "rockDescription": "Shale, limestone, dolostone, siltstone",
+      "geologicProvince": " ",
+      "geologicEra": "PALEOZOIC (251.0 Ma to 542.0 Ma)",
+      "rockCategories": [
+        "carbonate_sedimentary",
+        "fine_clastic_sedimentary"
+      ],
+      "rockSlipRisk": "high"
+    },
+    "soil": {
+      "soilName": "ESCARPMENT",
+      "texture": "rockland",
+      "textureGroup": "rock",
+      "textureMudPotential": 0,
+      "drainage": null,
+      "drainageRank": null,
+      "slopePercent": 22.5,
+      "stoniness": 0,
+      "parentMaterial": null
+    },
+    "percentNearWater": 13.6,
+    "waterCrossingCount": 3
+  }
+}

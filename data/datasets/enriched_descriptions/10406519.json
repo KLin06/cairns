@@ -1,0 +1,80 @@
+{
+  "trailId": "10406519",
+  "trailSlug": "trail/canada/ontario/crawford-lake-pine-ridge-and-bruce-trail-loop",
+  "name": "Crawford Lake, Pine Ridge and Bruce Trail Loop",
+  "description": "Enjoy this 6.6-km loop trail near Milton, Ontario. Generally considered an easy route, it takes an average of 1 h 23 min to complete. This is a very popular area for birding, cross-country skiing, and hiking, so you'll likely encounter other people while exploring. The trail is open year-round and is beautiful to visit anytime. Dogs are welcome, but must be on a leash.",
+  "addressLocality": "Milton, Ontario, Canada",
+  "latitude": 43.47192,
+  "longitude": -79.95062,
+  "ratingValue": 4.6,
+  "reviewCount": 855,
+  "worstRating": "0",
+  "bestRating": "5",
+  "images": [
+    "https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvNjIwNjAyMjUvYzFiN2FjZGQ4NjkxZDU1NjUyMjQ5YmZkMTA0NTJlMjUuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJ3ZWJwIiwicmVzaXplIjp7IndpZHRoIjoiNTAwIiwiaGVpZ2h0IjoiNTAwIiwiZml0IjoiaW5zaWRlIn0sInJvdGF0ZSI6bnVsbCwianBlZyI6eyJ0cmVsbGlzUXVhbnRpc2F0aW9uIjp0cnVlLCJvdmVyc2hvb3REZXJpbmdpbmciOnRydWUsIm9wdGltaXNlU2NhbnMiOnRydWUsInF1YW50aXNhdGlvblRhYmxlIjozfX19"
+  ],
+  "features": [
+    "Dogs on leash",
+    "Kid-friendly",
+    "Stroller-friendly"
+  ],
+  "surfaceTypes": [
+    {
+      "label": "natural",
+      "percentOfSurface": 81.65,
+      "totalLength": 5363.99
+    },
+    {
+      "label": "wood",
+      "percentOfSurface": 10.84,
+      "totalLength": 712.03
+    },
+    {
+      "label": "paved",
+      "percentOfSurface": 5.57,
+      "totalLength": 365.79
+    },
+    {
+      "label": "unknown",
+      "percentOfSurface": 1.25,
+      "totalLength": 82.43
+    },
+    {
+      "label": "steps",
+      "percentOfSurface": 0.69,
+      "totalLength": 45.26
+    }
+  ],
+  "length": 6598.294,
+  "durationMinutes": 83,
+  "difficultyRating": "1",
+  "areaName": "Crawford Lake Conservation Area",
+  "popularity": 97.436,
+  "terrainData": {
+    "rock": {
+      "rockType": " ",
+      "rockDescription": "Sandstone, shale, dolostone, siltstone",
+      "geologicProvince": " ",
+      "geologicEra": "PALEOZOIC (251.0 Ma to 542.0 Ma)",
+      "rockCategories": [
+        "carbonate_sedimentary",
+        "coarse_clastic_sedimentary",
+        "fine_clastic_sedimentary"
+      ],
+      "rockSlipRisk": "high"
+    },
+    "soil": {
+      "soilName": "FOX SANDY LOAM",
+      "texture": "sandy loam",
+      "textureGroup": "loam",
+      "textureMudPotential": 1,
+      "drainage": "well",
+      "drainageRank": 2,
+      "slopePercent": 3.5,
+      "stoniness": 1,
+      "parentMaterial": null
+    },
+    "percentNearWater": 12.0,
+    "waterCrossingCount": 2
+  }
+}

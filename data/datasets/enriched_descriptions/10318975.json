@@ -1,0 +1,75 @@
+{
+  "trailId": "10318975",
+  "trailSlug": "trail/canada/ontario/canterbury-falls-and-sherman-falls",
+  "name": "Canterbury Falls and Sherman Falls",
+  "description": "Check out this 5.8-km out-and-back trail near Hamilton, Ontario. Generally considered an easy route, it takes an average of 1 h 26 min to complete. This is a very popular area for birding, hiking, and snowshoeing, so you'll likely encounter other people while exploring. The trail is open year-round and is beautiful to visit anytime. Dogs are welcome, but must be on a leash.",
+  "addressLocality": "Hamilton, Ontario, Canada",
+  "latitude": 43.23692,
+  "longitude": -79.9982,
+  "ratingValue": 4.7,
+  "reviewCount": 440,
+  "worstRating": "0",
+  "bestRating": "5",
+  "images": [
+    "https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvNzk4NTYzNzAvY2EwOWY3NWYwYzIwNjU0OTFlZDgwODE5NjVkODhhYTQuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJ3ZWJwIiwicmVzaXplIjp7IndpZHRoIjoiNTAwIiwiaGVpZ2h0IjoiNTAwIiwiZml0IjoiaW5zaWRlIn0sInJvdGF0ZSI6bnVsbCwianBlZyI6eyJ0cmVsbGlzUXVhbnRpc2F0aW9uIjp0cnVlLCJvdmVyc2hvb3REZXJpbmdpbmciOnRydWUsIm9wdGltaXNlU2NhbnMiOnRydWUsInF1YW50aXNhdGlvblRhYmxlIjozfX19"
+  ],
+  "features": [
+    "Fee required",
+    "Dogs on leash",
+    "Kid-friendly"
+  ],
+  "surfaceTypes": [
+    {
+      "label": "unknown",
+      "percentOfSurface": 75.01,
+      "totalLength": 4335.07
+    },
+    {
+      "label": "natural",
+      "percentOfSurface": 22.85,
+      "totalLength": 1320.64
+    },
+    {
+      "label": "gravel",
+      "percentOfSurface": 1.81,
+      "totalLength": 104.53
+    },
+    {
+      "label": "steps",
+      "percentOfSurface": 0.34,
+      "totalLength": 19.36
+    }
+  ],
+  "length": 5793.624,
+  "durationMinutes": 86,
+  "difficultyRating": "1",
+  "areaName": "Dundas Valley Conservation Area",
+  "popularity": 97.8014,
+  "terrainData": {
+    "rock": {
+      "rockType": " ",
+      "rockDescription": "Sandstone, shale, dolostone, siltstone",
+      "geologicProvince": " ",
+      "geologicEra": "PALEOZOIC (251.0 Ma to 542.0 Ma)",
+      "rockCategories": [
+        "carbonate_sedimentary",
+        "coarse_clastic_sedimentary",
+        "fine_clastic_sedimentary"
+      ],
+      "rockSlipRisk": "high"
+    },
+    "soil": {
+      "soilName": "RAVINE",
+      "texture": null,
+      "textureGroup": null,
+      "textureMudPotential": null,
+      "drainage": null,
+      "drainageRank": null,
+      "slopePercent": -9.0,
+      "stoniness": 0,
+      "parentMaterial": null
+    },
+    "percentNearWater": 35.2,
+    "waterCrossingCount": 6
+  }
+}

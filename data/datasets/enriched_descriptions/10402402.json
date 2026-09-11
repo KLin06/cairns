@@ -1,0 +1,64 @@
+{
+  "trailId": "10402402",
+  "trailSlug": "trail/canada/ontario/bendor-graves-loop",
+  "name": "Bendor and Graves Tract",
+  "description": "Get to know this 8.0-km loop trail near East Gwillimbury, Ontario. Generally considered a moderately challenging route, it takes an average of 2 h 12 min to complete. This is a very popular area for birding, cross-country skiing, and hiking, so you'll likely encounter other people while exploring. The trail is open year-round and is beautiful to visit anytime. Dogs are welcome and may be off-leash in some areas.",
+  "addressLocality": "East Gwillimbury, Ontario, Canada",
+  "latitude": 44.08701,
+  "longitude": -79.3599,
+  "ratingValue": 4.6,
+  "reviewCount": 1747,
+  "worstRating": "0",
+  "bestRating": "5",
+  "images": [
+    "https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMjYyMjIxMTYvZmVjNjViZWE5ODQ3OGMwZTdjOTM0YzUyNzg1NDUwZjguanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJ3ZWJwIiwicmVzaXplIjp7IndpZHRoIjoiNTAwIiwiaGVpZ2h0IjoiNTAwIiwiZml0IjoiaW5zaWRlIn0sInJvdGF0ZSI6bnVsbCwianBlZyI6eyJ0cmVsbGlzUXVhbnRpc2F0aW9uIjp0cnVlLCJvdmVyc2hvb3REZXJpbmdpbmciOnRydWUsIm9wdGltaXNlU2NhbnMiOnRydWUsInF1YW50aXNhdGlvblRhYmxlIjozfX19"
+  ],
+  "features": [
+    "Fee required",
+    "Dog-friendly",
+    "Kid-friendly"
+  ],
+  "surfaceTypes": [
+    {
+      "label": "unknown",
+      "percentOfSurface": 77.24,
+      "totalLength": 6167.19
+    },
+    {
+      "label": "natural",
+      "percentOfSurface": 22.76,
+      "totalLength": 1817.55
+    }
+  ],
+  "length": 8046.7,
+  "durationMinutes": 132,
+  "difficultyRating": "3",
+  "areaName": "York Regional Forest",
+  "popularity": 97.8313,
+  "terrainData": {
+    "rock": {
+      "rockType": " ",
+      "rockDescription": "Shale, limestone, dolostone, siltstone",
+      "geologicProvince": " ",
+      "geologicEra": "PALEOZOIC (251.0 Ma to 542.0 Ma)",
+      "rockCategories": [
+        "carbonate_sedimentary",
+        "fine_clastic_sedimentary"
+      ],
+      "rockSlipRisk": "high"
+    },
+    "soil": {
+      "soilName": "PONTYPOOL SAND",
+      "texture": "sand",
+      "textureGroup": "sand",
+      "textureMudPotential": 0,
+      "drainage": "well",
+      "drainageRank": 2,
+      "slopePercent": 37.5,
+      "stoniness": 1,
+      "parentMaterial": null
+    },
+    "percentNearWater": 6.6,
+    "waterCrossingCount": 5
+  }
+}

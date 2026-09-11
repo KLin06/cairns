@@ -1,0 +1,69 @@
+{
+  "trailId": "10238007",
+  "trailSlug": "trail/canada/ontario/mast-trail",
+  "name": "Mast Trail",
+  "description": "Enjoy this 5.3-km loop trail near Pickering, Ontario. Generally considered a moderately challenging route. This is a very popular area for birding, camping, and hiking, so you'll likely encounter other people while exploring. The trail is open year-round and is beautiful to visit anytime. Dogs are welcome, but must be on a leash.",
+  "addressLocality": "Pickering, Ontario, Canada",
+  "latitude": 43.80533,
+  "longitude": -79.13643,
+  "ratingValue": 4.6,
+  "reviewCount": 2125,
+  "worstRating": "0",
+  "bestRating": "5",
+  "images": [
+    "https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMjczOTgwODYvZDhkMzEzYzY4NjhiYmE3ZTc5ZjlmYTQxNjMyNjA0N2MuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJ3ZWJwIiwicmVzaXplIjp7IndpZHRoIjoiNTAwIiwiaGVpZ2h0IjoiNTAwIiwiZml0IjoiaW5zaWRlIn0sInJvdGF0ZSI6bnVsbCwianBlZyI6eyJ0cmVsbGlzUXVhbnRpc2F0aW9uIjp0cnVlLCJvdmVyc2hvb3REZXJpbmdpbmciOnRydWUsIm9wdGltaXNlU2NhbnMiOnRydWUsInF1YW50aXNhdGlvblRhYmxlIjozfX19"
+  ],
+  "features": [
+    "Fee required",
+    "Dogs on leash",
+    "Kid-friendly"
+  ],
+  "surfaceTypes": [
+    {
+      "label": "natural",
+      "percentOfSurface": 95.52,
+      "totalLength": 5098.31
+    },
+    {
+      "label": "paved",
+      "percentOfSurface": 2.86,
+      "totalLength": 152.69
+    },
+    {
+      "label": "unknown",
+      "percentOfSurface": 1.62,
+      "totalLength": 86.36
+    }
+  ],
+  "length": 5310.822,
+  "durationMinutes": null,
+  "difficultyRating": "3",
+  "areaName": "Rouge National Urban Park",
+  "popularity": 99.2028,
+  "terrainData": {
+    "rock": {
+      "rockType": " ",
+      "rockDescription": "Shale, limestone, dolostone, siltstone",
+      "geologicProvince": " ",
+      "geologicEra": "PALEOZOIC (251.0 Ma to 542.0 Ma)",
+      "rockCategories": [
+        "carbonate_sedimentary",
+        "fine_clastic_sedimentary"
+      ],
+      "rockSlipRisk": "high"
+    },
+    "soil": {
+      "soilName": "BRIGHTON SANDY LOAM",
+      "texture": "sandy loam",
+      "textureGroup": "loam",
+      "textureMudPotential": 1,
+      "drainage": "well",
+      "drainageRank": 2,
+      "slopePercent": 7.0,
+      "stoniness": 0,
+      "parentMaterial": null
+    },
+    "percentNearWater": 45.0,
+    "waterCrossingCount": 3
+  }
+}

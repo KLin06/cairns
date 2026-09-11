@@ -1,0 +1,80 @@
+{
+  "trailId": "10236986",
+  "trailSlug": "trail/canada/ontario/dundas-valley-trail",
+  "name": "Dundas Valley Trail",
+  "description": "Get to know this 10.9-km loop trail near Ancaster, Ontario. Generally considered a moderately challenging route, it takes an average of 2 h 50 min to complete. This is a very popular area for birding, cross-country skiing, and hiking, so you'll likely encounter other people while exploring. The trail is open year-round and is beautiful to visit anytime. Dogs are welcome, but must be on a leash.",
+  "addressLocality": "Ancaster, Ontario, Canada",
+  "latitude": 43.24081,
+  "longitude": -79.97561,
+  "ratingValue": 4.6,
+  "reviewCount": 1112,
+  "worstRating": "0",
+  "bestRating": "5",
+  "images": [
+    "https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMTA2NzYwNTAwLzYzZGU5NzU1Y2ExYjIxYzI1YjA1NWM4NmE2ZTc3YmYwLmpwZyIsImVkaXRzIjp7InRvRm9ybWF0Ijoid2VicCIsInJlc2l6ZSI6eyJ3aWR0aCI6IjUwMCIsImhlaWdodCI6IjUwMCIsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ=="
+  ],
+  "features": [
+    "Fee required",
+    "Dogs on leash",
+    "Stroller-friendly"
+  ],
+  "surfaceTypes": [
+    {
+      "label": "natural",
+      "percentOfSurface": 55.5,
+      "totalLength": 6110.14
+    },
+    {
+      "label": "gravel",
+      "percentOfSurface": 21.48,
+      "totalLength": 2365.03
+    },
+    {
+      "label": "paved",
+      "percentOfSurface": 14.32,
+      "totalLength": 1576.38
+    },
+    {
+      "label": "unknown",
+      "percentOfSurface": 8.59,
+      "totalLength": 945.52
+    },
+    {
+      "label": "wood",
+      "percentOfSurface": 0.11,
+      "totalLength": 12.65
+    }
+  ],
+  "length": 10943.512,
+  "durationMinutes": 170,
+  "difficultyRating": "3",
+  "areaName": "Dundas Valley Conservation Area",
+  "popularity": 97.556,
+  "terrainData": {
+    "rock": {
+      "rockType": " ",
+      "rockDescription": "Sandstone, shale, dolostone, siltstone",
+      "geologicProvince": " ",
+      "geologicEra": "PALEOZOIC (251.0 Ma to 542.0 Ma)",
+      "rockCategories": [
+        "carbonate_sedimentary",
+        "coarse_clastic_sedimentary",
+        "fine_clastic_sedimentary"
+      ],
+      "rockSlipRisk": "high"
+    },
+    "soil": {
+      "soilName": "ANCASTER SILT LOAM",
+      "texture": "silt loam",
+      "textureGroup": "silt",
+      "textureMudPotential": 2,
+      "drainage": "well",
+      "drainageRank": 2,
+      "slopePercent": 22.5,
+      "stoniness": 1,
+      "parentMaterial": null
+    },
+    "percentNearWater": 27.8,
+    "waterCrossingCount": 13
+  }
+}

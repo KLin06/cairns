@@ -1,0 +1,4206 @@
+[
+  {
+    "reviewId": 77976367,
+    "trailId": 10264009,
+    "comment": "Where good shoes you don’t mind getting muddy or dirty. Watch out for frogs and mosquitoes.",
+    "date": "2026-08-04T21:40:11.000Z",
+    "rating": 5,
+    "difficulty": 3.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Bugs",
+      "Muddy",
+      "Muddy",
+      "Buggy"
+    ],
+    "hasRecording": true,
+    "recordingId": 406122922.0
+  },
+  {
+    "reviewId": 73815962,
+    "trailId": 10264009,
+    "comment": "Bring a change of shoes it gets muddy but so worth it",
+    "date": "2026-07-11T13:34:07.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Muddy",
+      "Muddy"
+    ],
+    "hasRecording": true,
+    "recordingId": 398734583.0
+  },
+  {
+    "reviewId": 65430147,
+    "trailId": 10264009,
+    "comment": "Lovely trail, very muddy this time of year (May)",
+    "date": "2026-05-18T14:55:25.000Z",
+    "rating": 4,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Muddy",
+      "Muddy"
+    ],
+    "hasRecording": true,
+    "recordingId": 383950183.0
+  },
+  {
+    "reviewId": 64908338,
+    "trailId": 10264009,
+    "comment": "lots of mud around this time",
+    "date": "2026-05-15T19:31:33.000Z",
+    "rating": 5,
+    "difficulty": 3.0,
+    "activity": "Hiking",
+    "obstacles": [
+      "Bugs",
+      "Muddy",
+      "Wildflowers"
+    ],
+    "trailConditions": [
+      "Muddy",
+      "Muddy"
+    ],
+    "hasRecording": true,
+    "recordingId": 383053447.0
+  },
+  {
+    "reviewId": 64673872,
+    "trailId": 10264009,
+    "comment": "Good hike with Drummy and Stef. Pretty muddy but not impossible to hike. Great views and beautiful sunset.",
+    "date": "2026-05-13T22:44:24.000Z",
+    "rating": 5,
+    "difficulty": 3.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Muddy",
+      "Muddy"
+    ],
+    "hasRecording": true,
+    "recordingId": 382593620.0
+  },
+  {
+    "reviewId": 64275613,
+    "trailId": 10264009,
+    "comment": "Pretty muddy still",
+    "date": "2026-05-10T16:35:45.000Z",
+    "rating": 3,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Muddy",
+      "Muddy"
+    ],
+    "hasRecording": true,
+    "recordingId": 381837840.0
+  },
+  {
+    "reviewId": 64103206,
+    "trailId": 10264009,
+    "comment": "Well marked trail, nice fairly easy loop for trail running. Extremely muddy after rainfall though which made it slippery and tougher to pick up speed.",
+    "date": "2026-05-09T20:19:34.000Z",
+    "rating": 3,
+    "difficulty": 1.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Muddy",
+      "Slippery",
+      "Muddy"
+    ],
+    "hasRecording": true,
+    "recordingId": 381542838.0
+  },
+  {
+    "reviewId": 63217657,
+    "trailId": 10264009,
+    "comment": "Beautiful trial",
+    "date": "2026-04-28T20:26:09.000Z",
+    "rating": 5,
+    "difficulty": 3.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 378691811.0
+  },
+  {
+    "reviewId": 62459510,
+    "trailId": 10264009,
+    "comment": "Salamanders was here",
+    "date": "2026-04-06T22:24:33.000Z",
+    "rating": 5,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 373493282.0
+  },
+  {
+    "reviewId": 62078783,
+    "trailId": 10264009,
+    "comment": "Very muddy",
+    "date": "2026-03-28T14:00:47.000Z",
+    "rating": 5,
+    "difficulty": 3.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Muddy",
+      "Muddy"
+    ],
+    "hasRecording": true,
+    "recordingId": 371403038.0
+  },
+  {
+    "reviewId": 62003691,
+    "trailId": 10264009,
+    "comment": "Very pretty trail. Lovely waterfalls. An absolute mud pit in parts right now though. Still a great hike if you don’t mind getting dirty.",
+    "date": "2026-03-25T15:01:58.000Z",
+    "rating": 4,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Muddy",
+      "Muddy"
+    ],
+    "hasRecording": true,
+    "recordingId": 370905659.0
+  },
+  {
+    "reviewId": 61573267,
+    "trailId": 10264009,
+    "comment": "Mud. More mud. More and more mud.",
+    "date": "2026-03-10T19:09:37.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Muddy",
+      "Muddy"
+    ],
+    "hasRecording": true,
+    "recordingId": 368190551.0
+  },
+  {
+    "reviewId": 60975601,
+    "trailId": 10264009,
+    "comment": "It was beautiful, well maintained, loved it.\nIt says medium difficulty, for me it was closer to hard in the steepest parts.",
+    "date": "2026-02-15T17:25:51.000Z",
+    "rating": 5,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [
+      "Well maintained"
+    ],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 364332038.0
+  },
+  {
+    "reviewId": 60936854,
+    "trailId": 10264009,
+    "comment": "Trail was easy to navigate. Wished people picked up after their dogs. Lookout was closed off at the falls during winter. ",
+    "date": "2026-02-14T18:26:30.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Snow",
+      "Obstructions",
+      "Trash on trail"
+    ],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 364128990.0
+  },
+  {
+    "reviewId": 60664315,
+    "trailId": 10264009,
+    "comment": "This is not appropriate for cross country skiing. Maybe in fresh snow cutting your own trail,  even then some of the hills and switchbacks require better than average skills.",
+    "date": "2026-02-01T19:32:45.000Z",
+    "rating": 3,
+    "difficulty": 3.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Snow",
+      "Snow"
+    ],
+    "hasRecording": true,
+    "recordingId": 362283343.0
+  },
+  {
+    "reviewId": 60621394,
+    "trailId": 10264009,
+    "comment": "Absolutely beautiful today! Loads of snow! Path was well trodden in most parts. Not many people out there today w it being -10C",
+    "date": "2026-01-31T17:21:42.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Snow",
+      "Snow"
+    ],
+    "hasRecording": true,
+    "recordingId": 362020007.0
+  },
+  {
+    "reviewId": 60375134,
+    "trailId": 10264009,
+    "comment": "\non a day like today. It is definitely advisable to wear crampons. The ice can become very treacherous in certain areas as there are some pretty steep hills in areas of the trail. The Falls were both lovely to see. If you want to be down at the base of Swayze Falls, you need to find a way down before you get to the observation deck because there is no way to get down from there. Even with the icy conditions I was quite surprised to see a handful of trail runners. And there were quite a few dogs, enjoying the trails as well. So it is manageable, but if you don’t have great balance or don’t do well and ice it can be quite treacherous.",
+    "date": "2026-01-18T13:56:52.000Z",
+    "rating": 4,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [
+      "Snow",
+      "Icy"
+    ],
+    "trailConditions": [
+      "Snow",
+      "Icy",
+      "Snow",
+      "Icy"
+    ],
+    "hasRecording": true,
+    "recordingId": 360240170.0
+  },
+  {
+    "reviewId": 60224335,
+    "trailId": 10264009,
+    "comment": "Super muddy, but not impossible\n",
+    "date": "2026-01-11T19:24:12.000Z",
+    "rating": 5,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Muddy",
+      "Muddy"
+    ],
+    "hasRecording": true,
+    "recordingId": 359167401.0
+  },
+  {
+    "reviewId": 60184728,
+    "trailId": 10264009,
+    "comment": "Very muddy today, but to be expected",
+    "date": "2026-01-10T16:02:52.000Z",
+    "rating": 4,
+    "difficulty": 0.0,
+    "activity": "Scenic driving",
+    "obstacles": [],
+    "trailConditions": [
+      "Muddy",
+      "Muddy"
+    ],
+    "hasRecording": true,
+    "recordingId": 358934556.0
+  },
+  {
+    "reviewId": 59996952,
+    "trailId": 10264009,
+    "comment": "The trail is in great shape.",
+    "date": "2026-01-02T15:03:28.000Z",
+    "rating": 5,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [
+      "Snow"
+    ],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 357660063.0
+  },
+  {
+    "reviewId": 59347749,
+    "trailId": 10264009,
+    "comment": "Very well marked trail. The inclines were very slippery with mud. Some trees on trail.",
+    "date": "2025-11-28T15:27:07.000Z",
+    "rating": 4,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [
+      "Muddy",
+      "Snow",
+      "Obstructions"
+    ],
+    "trailConditions": [
+      "Muddy",
+      "Slippery"
+    ],
+    "hasRecording": true,
+    "recordingId": 353116692.0
+  },
+  {
+    "reviewId": 59370292,
+    "trailId": 10264009,
+    "comment": "Some of the inclines were extremely slippery with mud. Seems like the trail is mainly for mountain biking based on the shape of parts of the trail. Would good back when the trails are less muddy to explore other parts.",
+    "date": "2025-11-28T15:22:12.000Z",
+    "rating": 4,
+    "difficulty": 3.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Muddy",
+      "Slippery"
+    ],
+    "hasRecording": true,
+    "recordingId": 353127836.0
+  },
+  {
+    "reviewId": 58569687,
+    "trailId": 10264009,
+    "comment": "nicely marked, great views trail through multiple landscapes make for an enjoyable med-long distance hike! few inclines and wet spots.",
+    "date": "2025-10-26T13:20:47.000Z",
+    "rating": 5,
+    "difficulty": 3.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 348175947.0
+  },
+  {
+    "reviewId": 58550927,
+    "trailId": 10264009,
+    "comment": "I hiked this trail today and had an amazing experience. The scenery was beautiful, with gorgeous views and plenty of wildlife along the way. I even saw a woman riding a horse, which added to the peaceful atmosphere. The trail is in great condition, with some steep hills that are manageable and make the hike interesting. A fun note..there’s a waterfall at the end, but it’s seasonal, so you may or may not catch it. Overall, a serene and enjoyable hike with lots to see!",
+    "date": "2025-10-25T19:33:34.000Z",
+    "rating": 5,
+    "difficulty": 3.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 348059067.0
+  },
+  {
+    "reviewId": 58452463,
+    "trailId": 10264009,
+    "comment": "Great trail conditions, still beautiful fall colors, and just plain scenic!",
+    "date": "2025-10-22T19:04:41.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": null,
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 58344212,
+    "trailId": 10264009,
+    "comment": "Not too muddy, no water flowing right now though, still pretty with all the fall colours",
+    "date": "2025-10-19T03:07:26.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": null,
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 57061429,
+    "trailId": 10264009,
+    "comment": "Will be very lovely in the fall!",
+    "date": "2025-09-13T20:00:21.000Z",
+    "rating": 4,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 339774941.0
+  },
+  {
+    "reviewId": 55445260,
+    "trailId": 10264009,
+    "comment": "Perfect conditions today. Waterfall is dry though!",
+    "date": "2025-08-04T15:59:14.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 330861638.0
+  },
+  {
+    "reviewId": 54902566,
+    "trailId": 10264009,
+    "comment": "First half is completely overgrown. Fun if you like bushwhacking.",
+    "date": "2025-07-22T17:26:31.000Z",
+    "rating": 5,
+    "difficulty": 7.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 327981902.0
+  },
+  {
+    "reviewId": 53821947,
+    "trailId": 10264009,
+    "comment": "Lots of winding hills, dry and easy to follow :)",
+    "date": "2025-06-28T00:35:49.000Z",
+    "rating": 4,
+    "difficulty": 3.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 322526810.0
+  },
+  {
+    "reviewId": 53111924,
+    "trailId": 10264009,
+    "comment": "Lots of horse poop as horses go on the Swayze falls trail aka blue/yellow trail/white trails. A few steep hills but mostly flat grounds, beautiful waterfalls and creeks, beautiful view in open fields, mild ticks but not bad.",
+    "date": "2025-06-08T18:35:15.000Z",
+    "rating": 5,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [
+      "Bugs",
+      "Muddy",
+      "Overgrown",
+      "Wildflowers"
+    ],
+    "trailConditions": [
+      "Bugs"
+    ],
+    "hasRecording": true,
+    "recordingId": 318741322.0
+  },
+  {
+    "reviewId": 53038408,
+    "trailId": 10264009,
+    "comment": "Drier trails than I’ve seen for Swayze in a while. People were courteous, and most dogs were leashed.",
+    "date": "2025-06-07T14:16:16.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Walking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 318394021.0
+  },
+  {
+    "reviewId": 52908368,
+    "trailId": 10264009,
+    "comment": "Nice relatively easy trail",
+    "date": "2025-06-03T12:38:31.000Z",
+    "rating": 4,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 317654318.0
+  },
+  {
+    "reviewId": 52404987,
+    "trailId": 10264009,
+    "comment": "I went on this trail when it had been raining for several days. I still had a great time and the waterfall was beautiful, with the information panel being very interesting. But I definitely only recommend going in dry conditions!",
+    "date": "2025-05-23T14:13:52.000Z",
+    "rating": 5,
+    "difficulty": 0.0,
+    "activity": null,
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 51361156,
+    "trailId": 10264009,
+    "comment": "Awesomeness!!!",
+    "date": "2025-04-23T21:04:49.000Z",
+    "rating": 5,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [
+      "Muddy",
+      "No bugs",
+      "Wildflowers",
+      "Well maintained"
+    ],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 309683379.0
+  },
+  {
+    "reviewId": 51193248,
+    "trailId": 10264009,
+    "comment": "Muddy!",
+    "date": "2025-04-19T17:36:24.000Z",
+    "rating": 3,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [
+      "Muddy",
+      "Well maintained"
+    ],
+    "trailConditions": [
+      "Muddy"
+    ],
+    "hasRecording": true,
+    "recordingId": 308864572.0
+  },
+  {
+    "reviewId": 50816936,
+    "trailId": 10264009,
+    "comment": "With extremely muddy conditions it took about 2.5hrs, with minimal stops. \nWaterfall is located near the trailhead if you start counter-clockwise. Variety of short steep sections and large open sections.",
+    "date": "2025-04-08T20:05:44.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": null,
+    "obstacles": [],
+    "trailConditions": [
+      "Muddy"
+    ],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 50336217,
+    "trailId": 10264009,
+    "comment": "Too muddy",
+    "date": "2025-03-23T18:19:24.000Z",
+    "rating": 1,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Muddy"
+    ],
+    "hasRecording": true,
+    "recordingId": 304269671.0
+  },
+  {
+    "reviewId": 50201405,
+    "trailId": 10264009,
+    "comment": "muddy as FARK but so pretty!!!",
+    "date": "2025-03-19T14:54:18.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Muddy"
+    ],
+    "hasRecording": true,
+    "recordingId": 303537245.0
+  },
+  {
+    "reviewId": 50057677,
+    "trailId": 10264009,
+    "comment": "Muddy conditions in March.",
+    "date": "2025-03-14T15:43:24.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Muddy",
+      "Icy"
+    ],
+    "trailConditions": [
+      "Muddy"
+    ],
+    "hasRecording": true,
+    "recordingId": 302747245.0
+  },
+  {
+    "reviewId": 49984062,
+    "trailId": 10264009,
+    "comment": "It's not a bad hike, just bad timing. Extreme muddy conditions with some ice still, but the massive ruts in the trail make the water difficult to traverse. ",
+    "date": "2025-03-11T16:14:59.000Z",
+    "rating": 2,
+    "difficulty": 5.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Muddy",
+      "Icy"
+    ],
+    "hasRecording": true,
+    "recordingId": 302346717.0
+  },
+  {
+    "reviewId": 49302300,
+    "trailId": 10264009,
+    "comment": "Snow packed, but rain on its way. Anyone hiking tomorrow may need crampons.",
+    "date": "2025-02-12T17:21:44.000Z",
+    "rating": 5,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [
+      "Snow",
+      "No bugs",
+      "Well maintained"
+    ],
+    "trailConditions": [
+      "Snow",
+      "Icy"
+    ],
+    "hasRecording": true,
+    "recordingId": 298538586.0
+  },
+  {
+    "reviewId": 48607522,
+    "trailId": 10264009,
+    "comment": "Best with some kind of icers or crampons on your boots. Trail can be slippery and icey",
+    "date": "2025-01-11T16:51:26.000Z",
+    "rating": 4,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Snow",
+      "Icy",
+      "Slippery"
+    ],
+    "hasRecording": true,
+    "recordingId": 294548898.0
+  },
+  {
+    "reviewId": 48573273,
+    "trailId": 10264009,
+    "comment": "Average of -5°C the past three days so some slick ice at parts. Frozen footprints can be sharp. Fun and not crowded today.",
+    "date": "2025-01-09T19:44:01.000Z",
+    "rating": 5,
+    "difficulty": 5.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Icy",
+      "Slippery"
+    ],
+    "hasRecording": true,
+    "recordingId": 294338035.0
+  },
+  {
+    "reviewId": 48187932,
+    "trailId": 10264009,
+    "comment": "Icy right now but not crowded and a great trail. Well marked.",
+    "date": "2024-12-26T16:04:32.000Z",
+    "rating": 5,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Icy"
+    ],
+    "hasRecording": true,
+    "recordingId": 292370087.0
+  },
+  {
+    "reviewId": 47377597,
+    "trailId": 10264009,
+    "comment": "A few muddy sections today",
+    "date": "2024-11-11T14:33:26.000Z",
+    "rating": 4,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Muddy"
+    ],
+    "hasRecording": true,
+    "recordingId": 287555241.0
+  },
+  {
+    "reviewId": 46693093,
+    "trailId": 10264009,
+    "comment": "There were a few muddy patches along the route, even though it hadn’t rained for a week. Trail runs through shady wooded areas and sunny fields, so remember sun screen!\n\nMost cyclists were courteous and communicated well. All dogs we saw were leashed. Beautiful day to enjoy the fall foliage, although many trees were already bare. The air smelled fantastic (“autumn spice” haha).",
+    "date": "2024-10-20T17:44:45.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": null,
+    "obstacles": [],
+    "trailConditions": [
+      "Muddy"
+    ],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 46485416,
+    "trailId": 10264009,
+    "comment": "Extremely muddy today. My tread filled with mud which made it difficult to continue. It poured rain all night last night, so I’m sure on average it’s not too bad. Made for a more interesting adventure!",
+    "date": "2024-10-14T16:08:00.000Z",
+    "rating": 5,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Muddy"
+    ],
+    "hasRecording": true,
+    "recordingId": 283099869.0
+  },
+  {
+    "reviewId": 45951690,
+    "trailId": 10264009,
+    "comment": "Beautiful trail, with only 1 steep section",
+    "date": "2024-10-02T16:17:52.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Muddy"
+    ],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 281059289.0
+  },
+  {
+    "reviewId": 45194827,
+    "trailId": 10264009,
+    "comment": "Nature is the Best ",
+    "date": "2024-09-11T13:24:22.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 277281951.0
+  },
+  {
+    "reviewId": 45110344,
+    "trailId": 10264009,
+    "comment": "Meant to do the Swayze falls trail but ended up going down a different one, but it was enjoyable!",
+    "date": "2024-09-08T21:01:33.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 276865534.0
+  },
+  {
+    "reviewId": 44897124,
+    "trailId": 10264009,
+    "comment": "A beautiful hike. As other people have mentioned, the waterfall currently is very small. Hearing the bees, birds, and seeing two small fawns were highlights of the trail",
+    "date": "2024-09-03T13:34:10.000Z",
+    "rating": 4,
+    "difficulty": 1.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 275848570.0
+  },
+  {
+    "reviewId": 44283851,
+    "trailId": 10264009,
+    "comment": "Trails 4 & 5 have super mud puddles at the moment but still passable.",
+    "date": "2024-08-20T17:40:39.000Z",
+    "rating": 5,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Muddy"
+    ],
+    "hasRecording": true,
+    "recordingId": 273131144.0
+  },
+  {
+    "reviewId": 44283752,
+    "trailId": 10264009,
+    "comment": "Nice loop rewards\nEd with a beautiful waterfall.",
+    "date": "2024-08-20T13:12:32.000Z",
+    "rating": 5,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 273130705.0
+  },
+  {
+    "reviewId": 43597671,
+    "trailId": 10264009,
+    "comment": "Dry no waterfall",
+    "date": "2024-08-04T16:30:25.000Z",
+    "rating": 4,
+    "difficulty": 0.0,
+    "activity": "Scenic driving",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 270012224.0
+  },
+  {
+    "reviewId": 42851975,
+    "trailId": 10264009,
+    "comment": "loved this trail over all but at this destination there is a mental wire across the path Proceed with caution ",
+    "date": "2024-07-18T21:55:40.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 266780963.0
+  },
+  {
+    "reviewId": 41211446,
+    "trailId": 10264009,
+    "comment": "Overgrown weedy areas, muddy in some areas, but manageable.",
+    "date": "2024-07-07T14:40:28.000Z",
+    "rating": 4,
+    "difficulty": 3.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Muddy"
+    ],
+    "hasRecording": true,
+    "recordingId": 264782099.0
+  },
+  {
+    "reviewId": 41204233,
+    "trailId": 10264009,
+    "comment": "Fairly well maintained.  Route is well marked.  Parking pretty limited so come early.  Not too many people though.",
+    "date": "2024-07-07T12:52:21.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 264749659.0
+  },
+  {
+    "reviewId": 40921953,
+    "trailId": 10264009,
+    "comment": "Some muddy sections, well marked generally but turnoffs not identified. Primarily forest and if done clockwise, scenic views at the end. Horses can sneak up on you so watch out and make sure that you don’t become their next meal(I hear they eat hikers when there are no carrots around so you may want to bring a few… or bring sugar cubes)",
+    "date": "2024-06-30T19:32:47.000Z",
+    "rating": 3,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Muddy"
+    ],
+    "hasRecording": true,
+    "recordingId": 263453923.0
+  },
+  {
+    "reviewId": 40329275,
+    "trailId": 10264009,
+    "comment": "From open weed fields to wooden trails. Parts are nice and parts are well you know. Not crowded. Trails can be muddy. Wear good shoes!!",
+    "date": "2024-06-15T14:14:44.000Z",
+    "rating": 3,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Muddy"
+    ],
+    "hasRecording": true,
+    "recordingId": 260697274.0
+  },
+  {
+    "reviewId": 40272135,
+    "trailId": 10264009,
+    "comment": "grown in. to many tics\n",
+    "date": "2024-06-13T20:10:09.000Z",
+    "rating": 2,
+    "difficulty": null,
+    "activity": null,
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 260416632.0
+  },
+  {
+    "reviewId": 40368507,
+    "trailId": 10264009,
+    "comment": "MUDDY! But very much expected considering the skies opened up and downpoured on us a few times during the hike. No complaints from us tho, added to the adventure! Had the best time, with the best company! But take extreme caution if you go in the rain, my fiance did fall…twice ",
+    "date": "2024-06-09T19:04:51.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Muddy"
+    ],
+    "hasRecording": true,
+    "recordingId": 260856433.0
+  },
+  {
+    "reviewId": 40004541,
+    "trailId": 10264009,
+    "comment": "Very muddy and one bridge is washed out. Otherwise a good hike\n",
+    "date": "2024-06-06T18:08:33.000Z",
+    "rating": 3,
+    "difficulty": null,
+    "activity": null,
+    "obstacles": [],
+    "trailConditions": [
+      "Muddy"
+    ],
+    "hasRecording": true,
+    "recordingId": 259189906.0
+  },
+  {
+    "reviewId": 39371421,
+    "trailId": 10264009,
+    "comment": "Awsome trail ",
+    "date": "2024-05-19T15:30:00.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 256089744.0
+  },
+  {
+    "reviewId": 39257626,
+    "trailId": 10264009,
+    "comment": "Enjoyable trail, beautiful scenery throughout the hike ",
+    "date": "2024-05-14T21:32:39.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 256788389.0
+  },
+  {
+    "reviewId": 38977308,
+    "trailId": 10264009,
+    "comment": "• very muddy in most areas\n• beautiful views and plants \n• medium commute on this trail",
+    "date": "2024-05-04T18:49:49.000Z",
+    "rating": 5,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Muddy"
+    ],
+    "hasRecording": true,
+    "recordingId": 253685477.0
+  },
+  {
+    "reviewId": 39007857,
+    "trailId": 10264009,
+    "comment": "Hiked this loop about a month ago and I was skating int he mud for 2/3 of the trail. This time around, it was about 1/4. Just love it here! My little pup came along today too. ",
+    "date": "2024-05-04T16:36:43.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Muddy"
+    ],
+    "hasRecording": true,
+    "recordingId": 253830080.0
+  },
+  {
+    "reviewId": 38802500,
+    "trailId": 10264009,
+    "comment": "A little muddy but doable.",
+    "date": "2024-04-26T13:20:06.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Muddy"
+    ],
+    "hasRecording": true,
+    "recordingId": 252344848.0
+  },
+  {
+    "reviewId": 38791128,
+    "trailId": 10264009,
+    "comment": "Muddy in more than a few spots",
+    "date": "2024-04-25T20:21:21.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Muddy"
+    ],
+    "hasRecording": true,
+    "recordingId": 252258817.0
+  },
+  {
+    "reviewId": 38911549,
+    "trailId": 10264009,
+    "comment": "Beautiful hike but the trail was very muddy. Still worth it though, just wear hiking boots!",
+    "date": "2024-04-18T14:33:21.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Muddy"
+    ],
+    "hasRecording": true,
+    "recordingId": 251135558.0
+  },
+  {
+    "reviewId": 38418530,
+    "trailId": 10264009,
+    "comment": "Super fun trail, beautiful birds and scenery, but very muddy during the spring and after rain ",
+    "date": "2024-04-07T00:16:16.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Muddy"
+    ],
+    "trailConditions": [
+      "Muddy"
+    ],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 38420346,
+    "trailId": 10264009,
+    "comment": "very nice trail with beautiful views and birds, but can be muddy and slippery so be careful! ",
+    "date": "2024-04-06T20:18:37.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Muddy",
+      "Slippery"
+    ],
+    "hasRecording": true,
+    "recordingId": 249341549.0
+  },
+  {
+    "reviewId": 38619221,
+    "trailId": 10264009,
+    "comment": "This trail is mud. It’s like walking through a muddy farm field. The falls is nice but you don’t need to do the loop to see it.",
+    "date": "2024-03-31T20:19:41.000Z",
+    "rating": 1,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Muddy"
+    ],
+    "hasRecording": true,
+    "recordingId": 250903755.0
+  },
+  {
+    "reviewId": 38275405,
+    "trailId": 10264009,
+    "comment": "Extremely muddy but a fun challenge",
+    "date": "2024-03-30T17:36:26.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Muddy"
+    ],
+    "hasRecording": true,
+    "recordingId": 248256040.0
+  },
+  {
+    "reviewId": 38271334,
+    "trailId": 10264009,
+    "comment": "This trail provided just the right amount of challenge and elevation gain to kick off the summer hiking season. However, be prepared for muddy and slippery conditions on about half of the trail. Hiking boots and poles are highly recommended for a safe and enjoyable experience.",
+    "date": "2024-03-30T16:27:26.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Walking",
+    "obstacles": [],
+    "trailConditions": [
+      "Muddy",
+      "Slippery"
+    ],
+    "hasRecording": true,
+    "recordingId": 248228486.0
+  },
+  {
+    "reviewId": 38251571,
+    "trailId": 10264009,
+    "comment": "Great trail but muddy sections this time of year.  Only reason for the 4 stars,  rest of the year this is a five star trail!",
+    "date": "2024-03-29T17:26:19.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Muddy"
+    ],
+    "hasRecording": true,
+    "recordingId": 248025203.0
+  },
+  {
+    "reviewId": 38180399,
+    "trailId": 10264009,
+    "comment": "Muddy",
+    "date": "2024-03-24T21:45:23.000Z",
+    "rating": 3,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Muddy"
+    ],
+    "hasRecording": true,
+    "recordingId": 247425664.0
+  },
+  {
+    "reviewId": 38149000,
+    "trailId": 10264009,
+    "comment": "Forgot how muddy trail gets even with snow",
+    "date": "2024-03-23T16:36:20.000Z",
+    "rating": 3,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Muddy",
+      "Snow"
+    ],
+    "hasRecording": true,
+    "recordingId": 247183181.0
+  },
+  {
+    "reviewId": 38098664,
+    "trailId": 10264009,
+    "comment": "Muck.",
+    "date": "2024-03-19T22:01:41.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Muddy"
+    ],
+    "hasRecording": true,
+    "recordingId": 246712629.0
+  },
+  {
+    "reviewId": 37979334,
+    "trailId": 10264009,
+    "comment": "Great weather!! Really muddy in low lying flat lands and some hills. Still a nice  hike that couldn’t be passed up!",
+    "date": "2024-03-13T14:11:59.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Muddy"
+    ],
+    "hasRecording": true,
+    "recordingId": 245719029.0
+  },
+  {
+    "reviewId": 37897854,
+    "trailId": 10264009,
+    "comment": "Great trail. It was muddy about 25% of the trail. There were a bunch of trees down, blocking the path as well. First time seeing Swayze Falls. Hope to return soon.",
+    "date": "2024-03-08T21:05:51.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Muddy"
+    ],
+    "hasRecording": true,
+    "recordingId": 245022442.0
+  },
+  {
+    "reviewId": 37850288,
+    "trailId": 10264009,
+    "comment": "great hike, muddy today",
+    "date": "2024-03-04T17:52:25.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Muddy"
+    ],
+    "hasRecording": true,
+    "recordingId": 244538771.0
+  },
+  {
+    "reviewId": 37820630,
+    "trailId": 10264009,
+    "comment": "Mud hills provincial park.",
+    "date": "2024-03-03T13:39:40.000Z",
+    "rating": 1,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Muddy"
+    ],
+    "hasRecording": true,
+    "recordingId": 244310840.0
+  },
+  {
+    "reviewId": 37790670,
+    "trailId": 10264009,
+    "comment": "Extremely muddy and slippery",
+    "date": "2024-03-01T20:04:48.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Muddy",
+      "Slippery"
+    ],
+    "hasRecording": true,
+    "recordingId": 244037099.0
+  },
+  {
+    "reviewId": 37618061,
+    "trailId": 10264009,
+    "comment": "Lots of mud, very rutted",
+    "date": "2024-02-19T18:53:12.000Z",
+    "rating": 3,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Muddy"
+    ],
+    "hasRecording": true,
+    "recordingId": 241465922.0
+  },
+  {
+    "reviewId": 37596571,
+    "trailId": 10264009,
+    "comment": "Waterfall view with bumpy trails, ups downs and veering trails. Today it was snowy trails and ice, the snow on the decline is slippery. Great hike.",
+    "date": "2024-02-18T20:22:35.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Snow",
+      "Icy",
+      "Slippery"
+    ],
+    "hasRecording": true,
+    "recordingId": 241162813.0
+  },
+  {
+    "reviewId": 37560159,
+    "trailId": 10264009,
+    "comment": "Was fairly frozen, running on people's leftover footsteps was not entirely pleasant. Very pretty though, solid trail for running, although it's very hilly",
+    "date": "2024-02-17T16:56:45.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Trail running",
+    "obstacles": [
+      "Snow",
+      "Icy",
+      "Slippery"
+    ],
+    "trailConditions": [
+      "Icy"
+    ],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 37047074,
+    "trailId": 10264009,
+    "comment": "We expected the trail to be frozen after a few days of sub zero weather but it was still fairly muddy in many places. We were still able to complete our hike with some slips but no falls. ",
+    "date": "2024-01-07T16:13:44.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Muddy",
+      "Icy"
+    ],
+    "hasRecording": true,
+    "recordingId": 230389160.0
+  },
+  {
+    "reviewId": 36706110,
+    "trailId": 10264009,
+    "comment": "Super super slippery mud, but otherwise beautiful views and super fun trail!!",
+    "date": "2023-12-15T14:53:16.000Z",
+    "rating": 3,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Muddy",
+      "Slippery"
+    ],
+    "hasRecording": true,
+    "recordingId": 224216494.0
+  },
+  {
+    "reviewId": 36643419,
+    "trailId": 10264009,
+    "comment": "Very muddy and slippery for at least half the trail",
+    "date": "2023-12-08T20:48:10.000Z",
+    "rating": 2,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Muddy",
+      "Slippery"
+    ],
+    "hasRecording": true,
+    "recordingId": 223090796.0
+  },
+  {
+    "reviewId": 36305110,
+    "trailId": 10264009,
+    "comment": "A bit slippery at times, need to follow the path. I  had fun overall though. Lots of beautiful scenery and sites to see, had my dog on leash too ",
+    "date": "2023-11-12T01:36:00.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Muddy",
+      "Overgrown",
+      "Rocky",
+      "Slippery"
+    ],
+    "trailConditions": [
+      "Slippery"
+    ],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 36108206,
+    "trailId": 10264009,
+    "comment": "Not a trail :)",
+    "date": "2023-10-29T15:32:26.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 214138683.0
+  },
+  {
+    "reviewId": 35834193,
+    "trailId": 10264009,
+    "comment": "It’s very slippery after rain. \n",
+    "date": "2023-10-14T17:53:59.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Slippery"
+    ],
+    "hasRecording": true,
+    "recordingId": 209971309.0
+  },
+  {
+    "reviewId": 35766590,
+    "trailId": 10264009,
+    "comment": "\nFollow the path",
+    "date": "2023-10-10T18:51:10.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 208813350.0
+  },
+  {
+    "reviewId": 35514867,
+    "trailId": 10264009,
+    "comment": "Nice and dry! Falling black walnuts... I swear it's the squirrels trying to kill us! Haha keep your wits about you. Gorgeous day, hot and sunny. We saw lots of baby garter and red-bellied snakes.",
+    "date": "2023-09-29T18:56:31.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 205047919.0
+  },
+  {
+    "reviewId": 35430191,
+    "trailId": 10264009,
+    "comment": "simple clean and not busy \n",
+    "date": "2023-09-24T17:29:43.000Z",
+    "rating": 3,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 203544096.0
+  },
+  {
+    "reviewId": 34838247,
+    "trailId": 10264009,
+    "comment": "A really nice hike with lots of mildly challenging hills. Some muddy areas but not too bad.  The bee activity was so lively in one of the high fields that you could hear all the buzzing! Lots of butterflies too.",
+    "date": "2023-08-27T19:32:28.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Muddy"
+    ],
+    "hasRecording": true,
+    "recordingId": 195503397.0
+  },
+  {
+    "reviewId": 34810072,
+    "trailId": 10264009,
+    "comment": "Very muddy. Had to turn around.",
+    "date": "2023-08-26T20:33:25.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Muddy"
+    ],
+    "hasRecording": true,
+    "recordingId": 195203135.0
+  },
+  {
+    "reviewId": 34842002,
+    "trailId": 10264009,
+    "comment": "overgrown on the single track portions. nice trail with a few steep climbs. ",
+    "date": "2023-08-26T18:38:14.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 195142352.0
+  },
+  {
+    "reviewId": 34389556,
+    "trailId": 10264009,
+    "comment": "Good conditions. Bit muddy in a few spots",
+    "date": "2023-08-06T19:51:17.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Muddy"
+    ],
+    "hasRecording": true,
+    "recordingId": 190147942.0
+  },
+  {
+    "reviewId": 34144254,
+    "trailId": 10264009,
+    "comment": "Short Hills is pretty nice. \n\nI ended up getting on the bruce trail via the Swayze Falls trail so I didn't  get to see much of the park. Especially because I didnt know this park didnt close at 8 pm. I eneded up rushing back for no reason.\n\n It looks like the sprayed alot of pesticides in certain area though. The water fall is nice. That trail down the hill right after the waterfall, lots of thorns after the creek and really overgrown the farther you go. \n\nRecommend long pants and long sleeves for this park. \n\n",
+    "date": "2023-07-26T21:23:31.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 187356460.0
+  },
+  {
+    "reviewId": 33993319,
+    "trailId": 10264009,
+    "comment": "Nice trail but covered with mosquitos and black fly’s throughout, especially with the long grass and humidity!",
+    "date": "2023-07-12T19:03:35.000Z",
+    "rating": 3,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Bugs"
+    ],
+    "hasRecording": true,
+    "recordingId": 183629449.0
+  },
+  {
+    "reviewId": 33071371,
+    "trailId": 10264009,
+    "comment": "Not muddy at all. Very lush and green. There is no water in the falls at the moment.",
+    "date": "2023-06-18T14:28:32.000Z",
+    "rating": 3,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 177638006.0
+  },
+  {
+    "reviewId": 33049108,
+    "trailId": 10264009,
+    "comment": "There was no waterfall though- it was 99 % dried up",
+    "date": "2023-06-17T17:51:47.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 177552453.0
+  },
+  {
+    "reviewId": 32809141,
+    "trailId": 10264009,
+    "comment": "We went on this trail yesterday. The river is currently dried up and some of the trails are pretty rough. Make sure you’re protecting yourself from ticks! \n\nOverall, even with the river dried up, the trails were not muddy but definitely want a good pair of hiking boots if you’ve got them. ",
+    "date": "2023-06-07T18:17:51.000Z",
+    "rating": 3,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Bugs"
+    ],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 32820331,
+    "trailId": 10264009,
+    "comment": "Black walnut had lots of cracked mud and pitted horse hoof indents. Swayze falls was in a bit better riding shape. Rough run out there right now.",
+    "date": "2023-06-07T16:33:13.000Z",
+    "rating": 3,
+    "difficulty": null,
+    "activity": "Mountain biking",
+    "obstacles": [],
+    "trailConditions": [
+      "Muddy"
+    ],
+    "hasRecording": true,
+    "recordingId": 175272795.0
+  },
+  {
+    "reviewId": 32703716,
+    "trailId": 10264009,
+    "comment": "Trail is beautiful, but oh BOY are there ticks! My husband got 10 on him, our dog had 4 and I luckily had 0 (kudos polyester workout pants!) just a heads up!!",
+    "date": "2023-06-03T12:49:33.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Bugs"
+    ],
+    "hasRecording": true,
+    "recordingId": 174236314.0
+  },
+  {
+    "reviewId": 32509456,
+    "trailId": 10264009,
+    "comment": "Beautiful day and gorgeous hike. Not very shaded so it was hot. Waterfall just a trick but still Beautiful.  Especially from the bottom. ",
+    "date": "2023-05-27T13:46:29.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 172538347.0
+  },
+  {
+    "reviewId": 32443204,
+    "trailId": 10264009,
+    "comment": "Great trail! We decided to do this trail clockwise and it was fantastic. Well maintained for the most part (a few overgrown sections and a little muddy). But beware, there are LOTS of ticks this season! Be sure to check yourself for ticks and have fun :) \n\nNote: Swayze Falls is also nicknamed  Dry Falls as it's dry most of the year except after a heavy rainfall or during the Spring melt. The winter freeze gives a spectacular view! ",
+    "date": "2023-05-23T03:23:00.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Bugs",
+      "Muddy",
+      "Icy"
+    ],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 32422036,
+    "trailId": 10264009,
+    "comment": "Some muddy areas and trees down across the trail but overall quite dry, well maintained and not many bugs out!",
+    "date": "2023-05-22T20:21:31.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Muddy"
+    ],
+    "hasRecording": true,
+    "recordingId": 171626197.0
+  },
+  {
+    "reviewId": 32415713,
+    "trailId": 10264009,
+    "comment": "Awsome hike today. No bugs! Happy Victoria Day! ",
+    "date": "2023-05-22T14:41:07.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 171566392.0
+  },
+  {
+    "reviewId": 32332770,
+    "trailId": 10264009,
+    "comment": "Lots of fun. Very bumpy from dried mud and lots of roots and ruts. A couple of muddy spots but not as bad as it could be after rain.  Some challenging vertical sections I had to walk.  Had to traverse four felled trees. Would like to return when the trees are removed. Some flat field sections to relax on before the next challenges.",
+    "date": "2023-05-17T17:50:31.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Mountain biking",
+    "obstacles": [],
+    "trailConditions": [
+      "Muddy"
+    ],
+    "hasRecording": true,
+    "recordingId": 170495287.0
+  },
+  {
+    "reviewId": 31986696,
+    "trailId": 10264009,
+    "comment": "Trails are very muddy and can be slippery when it’s been raining. Watch for coyotes.",
+    "date": "2023-05-02T14:47:55.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Muddy",
+      "Slippery"
+    ],
+    "hasRecording": true,
+    "recordingId": 167794369.0
+  },
+  {
+    "reviewId": 31676308,
+    "trailId": 10264009,
+    "comment": "Good conditions and drying up nicely. There are a few spots of mud, but it is easy to navigate around. Gorgeous April weather! ",
+    "date": "2023-04-16T14:17:35.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Muddy"
+    ],
+    "hasRecording": true,
+    "recordingId": 165180969.0
+  },
+  {
+    "reviewId": 31719715,
+    "trailId": 10264009,
+    "comment": "Weird the app stopped recording 5 minutes into hike and it wasn't until I checked my progress that I noticed. Good hike anyway. ",
+    "date": "2023-04-14T14:39:54.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 164749400.0
+  },
+  {
+    "reviewId": 31463962,
+    "trailId": 10264009,
+    "comment": "Pure mud!",
+    "date": "2023-04-07T14:01:23.000Z",
+    "rating": 1,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Muddy"
+    ],
+    "hasRecording": true,
+    "recordingId": 163476935.0
+  },
+  {
+    "reviewId": 31091136,
+    "trailId": 10264009,
+    "comment": "I'm sure it's great in the summer, but it's super muddy in March. Make sure you have waterproof boots!",
+    "date": "2023-03-18T19:54:42.000Z",
+    "rating": 3,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Muddy"
+    ],
+    "trailConditions": [
+      "Muddy"
+    ],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 30422271,
+    "trailId": 10264009,
+    "comment": "After rain and temp above freezing all the snow had melted and the whole trail was very muddy and slippery. ",
+    "date": "2023-02-12T17:23:36.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Walking",
+    "obstacles": [],
+    "trailConditions": [
+      "Muddy",
+      "Snow",
+      "Slippery"
+    ],
+    "hasRecording": true,
+    "recordingId": 156456638.0
+  },
+  {
+    "reviewId": 30607068,
+    "trailId": 10264009,
+    "comment": "Extremely muddy from parking lot b among the Swayze falls trail\n",
+    "date": "2023-02-12T15:30:18.000Z",
+    "rating": 3,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Muddy"
+    ],
+    "hasRecording": true,
+    "recordingId": 157493638.0
+  },
+  {
+    "reviewId": 30120043,
+    "trailId": 10264009,
+    "comment": "Slick and muddy!",
+    "date": "2023-01-29T15:17:40.000Z",
+    "rating": 2,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Muddy",
+      "Slippery"
+    ],
+    "hasRecording": true,
+    "recordingId": 154707167.0
+  },
+  {
+    "reviewId": 29974581,
+    "trailId": 10264009,
+    "comment": "Suuuuuper muddy and slippery. Bridge is washed out near the parking lot. But fun! A good challenge. And the falls are flowing.",
+    "date": "2023-01-22T15:26:07.000Z",
+    "rating": 3,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Muddy",
+      "Slippery"
+    ],
+    "hasRecording": true,
+    "recordingId": 153858165.0
+  },
+  {
+    "reviewId": 29705420,
+    "trailId": 10264009,
+    "comment": "Always a great hike. 3 to 4 for muckiness today.",
+    "date": "2023-01-08T15:49:58.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 152276148.0
+  },
+  {
+    "reviewId": 29468133,
+    "trailId": 10264009,
+    "comment": "Icy in spots. Lots of trees across trail. Stay on the edge, all good.",
+    "date": "2022-12-29T13:53:06.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Icy"
+    ],
+    "hasRecording": true,
+    "recordingId": 150969609.0
+  },
+  {
+    "reviewId": 28635173,
+    "trailId": 10264009,
+    "comment": "So slippery and muddy \nIt’s uphill all ways so be prepared. My dog was so exhausted I had to employ the help of fellow hikers to carry him back to the car in a blanket",
+    "date": "2022-11-06T16:42:04.000Z",
+    "rating": 3,
+    "difficulty": null,
+    "activity": "Walking",
+    "obstacles": [],
+    "trailConditions": [
+      "Muddy",
+      "Slippery"
+    ],
+    "hasRecording": true,
+    "recordingId": 146187739.0
+  },
+  {
+    "reviewId": 28525060,
+    "trailId": 10264009,
+    "comment": "Great hike, perfect day.  Still muddy in several parts, especially one stretch, on the northwest side of the trail.  The bridge is out, where the trail loops for the Roland Park entrance, but an easy work around. This park is a gem. We will return. ",
+    "date": "2022-11-02T19:35:46.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Bridge out",
+      "Muddy",
+      "Great!"
+    ],
+    "trailConditions": [
+      "Muddy"
+    ],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 27931408,
+    "trailId": 10264009,
+    "comment": "No water on waterfall at present. One bridge is closed but you can bypass the bridge as there is no water in creek. Trails in great condition. Fall colours starting to come out.",
+    "date": "2022-10-14T03:03:44.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Bridge out"
+    ],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 27658242,
+    "trailId": 10264009,
+    "comment": "Beautiful colours in the fall. No waterfall currently.",
+    "date": "2022-10-06T12:48:27.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 141181448.0
+  },
+  {
+    "reviewId": 27513290,
+    "trailId": 10264009,
+    "comment": "It was a wonderful fall hike",
+    "date": "2022-10-01T18:32:11.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 140445826.0
+  },
+  {
+    "reviewId": 26991441,
+    "trailId": 10264009,
+    "comment": "Definitely muddy as mentioned (I went in runners and was slipping a fair bit). Otherwise well marked, good split between tree cover and open field. You hit the waterfall early on so just a bit anti-climactic afterwards. All things considered, a good 2 ish hour hike ",
+    "date": "2022-09-14T21:22:40.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Walking",
+    "obstacles": [
+      "Bridge out",
+      "Muddy"
+    ],
+    "trailConditions": [
+      "Muddy",
+      "Slippery"
+    ],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 26567198,
+    "trailId": 10264009,
+    "comment": "Nice trail overall! SLots of overgrowth in September which meant I destroyed 100s of beautiful spider webs!!  I’d recommend pants, especially for kids, if you do the full route. Hiking down into the gorge is definitely not for beginners. Trail markers are extremely confusing here, I wouldn’t rely on them, I used maps several times.",
+    "date": "2022-09-01T17:45:34.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 135270755.0
+  },
+  {
+    "reviewId": 26276299,
+    "trailId": 10264009,
+    "comment": "Very nice- a tad hilly but manageable. Quite muddy and slippery as lots of clay. Beautiful falls",
+    "date": "2022-07-31T15:06:32.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Muddy",
+      "Slippery"
+    ],
+    "hasRecording": true,
+    "recordingId": 133656847.0
+  },
+  {
+    "reviewId": 27421655,
+    "trailId": 10264009,
+    "comment": "Great hike but end of the trail bridge was out so shimmed across.",
+    "date": "2022-06-08T18:03:33.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 139915358.0
+  },
+  {
+    "reviewId": 23747837,
+    "trailId": 10264009,
+    "comment": "Pretty interesting. I went off the beaten trail and I found a Deer, some turkey's and a boring raccoon!\n\nAll in all, Great Park! Although I barely even scratch the surface.",
+    "date": "2022-06-05T21:23:32.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 119578937.0
+  },
+  {
+    "reviewId": 23553861,
+    "trailId": 10264009,
+    "comment": "Beware of ticks, particularly if you have a dog. My dog sniffed around the grass at the side of the trail once in a while but for the most part stayed on the path. He came out completely infested with ticks. I’ve never seen anything like it. I believe they were all American dog ticks, so not Lyme carriers but also not harmless. ",
+    "date": "2022-05-30T05:12:40.000Z",
+    "rating": 2,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Bugs"
+    ],
+    "trailConditions": [
+      "Bugs"
+    ],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 23358417,
+    "trailId": 10264009,
+    "comment": "great trail is fine little mud\n",
+    "date": "2022-05-23T17:03:12.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Muddy"
+    ],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 23125243,
+    "trailId": 10264009,
+    "comment": "Great trail, half shaded half in direct sun. Would be very muddy in sections after a rainfall.  Lots of ticks so stay on the trail and check yourselves and your pets. ",
+    "date": "2022-05-14T23:31:51.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Bugs",
+      "Muddy"
+    ],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 22801564,
+    "trailId": 10264009,
+    "comment": "muddy\n",
+    "date": "2022-05-05T18:44:28.000Z",
+    "rating": 2,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Muddy"
+    ],
+    "hasRecording": true,
+    "recordingId": 114698231.0
+  },
+  {
+    "reviewId": 22683493,
+    "trailId": 10264009,
+    "comment": "don’t stop on the observation deck…wander down the trail a little bit and slip on into the waterfall fun",
+    "date": "2022-04-30T23:13:25.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": null,
+    "obstacles": [],
+    "trailConditions": [
+      "Slippery"
+    ],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 22626229,
+    "trailId": 10264009,
+    "comment": "Terribly muddy and slippery and chewed up. It’ll be great once it dries out. Another month",
+    "date": "2022-04-28T14:09:20.000Z",
+    "rating": 1,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Muddy",
+      "Slippery"
+    ],
+    "hasRecording": true,
+    "recordingId": 113654196.0
+  },
+  {
+    "reviewId": 22615214,
+    "trailId": 10264009,
+    "comment": "Great trails but very muddy and slippery. I fell multiple times. I’d love to see it again in the summer.",
+    "date": "2022-04-26T15:15:45.000Z",
+    "rating": 3,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Muddy",
+      "Slippery"
+    ],
+    "hasRecording": true,
+    "recordingId": 113568132.0
+  },
+  {
+    "reviewId": 22558252,
+    "trailId": 10264009,
+    "comment": "Muddy but nice",
+    "date": "2022-04-24T18:37:31.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Muddy"
+    ],
+    "hasRecording": true,
+    "recordingId": 113231838.0
+  },
+  {
+    "reviewId": 22419074,
+    "trailId": 10264009,
+    "comment": "Gréât running trail. Just too muddy today",
+    "date": "2022-04-18T15:16:18.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Muddy"
+    ],
+    "hasRecording": true,
+    "recordingId": 112295930.0
+  },
+  {
+    "reviewId": 22184668,
+    "trailId": 10264009,
+    "comment": "Trail is defiantly a bike hike so bring some water and snacks :) but always beautiful ",
+    "date": "2022-04-08T19:20:40.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Birding",
+    "obstacles": [
+      "Bridge out",
+      "Muddy",
+      "Rocky",
+      "Unmarked"
+    ],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 22073359,
+    "trailId": 10264009,
+    "comment": "fun and moderate hike. extremely muddy so be prepared!\n",
+    "date": "2022-04-02T16:19:46.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Muddy"
+    ],
+    "hasRecording": true,
+    "recordingId": 110056347.0
+  },
+  {
+    "reviewId": 21717946,
+    "trailId": 10264009,
+    "comment": "great trail just muddy this time of year ",
+    "date": "2022-03-17T14:54:36.000Z",
+    "rating": 3,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Muddy"
+    ],
+    "hasRecording": true,
+    "recordingId": 107963960.0
+  },
+  {
+    "reviewId": 21673702,
+    "trailId": 10264009,
+    "comment": "Excellent trail but very Muddy today. Need some drying weather.",
+    "date": "2022-03-14T17:42:09.000Z",
+    "rating": 2,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Muddy"
+    ],
+    "hasRecording": true,
+    "recordingId": 107675029.0
+  },
+  {
+    "reviewId": 21478095,
+    "trailId": 10264009,
+    "comment": "Difficult mixture of mud and ice. Prepare to get dirty!",
+    "date": "2022-03-05T17:45:10.000Z",
+    "rating": 3,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Muddy",
+      "Icy"
+    ],
+    "hasRecording": true,
+    "recordingId": 106594397.0
+  },
+  {
+    "reviewId": 21020645,
+    "trailId": 10264009,
+    "comment": "Great trail some open areas. Well packed cleats only",
+    "date": "2022-02-09T13:56:43.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 103870172.0
+  },
+  {
+    "reviewId": 20806424,
+    "trailId": 10264009,
+    "comment": "Great trails but lots of dog poop. Come on people!!",
+    "date": "2022-01-29T19:52:50.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 102715725.0
+  },
+  {
+    "reviewId": 20229742,
+    "trailId": 10264009,
+    "comment": "Great hike. But extremely Icy.",
+    "date": "2022-01-16T20:04:52.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 101410093.0
+  },
+  {
+    "reviewId": 20224956,
+    "trailId": 10264009,
+    "comment": "Good, but muddy in some spots and some ice on the hills necessitating extra caution",
+    "date": "2022-01-16T17:37:14.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 101387483.0
+  },
+  {
+    "reviewId": 20196186,
+    "trailId": 10264009,
+    "comment": "great hike couple good inclines to keep the blood pumping great peaceful scenery ",
+    "date": "2022-01-15T13:21:18.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 101204776.0
+  },
+  {
+    "reviewId": 18880345,
+    "trailId": 10264009,
+    "comment": "Sooooo muddy so be careful!",
+    "date": "2021-12-19T20:59:30.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 98796682.0
+  },
+  {
+    "reviewId": 18619685,
+    "trailId": 10264009,
+    "comment": "extremely mucky",
+    "date": "2021-11-23T18:08:34.000Z",
+    "rating": 3,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 96811896.0
+  },
+  {
+    "reviewId": 18403870,
+    "trailId": 10264009,
+    "comment": "It's a good length for a hike. This trail is rated moderate but in my opinion, the only thing that makes it so is trying to navigate around all the mud!",
+    "date": "2021-11-07T20:05:20.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 95301903.0
+  },
+  {
+    "reviewId": 18393755,
+    "trailId": 10264009,
+    "comment": "nice trail not marked well",
+    "date": "2021-11-07T15:37:01.000Z",
+    "rating": 3,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 95259930.0
+  },
+  {
+    "reviewId": 18368341,
+    "trailId": 10264009,
+    "comment": "Great family hiking area, the leaves where beautiful and water was low but to be expected this time of year.",
+    "date": "2021-11-06T19:47:26.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Great!"
+    ],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 18162654,
+    "trailId": 10264009,
+    "comment": "A bridge is closed near the loop split, still can cross at own risk, be careful. Still a nice walk!",
+    "date": "2021-10-22T18:33:57.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Walking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 93496181.0
+  },
+  {
+    "reviewId": 18086667,
+    "trailId": 10264009,
+    "comment": "muddy today after rain, but nice loop in the autumn.\n",
+    "date": "2021-10-17T16:24:16.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 92918867.0
+  },
+  {
+    "reviewId": 17787706,
+    "trailId": 10264009,
+    "comment": "2021-10-02: Short Hills Provincial Park Trails & Bruce Trail",
+    "date": "2021-10-02T18:09:12.000Z",
+    "rating": 3,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 90823221.0
+  },
+  {
+    "reviewId": 17683346,
+    "trailId": 10264009,
+    "comment": "Nice and chill",
+    "date": "2021-09-26T20:30:46.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 90063499.0
+  },
+  {
+    "reviewId": 17451220,
+    "trailId": 10264009,
+    "comment": "It was a clean trail with nicely kept paths. Had a few places to stop and sit on a bench or picnic table as well!",
+    "date": "2021-09-15T17:01:20.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 88443574.0
+  },
+  {
+    "reviewId": 17363672,
+    "trailId": 10264009,
+    "comment": "Nice loop with some good hills for an added boost.",
+    "date": "2021-09-11T15:16:20.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 87869564.0
+  },
+  {
+    "reviewId": 17249365,
+    "trailId": 10264009,
+    "comment": "Wonderful trail",
+    "date": "2021-09-05T18:42:00.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 87050292.0
+  },
+  {
+    "reviewId": 17140069,
+    "trailId": 10264009,
+    "comment": "pretty easy to get lost, pay a lot of attention to signs ! gorgeous trail though, took us two hours as we are somewhat slow and took some breaks ",
+    "date": "2021-08-31T21:09:56.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Off-road driving",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 86246127.0
+  },
+  {
+    "reviewId": 16995381,
+    "trailId": 10264009,
+    "comment": "Awesome!",
+    "date": "2021-08-24T12:24:32.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 85216228.0
+  },
+  {
+    "reviewId": 16829076,
+    "trailId": 10264009,
+    "comment": "Very nice trail , not busy,  would go back again in the fall ",
+    "date": "2021-08-15T20:47:26.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Great!"
+    ],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 16781550,
+    "trailId": 10264009,
+    "comment": "pretty, not a lot of hills",
+    "date": "2021-08-11T12:50:56.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 83371456.0
+  },
+  {
+    "reviewId": 16624008,
+    "trailId": 10264009,
+    "comment": "excellent hike\n",
+    "date": "2021-08-06T14:04:58.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 82610191.0
+  },
+  {
+    "reviewId": 16559636,
+    "trailId": 10264009,
+    "comment": "great hike!\n",
+    "date": "2021-08-02T19:58:35.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 82128029.0
+  },
+  {
+    "reviewId": 16400335,
+    "trailId": 10264009,
+    "comment": "rained last night so the trails was just a little muddy but a great hike.\n\n\n",
+    "date": "2021-07-25T16:09:10.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 81022214.0
+  },
+  {
+    "reviewId": 16265122,
+    "trailId": 10264009,
+    "comment": "Definitely a few open spaces that were just open fields, but loved going along under the trees. Falls were beautiful. Some mud puddles that were tricky to get around and one of our group slipped on an incline, but overall really nice. The 3 year old only had to be carried a couple of times. Some of the trails aren't marked *super* well, so we ended up doing 9km somehow but at least we got out again. Would recommend. ",
+    "date": "2021-07-19T22:31:08.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Muddy"
+    ],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 16220645,
+    "trailId": 10264009,
+    "comment": "Beautiful scenery… beautiful falls… Went on a rainy day and the trails were quite flooded, muddy and slippery… but still enjoyed the time in nature.",
+    "date": "2021-07-17T19:22:02.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 79781724.0
+  },
+  {
+    "reviewId": 16138238,
+    "trailId": 10264009,
+    "comment": "July 13 th extremely muddy and humid. Enjoyed all the beautiful deep shades of green. ",
+    "date": "2021-07-13T13:34:36.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 79167670.0
+  },
+  {
+    "reviewId": 16006150,
+    "trailId": 10264009,
+    "comment": "Be aware that the falls are a dry falls. also the connection between parks do not work. ",
+    "date": "2021-07-06T18:15:03.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 78227295.0
+  },
+  {
+    "reviewId": 15796863,
+    "trailId": 10264009,
+    "comment": "Awesome trail but the falls are dried up￼!",
+    "date": "2021-06-26T22:00:28.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 76785014.0
+  },
+  {
+    "reviewId": 15750904,
+    "trailId": 10264009,
+    "comment": "Nice trail, some wet spots but overall pretty good, was good for rose to",
+    "date": "2021-06-24T19:23:01.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 76475759.0
+  },
+  {
+    "reviewId": 15598974,
+    "trailId": 10264009,
+    "comment": "Easy to walk with lots of different scenery",
+    "date": "2021-06-17T13:37:54.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 75502280.0
+  },
+  {
+    "reviewId": 15578954,
+    "trailId": 10264009,
+    "comment": "Started at parking lot A and the hike was moderate. There were a lot of ups and downs and some narrow paths. Overall it was a fun and scenic experience. it took us 1.5 hours to get to the actual Swayze Falls and this time of year there was no water. beautiful area nonetheless. ",
+    "date": "2021-06-16T05:15:12.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Great!"
+    ],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 15349381,
+    "trailId": 10264009,
+    "comment": "Lots of sunny spots with no shade- note to self wear sunscreen next time. LOTS of incline. Also my short little legs did the hike in 2 hours. Still super pretty with beautiful floors.",
+    "date": "2021-06-05T16:14:13.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 73955028.0
+  },
+  {
+    "reviewId": 15280608,
+    "trailId": 10264009,
+    "comment": "Trail was well kept, some horse manure but easily avoidable, not the most exciting trail but a nice experience ",
+    "date": "2021-06-01T18:42:14.000Z",
+    "rating": 3,
+    "difficulty": null,
+    "activity": "Walking",
+    "obstacles": [
+      "Great!"
+    ],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 15271387,
+    "trailId": 10264009,
+    "comment": "Great trail, just the right amount of climbing. The falls were dry but the scenery was beautiful.",
+    "date": "2021-06-01T03:10:56.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 73419494.0
+  },
+  {
+    "reviewId": 15212590,
+    "trailId": 10264009,
+    "comment": "Ever felt like wanting to visit prison? Bike ride is a must! Would ride again!",
+    "date": "2021-05-30T16:14:48.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Mountain biking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 73127880.0
+  },
+  {
+    "reviewId": 15182313,
+    "trailId": 10264009,
+    "comment": "very nice hiking place，well done！",
+    "date": "2021-05-29T18:24:50.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Great!"
+    ],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 14990928,
+    "trailId": 10264009,
+    "comment": "Decently fun trail but views aren’t fantastic. Waterfall was dried out but not that grand anyway",
+    "date": "2021-05-20T16:25:30.000Z",
+    "rating": 2,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 71751515.0
+  },
+  {
+    "reviewId": 14945930,
+    "trailId": 10264009,
+    "comment": "The falls are almost completely dried out. There are a lot of ticks. Dress to protect yourself!",
+    "date": "2021-05-17T16:54:55.000Z",
+    "rating": 3,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 14899964,
+    "trailId": 10264009,
+    "comment": "Lots of ticks on the grass along the trail- my wife caught three on herself and two on daughter. Other than that, the trail itself is not really interesting though the part along the dry creek is nice",
+    "date": "2021-05-15T22:56:07.000Z",
+    "rating": 2,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 71214118.0
+  },
+  {
+    "reviewId": 14802473,
+    "trailId": 10264009,
+    "comment": "EXTREMELY muddy. If you are thinking about taking these trails you will need boots. Lots and lots of muddy spots with lots of difficulty to get through the mud and water. Lots of horse poop to move around.",
+    "date": "2021-05-10T17:25:44.000Z",
+    "rating": 2,
+    "difficulty": null,
+    "activity": null,
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 70588847.0
+  },
+  {
+    "reviewId": 14755005,
+    "trailId": 10264009,
+    "comment": "Great variety. Muddy in spots for sure!",
+    "date": "2021-05-08T19:22:24.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": null,
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 70343903.0
+  },
+  {
+    "reviewId": 14733209,
+    "trailId": 10264009,
+    "comment": "Suuuuuper muddy, dress accordingly after rainfall! Still a pretty good hike, good nature trails. ",
+    "date": "2021-05-07T19:54:17.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Muddy",
+      "Flooded",
+      "Great!"
+    ],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 14690011,
+    "trailId": 10264009,
+    "comment": "Great hike, pretty muddy in some spots. Loved it regardless",
+    "date": "2021-05-04T13:18:11.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Muddy",
+      "Great!"
+    ],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 14649783,
+    "trailId": 10264009,
+    "comment": "some muddy spots but aside from that the trail is a real nice walk. will explore more of the park another day.",
+    "date": "2021-05-02T15:56:55.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": null,
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 69702224.0
+  },
+  {
+    "reviewId": 14582512,
+    "trailId": 10264009,
+    "comment": "Wow this is my new favourite but this is a legit moderate trail.  I believe it’s part of the Bruce.  We were passed by people on horseback very cool!  Got some amazing pics by the falls.   Just an FYI if you go the wrong time of year they will be dry. ",
+    "date": "2021-04-29T08:10:45.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Muddy"
+    ],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 14574175,
+    "trailId": 10264009,
+    "comment": "not very good walking space doesn't seem safe ",
+    "date": "2021-04-28T16:43:17.000Z",
+    "rating": 1,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 69185033.0
+  },
+  {
+    "reviewId": 14529112,
+    "trailId": 10264009,
+    "comment": "Beautiful",
+    "date": "2021-04-25T17:46:28.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Great!"
+    ],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 68913958.0
+  },
+  {
+    "reviewId": 14499776,
+    "trailId": 10264009,
+    "comment": "muddy fun with a gorgeous spring runoff.",
+    "date": "2021-04-24T16:42:53.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Muddy",
+      "Great!"
+    ],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 68763936.0
+  },
+  {
+    "reviewId": 14470289,
+    "trailId": 10264009,
+    "comment": "very muddy and slippery",
+    "date": "2021-04-23T15:15:12.000Z",
+    "rating": 2,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 68586815.0
+  },
+  {
+    "reviewId": 14374988,
+    "trailId": 10264009,
+    "comment": "Muddy",
+    "date": "2021-04-17T18:01:07.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 68011766.0
+  },
+  {
+    "reviewId": 14372494,
+    "trailId": 10264009,
+    "comment": "Easy trail and fun trail but you feet will be muddy.\n",
+    "date": "2021-04-17T17:26:06.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 68000274.0
+  },
+  {
+    "reviewId": 14243589,
+    "trailId": 10264009,
+    "comment": "Beautiful trail, and the park has so many side trails you could come back over and over and never have the same hike.",
+    "date": "2021-04-09T16:01:33.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 67227437.0
+  },
+  {
+    "reviewId": 14169123,
+    "trailId": 10264009,
+    "comment": "Nice, well-marked trail.",
+    "date": "2021-04-04T21:48:55.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 13885404,
+    "trailId": 10264009,
+    "comment": "Very muddy but fun. Great place for hiking. ",
+    "date": "2021-03-21T01:32:52.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Muddy"
+    ],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 13862594,
+    "trailId": 10264009,
+    "comment": "Fun trail, good hike but the mud.....oh the mud lol ! ",
+    "date": "2021-03-20T17:06:13.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Muddy",
+      "Great!"
+    ],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 13862412,
+    "trailId": 10264009,
+    "comment": "nice easy trail but be prepared to get muddy (really muddy)\n",
+    "date": "2021-03-20T15:04:25.000Z",
+    "rating": 3,
+    "difficulty": null,
+    "activity": "Walking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 65383497.0
+  },
+  {
+    "reviewId": 13780691,
+    "trailId": 10264009,
+    "comment": "Lots of garbage and muddy. Dog poop in lots of trees!!!",
+    "date": "2021-03-14T18:06:51.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 64990809.0
+  },
+  {
+    "reviewId": 13690235,
+    "trailId": 10264009,
+    "comment": "A little muddy and icy",
+    "date": "2021-03-09T18:20:42.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 64596821.0
+  },
+  {
+    "reviewId": 13620714,
+    "trailId": 10264009,
+    "comment": "Beautiful waterfall",
+    "date": "2021-03-06T19:06:19.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 64324116.0
+  },
+  {
+    "reviewId": 13541179,
+    "trailId": 10264009,
+    "comment": "Quit icy and slushy so icers a must!",
+    "date": "2021-02-28T19:27:40.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 63928917.0
+  },
+  {
+    "reviewId": 13431486,
+    "trailId": 10264009,
+    "comment": "Great trail.   Groomed in winter nicely\n",
+    "date": "2021-02-21T19:00:02.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Walking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 13392467,
+    "trailId": 10264009,
+    "comment": "Beautiful sunny Friday morning hike on the Swayze Falls Loop. The entire trail and park is covered in snow which makes for a longer trek but amazing landscape vs the always muddy trails. The waterfall is completely frozen which made for some great pictures and a moment to take it all in.",
+    "date": "2021-02-19T16:09:45.000Z",
+    "rating": 3,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 63201628.0
+  },
+  {
+    "reviewId": 13282389,
+    "trailId": 10264009,
+    "comment": "Beautiful",
+    "date": "2021-02-09T19:26:14.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 62653135.0
+  },
+  {
+    "reviewId": 12935479,
+    "trailId": 10264009,
+    "comment": "pretty difficult with how muddy it currently is. some very picturesque spots.all together a great hike.",
+    "date": "2021-01-17T18:44:42.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 61137075.0
+  },
+  {
+    "reviewId": 12906320,
+    "trailId": 10264009,
+    "comment": "amazing trail, really good workout with the elevation changes. extra challenging with all the mud right now but so fun! not terribly busy at the B parking lot on a Saturday afternoon. ",
+    "date": "2021-01-16T21:57:51.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Muddy"
+    ],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 12414729,
+    "trailId": 10264009,
+    "comment": "-10 C and windy.  Base of dirt trail frozen.  Hiked with Bailey.",
+    "date": "2020-12-16T16:35:42.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 58738186.0
+  },
+  {
+    "reviewId": 12102284,
+    "trailId": 10264009,
+    "comment": "Easy but slippery after the rain.",
+    "date": "2020-11-23T17:20:04.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 57430024.0
+  },
+  {
+    "reviewId": 12058592,
+    "trailId": 10264009,
+    "comment": "well-kept, dog friendly. ",
+    "date": "2020-11-21T15:53:00.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 57265408.0
+  },
+  {
+    "reviewId": 11961403,
+    "trailId": 10264009,
+    "comment": "small parking lot, trails were nice, but could be better marked. ",
+    "date": "2020-11-14T15:01:38.000Z",
+    "rating": 3,
+    "difficulty": null,
+    "activity": "Walking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 56832694.0
+  },
+  {
+    "reviewId": 11610304,
+    "trailId": 10264009,
+    "comment": "Beautiful fall colours! Some slick parts as it rained yesterday. Not difficult except for the slippery steep stuff.",
+    "date": "2020-10-21T18:22:48.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 55269057.0
+  },
+  {
+    "reviewId": 11360111,
+    "trailId": 10264009,
+    "comment": "Beautiful wooded hike with moderate elevation changes.  Trails through short hills accessed by mountain bikers and horse back riders.  7 km",
+    "date": "2020-10-09T21:07:19.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 54301103.0
+  },
+  {
+    "reviewId": 11218472,
+    "trailId": 10264009,
+    "comment": "Nice trail, clearly marked. Falls is dry this time of the year, but still beautiful.",
+    "date": "2020-10-03T14:36:52.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 53791793.0
+  },
+  {
+    "reviewId": 11143219,
+    "trailId": 10264009,
+    "comment": "The first half of this trail was a breeze (left side of loop) the 2nd half is where things went bad. The trail was so overgrown. It was hard to know where the trail was and wasn’t. Some how I ended up on a former trail that is now closed, didn’t know this until I was off it and seen a sign.",
+    "date": "2020-09-28T18:37:42.000Z",
+    "rating": 3,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 53440602.0
+  },
+  {
+    "reviewId": 11123024,
+    "trailId": 10264009,
+    "comment": "Beautiful colours!  Waterfall is dried up :(  but the colours are amazing right now (end of sept) ",
+    "date": "2020-09-27T21:45:46.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Great!"
+    ],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 11112454,
+    "trailId": 10264009,
+    "comment": "Stunning fall colours went with my dad Hills weren’t so challenging it was a great time",
+    "date": "2020-09-27T16:10:30.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 53347518.0
+  },
+  {
+    "reviewId": 11084410,
+    "trailId": 10264009,
+    "comment": "Nice trail for and afternoon hike. It took us about 3 hours to complete so longer than we expected. ",
+    "date": "2020-09-26T20:54:49.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Great!"
+    ],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 11083620,
+    "trailId": 10264009,
+    "comment": "Great trail - a longer loop than we expected. The waterfall was dry when we went (Sep 2020). Took us about 3 hrs to walk the loop.",
+    "date": "2020-09-26T20:40:12.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Great!"
+    ],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 10950597,
+    "trailId": 10264009,
+    "comment": "Several variations to keep it fresh",
+    "date": "2020-09-20T14:18:10.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Great!"
+    ],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 10931408,
+    "trailId": 10264009,
+    "comment": "stay on the ones marked  very easy to go off trail and get lost",
+    "date": "2020-09-18T22:02:37.000Z",
+    "rating": 3,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 52644638.0
+  },
+  {
+    "reviewId": 10769219,
+    "trailId": 10264009,
+    "comment": "Did the walk in September and my fluffy dog got a lot of little burs in his fur.  Otherwise, the walk was very nice but keep your eyes open about half way when the this trail branches off from main trail.   Creek and waterfall are dried up this time of year.",
+    "date": "2020-09-11T16:54:09.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Great!"
+    ],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 51974297.0
+  },
+  {
+    "reviewId": 10548910,
+    "trailId": 10264009,
+    "comment": "Would be good trail for biking, however, as a walking trail it is not the most beautiful. Lots of walking through open fields, lots of power lines in view. We walked with our 6 month year old and it was tough to be in the sun so long. We prefer more covered trails with larger trees. ",
+    "date": "2020-09-01T17:10:46.000Z",
+    "rating": 3,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "No shade"
+    ],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 10470814,
+    "trailId": 10264009,
+    "comment": "Dry falls; otherwise as expected (great!)",
+    "date": "2020-08-29T14:52:44.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 50758821.0
+  },
+  {
+    "reviewId": 10419501,
+    "trailId": 10264009,
+    "comment": "Great！very relaxing and soothing trail",
+    "date": "2020-08-26T15:31:45.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 50532171.0
+  },
+  {
+    "reviewId": 9935352,
+    "trailId": 10264009,
+    "comment": "Trail flooded partway through- had to turn around",
+    "date": "2020-07-31T19:48:06.000Z",
+    "rating": 2,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 48526578.0
+  },
+  {
+    "reviewId": 9565531,
+    "trailId": 10264009,
+    "comment": "Great trail if you don't mind climbing some downed branches and closed-in bushes. It was quite beautiful despite that. I would not recommend visiting in the rain/after a rain unless you are very good at walking on slippery trails. It's mostly packed clay, so as long as you're sure-footed you'll be fine. Not good for blind dogs (I brought mine and he struggled greatly). My other dog loved it. If you visit with horses, note that there are some steep hills so if your horse struggles with hills, beware. There were neat hitching post/outdoor tie spots for horses as well as the odd picnic table. My dogs loved when we finally made it to the creek. Lots of different terrain to tackle.",
+    "date": "2020-07-16T18:01:10.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Blowdown",
+      "Muddy",
+      "Overgrown"
+    ],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 46919931.0
+  },
+  {
+    "reviewId": 9535351,
+    "trailId": 10264009,
+    "comment": "Good  trail.  Dog friendly. Fairly easy, some muddy parts.  At the end (if you go clockwise from Roland Rd) there is a steep climb down to Swayze Falls.  Recommend rapelling down if you're looking for something a little more difficult! ",
+    "date": "2020-07-14T19:56:21.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Muddy",
+      "Great!"
+    ],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 46780177.0
+  },
+  {
+    "reviewId": 9517189,
+    "trailId": 10264009,
+    "comment": "A very nice trail. Feels a bit long and there are some rockier, uneven areas but still manageable. Dog friendly. A mix of field walking closer to the end and forested areas too. Not much wildlife except the odd squirrel or chipmunk. Lots of moths and butterflies out ",
+    "date": "2020-07-13T16:35:29.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Overgrown",
+      "Rocky"
+    ],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 8733176,
+    "trailId": 10264009,
+    "comment": "had to see what's it like last time I was in there was 10 years ago. ",
+    "date": "2020-06-05T19:04:43.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Mountain biking",
+    "obstacles": [
+      "Muddy"
+    ],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 8604057,
+    "trailId": 10264009,
+    "comment": "A great trail with some moderate inclines and mixed terrain. NOTE* did this while the trails were extremely muddy and there were many spots where traction on a descent was a serious concern. Boots were caked and weighed an extra pound or so after only 2km in - would recommend poles if hiking in muddy conditions.",
+    "date": "2020-05-30T15:20:00.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Muddy"
+    ],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 43164116.0
+  },
+  {
+    "reviewId": 5342700,
+    "trailId": 10264009,
+    "comment": "Hit and miss. Some areas are too close to civilization for peace and quiet, however some areas are very peaceful with great views. A bit hot when in the fields and the bugs were bad today. Lots of hills but not so much that the amateur hiker would have trouble. ",
+    "date": "2019-08-25T18:53:56.000Z",
+    "rating": 3,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 28322509.0
+  },
+  {
+    "reviewId": 5010565,
+    "trailId": 10264009,
+    "comment": "I’d like to do it again in the fall when the leaves are changing. We had planned to do the loop but made it to about 2.4 ish KMs. I had my baby in a carrier and just wasn’t comfortable doing the long grass with her. Trail was moderately trafficked.\nTONS of horse droppings. ",
+    "date": "2019-08-08T16:59:40.000Z",
+    "rating": 3,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Muddy",
+      "Overgrown"
+    ],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 5701626,
+    "trailId": 10264009,
+    "comment": "recommend in spring",
+    "date": "2019-07-14T16:21:51.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 25929622.0
+  },
+  {
+    "reviewId": 2761132,
+    "trailId": 10264009,
+    "comment": "Easy terrain, but in this cold weather we encountered ice, snow, and quite a bit of mud. The mud and ice were both slippery. Our hiking poles helped keep us from slipping. The Falls were definitely the highlight!",
+    "date": "2018-12-09T17:15:10.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 2622319,
+    "trailId": 10264009,
+    "comment": "Frequent user I love that location.",
+    "date": "2018-10-01T02:23:04.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": null,
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 2585471,
+    "trailId": 10264009,
+    "comment": "Relaxing but still interesting hike .We met Young Common Snapping Turtle (Chelydra serpentina) on the main path to the parking lot .",
+    "date": "2018-09-17T01:00:30.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 2506218,
+    "trailId": 10264009,
+    "comment": "Good trail with enough changing landscape to keep it interesting. Lots of horse droppings so watch your footing. Little more than a trickle coming off of Swayze Falls (hiked in August) but still a very neat rock formation.",
+    "date": "2018-08-22T03:02:49.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 2498084,
+    "trailId": 10264009,
+    "comment": "Nice trail but can get tricky at points. Swayze Falls were dry",
+    "date": "2018-08-19T15:45:37.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 20855603.0
+  },
+  {
+    "reviewId": 2376008,
+    "trailId": 10264009,
+    "comment": "Most of path is covered in brush as it is under used and under regeneration",
+    "date": "2018-07-11T16:40:36.000Z",
+    "rating": 3,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 2148995,
+    "trailId": 10264009,
+    "comment": "Enjoyed the area! Came during the spring, so it was quite messy, but enjoyable :) I will be writing a blog post about my trail trek on thecaptainandhislady.com",
+    "date": "2018-04-11T14:11:57.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": null,
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 2102993,
+    "trailId": 10264009,
+    "comment": "Amazing in autumn if hiking the bruce trail, but can’t imagine coming through in spring or during a wet summer. Combined it with Rockway Conservation Area for a full day",
+    "date": "2018-03-13T18:46:21.000Z",
+    "rating": 3,
+    "difficulty": null,
+    "activity": null,
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 2073394,
+    "trailId": 10264009,
+    "comment": "Great hike. We went knowing it was going to be icy and muddy. The falls were running well too!",
+    "date": "2018-02-19T16:46:29.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 19073870.0
+  },
+  {
+    "reviewId": 1919836,
+    "trailId": 10264009,
+    "comment": "Nice trail , as most of the short hill trails are. No very spectacular views tho if that’s what you are going for",
+    "date": "2017-10-21T12:19:47.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 1914418,
+    "trailId": 10264009,
+    "comment": "One of our favourite trails. Can be muddy if it's rained.",
+    "date": "2017-10-17T04:23:59.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": null,
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 1903274,
+    "trailId": 10264009,
+    "comment": "Great Fall and great fall colors....",
+    "date": "2017-10-11T00:04:59.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Trail running",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 1823591,
+    "trailId": 10264009,
+    "comment": "One of my favorite trails, almost always see a few deer",
+    "date": "2017-08-28T19:01:48.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 1739283,
+    "trailId": 10264009,
+    "comment": "HORRIBLE ALLLLLL OF THE MAPS AT THE ACTUAL LOCATION ARE NOT CORRECT ",
+    "date": "2017-07-24T03:01:27.000Z",
+    "rating": 1,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 1593060,
+    "trailId": 10264009,
+    "comment": "My son and I hiked this trail in 2.5 hours. It was so beautiful and peaceful. We really enjoyed this trail.",
+    "date": "2017-05-14T02:17:07.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": null,
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 13755569,
+    "trailId": 10264009,
+    "comment": "",
+    "date": "2021-03-13T19:44:25.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 64895646.0
+  },
+  {
+    "reviewId": 13345911,
+    "trailId": 10264009,
+    "comment": "",
+    "date": "2021-02-14T18:28:29.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 62957947.0
+  },
+  {
+    "reviewId": 13325894,
+    "trailId": 10264009,
+    "comment": "",
+    "date": "2021-02-13T20:08:17.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 62869589.0
+  },
+  {
+    "reviewId": 13319725,
+    "trailId": 10264009,
+    "comment": "",
+    "date": "2021-02-13T16:17:19.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 62847270.0
+  },
+  {
+    "reviewId": 13298789,
+    "trailId": 10264009,
+    "comment": "",
+    "date": "2021-02-11T14:10:40.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 62731639.0
+  },
+  {
+    "reviewId": 13224554,
+    "trailId": 10264009,
+    "comment": "",
+    "date": "2021-02-06T15:28:27.000Z",
+    "rating": 3,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 62429388.0
+  },
+  {
+    "reviewId": 13192136,
+    "trailId": 10264009,
+    "comment": "",
+    "date": "2021-02-03T17:14:29.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 62262173.0
+  },
+  {
+    "reviewId": 13064218,
+    "trailId": 10264009,
+    "comment": "",
+    "date": "2021-01-24T17:33:55.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 61695683.0
+  },
+  {
+    "reviewId": 13041999,
+    "trailId": 10264009,
+    "comment": "",
+    "date": "2021-01-23T21:00:13.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 61611227.0
+  },
+  {
+    "reviewId": 13251864,
+    "trailId": 10264009,
+    "comment": "",
+    "date": "2021-01-22T16:27:21.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 62531498.0
+  },
+  {
+    "reviewId": 12998997,
+    "trailId": 10264009,
+    "comment": "",
+    "date": "2021-01-21T15:26:39.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 61426524.0
+  },
+  {
+    "reviewId": 12743140,
+    "trailId": 10264009,
+    "comment": "",
+    "date": "2021-01-09T14:50:08.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 60272870.0
+  },
+  {
+    "reviewId": 12693425,
+    "trailId": 10264009,
+    "comment": "",
+    "date": "2021-01-05T14:53:29.000Z",
+    "rating": 2,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 60052722.0
+  },
+  {
+    "reviewId": 12637652,
+    "trailId": 10264009,
+    "comment": "",
+    "date": "2021-01-02T17:39:34.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 59837632.0
+  },
+  {
+    "reviewId": 12584033,
+    "trailId": 10264009,
+    "comment": "",
+    "date": "2020-12-31T15:24:35.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 59615621.0
+  },
+  {
+    "reviewId": 12374924,
+    "trailId": 10264009,
+    "comment": "",
+    "date": "2020-12-13T19:30:37.000Z",
+    "rating": 3,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 58637266.0
+  },
+  {
+    "reviewId": 12367308,
+    "trailId": 10264009,
+    "comment": "",
+    "date": "2020-12-13T16:16:28.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 58615140.0
+  },
+  {
+    "reviewId": 12206668,
+    "trailId": 10264009,
+    "comment": "",
+    "date": "2020-11-29T18:14:39.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 57894822.0
+  },
+  {
+    "reviewId": 12198630,
+    "trailId": 10264009,
+    "comment": "",
+    "date": "2020-11-29T13:29:15.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 57863736.0
+  },
+  {
+    "reviewId": 12057184,
+    "trailId": 10264009,
+    "comment": "",
+    "date": "2020-11-21T16:56:03.000Z",
+    "rating": 3,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 57260254.0
+  },
+  {
+    "reviewId": 11965241,
+    "trailId": 10264009,
+    "comment": "",
+    "date": "2020-11-14T16:21:57.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 56846949.0
+  },
+  {
+    "reviewId": 11957573,
+    "trailId": 10264009,
+    "comment": "",
+    "date": "2020-11-14T13:36:41.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 56813850.0
+  },
+  {
+    "reviewId": 11919772,
+    "trailId": 10264009,
+    "comment": "",
+    "date": "2020-11-10T20:46:20.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 56620689.0
+  },
+  {
+    "reviewId": 11906174,
+    "trailId": 10264009,
+    "comment": "",
+    "date": "2020-11-09T18:24:20.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 56560982.0
+  },
+  {
+    "reviewId": 11892464,
+    "trailId": 10264009,
+    "comment": "",
+    "date": "2020-11-08T20:03:31.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 56509230.0
+  },
+  {
+    "reviewId": 11684842,
+    "trailId": 10264009,
+    "comment": "",
+    "date": "2020-10-25T16:38:16.000Z",
+    "rating": 3,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 55597891.0
+  },
+  {
+    "reviewId": 11655695,
+    "trailId": 10264009,
+    "comment": "",
+    "date": "2020-10-24T16:51:23.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 55491998.0
+  },
+  {
+    "reviewId": 11651188,
+    "trailId": 10264009,
+    "comment": "",
+    "date": "2020-10-24T16:15:59.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 55477373.0
+  },
+  {
+    "reviewId": 11746795,
+    "trailId": 10264009,
+    "comment": "",
+    "date": "2020-10-24T15:40:27.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 55887707.0
+  },
+  {
+    "reviewId": 11576170,
+    "trailId": 10264009,
+    "comment": "",
+    "date": "2020-10-18T19:59:47.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 55114251.0
+  },
+  {
+    "reviewId": 11512541,
+    "trailId": 10264009,
+    "comment": "",
+    "date": "2020-10-11T13:48:54.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 54901949.0
+  },
+  {
+    "reviewId": 11293063,
+    "trailId": 10264009,
+    "comment": "",
+    "date": "2020-10-05T19:41:16.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 54042791.0
+  },
+  {
+    "reviewId": 11088223,
+    "trailId": 10264009,
+    "comment": "",
+    "date": "2020-09-26T20:07:41.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 53253934.0
+  },
+  {
+    "reviewId": 11081964,
+    "trailId": 10264009,
+    "comment": "",
+    "date": "2020-09-26T18:04:48.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 53238136.0
+  },
+  {
+    "reviewId": 10963182,
+    "trailId": 10264009,
+    "comment": "",
+    "date": "2020-09-20T17:14:24.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 52757007.0
+  },
+  {
+    "reviewId": 10849741,
+    "trailId": 10264009,
+    "comment": "",
+    "date": "2020-09-14T23:17:32.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 52273812.0
+  },
+  {
+    "reviewId": 10734127,
+    "trailId": 10264009,
+    "comment": "",
+    "date": "2020-09-08T22:47:36.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 51801844.0
+  },
+  {
+    "reviewId": 10539587,
+    "trailId": 10264009,
+    "comment": "",
+    "date": "2020-08-30T20:52:44.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 50917995.0
+  },
+  {
+    "reviewId": 2470251,
+    "trailId": 10264009,
+    "comment": "",
+    "date": "2018-08-11T14:19:59.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  }
+]

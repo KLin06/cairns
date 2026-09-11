@@ -1,0 +1,60 @@
+{
+  "trailId": "10543726",
+  "trailSlug": "trail/canada/ontario/lions-head-lookout",
+  "name": "Lion's Head Lookout",
+  "description": "Check out this 7.2-km out-and-back trail near Lion's Head, Ontario. Generally considered a moderately challenging route, it takes an average of 1 h 50 min to complete. This is a very popular area for birding, hiking, and trail running, so you'll likely encounter other people while exploring. The trail is open year-round and is beautiful to visit anytime. Dogs are welcome, but must be on a leash.",
+  "addressLocality": "Lion's Head, Ontario, Canada",
+  "latitude": 44.98957,
+  "longitude": -81.24194,
+  "ratingValue": 4.8,
+  "reviewCount": 3065,
+  "worstRating": "0",
+  "bestRating": "5",
+  "images": [
+    "https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvODIxNTQ2NzQvMWIyMTQ5OTZiZjg1NjkyODI2NGM2MDAyNzNjNjM2N2MuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJ3ZWJwIiwicmVzaXplIjp7IndpZHRoIjoiNTAwIiwiaGVpZ2h0IjoiNTAwIiwiZml0IjoiaW5zaWRlIn0sInJvdGF0ZSI6bnVsbCwianBlZyI6eyJ0cmVsbGlzUXVhbnRpc2F0aW9uIjp0cnVlLCJvdmVyc2hvb3REZXJpbmdpbmciOnRydWUsIm9wdGltaXNlU2NhbnMiOnRydWUsInF1YW50aXNhdGlvblRhYmxlIjozfX19"
+  ],
+  "features": [
+    "Fee required",
+    "Dogs on leash",
+    "Kid-friendly"
+  ],
+  "surfaceTypes": [
+    {
+      "label": "unknown",
+      "percentOfSurface": 100.0,
+      "totalLength": 7208.88
+    }
+  ],
+  "length": 7242.03,
+  "durationMinutes": 110,
+  "difficultyRating": "3",
+  "areaName": "Lion's Head Provincial Nature Reserve",
+  "popularity": 99.6172,
+  "terrainData": {
+    "rock": {
+      "rockType": " ",
+      "rockDescription": "Sandstone, shale, dolostone, siltstone",
+      "geologicProvince": " ",
+      "geologicEra": "PALEOZOIC (251.0 Ma to 542.0 Ma)",
+      "rockCategories": [
+        "carbonate_sedimentary",
+        "coarse_clastic_sedimentary",
+        "fine_clastic_sedimentary"
+      ],
+      "rockSlipRisk": "high"
+    },
+    "soil": {
+      "soilName": "SARGENT LOAM",
+      "texture": "loam",
+      "textureGroup": "loam",
+      "textureMudPotential": 1,
+      "drainage": "well",
+      "drainageRank": 2,
+      "slopePercent": 7.0,
+      "stoniness": 1,
+      "parentMaterial": null
+    },
+    "percentNearWater": 0.0,
+    "waterCrossingCount": 0
+  }
+}

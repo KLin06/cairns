@@ -1,0 +1,63 @@
+{
+  "trailId": "10239525",
+  "trailSlug": "trail/canada/ontario/the-crack-trail",
+  "name": "The Crack Trail",
+  "description": "Discover this 8.0-km out-and-back trail near Killarney, Ontario. Generally considered a challenging route. This is a very popular area for birding and hiking, so you'll likely encounter other people while exploring. The best times to visit this trail are May through October.",
+  "addressLocality": "Killarney, Ontario, Canada",
+  "latitude": 46.04386,
+  "longitude": -81.32483,
+  "ratingValue": 4.8,
+  "reviewCount": 3116,
+  "worstRating": "0",
+  "bestRating": "5",
+  "images": [
+    "https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMTEyNzA3ODgyL2QxOTk2NTY4OTZjODcyYjA5NjA4NDZlZGM4OTVkNTZmLmpwZyIsImVkaXRzIjp7InRvRm9ybWF0Ijoid2VicCIsInJlc2l6ZSI6eyJ3aWR0aCI6IjUwMCIsImhlaWdodCI6IjUwMCIsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ=="
+  ],
+  "features": [
+    "Fee required",
+    "Scramble",
+    "Rocky"
+  ],
+  "surfaceTypes": [
+    {
+      "label": "natural",
+      "percentOfSurface": 94.57,
+      "totalLength": 7654.27
+    },
+    {
+      "label": "unknown",
+      "percentOfSurface": 3.38,
+      "totalLength": 273.55
+    },
+    {
+      "label": "gravel",
+      "percentOfSurface": 1.27,
+      "totalLength": 102.58
+    },
+    {
+      "label": "wood",
+      "percentOfSurface": 0.78,
+      "totalLength": 63.34
+    }
+  ],
+  "length": 8046.7,
+  "durationMinutes": null,
+  "difficultyRating": "5",
+  "areaName": "Killarney Provincial Park",
+  "popularity": 99.5636,
+  "terrainData": {
+    "rock": {
+      "rockType": "Felsic intrusive rocks",
+      "rockDescription": "Killarney monzogranite and granitic rocks (1.7 and 1.4 Ga)",
+      "geologicProvince": "SOUTHERN and SUPERIOR",
+      "geologicEra": "MESO-TO PALEOPROTEROZOIC (1.0 Ga to 2.5 Ga)",
+      "rockCategories": [
+        "granitic_intrusive"
+      ],
+      "rockSlipRisk": "low"
+    },
+    "soil": null,
+    "percentNearWater": 22.3,
+    "waterCrossingCount": 8
+  }
+}

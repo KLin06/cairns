@@ -1,0 +1,54 @@
+{
+  "trailId": "10272776",
+  "trailSlug": "trail/canada/ontario/top-of-the-giant",
+  "name": "Top of the Giant",
+  "description": "Head out on this 23.0-km out-and-back trail near Silver Islet, Ontario. Generally considered a challenging route, it takes an average of 6 h 5 min to complete. This is a very popular area for backpacking, birding, and fishing, so you'll likely encounter other people while exploring. The best times to visit this trail are March through October. Dogs are welcome, but must be on a leash.",
+  "addressLocality": "Silver Islet, Ontario, Canada",
+  "latitude": 48.34046,
+  "longitude": -88.82207,
+  "ratingValue": 4.8,
+  "reviewCount": 1616,
+  "worstRating": "0",
+  "bestRating": "5",
+  "images": [
+    "https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvNjU4NzUyMjcvZmNmY2FkMzY1NmFmNjRmYTg3MjM5OTM3ZDhhOTI2ODYuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJ3ZWJwIiwicmVzaXplIjp7IndpZHRoIjoiNTAwIiwiaGVpZ2h0IjoiNTAwIiwiZml0IjoiaW5zaWRlIn0sInJvdGF0ZSI6bnVsbCwianBlZyI6eyJ0cmVsbGlzUXVhbnRpc2F0aW9uIjp0cnVlLCJvdmVyc2hvb3REZXJpbmdpbmciOnRydWUsIm9wdGltaXNlU2NhbnMiOnRydWUsInF1YW50aXNhdGlvblRhYmxlIjozfX19"
+  ],
+  "features": [
+    "Fee required",
+    "Dogs on leash",
+    "Rocky"
+  ],
+  "surfaceTypes": [
+    {
+      "label": "natural",
+      "percentOfSurface": 99.74,
+      "totalLength": 23008.66
+    },
+    {
+      "label": "paved",
+      "percentOfSurface": 0.26,
+      "totalLength": 60.4
+    }
+  ],
+  "length": 23013.562,
+  "durationMinutes": 365,
+  "difficultyRating": "5",
+  "areaName": "Sleeping Giant Provincial Park",
+  "popularity": 99.1378,
+  "terrainData": {
+    "rock": {
+      "rockType": " ",
+      "rockDescription": "Conglomerate, sandstone, shale",
+      "geologicProvince": "SOUTHERN and SUPERIOR",
+      "geologicEra": "MESOPROTEROZOIC (1.0 Ga to 1.6 Ga)",
+      "rockCategories": [
+        "coarse_clastic_sedimentary",
+        "fine_clastic_sedimentary"
+      ],
+      "rockSlipRisk": "high"
+    },
+    "soil": null,
+    "percentNearWater": 23.9,
+    "waterCrossingCount": 7
+  }
+}

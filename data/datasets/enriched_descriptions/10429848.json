@@ -1,0 +1,85 @@
+{
+  "trailId": "10429848",
+  "trailSlug": "trail/canada/ontario/forks-of-the-credit-trail",
+  "name": "Forks of the Credit Trail",
+  "description": "Discover this 10.0-km loop trail near Belfountain, Ontario. Generally considered a moderately challenging route, it takes an average of 2 h 48 min to complete. This is a very popular area for hiking, snowshoeing, and trail running, so you'll likely encounter other people while exploring. The trail is open year-round and is beautiful to visit anytime. Dogs are welcome, but must be on a leash.",
+  "addressLocality": "Belfountain, Ontario, Canada",
+  "latitude": 43.8247,
+  "longitude": -80.00395,
+  "ratingValue": 4.6,
+  "reviewCount": 1569,
+  "worstRating": "0",
+  "bestRating": "5",
+  "images": [
+    "https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMzAxMjgzNjcvZWMwZWI5Zjk0NWIxYTg0YjJkYTgzM2ZiMTYwYzA4OTYuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJ3ZWJwIiwicmVzaXplIjp7IndpZHRoIjoiNTAwIiwiaGVpZ2h0IjoiNTAwIiwiZml0IjoiaW5zaWRlIn0sInJvdGF0ZSI6bnVsbCwianBlZyI6eyJ0cmVsbGlzUXVhbnRpc2F0aW9uIjp0cnVlLCJvdmVyc2hvb3REZXJpbmdpbmciOnRydWUsIm9wdGltaXNlU2NhbnMiOnRydWUsInF1YW50aXNhdGlvblRhYmxlIjozfX19"
+  ],
+  "features": [
+    "Fee required",
+    "Dogs on leash",
+    "Kid-friendly"
+  ],
+  "surfaceTypes": [
+    {
+      "label": "unknown",
+      "percentOfSurface": 95.93,
+      "totalLength": 9544.62
+    },
+    {
+      "label": "natural",
+      "percentOfSurface": 1.24,
+      "totalLength": 123.07
+    },
+    {
+      "label": "grass",
+      "percentOfSurface": 1.05,
+      "totalLength": 104.15
+    },
+    {
+      "label": "wood",
+      "percentOfSurface": 0.9,
+      "totalLength": 89.7
+    },
+    {
+      "label": "steps",
+      "percentOfSurface": 0.6,
+      "totalLength": 60.18
+    },
+    {
+      "label": "metal",
+      "percentOfSurface": 0.28,
+      "totalLength": 28.32
+    }
+  ],
+  "length": 9977.908,
+  "durationMinutes": 168,
+  "difficultyRating": "3",
+  "areaName": "Forks of the Credit Provincial Park",
+  "popularity": 99.2204,
+  "terrainData": {
+    "rock": {
+      "rockType": " ",
+      "rockDescription": "Sandstone, shale, dolostone, siltstone",
+      "geologicProvince": " ",
+      "geologicEra": "PALEOZOIC (251.0 Ma to 542.0 Ma)",
+      "rockCategories": [
+        "carbonate_sedimentary",
+        "coarse_clastic_sedimentary",
+        "fine_clastic_sedimentary"
+      ],
+      "rockSlipRisk": "high"
+    },
+    "soil": {
+      "soilName": "CALEDON LOAM",
+      "texture": "loam",
+      "textureGroup": "loam",
+      "textureMudPotential": 1,
+      "drainage": "well",
+      "drainageRank": 2,
+      "slopePercent": 7.0,
+      "stoniness": 1,
+      "parentMaterial": null
+    },
+    "percentNearWater": 18.7,
+    "waterCrossingCount": 3
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "trailId": "10238603",
+  "trailSlug": "trail/canada/ontario/centennial-ridges-trail",
+  "name": "Centennial Ridges Trail",
+  "description": "Discover this 10.3-km loop trail near Whitney, Ontario. Generally considered a challenging route, it takes an average of 3 h 28 min to complete. This is a very popular area for camping, hiking, and snowshoeing, so you'll likely encounter other people while exploring. The trail is open year-round and is beautiful to visit anytime. Dogs are welcome, but must be on a leash.",
+  "addressLocality": "Whitney, Ontario, Canada",
+  "latitude": 45.55631,
+  "longitude": -78.41975,
+  "ratingValue": 4.8,
+  "reviewCount": 3382,
+  "worstRating": "0",
+  "bestRating": "5",
+  "images": [
+    "https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvODYyNDY3NTIvNmM1NzRmZjg2ZmU2NmE5N2RmMjVjM2EyNWI3NjQwZGMuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJ3ZWJwIiwicmVzaXplIjp7IndpZHRoIjoiNTAwIiwiaGVpZ2h0IjoiNTAwIiwiZml0IjoiaW5zaWRlIn0sInJvdGF0ZSI6bnVsbCwianBlZyI6eyJ0cmVsbGlzUXVhbnRpc2F0aW9uIjp0cnVlLCJvdmVyc2hvb3REZXJpbmdpbmciOnRydWUsIm9wdGltaXNlU2NhbnMiOnRydWUsInF1YW50aXNhdGlvblRhYmxlIjozfX19"
+  ],
+  "features": [
+    "Fee required",
+    "Dogs on leash",
+    "Forests"
+  ],
+  "surfaceTypes": [
+    {
+      "label": "natural",
+      "percentOfSurface": 99.25,
+      "totalLength": 10201.03
+    },
+    {
+      "label": "unknown",
+      "percentOfSurface": 0.75,
+      "totalLength": 77.51
+    }
+  ],
+  "length": 10299.776,
+  "durationMinutes": 208,
+  "difficultyRating": "5",
+  "areaName": "Algonquin Provincial Park",
+  "popularity": 99.638,
+  "terrainData": {
+    "rock": {
+      "rockType": "Migmatitic rocks and gneisses of undetermined protolith",
+      "rockDescription": "Commonly layered biotite gneisses and migmatites; locally includes quartzofeldspathic gneisses, orthogneisses, paragneisses",
+      "geologicProvince": "GRENVILLE",
+      "geologicEra": "MESOPROTEROZOIC (1.0 Ga to 1.6 Ga)",
+      "rockCategories": [
+        "gneiss_migmatite"
+      ],
+      "rockSlipRisk": "moderate"
+    },
+    "soil": null,
+    "percentNearWater": 42.8,
+    "waterCrossingCount": 7
+  }
+}

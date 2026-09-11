@@ -1,0 +1,64 @@
+{
+  "trailId": "10466081",
+  "trailSlug": "trail/canada/ontario/eldred-king-tract--4",
+  "name": "Eldred King Tract",
+  "description": "Discover this 6.8-km loop trail near Ballantrae, Ontario. Generally considered a moderately challenging route, it takes an average of 1 h 49 min to complete. This is a very popular area for birding, hiking, and horseback riding, so you'll likely encounter other people while exploring. The trail is open year-round and is beautiful to visit anytime. Dogs are welcome, but must be on a leash.",
+  "addressLocality": "Ballantrae, Ontario, Canada",
+  "latitude": 44.06049,
+  "longitude": -79.30816,
+  "ratingValue": 4.6,
+  "reviewCount": 1337,
+  "worstRating": "0",
+  "bestRating": "5",
+  "images": [
+    "https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvNTI4NjA3MTAvNzNmMWI3YzA0ZGYxODRhYzAzZWQ3YTJlNWU0YzQ0YjUuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJ3ZWJwIiwicmVzaXplIjp7IndpZHRoIjoiNTAwIiwiaGVpZ2h0IjoiNTAwIiwiZml0IjoiaW5zaWRlIn0sInJvdGF0ZSI6bnVsbCwianBlZyI6eyJ0cmVsbGlzUXVhbnRpc2F0aW9uIjp0cnVlLCJvdmVyc2hvb3REZXJpbmdpbmciOnRydWUsIm9wdGltaXNlU2NhbnMiOnRydWUsInF1YW50aXNhdGlvblRhYmxlIjozfX19"
+  ],
+  "features": [
+    "Dogs on leash",
+    "Kid-friendly",
+    "Forests"
+  ],
+  "surfaceTypes": [
+    {
+      "label": "natural",
+      "percentOfSurface": 59.79,
+      "totalLength": 4051.29
+    },
+    {
+      "label": "unknown",
+      "percentOfSurface": 40.21,
+      "totalLength": 2724.3
+    }
+  ],
+  "length": 6759.228,
+  "durationMinutes": 109,
+  "difficultyRating": "3",
+  "areaName": "York Regional Forest",
+  "popularity": 97.8405,
+  "terrainData": {
+    "rock": {
+      "rockType": " ",
+      "rockDescription": "Shale, limestone, dolostone, siltstone",
+      "geologicProvince": " ",
+      "geologicEra": "PALEOZOIC (251.0 Ma to 542.0 Ma)",
+      "rockCategories": [
+        "carbonate_sedimentary",
+        "fine_clastic_sedimentary"
+      ],
+      "rockSlipRisk": "high"
+    },
+    "soil": {
+      "soilName": "PONTYPOOL SAND",
+      "texture": "sand",
+      "textureGroup": "sand",
+      "textureMudPotential": 0,
+      "drainage": "well",
+      "drainageRank": 2,
+      "slopePercent": 37.5,
+      "stoniness": 1,
+      "parentMaterial": null
+    },
+    "percentNearWater": 25.5,
+    "waterCrossingCount": 7
+  }
+}

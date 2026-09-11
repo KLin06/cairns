@@ -1,0 +1,65 @@
+{
+  "trailId": "10314286",
+  "trailSlug": "trail/canada/ontario/cataract-falls-via-trans-canada-trail-and-kettle-trail-loop",
+  "name": "Cataract Falls via Trans Canada Trail and Kettle Trail Loop",
+  "description": "Explore this 6.8-km loop trail near Caledon Village, Ontario. Generally considered a moderately challenging route, it takes an average of 1 h 55 min to complete. This is a very popular area for birding, hiking, and snowshoeing, so you'll likely encounter other people while exploring. The best times to visit this trail are March through October. Dogs are welcome, but must be on a leash.",
+  "addressLocality": "Caledon Village, Ontario, Canada",
+  "latitude": 43.82469,
+  "longitude": -80.00394,
+  "ratingValue": 4.5,
+  "reviewCount": 1208,
+  "worstRating": "0",
+  "bestRating": "5",
+  "images": [
+    "https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvOTkwOTgxMzgvY2ZlMDEwMjU2ZWVhM2MzZjlmNjIzYmYwYWRiMTIzODAuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJ3ZWJwIiwicmVzaXplIjp7IndpZHRoIjoiNTAwIiwiaGVpZ2h0IjoiNTAwIiwiZml0IjoiaW5zaWRlIn0sInJvdGF0ZSI6bnVsbCwianBlZyI6eyJ0cmVsbGlzUXVhbnRpc2F0aW9uIjp0cnVlLCJvdmVyc2hvb3REZXJpbmdpbmciOnRydWUsIm9wdGltaXNlU2NhbnMiOnRydWUsInF1YW50aXNhdGlvblRhYmxlIjozfX19"
+  ],
+  "features": [
+    "Fee required",
+    "Dogs on leash",
+    "Kid-friendly"
+  ],
+  "surfaceTypes": [
+    {
+      "label": "unknown",
+      "percentOfSurface": 90.94,
+      "totalLength": 6138.34
+    },
+    {
+      "label": "grass",
+      "percentOfSurface": 9.06,
+      "totalLength": 611.87
+    }
+  ],
+  "length": 6759.228,
+  "durationMinutes": 115,
+  "difficultyRating": "3",
+  "areaName": "Forks of the Credit Provincial Park",
+  "popularity": 98.5758,
+  "terrainData": {
+    "rock": {
+      "rockType": " ",
+      "rockDescription": "Sandstone, shale, dolostone, siltstone",
+      "geologicProvince": " ",
+      "geologicEra": "PALEOZOIC (251.0 Ma to 542.0 Ma)",
+      "rockCategories": [
+        "carbonate_sedimentary",
+        "coarse_clastic_sedimentary",
+        "fine_clastic_sedimentary"
+      ],
+      "rockSlipRisk": "high"
+    },
+    "soil": {
+      "soilName": "CALEDON LOAM",
+      "texture": "loam",
+      "textureGroup": "loam",
+      "textureMudPotential": 1,
+      "drainage": "well",
+      "drainageRank": 2,
+      "slopePercent": 7.0,
+      "stoniness": 1,
+      "parentMaterial": null
+    },
+    "percentNearWater": 4.5,
+    "waterCrossingCount": 0
+  }
+}

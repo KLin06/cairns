@@ -1,0 +1,79 @@
+{
+  "trailId": "10323419",
+  "trailSlug": "trail/canada/ontario/sixteen-mile-creek-trail-loop",
+  "name": "Sixteen Mile Creek Trail Loop",
+  "description": "Try this 6.3-km loop trail near Oakville, Ontario. Generally considered a moderately challenging route, it takes an average of 1 h 26 min to complete. This is a very popular area for birding, cross-country skiing, and hiking, so you'll likely encounter other people while exploring. The trail is open year-round and is beautiful to visit anytime. Dogs are welcome, but must be on a leash.",
+  "addressLocality": "Oakville, Ontario, Canada",
+  "latitude": 43.45986,
+  "longitude": -79.75167,
+  "ratingValue": 4.6,
+  "reviewCount": 4526,
+  "worstRating": "0",
+  "bestRating": "5",
+  "images": [
+    "https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMTAwMDk1MDg5LzUwNWQ2ZGMyYzBlZmQwMGUwM2RjMGY3ZThkYmUwOWJmLmpwZyIsImVkaXRzIjp7InRvRm9ybWF0Ijoid2VicCIsInJlc2l6ZSI6eyJ3aWR0aCI6IjUwMCIsImhlaWdodCI6IjUwMCIsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ=="
+  ],
+  "features": [
+    "Dogs on leash",
+    "Kid-friendly",
+    "Forests"
+  ],
+  "surfaceTypes": [
+    {
+      "label": "unknown",
+      "percentOfSurface": 78.72,
+      "totalLength": 4921.01
+    },
+    {
+      "label": "natural",
+      "percentOfSurface": 14.8,
+      "totalLength": 924.97
+    },
+    {
+      "label": "gravel",
+      "percentOfSurface": 3.74,
+      "totalLength": 233.53
+    },
+    {
+      "label": "paved",
+      "percentOfSurface": 2.53,
+      "totalLength": 158.05
+    },
+    {
+      "label": "steps",
+      "percentOfSurface": 0.22,
+      "totalLength": 13.85
+    }
+  ],
+  "length": 6276.426,
+  "durationMinutes": 86,
+  "difficultyRating": "3",
+  "areaName": "Lions Valley Park",
+  "popularity": 99.6336,
+  "terrainData": {
+    "rock": {
+      "rockType": " ",
+      "rockDescription": "Shale, limestone, dolostone, siltstone",
+      "geologicProvince": " ",
+      "geologicEra": "PALEOZOIC (251.0 Ma to 542.0 Ma)",
+      "rockCategories": [
+        "carbonate_sedimentary",
+        "fine_clastic_sedimentary"
+      ],
+      "rockSlipRisk": "high"
+    },
+    "soil": {
+      "soilName": "BOTTOM LAND",
+      "texture": "variable",
+      "textureGroup": null,
+      "textureMudPotential": null,
+      "drainage": "variable",
+      "drainageRank": null,
+      "slopePercent": -9.0,
+      "stoniness": 0,
+      "parentMaterial": null
+    },
+    "percentNearWater": 43.9,
+    "waterCrossingCount": 5
+  }
+}

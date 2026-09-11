@@ -1,0 +1,79 @@
+{
+  "trailId": "10238037",
+  "trailSlug": "trail/canada/ontario/david-j-culham-trail",
+  "name": "David J Culham Trail",
+  "description": "Discover this 13.2-km out-and-back trail near Mississauga, Ontario. Generally considered a moderately challenging route, it takes an average of 2 h 52 min to complete. This is a very popular area for birding, hiking, and road biking, so you'll likely encounter other people while exploring. The best times to visit this trail are March through November. Dogs are welcome, but must be on a leash.",
+  "addressLocality": "Mississauga, Ontario, Canada",
+  "latitude": 43.54664,
+  "longitude": -79.65401,
+  "ratingValue": 4.4,
+  "reviewCount": 1473,
+  "worstRating": "0",
+  "bestRating": "5",
+  "images": [
+    "https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvOTk5OTYxNzgvZTRhN2I4NGQyZWJiYzI5M2NiODAyNmU3OWUzYzE4ODEuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJ3ZWJwIiwicmVzaXplIjp7IndpZHRoIjoiNTAwIiwiaGVpZ2h0IjoiNTAwIiwiZml0IjoiaW5zaWRlIn0sInJvdGF0ZSI6bnVsbCwianBlZyI6eyJ0cmVsbGlzUXVhbnRpc2F0aW9uIjp0cnVlLCJvdmVyc2hvb3REZXJpbmdpbmciOnRydWUsIm9wdGltaXNlU2NhbnMiOnRydWUsInF1YW50aXNhdGlvblRhYmxlIjozfX19"
+  ],
+  "features": [
+    "Dogs on leash",
+    "Kid-friendly",
+    "Stroller-friendly"
+  ],
+  "surfaceTypes": [
+    {
+      "label": "gravel",
+      "percentOfSurface": 87.54,
+      "totalLength": 11590.19
+    },
+    {
+      "label": "paved",
+      "percentOfSurface": 10.09,
+      "totalLength": 1336.14
+    },
+    {
+      "label": "unknown",
+      "percentOfSurface": 1.74,
+      "totalLength": 230.01
+    },
+    {
+      "label": "wood",
+      "percentOfSurface": 0.36,
+      "totalLength": 47.2
+    },
+    {
+      "label": "steps",
+      "percentOfSurface": 0.27,
+      "totalLength": 35.78
+    }
+  ],
+  "length": 13196.588,
+  "durationMinutes": 172,
+  "difficultyRating": "3",
+  "areaName": "Erindale Park ",
+  "popularity": 98.0958,
+  "terrainData": {
+    "rock": {
+      "rockType": " ",
+      "rockDescription": "Shale, limestone, dolostone, siltstone",
+      "geologicProvince": " ",
+      "geologicEra": "PALEOZOIC (251.0 Ma to 542.0 Ma)",
+      "rockCategories": [
+        "carbonate_sedimentary",
+        "fine_clastic_sedimentary"
+      ],
+      "rockSlipRisk": "high"
+    },
+    "soil": {
+      "soilName": "BUILT UP AREA",
+      "texture": null,
+      "textureGroup": null,
+      "textureMudPotential": null,
+      "drainage": null,
+      "drainageRank": null,
+      "slopePercent": -9.0,
+      "stoniness": null,
+      "parentMaterial": null
+    },
+    "percentNearWater": 63.9,
+    "waterCrossingCount": 12
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "trailId": "10236565",
+  "trailSlug": "trail/canada/ontario/bruce-meadow-dominion-loop",
+  "name": "Bruce, Meadow and Dominion Loop",
+  "description": "Check out this 8.0-km loop trail near Caledon Village, Ontario. Generally considered a moderately challenging route, it takes an average of 2 h 16 min to complete. This is a very popular area for birding, hiking, and snowshoeing, so you'll likely encounter other people while exploring. The trail is open year-round and is beautiful to visit anytime. Dogs are welcome, but must be on a leash.",
+  "addressLocality": "Caledon Village, Ontario, Canada",
+  "latitude": 43.82482,
+  "longitude": -80.00391,
+  "ratingValue": 4.6,
+  "reviewCount": 1083,
+  "worstRating": "0",
+  "bestRating": "5",
+  "images": [
+    "https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMTI5MzQzMjAzLzVjYmRhMDMxODE3OWU4NGQwYjNiODhkZGE4Y2E1YTQ0LmpwZyIsImVkaXRzIjp7InRvRm9ybWF0Ijoid2VicCIsInJlc2l6ZSI6eyJ3aWR0aCI6IjUwMCIsImhlaWdodCI6IjUwMCIsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ=="
+  ],
+  "features": [
+    "Fee required",
+    "Dogs on leash",
+    "Kid-friendly"
+  ],
+  "surfaceTypes": [
+    {
+      "label": "unknown",
+      "percentOfSurface": 98.39,
+      "totalLength": 7902.61
+    },
+    {
+      "label": "grass",
+      "percentOfSurface": 1.31,
+      "totalLength": 105.55
+    },
+    {
+      "label": "gravel",
+      "percentOfSurface": 0.19,
+      "totalLength": 14.87
+    },
+    {
+      "label": "natural",
+      "percentOfSurface": 0.11,
+      "totalLength": 8.63
+    }
+  ],
+  "length": 8046.7,
+  "durationMinutes": 136,
+  "difficultyRating": "3",
+  "areaName": "Forks of the Credit Provincial Park",
+  "popularity": 98.3002,
+  "terrainData": {
+    "rock": {
+      "rockType": " ",
+      "rockDescription": "Sandstone, shale, dolostone, siltstone",
+      "geologicProvince": " ",
+      "geologicEra": "PALEOZOIC (251.0 Ma to 542.0 Ma)",
+      "rockCategories": [
+        "carbonate_sedimentary",
+        "coarse_clastic_sedimentary",
+        "fine_clastic_sedimentary"
+      ],
+      "rockSlipRisk": "high"
+    },
+    "soil": {
+      "soilName": "CALEDON LOAM",
+      "texture": "loam",
+      "textureGroup": "loam",
+      "textureMudPotential": 1,
+      "drainage": "well",
+      "drainageRank": 2,
+      "slopePercent": 7.0,
+      "stoniness": 1,
+      "parentMaterial": null
+    },
+    "percentNearWater": 9.0,
+    "waterCrossingCount": 0
+  }
+}

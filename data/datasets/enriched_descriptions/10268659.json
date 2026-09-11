@@ -1,0 +1,58 @@
+{
+  "trailId": "10268659",
+  "trailSlug": "trail/canada/ontario/arrowhead-lake-loop-trail",
+  "name": "Arrowhead Lake",
+  "description": "Check out this 6.6-km loop trail near Huntsville, Ontario. Generally considered an easy route, it takes an average of 1 h 43 min to complete. This is a very popular area for birding, camping, and cross-country skiing, so you'll likely encounter other people while exploring. The trail is open year-round and is beautiful to visit anytime. Dogs are welcome, but must be on a leash.",
+  "addressLocality": "Huntsville, Ontario, Canada",
+  "latitude": 45.39206,
+  "longitude": -79.21446,
+  "ratingValue": 4.5,
+  "reviewCount": 1107,
+  "worstRating": "0",
+  "bestRating": "5",
+  "images": [
+    "https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMzcyNzIyMzgvODE2MWU0NWQyYjg3NWZiNmE0OWM3M2VhYjgzN2RhZDIuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJ3ZWJwIiwicmVzaXplIjp7IndpZHRoIjoiNTAwIiwiaGVpZ2h0IjoiNTAwIiwiZml0IjoiaW5zaWRlIn0sInJvdGF0ZSI6bnVsbCwianBlZyI6eyJ0cmVsbGlzUXVhbnRpc2F0aW9uIjp0cnVlLCJvdmVyc2hvb3REZXJpbmdpbmciOnRydWUsIm9wdGltaXNlU2NhbnMiOnRydWUsInF1YW50aXNhdGlvblRhYmxlIjozfX19"
+  ],
+  "features": [
+    "Fee required",
+    "Dogs on leash",
+    "Kid-friendly"
+  ],
+  "surfaceTypes": [
+    {
+      "label": "natural",
+      "percentOfSurface": 90.74,
+      "totalLength": 5916.05
+    },
+    {
+      "label": "unknown",
+      "percentOfSurface": 6.01,
+      "totalLength": 391.55
+    },
+    {
+      "label": "paved",
+      "percentOfSurface": 3.25,
+      "totalLength": 212.12
+    }
+  ],
+  "length": 6598.294,
+  "durationMinutes": 103,
+  "difficultyRating": "1",
+  "areaName": "Arrowhead Provincial Park ",
+  "popularity": 97.9281,
+  "terrainData": {
+    "rock": {
+      "rockType": "Migmatitic rocks and gneisses of undetermined protolith",
+      "rockDescription": "Commonly layered biotite gneisses and migmatites; locally includes quartzofeldspathic gneisses, orthogneisses, paragneisses",
+      "geologicProvince": "GRENVILLE",
+      "geologicEra": "MESOPROTEROZOIC (1.0 Ga to 1.6 Ga)",
+      "rockCategories": [
+        "gneiss_migmatite"
+      ],
+      "rockSlipRisk": "moderate"
+    },
+    "soil": null,
+    "percentNearWater": 38.9,
+    "waterCrossingCount": 5
+  }
+}

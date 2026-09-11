@@ -1,0 +1,64 @@
+{
+  "trailId": "10261344",
+  "trailSlug": "trail/canada/ontario/duncan-caves-trail",
+  "name": "Duncan Caves Trail",
+  "description": "Head out on this 11.7-km loop trail near Ravenna, Ontario. Generally considered a moderately challenging route, it takes an average of 3 h 50 min to complete. This is a very popular area for hiking, snowshoeing, and trail running, so you'll likely encounter other people while exploring. The best times to visit this trail are April through October. Dogs are welcome, but must be on a leash.",
+  "addressLocality": "Ravenna, Ontario, Canada",
+  "latitude": 44.42329,
+  "longitude": -80.46951,
+  "ratingValue": 4.7,
+  "reviewCount": 1753,
+  "worstRating": "0",
+  "bestRating": "5",
+  "images": [
+    "https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMTI4MDczNDEzLzI4Njg5MmMwOGFhZWQzMTFkOGRlNGJhZWQ0NDAzMWQwLmpwZyIsImVkaXRzIjp7InRvRm9ybWF0Ijoid2VicCIsInJlc2l6ZSI6eyJ3aWR0aCI6IjUwMCIsImhlaWdodCI6IjUwMCIsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ=="
+  ],
+  "features": [
+    "Dogs on leash",
+    "Rocky",
+    "Caves"
+  ],
+  "surfaceTypes": [
+    {
+      "label": "unknown",
+      "percentOfSurface": 99.64,
+      "totalLength": 11662.24
+    },
+    {
+      "label": "wood",
+      "percentOfSurface": 0.36,
+      "totalLength": 42.36
+    }
+  ],
+  "length": 11748.182,
+  "durationMinutes": 230,
+  "difficultyRating": "3",
+  "areaName": "Duncan Escarpment Provincial Park",
+  "popularity": 98.7971,
+  "terrainData": {
+    "rock": {
+      "rockType": " ",
+      "rockDescription": "Shale, limestone, dolostone, siltstone",
+      "geologicProvince": " ",
+      "geologicEra": "PALEOZOIC (251.0 Ma to 542.0 Ma)",
+      "rockCategories": [
+        "carbonate_sedimentary",
+        "fine_clastic_sedimentary"
+      ],
+      "rockSlipRisk": "high"
+    },
+    "soil": {
+      "soilName": "DUNEDIN CLAY",
+      "texture": "clay",
+      "textureGroup": "clay",
+      "textureMudPotential": 2,
+      "drainage": "well",
+      "drainageRank": 2,
+      "slopePercent": 12.0,
+      "stoniness": 1,
+      "parentMaterial": null
+    },
+    "percentNearWater": 16.3,
+    "waterCrossingCount": 6
+  }
+}

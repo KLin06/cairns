@@ -1,0 +1,80 @@
+{
+  "trailId": "10528226",
+  "trailSlug": "trail/canada/ontario/inglis-falls-trail",
+  "name": "Inglis Falls Trail",
+  "description": "Head out on this 6.3-km out-and-back trail near Owen Sound, Ontario. Generally considered a moderately challenging route, it takes an average of 1 h 46 min to complete. This is a very popular area for hiking, snowshoeing, and trail running, so you'll likely encounter other people while exploring. The trail is open year-round and is beautiful to visit anytime. Dogs are welcome, but must be on a leash.",
+  "addressLocality": "Owen Sound, Ontario, Canada",
+  "latitude": 44.54548,
+  "longitude": -80.93841,
+  "ratingValue": 4.7,
+  "reviewCount": 1007,
+  "worstRating": "0",
+  "bestRating": "5",
+  "images": [
+    "https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMTAwOTc5NTkwL2RjMjA2NDU0YTE1ZjZhMzk2Y2ZjNjkxMmEyYWE5NTU1LmpwZyIsImVkaXRzIjp7InRvRm9ybWF0Ijoid2VicCIsInJlc2l6ZSI6eyJ3aWR0aCI6IjUwMCIsImhlaWdodCI6IjUwMCIsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ=="
+  ],
+  "features": [
+    "Dogs on leash",
+    "Kid-friendly",
+    "Forests"
+  ],
+  "surfaceTypes": [
+    {
+      "label": "unknown",
+      "percentOfSurface": 59.4,
+      "totalLength": 3730.41
+    },
+    {
+      "label": "gravel",
+      "percentOfSurface": 20.83,
+      "totalLength": 1307.86
+    },
+    {
+      "label": "paved",
+      "percentOfSurface": 18.65,
+      "totalLength": 1171.39
+    },
+    {
+      "label": "metal",
+      "percentOfSurface": 0.62,
+      "totalLength": 39.13
+    },
+    {
+      "label": "natural",
+      "percentOfSurface": 0.5,
+      "totalLength": 31.43
+    }
+  ],
+  "length": 6276.426,
+  "durationMinutes": 106,
+  "difficultyRating": "3",
+  "areaName": "Inglis Falls Conservation Area",
+  "popularity": 98.197,
+  "terrainData": {
+    "rock": {
+      "rockType": " ",
+      "rockDescription": "Sandstone, shale, dolostone, siltstone",
+      "geologicProvince": " ",
+      "geologicEra": "PALEOZOIC (251.0 Ma to 542.0 Ma)",
+      "rockCategories": [
+        "carbonate_sedimentary",
+        "coarse_clastic_sedimentary",
+        "fine_clastic_sedimentary"
+      ],
+      "rockSlipRisk": "high"
+    },
+    "soil": {
+      "soilName": "TECUMSETH SAND",
+      "texture": "sandy loam",
+      "textureGroup": "loam",
+      "textureMudPotential": 1,
+      "drainage": "imperfect",
+      "drainageRank": 4,
+      "slopePercent": 1.2,
+      "stoniness": 0,
+      "parentMaterial": null
+    },
+    "percentNearWater": 51.1,
+    "waterCrossingCount": 8
+  }
+}

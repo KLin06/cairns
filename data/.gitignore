@@ -1,3 +1,10 @@
 .env
 venv/
-datasets/
+datasets/*
+# The deploy image (Dockerfile.render, DATA_BACKEND=memory - see
+# server/app/services/data_store.py) copies these three straight from the
+# repo, so they need to be tracked; everything else under datasets/ (raw
+# scrapes, models, html, etc.) stays ignored.
+!datasets/enriched_descriptions/
+!datasets/cleaned_reviews/
+!datasets/route_geometry/

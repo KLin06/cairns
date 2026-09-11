@@ -1,0 +1,75 @@
+{
+  "trailId": "10238203",
+  "trailSlug": "trail/canada/ontario/vicki-barron-lakeside-trail",
+  "name": "Vicki Barron Lakeside Trail",
+  "description": "Head out on this 7.7-km loop trail near Orangeville, Ontario. Generally considered a moderately challenging route, it takes an average of 2 h 3 min to complete. This is a very popular area for hiking, mountain biking, and snowshoeing, so you'll likely encounter other people while exploring. The trail is open year-round and is beautiful to visit anytime. Dogs are welcome, but must be on a leash.",
+  "addressLocality": "Orangeville, Ontario, Canada",
+  "latitude": 43.92755,
+  "longitude": -80.08945,
+  "ratingValue": 4.7,
+  "reviewCount": 2924,
+  "worstRating": "0",
+  "bestRating": "5",
+  "images": [
+    "https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvODQ5NTE1OTEvMWFkNzVhMzI1ODBlMzZmMDkyZDE2MTU3YTc3MDEwNDEuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJ3ZWJwIiwicmVzaXplIjp7IndpZHRoIjoiNTAwIiwiaGVpZ2h0IjoiNTAwIiwiZml0IjoiaW5zaWRlIn0sInJvdGF0ZSI6bnVsbCwianBlZyI6eyJ0cmVsbGlzUXVhbnRpc2F0aW9uIjp0cnVlLCJvdmVyc2hvb3REZXJpbmdpbmciOnRydWUsIm9wdGltaXNlU2NhbnMiOnRydWUsInF1YW50aXNhdGlvblRhYmxlIjozfX19"
+  ],
+  "features": [
+    "Dogs on leash",
+    "Kid-friendly",
+    "Forests"
+  ],
+  "surfaceTypes": [
+    {
+      "label": "gravel",
+      "percentOfSurface": 75.07,
+      "totalLength": 5832.43
+    },
+    {
+      "label": "wood",
+      "percentOfSurface": 22.85,
+      "totalLength": 1775.54
+    },
+    {
+      "label": "paved",
+      "percentOfSurface": 1.91,
+      "totalLength": 148.41
+    },
+    {
+      "label": "unknown",
+      "percentOfSurface": 0.17,
+      "totalLength": 13.33
+    }
+  ],
+  "length": 7724.832,
+  "durationMinutes": 123,
+  "difficultyRating": "3",
+  "areaName": "Island Lake Conservation Area",
+  "popularity": 99.0993,
+  "terrainData": {
+    "rock": {
+      "rockType": " ",
+      "rockDescription": "Sandstone, shale, dolostone, siltstone",
+      "geologicProvince": " ",
+      "geologicEra": "PALEOZOIC (251.0 Ma to 542.0 Ma)",
+      "rockCategories": [
+        "carbonate_sedimentary",
+        "coarse_clastic_sedimentary",
+        "fine_clastic_sedimentary"
+      ],
+      "rockSlipRisk": "high"
+    },
+    "soil": {
+      "soilName": "BURFORD LOAM",
+      "texture": "loam",
+      "textureGroup": "loam",
+      "textureMudPotential": 1,
+      "drainage": "well",
+      "drainageRank": 2,
+      "slopePercent": 3.5,
+      "stoniness": 1,
+      "parentMaterial": null
+    },
+    "percentNearWater": 73.1,
+    "waterCrossingCount": 9
+  }
+}

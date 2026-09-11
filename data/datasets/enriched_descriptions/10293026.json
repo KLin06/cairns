@@ -1,0 +1,65 @@
+{
+  "trailId": "10293026",
+  "trailSlug": "trail/canada/ontario/mount-nemo-conservation-loop",
+  "name": "Mount Nemo Conservation Loop",
+  "description": "Experience this 7.7-km loop trail near Burlington, Ontario. Generally considered a moderately challenging route, it takes an average of 1 h 41 min to complete. This is a very popular area for hiking, rock climbing, and trail running, so you'll likely encounter other people while exploring. The best times to visit this trail are April through October. Dogs are welcome, but must be on a leash.",
+  "addressLocality": "Burlington, Ontario, Canada",
+  "latitude": 43.4184,
+  "longitude": -79.8809,
+  "ratingValue": 4.6,
+  "reviewCount": 736,
+  "worstRating": "0",
+  "bestRating": "5",
+  "images": [
+    "https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvNDkzNTQ2NjIvNzEzMmMyZWI1MGYwYmFiMDVjYWIyNTBlMzEzODgxY2YuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJ3ZWJwIiwicmVzaXplIjp7IndpZHRoIjoiNTAwIiwiaGVpZ2h0IjoiNTAwIiwiZml0IjoiaW5zaWRlIn0sInJvdGF0ZSI6bnVsbCwianBlZyI6eyJ0cmVsbGlzUXVhbnRpc2F0aW9uIjp0cnVlLCJvdmVyc2hvb3REZXJpbmdpbmciOnRydWUsIm9wdGltaXNlU2NhbnMiOnRydWUsInF1YW50aXNhdGlvblRhYmxlIjozfX19"
+  ],
+  "features": [
+    "Fee required",
+    "Dogs on leash",
+    "Rocky"
+  ],
+  "surfaceTypes": [
+    {
+      "label": "natural",
+      "percentOfSurface": 66.1,
+      "totalLength": 5129.81
+    },
+    {
+      "label": "unknown",
+      "percentOfSurface": 33.9,
+      "totalLength": 2630.34
+    }
+  ],
+  "length": 7724.832,
+  "durationMinutes": 101,
+  "difficultyRating": "3",
+  "areaName": "Mount Nemo Conservation Area",
+  "popularity": 97.5331,
+  "terrainData": {
+    "rock": {
+      "rockType": " ",
+      "rockDescription": "Sandstone, shale, dolostone, siltstone",
+      "geologicProvince": " ",
+      "geologicEra": "PALEOZOIC (251.0 Ma to 542.0 Ma)",
+      "rockCategories": [
+        "carbonate_sedimentary",
+        "coarse_clastic_sedimentary",
+        "fine_clastic_sedimentary"
+      ],
+      "rockSlipRisk": "high"
+    },
+    "soil": {
+      "soilName": "LONDON LOAM",
+      "texture": "loam",
+      "textureGroup": "loam",
+      "textureMudPotential": 1,
+      "drainage": "imperfect",
+      "drainageRank": 4,
+      "slopePercent": 1.2,
+      "stoniness": 2,
+      "parentMaterial": null
+    },
+    "percentNearWater": 6.8,
+    "waterCrossingCount": 2
+  }
+}

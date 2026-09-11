@@ -1,0 +1,5667 @@
+[
+  {
+    "reviewId": 77770462,
+    "trailId": 10307300,
+    "comment": "Best day for this trail. There were no bugs until we got to the road and then the deer flies were vicious. Drape up!!",
+    "date": "2026-08-03T16:16:29.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 405742811.0
+  },
+  {
+    "reviewId": 76365129,
+    "trailId": 10307300,
+    "comment": "Liked the first half more than the second. Kinda buggy near the end",
+    "date": "2026-07-26T14:36:41.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Bugs",
+      "Buggy"
+    ],
+    "hasRecording": true,
+    "recordingId": 403245717.0
+  },
+  {
+    "reviewId": 76164790,
+    "trailId": 10307300,
+    "comment": "Nice trail around the lake but not a lot of good view points and if you’re doing the circle you have to walk for about 1km on the road at the end. Great conditions though, dog friendly, and some nice wildlife.",
+    "date": "2026-07-25T16:15:24.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 402914795.0
+  },
+  {
+    "reviewId": 75618914,
+    "trailId": 10307300,
+    "comment": "Well Maintained trails and easy to navigate. Good signage. Interesting mushrooms.\nLovely cottages nestled in the woods not to many mosquitos!",
+    "date": "2026-07-22T14:05:23.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Camping",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 401954473.0
+  },
+  {
+    "reviewId": 75518441,
+    "trailId": 10307300,
+    "comment": "Nice little walk , we took our time nothing too strenuous. A few bugs but not too bad . Passed maybe 5-6 groups very quiet",
+    "date": "2026-07-21T15:23:07.000Z",
+    "rating": 5,
+    "difficulty": 1.0,
+    "activity": "Hiking",
+    "obstacles": [
+      "Dry ground"
+    ],
+    "trailConditions": [
+      "Bugs",
+      "Buggy"
+    ],
+    "hasRecording": true,
+    "recordingId": 401767828.0
+  },
+  {
+    "reviewId": 74907615,
+    "trailId": 10307300,
+    "comment": "This hike was amazing! Definitely recommend hiking shoes as there are lots of roots and rocks exposed. The hike up echo rock to see the lookout is very steep especially while carrying a toddler in a backpack carrier but was a great view. A few trees down on the trail we had to duck under or go over them. Bugs were out so also recommend bug spray. Also as mentioned in some previous reviews, you do walk through some private cottage waterfront properties but a few property owners were out when we passed through and were very friendly! ",
+    "date": "2026-07-18T14:07:40.000Z",
+    "rating": 4,
+    "difficulty": 3.0,
+    "activity": null,
+    "obstacles": [
+      "Bugs",
+      "Obstructions",
+      "Dry ground",
+      "Obstructions",
+      "Obstructions",
+      "Buggy"
+    ],
+    "trailConditions": [
+      "Bugs",
+      "Buggy"
+    ],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 73374544,
+    "trailId": 10307300,
+    "comment": "I personally wouldn’t say this was moderate but quite easy. There was only one true hill before echo cliff. The lookout was very small, but beautiful. The bugs were there, but I coated well in bug spray and they weren’t too bad. The downside was the trail takes you through the waterfront of residents private areas, felt a little intrusive. But the rest was very private. Basically had it to myself!",
+    "date": "2026-07-08T14:00:48.000Z",
+    "rating": 4,
+    "difficulty": 1.0,
+    "activity": "Hiking",
+    "obstacles": [
+      "Bugs",
+      "Dry ground",
+      "Well maintained"
+    ],
+    "trailConditions": [
+      "Bugs",
+      "Buggy"
+    ],
+    "hasRecording": true,
+    "recordingId": 397931863.0
+  },
+  {
+    "reviewId": 73240703,
+    "trailId": 10307300,
+    "comment": "We went in the morning and had the trail pretty much to ourselves. Bugs aren’t awful but I would recommend bug spray, because they were annoying (mainly in the middle of the hike). Really pretty hike through the forest, lookout isn’t all that though, it’s high up but nothing special.",
+    "date": "2026-07-07T16:43:49.000Z",
+    "rating": 4,
+    "difficulty": 3.0,
+    "activity": null,
+    "obstacles": [
+      "Bugs",
+      "Well maintained",
+      "Buggy"
+    ],
+    "trailConditions": [
+      "Bugs",
+      "Buggy"
+    ],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 72976374,
+    "trailId": 10307300,
+    "comment": "The AllTrails route makes no sense. Why would you walk along the road and over the lake. I am not Jesus. Take the solitude trail around the lake which is very nice.",
+    "date": "2026-07-05T16:57:19.000Z",
+    "rating": 2,
+    "difficulty": 1.0,
+    "activity": "Hiking",
+    "obstacles": [
+      "Bugs",
+      "Dry ground"
+    ],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 397214261.0
+  },
+  {
+    "reviewId": 72230554,
+    "trailId": 10307300,
+    "comment": "Fun little trail for a quick hike. Mosquitoes were bad near the parking area, but disappeared along the trail, for the most part.",
+    "date": "2026-06-30T12:10:20.000Z",
+    "rating": 5,
+    "difficulty": 3.0,
+    "activity": "Hiking",
+    "obstacles": [
+      "Muddy",
+      "Dry ground",
+      "Well maintained"
+    ],
+    "trailConditions": [
+      "Bugs",
+      "Buggy"
+    ],
+    "hasRecording": true,
+    "recordingId": 395924254.0
+  },
+  {
+    "reviewId": 71879708,
+    "trailId": 10307300,
+    "comment": "Signage up front is unclear. Paths are thru private property so can feel intrusive. Bring bug spray.",
+    "date": "2026-06-28T19:34:02.000Z",
+    "rating": 3,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Bugs",
+      "Buggy"
+    ],
+    "hasRecording": true,
+    "recordingId": 395286356.0
+  },
+  {
+    "reviewId": 71206156,
+    "trailId": 10307300,
+    "comment": "Easy well maintained and marked trail.",
+    "date": "2026-06-24T15:09:35.000Z",
+    "rating": 5,
+    "difficulty": 1.0,
+    "activity": "Walking",
+    "obstacles": [
+      "Bugs"
+    ],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 394098951.0
+  },
+  {
+    "reviewId": 70519178,
+    "trailId": 10307300,
+    "comment": "It rained the day before so parts of the trails were super muddy the mosquitoes are out something fierce. Great views & dog friendly.",
+    "date": "2026-06-20T12:59:41.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Bugs",
+      "Muddy",
+      "Muddy",
+      "Buggy"
+    ],
+    "hasRecording": true,
+    "recordingId": 392908737.0
+  },
+  {
+    "reviewId": 67594035,
+    "trailId": 10307300,
+    "comment": "Monday morning hike so there wasn’t anyone else on the trail",
+    "date": "2026-06-01T15:15:47.000Z",
+    "rating": 5,
+    "difficulty": 3.0,
+    "activity": "Hiking",
+    "obstacles": [
+      "Bugs",
+      "Well maintained"
+    ],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 387828933.0
+  },
+  {
+    "reviewId": 66052543,
+    "trailId": 10307300,
+    "comment": "No bugs today but probably will be before too long. Too many off leash dogs with owners nowhere in sight.",
+    "date": "2026-05-23T14:01:44.000Z",
+    "rating": 5,
+    "difficulty": 1.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 385150130.0
+  },
+  {
+    "reviewId": 65309744,
+    "trailId": 10307300,
+    "comment": "First hike of 2026. Well maintained. Went with family and enjoyed the scenery! The water was crystal clear",
+    "date": "2026-05-17T14:42:32.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 383739274.0
+  },
+  {
+    "reviewId": 64918902,
+    "trailId": 10307300,
+    "comment": "Algonquin without the addmission",
+    "date": "2026-05-15T14:39:47.000Z",
+    "rating": 5,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 383074249.0
+  },
+  {
+    "reviewId": 63195339,
+    "trailId": 10307300,
+    "comment": "Amazing hike, very easy for 90% of it. 1 steep incline and decline around echo hill. The views are outstanding. \n\nCame around 10:30am on a Monday and  we had the entire trail to ourselves. \n\nThe lookout was small BUT could definitely fit 4 people. Great place for a quick sit down snack or drink. The trail ends on the main road and you have to walk up to the parking lot.",
+    "date": "2026-04-27T14:31:51.000Z",
+    "rating": 4,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 378467902.0
+  },
+  {
+    "reviewId": 63153787,
+    "trailId": 10307300,
+    "comment": "A little muddy at points, but clearly marked.",
+    "date": "2026-04-26T18:40:56.000Z",
+    "rating": 5,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Muddy",
+      "Muddy"
+    ],
+    "hasRecording": true,
+    "recordingId": 378194230.0
+  },
+  {
+    "reviewId": 61546304,
+    "trailId": 10307300,
+    "comment": "If you start the loop counter clockwise the trail snakes up to the lookout. If you start clockwise it is a sharper more direct incline.",
+    "date": "2026-03-09T19:44:45.000Z",
+    "rating": 4,
+    "difficulty": 1.0,
+    "activity": null,
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 61351293,
+    "trailId": 10307300,
+    "comment": "Sunny, cold beautiful day! My first time in Limberlost Forest. Will comeback in summer or fall.",
+    "date": "2026-03-01T15:21:20.000Z",
+    "rating": 5,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 366726029.0
+  },
+  {
+    "reviewId": 60980710,
+    "trailId": 10307300,
+    "comment": "Great trail with beautiful snow all around ",
+    "date": "2026-02-15T19:39:57.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Snow"
+    ],
+    "trailConditions": [
+      "Snow",
+      "Snow"
+    ],
+    "hasRecording": true,
+    "recordingId": 364367471.0
+  },
+  {
+    "reviewId": 59938632,
+    "trailId": 10307300,
+    "comment": "Engaged!!!",
+    "date": "2025-12-31T19:32:51.000Z",
+    "rating": 5,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 357343775.0
+  },
+  {
+    "reviewId": 59844501,
+    "trailId": 10307300,
+    "comment": "Lots of snow!\n",
+    "date": "2025-12-28T14:28:23.000Z",
+    "rating": 5,
+    "difficulty": 3.0,
+    "activity": "Skiing",
+    "obstacles": [],
+    "trailConditions": [
+      "Snow"
+    ],
+    "hasRecording": true,
+    "recordingId": 356793375.0
+  },
+  {
+    "reviewId": 59277662,
+    "trailId": 10307300,
+    "comment": "The trail was very icy in many places. Grippers/icers and poles are advised. It was better as the day warmed up. It’s a beautiful trail for scenery and most of the time you are hiking alongside the lake. Loved the boardwalk stretches over the lake.",
+    "date": "2025-11-24T15:05:31.000Z",
+    "rating": 5,
+    "difficulty": 5.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Icy"
+    ],
+    "hasRecording": true,
+    "recordingId": 352611582.0
+  },
+  {
+    "reviewId": 58817929,
+    "trailId": 10307300,
+    "comment": "Amazing view!! Really well kept",
+    "date": "2025-11-04T20:06:13.000Z",
+    "rating": 5,
+    "difficulty": 3.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 349678160.0
+  },
+  {
+    "reviewId": 58655542,
+    "trailId": 10307300,
+    "comment": "A nice Autumn walk through the forest. Falls colours have finished up here.",
+    "date": "2025-10-29T14:46:29.000Z",
+    "rating": 5,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [
+      "Dry ground",
+      "Well maintained"
+    ],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 348683854.0
+  },
+  {
+    "reviewId": 58410348,
+    "trailId": 10307300,
+    "comment": "2 hour fall hike on a Monday. Passed only a few groups of people early on route. Was glad that we started the hike going clockwise so we ended at Echo Rock. Only a few inclines and descents, otherwise a mostly flat hike.",
+    "date": "2025-10-20T18:12:24.000Z",
+    "rating": 5,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 347227942.0
+  },
+  {
+    "reviewId": 58326274,
+    "trailId": 10307300,
+    "comment": "The main loop is about 6km but feel free to explore the side trails, which are quieter. Dog friendly yes, but absolutely need to be on a leash. Please respect the private cottages the trail passes through.",
+    "date": "2025-10-18T16:06:09.000Z",
+    "rating": 5,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [
+      "Well maintained"
+    ],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 346808374.0
+  },
+  {
+    "reviewId": 58246392,
+    "trailId": 10307300,
+    "comment": "Fantastic hike of Solitaire Lake to and around Clear Lake. Excellent conditions",
+    "date": "2025-10-16T15:38:10.000Z",
+    "rating": 5,
+    "difficulty": 0.0,
+    "activity": "Walking",
+    "obstacles": [
+      "No bugs",
+      "Dry ground"
+    ],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 346365053.0
+  },
+  {
+    "reviewId": 58242824,
+    "trailId": 10307300,
+    "comment": "An absolutely gorgeous walk around the lake.  Beautiful boardwalks over the water, interesting rock  formations, lovely views.  Very well maintained trail conditions.  It would be a must repeat when I return to the area.",
+    "date": "2025-10-16T13:38:03.000Z",
+    "rating": 5,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 346340129.0
+  },
+  {
+    "reviewId": 58180982,
+    "trailId": 10307300,
+    "comment": "those who missed the chance to have a permit to Au",
+    "date": "2025-10-13T16:21:45.000Z",
+    "rating": 5,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 345942279.0
+  },
+  {
+    "reviewId": 58081708,
+    "trailId": 10307300,
+    "comment": "Great hiking. One point up and down a hill. Amazing view of the leafs. We took breaks. Walked slow. Completed the whole loop in 2 hours…mind you, at a slow pace.",
+    "date": "2025-10-11T18:55:22.000Z",
+    "rating": 5,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 345459030.0
+  },
+  {
+    "reviewId": 58070890,
+    "trailId": 10307300,
+    "comment": "Easy to follow paths. Kind of the same scenery on most of the trail. Has some nice spots.",
+    "date": "2025-10-11T16:50:11.000Z",
+    "rating": 5,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 345412561.0
+  },
+  {
+    "reviewId": 58024463,
+    "trailId": 10307300,
+    "comment": "Great hike, not too difficult. Nice view. Gorgeous in autumn.",
+    "date": "2025-10-10T16:51:04.000Z",
+    "rating": 5,
+    "difficulty": 3.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 345167817.0
+  },
+  {
+    "reviewId": 58003400,
+    "trailId": 10307300,
+    "comment": "Generally easy to moderate. There were some very steep parts",
+    "date": "2025-10-09T17:49:21.000Z",
+    "rating": 5,
+    "difficulty": 3.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 345046373.0
+  },
+  {
+    "reviewId": 57991927,
+    "trailId": 10307300,
+    "comment": "Beautiful fall colours along the lake. There is a lot of tree roots so just be careful. Also the leaves cover up the trail, it could be hard to get off trail but the markings on the trees help.",
+    "date": "2025-10-09T14:49:01.000Z",
+    "rating": 5,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 344975761.0
+  },
+  {
+    "reviewId": 57887147,
+    "trailId": 10307300,
+    "comment": "Beautiful trail,,with lots of side trails you could add on! Definitely need proper shoes. It’s pretty rooted along the trail. I didn’t find it muddy or needed bug spray! Must see in October ",
+    "date": "2025-10-05T15:58:47.000Z",
+    "rating": 5,
+    "difficulty": 3.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Bugs",
+      "Muddy"
+    ],
+    "hasRecording": true,
+    "recordingId": 344347246.0
+  },
+  {
+    "reviewId": 57859951,
+    "trailId": 10307300,
+    "comment": "Great variety of terrain. Woods, boardwalk, lookouts. ",
+    "date": "2025-10-05T14:33:24.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 344219101.0
+  },
+  {
+    "reviewId": 57821396,
+    "trailId": 10307300,
+    "comment": "Beautiful views around the lake, mostly shaded trail,  clearly marked and easy to follow.",
+    "date": "2025-10-04T18:52:25.000Z",
+    "rating": 5,
+    "difficulty": 3.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 344031491.0
+  },
+  {
+    "reviewId": 57813728,
+    "trailId": 10307300,
+    "comment": "Most of tbe trail is flat, not too rocky, and not too rooty. The trail to the lookout is very steep but worth the. climb. ",
+    "date": "2025-10-04T17:16:57.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 343997405.0
+  },
+  {
+    "reviewId": 57816633,
+    "trailId": 10307300,
+    "comment": "Beautiful trail , well maintained and marked.",
+    "date": "2025-10-04T16:30:39.000Z",
+    "rating": 5,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [
+      "Dry ground",
+      "Well maintained"
+    ],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 344010846.0
+  },
+  {
+    "reviewId": 57770592,
+    "trailId": 10307300,
+    "comment": "Beautiful full colors. Great views of the lake.",
+    "date": "2025-10-03T15:50:17.000Z",
+    "rating": 5,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 343762359.0
+  },
+  {
+    "reviewId": 57769390,
+    "trailId": 10307300,
+    "comment": "Absolutely awesome!!!",
+    "date": "2025-10-03T14:53:00.000Z",
+    "rating": 3,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 343756151.0
+  },
+  {
+    "reviewId": 57713697,
+    "trailId": 10307300,
+    "comment": "Very pretty fall walk. You see water and forest while walking along. You should  be careful as it’s almost completely tree roots you are walking on but it’s fairly easy.  Easy to follow. One major incline but not too difficult.  We had beautiful weather which made it especially nice. \n",
+    "date": "2025-10-01T16:24:28.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 343409363.0
+  },
+  {
+    "reviewId": 57557497,
+    "trailId": 10307300,
+    "comment": "Nice walk around the lake. A bit of an incline and decline in one spot but otherwise pretty easy walk.",
+    "date": "2025-09-27T17:12:43.000Z",
+    "rating": 5,
+    "difficulty": 0.0,
+    "activity": "Road biking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 342577997.0
+  },
+  {
+    "reviewId": 57508428,
+    "trailId": 10307300,
+    "comment": "Trail in excellent shape as usual. Saw pair of loons in Solitaire Lake. Fall colour change well established.",
+    "date": "2025-09-26T13:33:16.000Z",
+    "rating": 5,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 342311623.0
+  },
+  {
+    "reviewId": 57386775,
+    "trailId": 10307300,
+    "comment": "Enjoyed this loop trail. Cute boardwalks and some great views. As others mentioned the only downfall is the section where you pass through a lot of\nCottages. Once you’re past it’s very private and peaceful.",
+    "date": "2025-09-22T06:56:36.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": null,
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 57305980,
+    "trailId": 10307300,
+    "comment": "Good trail. Well groomed and easy to follow. Lots of different trail options so you can customize how long you want to hike for.",
+    "date": "2025-09-20T18:01:59.000Z",
+    "rating": 5,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 341178750.0
+  },
+  {
+    "reviewId": 57196626,
+    "trailId": 10307300,
+    "comment": "Lovely easy hike! Beautiful views.",
+    "date": "2025-09-17T13:53:04.000Z",
+    "rating": 5,
+    "difficulty": 0.0,
+    "activity": "Walking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 340517040.0
+  },
+  {
+    "reviewId": 57154708,
+    "trailId": 10307300,
+    "comment": "classic trail at limberlost, a must see!!",
+    "date": "2025-09-15T15:56:35.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 340180305.0
+  },
+  {
+    "reviewId": 56853004,
+    "trailId": 10307300,
+    "comment": "Great hike around the lake. 8.02 km not 6.3 km. Lots of foot bridges and look outs. You walk across the front of cottages in the beginning but great views. The rock face is amazing and the view from the top is equally beautiful. The steep hike up to the view is worth it though.",
+    "date": "2025-09-07T15:23:53.000Z",
+    "rating": 5,
+    "difficulty": 3.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 338554862.0
+  },
+  {
+    "reviewId": 56724998,
+    "trailId": 10307300,
+    "comment": "This is a great trail. It stays very close to the lake for the most part. It's also mostly flat and has some beautiful forest scenery. I liked it more than the Algonquin trails as it feels less isolated. It took me about 2.5 hours.",
+    "date": "2025-09-04T18:24:18.000Z",
+    "rating": 5,
+    "difficulty": 3.0,
+    "activity": null,
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 56660306,
+    "trailId": 10307300,
+    "comment": "Great trail! Clean and well maintained, makes for a great morning walk. ",
+    "date": "2025-09-02T16:30:12.000Z",
+    "rating": 5,
+    "difficulty": 0.0,
+    "activity": null,
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 58933688,
+    "trailId": 10307300,
+    "comment": "Lake Solitaire August 31st 2025\n",
+    "date": "2025-08-31T12:42:32.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Walking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 350395510.0
+  },
+  {
+    "reviewId": 56523832,
+    "trailId": 10307300,
+    "comment": "Used to be open now it’s highly regulated, signage everywhere, they don’t want anyone seeing a sunrise or sunset there anymore 9-5 only with a bunch of paperwork first.  Other than one viewpoint trail is nothing special.  Even though signage says you are in J Albert Bauer Provincial Park… you are somehow also in Limberlost and they fuelling their egos with control and signage.",
+    "date": "2025-08-31T10:38:42.000Z",
+    "rating": 1,
+    "difficulty": null,
+    "activity": null,
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 56511463,
+    "trailId": 10307300,
+    "comment": "Trail is in good condition with no bugs. The trail is easy with one hill to the viewpoint.",
+    "date": "2025-08-30T16:08:39.000Z",
+    "rating": 4,
+    "difficulty": 0.0,
+    "activity": "Bike touring",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 336753432.0
+  },
+  {
+    "reviewId": 56381831,
+    "trailId": 10307300,
+    "comment": "Walked clockwise around solitaire and then at the final gate joined turtle to the car park. Awesome walk",
+    "date": "2025-08-27T15:02:10.000Z",
+    "rating": 5,
+    "difficulty": 3.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 336017180.0
+  },
+  {
+    "reviewId": 56227153,
+    "trailId": 10307300,
+    "comment": "Trail takes an upwards turn near Quartz rock \n",
+    "date": "2025-08-23T18:30:56.000Z",
+    "rating": 5,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 335183262.0
+  },
+  {
+    "reviewId": 56170409,
+    "trailId": 10307300,
+    "comment": "This trail was beautiful- lots steep areas we were fine but my dad had a tough time. Use caution if you have limited mobility.",
+    "date": "2025-08-22T18:56:12.000Z",
+    "rating": 5,
+    "difficulty": 3.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 334886116.0
+  },
+  {
+    "reviewId": 56060478,
+    "trailId": 10307300,
+    "comment": "Couldn’t find the start of the trail originally, but was able to get onto the trail and really enjoyed the scenery. Only saw 2 birds and squirrels, no other wildlife the entire time. The views were amazing, barely any bugs yesterday. ",
+    "date": "2025-08-19T15:03:14.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": null,
+    "obstacles": [],
+    "trailConditions": [
+      "Bugs"
+    ],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 56088008,
+    "trailId": 10307300,
+    "comment": "Well marked. Small trails that leak together to give you the length you want.  No real picnic spots.",
+    "date": "2025-08-19T14:12:09.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 334379151.0
+  },
+  {
+    "reviewId": 56042487,
+    "trailId": 10307300,
+    "comment": "It was a good hike.  We took our time taking pictures and enjoying the scenery.  Two parts of the trail had a hard time finding the markings but the rest was very well marked.  Went past some cottages and the last part was on the road, but overall it was a great hike.",
+    "date": "2025-08-18T14:05:41.000Z",
+    "rating": 5,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 334117281.0
+  },
+  {
+    "reviewId": 56006701,
+    "trailId": 10307300,
+    "comment": "excellent trail. beautiful views. watch for different birds of prey along the way. ",
+    "date": "2025-08-17T15:13:24.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 333860006.0
+  },
+  {
+    "reviewId": 55920958,
+    "trailId": 10307300,
+    "comment": "The last part of this trail is on the road leading to the park entrance.",
+    "date": "2025-08-16T13:23:39.000Z",
+    "rating": 4,
+    "difficulty": 0.0,
+    "activity": "Scenic driving",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 333505662.0
+  },
+  {
+    "reviewId": 55833734,
+    "trailId": 10307300,
+    "comment": "We really enjoyed this trail. It’s not overly challenging and it’s quite rewarding in terms of views. We hit the trail relatively early, around 9:30-10 and it wasn’t too crowded thankfully. ",
+    "date": "2025-08-14T03:52:51.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": null,
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 55781482,
+    "trailId": 10307300,
+    "comment": "Great trail. A lot of roots and rocks to watch out for. 15+ boardwalk sections. Some are very short but a few were nice and long. Echo rock lookout is nice. The hike up to the granite rock was a bit sleep for my mother. We had to stop part way up for her. Overall it was a nice trail to walk. Took us 2hours 6mins to walk the 6.5kms.",
+    "date": "2025-08-12T16:57:40.000Z",
+    "rating": 5,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 332686934.0
+  },
+  {
+    "reviewId": 55596110,
+    "trailId": 10307300,
+    "comment": "Well marked,well kept trail right on the water. Nice trek",
+    "date": "2025-08-08T17:14:24.000Z",
+    "rating": 4,
+    "difficulty": 0.0,
+    "activity": "Trail running",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 331726897.0
+  },
+  {
+    "reviewId": 55568781,
+    "trailId": 10307300,
+    "comment": "Really nice, well maintained trail. The trail circles a beautiful lake and offers many places to sit and relax while taking in the view. Amazing smells. \n\nI’d say the only rather weird thing were the private cottages along the way.",
+    "date": "2025-08-06T19:38:02.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 331337401.0
+  },
+  {
+    "reviewId": 55518876,
+    "trailId": 10307300,
+    "comment": "Awesome trail",
+    "date": "2025-08-06T13:23:39.000Z",
+    "rating": 5,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 331276879.0
+  },
+  {
+    "reviewId": 55514259,
+    "trailId": 10307300,
+    "comment": "Hate the end with cottages ",
+    "date": "2025-08-06T11:45:00.000Z",
+    "rating": 5,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [
+      "Bugs",
+      "Muddy",
+      "Trash on trail",
+      "Dry ground"
+    ],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 331248576.0
+  },
+  {
+    "reviewId": 55475920,
+    "trailId": 10307300,
+    "comment": "The only bad part is that is runs in front of cottages.",
+    "date": "2025-08-05T11:26:05.000Z",
+    "rating": 5,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [
+      "Bugs",
+      "Dry ground"
+    ],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 331029457.0
+  },
+  {
+    "reviewId": 55448532,
+    "trailId": 10307300,
+    "comment": "Very well maintained trail. The water is crystal clear and warm this time of year. Bring a bathing suit, you’ll want to go in!",
+    "date": "2025-08-04T17:01:26.000Z",
+    "rating": 5,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 330880457.0
+  },
+  {
+    "reviewId": 55477202,
+    "trailId": 10307300,
+    "comment": "Interesting trail.  Could not find the trailhead and only stumbled up the trail after walking through a golf course(?) Snf thanks to All Trails map.  Was very awkward walking in front of private residences on the trail.  Trail was well maintained.  Last stretch on road was not great either.",
+    "date": "2025-08-03T14:21:44.000Z",
+    "rating": 3,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 330581755.0
+  },
+  {
+    "reviewId": 55281006,
+    "trailId": 10307300,
+    "comment": "Amazing trail, amazing views! Moderately challenging trail.\n",
+    "date": "2025-08-01T14:57:18.000Z",
+    "rating": 5,
+    "difficulty": 3.0,
+    "activity": "Scenic driving",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 330059438.0
+  },
+  {
+    "reviewId": 55211387,
+    "trailId": 10307300,
+    "comment": "Nice lake trail. Echo rock was a great lookout. Turn at the sign that says quartz deposit as that is where the trail heads up to the high lookout.  Trail was dry today.",
+    "date": "2025-07-30T15:19:19.000Z",
+    "rating": 4,
+    "difficulty": 0.0,
+    "activity": null,
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 55178198,
+    "trailId": 10307300,
+    "comment": "Nice, easy trail. Primarily straight the entire time with the exception being the climb to the lookout. Very quiet. A bit awkward to walk in front of cottages but everyone was friendly. ",
+    "date": "2025-07-29T14:15:00.000Z",
+    "rating": 3,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 329457996.0
+  },
+  {
+    "reviewId": 55138963,
+    "trailId": 10307300,
+    "comment": "Beautiful hike. Steep climb at one part. Very quiet. Dogs allowed on leash. Have to go by some occupied cabins but not a big deal.",
+    "date": "2025-07-28T12:18:28.000Z",
+    "rating": 5,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 329229158.0
+  },
+  {
+    "reviewId": 55025693,
+    "trailId": 10307300,
+    "comment": "Good trail until we got lost. Stay left at granite deposit trail,  it takes you up the cliff. The water trail ends, this portion was poorly marked. ",
+    "date": "2025-07-26T11:54:50.000Z",
+    "rating": 4,
+    "difficulty": 3.0,
+    "activity": null,
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 54926409,
+    "trailId": 10307300,
+    "comment": "Great morning hike! Trail was relatively well marked and in good condition. Muddy in some areas. Very quiet and peaceful trail.",
+    "date": "2025-07-23T13:38:41.000Z",
+    "rating": 4,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Muddy"
+    ],
+    "hasRecording": true,
+    "recordingId": 328117320.0
+  },
+  {
+    "reviewId": 54931741,
+    "trailId": 10307300,
+    "comment": "Second favourite trail for sure!",
+    "date": "2025-07-22T15:23:16.000Z",
+    "rating": 5,
+    "difficulty": 3.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 328150929.0
+  },
+  {
+    "reviewId": 54881561,
+    "trailId": 10307300,
+    "comment": "Found it moderate, great views, incredible outlook! ",
+    "date": "2025-07-22T10:03:01.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": null,
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 54864651,
+    "trailId": 10307300,
+    "comment": "Well marked and maintained trail, lots of roots and rocks but not muddy, and relatively flat except for one climb to a quartz outcrop and a beautiful cliff lookout near the end. It took us 1 hour and 50 minutes. The first part of the trail passes between cottages and the lake, but for the rest of it we were completely alone. Very enjoyable hike!",
+    "date": "2025-07-21T15:10:30.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 327717357.0
+  },
+  {
+    "reviewId": 54745091,
+    "trailId": 10307300,
+    "comment": "Amazing hiking trail.  Very well maintained but moderate difficulty. Lots of roots and rocks with a couple large elevation changes and great views. Highly recommend",
+    "date": "2025-07-19T13:10:26.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 327198658.0
+  },
+  {
+    "reviewId": 54485470,
+    "trailId": 10307300,
+    "comment": "Well maintained and marked trail. Incredible lookout",
+    "date": "2025-07-13T14:13:24.000Z",
+    "rating": 5,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 325955372.0
+  },
+  {
+    "reviewId": 54465891,
+    "trailId": 10307300,
+    "comment": "Gorgeous easy trail. Well marked and not muddy.",
+    "date": "2025-07-03T15:16:45.000Z",
+    "rating": 5,
+    "difficulty": 1.0,
+    "activity": "Scenic driving",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 325840263.0
+  },
+  {
+    "reviewId": 54027648,
+    "trailId": 10307300,
+    "comment": "Perfect conditions- soft dry ground. Perfect with 4 kids under 9",
+    "date": "2025-07-02T16:43:28.000Z",
+    "rating": 5,
+    "difficulty": 1.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 323610199.0
+  },
+  {
+    "reviewId": 53984941,
+    "trailId": 10307300,
+    "comment": "Great well maintained and marked trail. Follows lake all the way around with good wooden platforms to cross inlets. Small inland loop by Echocall lookout with great views. Highly recommended",
+    "date": "2025-07-01T19:07:20.000Z",
+    "rating": 5,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [
+      "Well maintained"
+    ],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 323372946.0
+  },
+  {
+    "reviewId": 53954977,
+    "trailId": 10307300,
+    "comment": "An easy trail for beginners and families alike. Lots of bridges to get around big boulders. A few good spots to stop and look around at the look. There is a lookout closer to the end of the trail which is also great. The trail is well maintained and free of any obstructions.",
+    "date": "2025-06-30T16:20:39.000Z",
+    "rating": 5,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 323201176.0
+  },
+  {
+    "reviewId": 53964999,
+    "trailId": 10307300,
+    "comment": "Views along the lake shore were fantastic.\nBug spray would really make a difference ",
+    "date": "2025-06-29T18:28:50.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Bugs"
+    ],
+    "hasRecording": true,
+    "recordingId": 322984809.0
+  },
+  {
+    "reviewId": 53897209,
+    "trailId": 10307300,
+    "comment": "Beautiful hike around the lake. Lots of great views and scenic nature to explore. Muddy in spots. Bring big spray ",
+    "date": "2025-06-29T15:04:05.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Muddy"
+    ],
+    "hasRecording": true,
+    "recordingId": 322923533.0
+  },
+  {
+    "reviewId": 54173683,
+    "trailId": 10307300,
+    "comment": "Great hike, need to watch your steps.",
+    "date": "2025-06-21T17:37:56.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 323515671.0
+  },
+  {
+    "reviewId": 53792953,
+    "trailId": 10307300,
+    "comment": "Lake Solitaire with Cole and Lydia June 21st 2026",
+    "date": "2025-06-20T15:42:03.000Z",
+    "rating": 5,
+    "difficulty": 0.0,
+    "activity": "Walking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 322382029.0
+  },
+  {
+    "reviewId": 53373892,
+    "trailId": 10307300,
+    "comment": "Def more challenging than I expected with a child and two dogs, but felt good when we were finished .  Beautiful trails.",
+    "date": "2025-06-15T17:26:11.000Z",
+    "rating": 5,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 320133549.0
+  },
+  {
+    "reviewId": 53792954,
+    "trailId": 10307300,
+    "comment": "Lake Solitaire June 13 2025",
+    "date": "2025-06-13T19:42:27.000Z",
+    "rating": 5,
+    "difficulty": 0.0,
+    "activity": "Walking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 322382027.0
+  },
+  {
+    "reviewId": 53146526,
+    "trailId": 10307300,
+    "comment": "Beautiful trail. Nice rock formations and boardwalks along the water in a few places. Generally flat except the climb to the lockout. Several cottages on the north east part of the loop.",
+    "date": "2025-06-09T14:36:30.000Z",
+    "rating": 5,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [
+      "Bugs",
+      "Muddy",
+      "Well maintained"
+    ],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 53047959,
+    "trailId": 10307300,
+    "comment": "No wildlife spotted except red squirrels and mosquitoes. Tough trail with some scenic parts.",
+    "date": "2025-06-07T17:17:43.000Z",
+    "rating": 4,
+    "difficulty": 5.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 318454953.0
+  },
+  {
+    "reviewId": 52884069,
+    "trailId": 10307300,
+    "comment": "Beautiful trail that circles the entire lake. A nice breeze and sunny sky today. Boardwalks where muddy but mostly dry. I’ll come again",
+    "date": "2025-06-02T16:53:37.000Z",
+    "rating": 5,
+    "difficulty": 1.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Muddy"
+    ],
+    "hasRecording": true,
+    "recordingId": 317517932.0
+  },
+  {
+    "reviewId": 52827412,
+    "trailId": 10307300,
+    "comment": "A little chilly but no issues if you have layers! Ended up taking layer off in the middle of the hike. Fairly flat except for one part. Would say more of an easy hike than moderate. Bugs only at the lookout. Some muddy parts",
+    "date": "2025-06-01T14:39:39.000Z",
+    "rating": 4,
+    "difficulty": 1.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Bugs",
+      "Muddy"
+    ],
+    "hasRecording": true,
+    "recordingId": 317261684.0
+  },
+  {
+    "reviewId": 52255616,
+    "trailId": 10307300,
+    "comment": "Lovely trail with tons of diverse views - rocks, streams, lake view and forest! I wouldn’t consider it moderate, there is some incline but the trail is mostly free of trip hazards.",
+    "date": "2025-05-18T15:42:14.000Z",
+    "rating": 5,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 314426339.0
+  },
+  {
+    "reviewId": 52201821,
+    "trailId": 10307300,
+    "comment": "Do the forget mosquito repellent and if possible get those face nets, I forgot bout that lol but someone was nice enough to give some of their repellent :) easy hike tbh ",
+    "date": "2025-05-17T15:37:44.000Z",
+    "rating": 5,
+    "difficulty": 1.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Bugs"
+    ],
+    "hasRecording": true,
+    "recordingId": 314176560.0
+  },
+  {
+    "reviewId": 52174511,
+    "trailId": 10307300,
+    "comment": "Well marked, great boardwalks, well maintained. Some muddy areas. Great hike!",
+    "date": "2025-05-17T01:21:09.000Z",
+    "rating": 5,
+    "difficulty": 0.0,
+    "activity": null,
+    "obstacles": [],
+    "trailConditions": [
+      "Muddy"
+    ],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 51891418,
+    "trailId": 10307300,
+    "comment": "No bugs yet. A few muddy sections, otherwise good. Beautiful view point at top of Solitaire",
+    "date": "2025-05-08T16:20:49.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Muddy"
+    ],
+    "hasRecording": true,
+    "recordingId": 312493143.0
+  },
+  {
+    "reviewId": 51758000,
+    "trailId": 10307300,
+    "comment": "Beautiful hidden gem!! Little middy in some spots nothing crazy! Scenery is so beautiful and lots of look out spots.",
+    "date": "2025-05-04T13:56:15.000Z",
+    "rating": 5,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 311761860.0
+  },
+  {
+    "reviewId": 51927103,
+    "trailId": 10307300,
+    "comment": "Gorgeous views. Some ice on the trail. Hiking shoes advised",
+    "date": "2025-04-20T14:55:12.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Muddy",
+      "Icy"
+    ],
+    "trailConditions": [
+      "Icy"
+    ],
+    "hasRecording": true,
+    "recordingId": 312701895.0
+  },
+  {
+    "reviewId": 50767192,
+    "trailId": 10307300,
+    "comment": "This time of year, be extremely careful with the ice. I would not suggest doing this trail without spikes and even with spikes there are some very bad spots.",
+    "date": "2025-04-06T18:05:29.000Z",
+    "rating": 4,
+    "difficulty": 3.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Icy"
+    ],
+    "hasRecording": true,
+    "recordingId": 306586488.0
+  },
+  {
+    "reviewId": 52143458,
+    "trailId": 10307300,
+    "comment": "Cool trail, very icy would recommend bring cleats",
+    "date": "2025-03-23T16:25:23.000Z",
+    "rating": 3,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [
+      "Snow",
+      "Icy"
+    ],
+    "trailConditions": [
+      "Icy"
+    ],
+    "hasRecording": true,
+    "recordingId": 313848881.0
+  },
+  {
+    "reviewId": 49293713,
+    "trailId": 10307300,
+    "comment": "Awesome snow conditions for snowshoeing. It would have been difficult to walk with just boots. The sun was shining and hardly any wind made it an enjoyable hike.",
+    "date": "2025-02-11T17:50:54.000Z",
+    "rating": 5,
+    "difficulty": 3.0,
+    "activity": "Walking",
+    "obstacles": [],
+    "trailConditions": [
+      "Snow"
+    ],
+    "hasRecording": true,
+    "recordingId": 298462587.0
+  },
+  {
+    "reviewId": 49037953,
+    "trailId": 10307300,
+    "comment": "Totally snowed over so we broke fresh ground the whole way, refreshing and beautiful \n",
+    "date": "2025-01-31T17:27:53.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Snow"
+    ],
+    "hasRecording": true,
+    "recordingId": 296999280.0
+  },
+  {
+    "reviewId": 48610795,
+    "trailId": 10307300,
+    "comment": "My friends fell 6.5 times and it was nice",
+    "date": "2025-01-11T17:13:54.000Z",
+    "rating": 5,
+    "difficulty": 1.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 294565500.0
+  },
+  {
+    "reviewId": 47301012,
+    "trailId": 10307300,
+    "comment": "Nice and easy trail with a slight bit of climb to echo point with lovely vistas from the cliff edge. \nIt takes about 2:30 hrs at leisurely pace. \n",
+    "date": "2024-11-09T16:40:48.000Z",
+    "rating": 4,
+    "difficulty": 1.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 287226502.0
+  },
+  {
+    "reviewId": 47159866,
+    "trailId": 10307300,
+    "comment": "Lovely route around the lake. Some muddy parts but not too bad. Easy going trail with lovely views out across the water.",
+    "date": "2024-11-03T20:05:58.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": null,
+    "obstacles": [],
+    "trailConditions": [
+      "Muddy"
+    ],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 47328533,
+    "trailId": 10307300,
+    "comment": "Loop hike at sunrise. Great trail with mix of terrain and challenges",
+    "date": "2024-10-27T11:57:39.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Well maintained"
+    ],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 285401109.0
+  },
+  {
+    "reviewId": 46928874,
+    "trailId": 10307300,
+    "comment": "Not as spectacular as other trails in the area, but was okay.",
+    "date": "2024-10-26T20:27:21.000Z",
+    "rating": 4,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 285325263.0
+  },
+  {
+    "reviewId": 46902924,
+    "trailId": 10307300,
+    "comment": "Great trail and view. Natural trail.",
+    "date": "2024-10-26T19:36:20.000Z",
+    "rating": 5,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 285214137.0
+  },
+  {
+    "reviewId": 47185523,
+    "trailId": 10307300,
+    "comment": "Lake Solitaire Oct 20 2024\n",
+    "date": "2024-10-20T19:26:55.000Z",
+    "rating": 5,
+    "difficulty": 0.0,
+    "activity": "Paddle sports",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 286564617.0
+  },
+  {
+    "reviewId": 46604695,
+    "trailId": 10307300,
+    "comment": "Nice relaxing trail! Definitely very easy. The lookout point on Echo Rock is beyond stunning with the fall colours. Loved the boardwalk over the lake!",
+    "date": "2024-10-18T23:28:56.000Z",
+    "rating": 4,
+    "difficulty": 0.0,
+    "activity": null,
+    "obstacles": [
+      "Muddy"
+    ],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 46595433,
+    "trailId": 10307300,
+    "comment": "An easy hike except for the up and down hike to the lookout, which is moderate if dry and potentially hard if rains have been heavy.  The trail crosses the back of some private cottages, as well as some that are owned and available for booking with the Limberlost people.  A great hike with an amazing lookout. ",
+    "date": "2024-10-18T15:36:57.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 283766927.0
+  },
+  {
+    "reviewId": 46466213,
+    "trailId": 10307300,
+    "comment": "Amazing trail! We hiked in October so the leaves were great. Well travelled on the weekends but if you go during a weekday you’ll have it almost all to yourself. There’s a couple steep inclines/declines so just be aware if it’s wet or rainy",
+    "date": "2024-10-14T01:42:53.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": null,
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 46451414,
+    "trailId": 10307300,
+    "comment": "Best trail ever",
+    "date": "2024-10-13T18:16:53.000Z",
+    "rating": 5,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [
+      "No bugs",
+      "Well maintained"
+    ],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 283001311.0
+  },
+  {
+    "reviewId": 46441623,
+    "trailId": 10307300,
+    "comment": "So crowded it was unbelievable but beautiful trail and great views of the muskoka colours!  This gem has become too popular to really enjoy the hike though.",
+    "date": "2024-10-13T16:26:58.000Z",
+    "rating": 5,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [
+      "Muddy",
+      "No bugs",
+      "Well maintained"
+    ],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 282970334.0
+  },
+  {
+    "reviewId": 46432987,
+    "trailId": 10307300,
+    "comment": "The last loop around the lake was not accessible (do not access sign)",
+    "date": "2024-10-13T13:16:05.000Z",
+    "rating": 3,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 282941077.0
+  },
+  {
+    "reviewId": 46463006,
+    "trailId": 10307300,
+    "comment": "Has a portapotty for bathrooms, Great views for a free park!",
+    "date": "2024-10-12T18:55:50.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Muddy"
+    ],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 282819279.0
+  },
+  {
+    "reviewId": 46397636,
+    "trailId": 10307300,
+    "comment": "One of the most beautiful fall hikes in Ontario! Stunning foliage views and nice trail conditions! Love the boardwalks and rocky sections :)",
+    "date": "2024-10-12T17:43:03.000Z",
+    "rating": 5,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 282837487.0
+  },
+  {
+    "reviewId": 46385697,
+    "trailId": 10307300,
+    "comment": "Gorgeous trail through the Limberlost forest. Fall leaves spectacular!",
+    "date": "2024-10-12T17:27:33.000Z",
+    "rating": 5,
+    "difficulty": 1.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 282800237.0
+  },
+  {
+    "reviewId": 46384804,
+    "trailId": 10307300,
+    "comment": "Trail is very well maintained and very beautiful. I do not recommend going here on Thanksgiving weekend as there were  far too many people to have a relaxing hike... it felt like more of a field trip. I will definitely come back mid week to fully experience this beautiful property.",
+    "date": "2024-10-12T17:03:54.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Muddy",
+      "Obstructions"
+    ],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 282797302.0
+  },
+  {
+    "reviewId": 46383424,
+    "trailId": 10307300,
+    "comment": "Good view of the fall colours around the lake.",
+    "date": "2024-10-12T16:27:55.000Z",
+    "rating": 4,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 282792837.0
+  },
+  {
+    "reviewId": 46385433,
+    "trailId": 10307300,
+    "comment": "Nice views. Easy hike.",
+    "date": "2024-10-12T16:02:09.000Z",
+    "rating": 5,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 282799338.0
+  },
+  {
+    "reviewId": 46366748,
+    "trailId": 10307300,
+    "comment": "Was here in mid October after it rained a few hours overnight- no bugs. Few marshy areas but all easy to navigate through. This hike was surreal. I did it at 830am, as the sun was rising over the tree line. Made for the most spectacular scenery with shimmering crystallized rocks and all colours of leaves glowing around me. The boardwalks and bridges were neat. The lookout point was surreal at this time of year. The hike up to the lookout was fantastic cardio. This hike was great for me on a solo adventure- very safe for other solo hikers as there are cabins dotted all around the lake. On the latter end of my hike, there were a lot of families joining for the smaller trail loops. Great for all sorts for sure, this place is a serious gem of beauty. Lots of parking with back up lots available. All very well marked throughout the experience. ",
+    "date": "2024-10-12T12:51:48.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 282714169.0
+  },
+  {
+    "reviewId": 46309666,
+    "trailId": 10307300,
+    "comment": "Easy trail. A few muddy spots and steep climbing up/down for 1/2 km to Echo Rock lookout.",
+    "date": "2024-10-10T15:56:49.000Z",
+    "rating": 5,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [
+      "No bugs",
+      "Well maintained"
+    ],
+    "trailConditions": [
+      "Muddy"
+    ],
+    "hasRecording": true,
+    "recordingId": 282424935.0
+  },
+  {
+    "reviewId": 46261484,
+    "trailId": 10307300,
+    "comment": "Perfect day for it. Fav trail around the region.",
+    "date": "2024-10-08T19:03:44.000Z",
+    "rating": 5,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 282162907.0
+  },
+  {
+    "reviewId": 46259633,
+    "trailId": 10307300,
+    "comment": "Pretty muddy in spots, but thankfully not busy as it can be in the Fall. We went late afternoon on a Tuesday. One of our favourite hikes.",
+    "date": "2024-10-08T17:58:44.000Z",
+    "rating": 5,
+    "difficulty": 3.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Muddy"
+    ],
+    "hasRecording": true,
+    "recordingId": 282153492.0
+  },
+  {
+    "reviewId": 46097191,
+    "trailId": 10307300,
+    "comment": "Stunning views at every turn. The landscape feels like a masterpiece, with vibrant skies and peaceful nature all around. A perfect escape that leaves you in awe and wanting more.",
+    "date": "2024-10-05T20:37:30.000Z",
+    "rating": 5,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 281623953.0
+  },
+  {
+    "reviewId": 45946131,
+    "trailId": 10307300,
+    "comment": "Well marked easy-moderate trail.",
+    "date": "2024-10-02T13:50:06.000Z",
+    "rating": 5,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 281025571.0
+  },
+  {
+    "reviewId": 45896773,
+    "trailId": 10307300,
+    "comment": "Had a lovely time hiking in this gorgeous place. There are a few trails with easy access to the lakes where you can enjoy breathtaking fall foliage if you visit during fall season. We completed solitaire trail which goes around the solitaire lake. Trail is well maintained and clean. Since it’s a private property which has many private cottages, you have to pass through the cottage grounds. Seems a little awkward as you go, but as long as you stay quiet while passing through those without interrupting anyone with loud noises, it’s a great place to enjoy. Really grateful for the property management for making this place available to the public without charging for anything, including free parking. ",
+    "date": "2024-09-30T15:28:43.000Z",
+    "rating": 5,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 280762399.0
+  },
+  {
+    "reviewId": 45993862,
+    "trailId": 10307300,
+    "comment": "Very pretty trail! Well marked. A bit muddy in some spots so wear boots. Also it’s that time of the year so it’s to be expected.",
+    "date": "2024-09-29T15:42:45.000Z",
+    "rating": 5,
+    "difficulty": 1.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Muddy"
+    ],
+    "hasRecording": true,
+    "recordingId": 280575339.0
+  },
+  {
+    "reviewId": 45814559,
+    "trailId": 10307300,
+    "comment": "I saw a number of mixed reviews about this trail and did not know what to expect .\nI am 68 and had a knee replacement 4 months ago which was a challenge until recently so keep this in mind with my review \n\nYes we started off and passed a number of cottages ( only one you were not allowed to pass through ) . \n\nThe path was flat and easy to walk along until you reach quartz hill where the hill is quite steep but to be honest it was harder for me coming down than going up even with the switchbacks . We were fortunate it was very dry \n\nWe only met a few other travellers until the end of the trail where we met a number of mushroom pickers\n\nTo be honest there were not many great lookout point but in the next while I am sure the colours will be magnificent \nThe only wildlife we saw was a couple of mergansers  and  a loon far out in the lake \n\nYesterday I did the clear and turtle lake e hikes which was not only flatter but to me the views were much better \n\nEven with my not 100 percent knee we easily completed the trail in 2.25 hours \n\nEnjoy Martin ",
+    "date": "2024-09-28T21:55:07.000Z",
+    "rating": 3,
+    "difficulty": null,
+    "activity": null,
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 45803247,
+    "trailId": 10307300,
+    "comment": "Beautiful  colours , lake, trees,lookout",
+    "date": "2024-09-28T17:00:49.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Muddy"
+    ],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 280359601.0
+  },
+  {
+    "reviewId": 45712055,
+    "trailId": 10307300,
+    "comment": "Rainy weekdays are perfect if you need some alone time. Didn’t see a single soul. Trail is well marked and maintained ",
+    "date": "2024-09-25T14:34:32.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": null,
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 45617442,
+    "trailId": 10307300,
+    "comment": "Beautiful and well taken care of trail.  Great little resting places to stop and take in the views! ",
+    "date": "2024-09-22T17:34:14.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": null,
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 45560010,
+    "trailId": 10307300,
+    "comment": "Need to sign waiver at parking. There is a bathroom there. Very nice trail around the lake.",
+    "date": "2024-09-21T14:57:10.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 279166717.0
+  },
+  {
+    "reviewId": 45441612,
+    "trailId": 10307300,
+    "comment": "Beautiful easy trail - cottages near the start/end of trail, 100m elevation, stunning lookout up top. Couple hikers told us there was a small black bear sighting but we didn’t get to spot any.",
+    "date": "2024-09-18T01:26:49.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": null,
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 45355352,
+    "trailId": 10307300,
+    "comment": "Really beautiful trial. A little bit of up hill. But worth it",
+    "date": "2024-09-15T13:36:55.000Z",
+    "rating": 5,
+    "difficulty": 3.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 278087872.0
+  },
+  {
+    "reviewId": 45293618,
+    "trailId": 10307300,
+    "comment": "Beautiful dappled woodland trail.",
+    "date": "2024-09-14T15:06:40.000Z",
+    "rating": 5,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [
+      "Muddy"
+    ],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 277821583.0
+  },
+  {
+    "reviewId": 45277356,
+    "trailId": 10307300,
+    "comment": "We were walking along the Solitaire Lake Loop and about 3/4's of the way around, we came across a bear sleeping on a boulder beside the trail. We decided to turn around and go to Echo Rock lookout the other way. We didn't know if he would wake up startled and grumpy! lol ",
+    "date": "2024-09-14T10:27:18.000Z",
+    "rating": 4,
+    "difficulty": 1.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 45222016,
+    "trailId": 10307300,
+    "comment": "Absolutely beautiful views. I think we might have found a bear cave as well on our hike. \n",
+    "date": "2024-09-12T15:15:28.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": null,
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 44938588,
+    "trailId": 10307300,
+    "comment": "absolutely beautiful and pristine",
+    "date": "2024-09-04T17:44:23.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": null,
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 276062809.0
+  },
+  {
+    "reviewId": 44900119,
+    "trailId": 10307300,
+    "comment": "No bugs no mud no people :) happy first day back to school",
+    "date": "2024-09-03T15:25:13.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Bugs",
+      "Muddy"
+    ],
+    "hasRecording": true,
+    "recordingId": 275864251.0
+  },
+  {
+    "reviewId": 45189206,
+    "trailId": 10307300,
+    "comment": "Lake Solitaire Sept 1st 2024\n",
+    "date": "2024-09-01T18:53:21.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 277245070.0
+  },
+  {
+    "reviewId": 44685446,
+    "trailId": 10307300,
+    "comment": "Easy trail, minimal elevation, mostly flat. Nice breeze in the canopy with lake views. We went clockwise and the beginning parts were through cabin backyards. Last bit was back on the road which we didn’t prefer.",
+    "date": "2024-08-30T18:30:18.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 274957317.0
+  },
+  {
+    "reviewId": 44672850,
+    "trailId": 10307300,
+    "comment": "This is by far, one of my most favourite hikes. It's definitely a decent hike and in the last 1/4 -1/3 of the hike there is quite a lot of elevation change, both up and down. My poles came in handy in that section. There's a wonderfully cool breeze off the lake on hot days. The last 6-7 minutes are on the road back to the parking area. I've done this once, each of the last 3 years and just find it very special. ",
+    "date": "2024-08-30T17:03:25.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 274940788.0
+  },
+  {
+    "reviewId": 46604145,
+    "trailId": 10307300,
+    "comment": "Lovely trail, easy to get to. Moderate to difficult for a 60 year old in fair shape. ",
+    "date": "2024-08-24T18:37:05.000Z",
+    "rating": 5,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 283810041.0
+  },
+  {
+    "reviewId": 44275358,
+    "trailId": 10307300,
+    "comment": "Steep hill :( was hard. Walking in people’s backyards … weird. Otherwise good. Chipmunks are not friendly or welcoming.  Exercise caution with them.",
+    "date": "2024-08-20T17:46:56.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": null,
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 44278487,
+    "trailId": 10307300,
+    "comment": "Beautiful hike!",
+    "date": "2024-08-20T16:20:46.000Z",
+    "rating": 5,
+    "difficulty": 1.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 273106289.0
+  },
+  {
+    "reviewId": 43492245,
+    "trailId": 10307300,
+    "comment": "Not the best for biking. Pretty challenging actually. Great hiking trail. Beautiful views.",
+    "date": "2024-08-02T15:54:53.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Mountain biking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 269543534.0
+  },
+  {
+    "reviewId": 43213308,
+    "trailId": 10307300,
+    "comment": "Trail is marked good, moderately hard at times but worth the climb to the top of the look out! Beautiful!!  Would be gorgeous in the fall!",
+    "date": "2024-07-26T16:12:34.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 268232631.0
+  },
+  {
+    "reviewId": 42966660,
+    "trailId": 10307300,
+    "comment": "Beautiful well groomed trails.",
+    "date": "2024-07-20T16:34:32.000Z",
+    "rating": 5,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 267130686.0
+  },
+  {
+    "reviewId": 42531824,
+    "trailId": 10307300,
+    "comment": "Several nice views of Solitare Lake. Trail conditions vary from flat and easy to very muddy.",
+    "date": "2024-07-17T13:32:59.000Z",
+    "rating": 4,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Muddy"
+    ],
+    "hasRecording": true,
+    "recordingId": 266545814.0
+  },
+  {
+    "reviewId": 42258340,
+    "trailId": 10307300,
+    "comment": "The trail can be a challenge with mud and after rainy weather. Did get a few solid bug bites. There is a good portion of uphill & downhill slopes that we took caution to since it started raining hard halfway through our Hike. The last leg of the trail takes you back to the main road since there are private cottages. Not as nice of an ending but overall was still great!",
+    "date": "2024-07-14T18:34:13.000Z",
+    "rating": 4,
+    "difficulty": 3.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Muddy"
+    ],
+    "hasRecording": true,
+    "recordingId": 266265441.0
+  },
+  {
+    "reviewId": 42026946,
+    "trailId": 10307300,
+    "comment": "Free, you just fill out a waiver! Never seen so many different mushrooms before. There were very little people for a weekend. There's lots to see and the boardwalks by the water were lovely!",
+    "date": "2024-07-14T14:59:50.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 266044377.0
+  },
+  {
+    "reviewId": 47227116,
+    "trailId": 10307300,
+    "comment": "Beautiful trail. Great scenery. Bug spray and hiking shoes highly recommended!",
+    "date": "2024-07-08T13:42:26.000Z",
+    "rating": 5,
+    "difficulty": 3.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Bugs"
+    ],
+    "hasRecording": true,
+    "recordingId": 286817229.0
+  },
+  {
+    "reviewId": 41282844,
+    "trailId": 10307300,
+    "comment": "Lake, Solitaire, July 6, 2024",
+    "date": "2024-07-06T12:35:57.000Z",
+    "rating": 5,
+    "difficulty": 0.0,
+    "activity": "Road biking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 265087490.0
+  },
+  {
+    "reviewId": 41144841,
+    "trailId": 10307300,
+    "comment": "Great trails \nEasy to follow",
+    "date": "2024-07-06T10:44:17.000Z",
+    "rating": 5,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 264504916.0
+  },
+  {
+    "reviewId": 41109622,
+    "trailId": 10307300,
+    "comment": "Good walk. Lots of cottages you walk in front of (weird). Flat almost the entire way but the one hill is a doozy. Last leg is on the road unless you add the Turtle Lake loop for another 2km.",
+    "date": "2024-07-05T17:02:03.000Z",
+    "rating": 4,
+    "difficulty": 3.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 264352453.0
+  },
+  {
+    "reviewId": 40897739,
+    "trailId": 10307300,
+    "comment": "Well maintained, fun trail. Quite a few muddy patches but we just received a reasonable amount of rain.  White running shoes not recommended.",
+    "date": "2024-06-30T14:28:32.000Z",
+    "rating": 4,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Muddy"
+    ],
+    "hasRecording": true,
+    "recordingId": 263390751.0
+  },
+  {
+    "reviewId": 40850499,
+    "trailId": 10307300,
+    "comment": "But buggy and muddy but not too bad. Views amazing as always ",
+    "date": "2024-06-29T16:15:01.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Bugs",
+      "Muddy"
+    ],
+    "hasRecording": true,
+    "recordingId": 263192284.0
+  },
+  {
+    "reviewId": 40685627,
+    "trailId": 10307300,
+    "comment": "Long trail - not for the faint of heart!\n\nLots of bugs and very muddy! Coyotes on the trail as well.",
+    "date": "2024-06-24T15:32:55.000Z",
+    "rating": 3,
+    "difficulty": null,
+    "activity": "Trail running",
+    "obstacles": [],
+    "trailConditions": [
+      "Bugs",
+      "Muddy"
+    ],
+    "hasRecording": true,
+    "recordingId": 262343305.0
+  },
+  {
+    "reviewId": 40704959,
+    "trailId": 10307300,
+    "comment": "Solitaire June 20th 2024",
+    "date": "2024-06-20T19:37:29.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 262443114.0
+  },
+  {
+    "reviewId": 40128644,
+    "trailId": 10307300,
+    "comment": "Nice hike on a well maintained trail \n\n",
+    "date": "2024-06-09T17:03:36.000Z",
+    "rating": 5,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 259743074.0
+  },
+  {
+    "reviewId": 40627624,
+    "trailId": 10307300,
+    "comment": "Good trail, only one short spot of elevation change. Bugs not to bad on a cooler day in early June. Plenty of resting spots if required.",
+    "date": "2024-06-08T15:16:55.000Z",
+    "rating": 5,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Bugs"
+    ],
+    "hasRecording": true,
+    "recordingId": 262092004.0
+  },
+  {
+    "reviewId": 40030675,
+    "trailId": 10307300,
+    "comment": "Lovely, we’ll maintained trail. Lots of very persistent mosquitos though (they will even bite your face!) so be prepared!",
+    "date": "2024-06-07T17:47:55.000Z",
+    "rating": 4,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Bugs"
+    ],
+    "hasRecording": true,
+    "recordingId": 259328807.0
+  },
+  {
+    "reviewId": 39450022,
+    "trailId": 10307300,
+    "comment": "Solitaire may 20th 2024",
+    "date": "2024-05-20T15:52:04.000Z",
+    "rating": 5,
+    "difficulty": 0.0,
+    "activity": "Road biking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 256524108.0
+  },
+  {
+    "reviewId": 38306645,
+    "trailId": 10307300,
+    "comment": "A little mucky but passable and very enjoyable!",
+    "date": "2024-03-31T19:40:07.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 248472641.0
+  },
+  {
+    "reviewId": 38271043,
+    "trailId": 10307300,
+    "comment": "Several sections were quite muddy or very icy across the whole width of the trail. First boardwalk has ice across it.",
+    "date": "2024-03-30T17:31:54.000Z",
+    "rating": 3,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Muddy",
+      "Icy"
+    ],
+    "hasRecording": true,
+    "recordingId": 248226492.0
+  },
+  {
+    "reviewId": 38249578,
+    "trailId": 10307300,
+    "comment": "Beautiful trails with the view of the lake Specially, the view from Echo lookout was stunning. Personally, I’m adding it to one of the must do trails during fall and summer.",
+    "date": "2024-03-29T16:41:43.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 248023247.0
+  },
+  {
+    "reviewId": 38056473,
+    "trailId": 10307300,
+    "comment": "Great trail, didn’t enjoy having to walk through all the cottages at the beginning but once you get past them, it is an awesome trail! It is icy and muddy right now, so be safe",
+    "date": "2024-03-17T13:25:54.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Muddy",
+      "Icy"
+    ],
+    "hasRecording": true,
+    "recordingId": 246331854.0
+  },
+  {
+    "reviewId": 38034207,
+    "trailId": 10307300,
+    "comment": "Beautiful",
+    "date": "2024-03-16T18:40:19.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 246216362.0
+  },
+  {
+    "reviewId": 38061218,
+    "trailId": 10307300,
+    "comment": "Such a perfect trail! Lots to see, far from boring and each corner turned provides something new to look at. Took us longer to complete (started at turtle lake) because we stopped to take lots of pictures and take in the views. Recommend 10/10. Can’t wait to come back during another season",
+    "date": "2024-03-15T18:29:40.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 246013363.0
+  },
+  {
+    "reviewId": 37609299,
+    "trailId": 10307300,
+    "comment": "This is a beautiful trail which is easy to navigate.  We wore ice cleats and we were glad we did…some sections were icy under light layer of snow, however we saw others without them.   We completed the trail on Turtle Lake first and added this trail afterward.  Highly recommended. ",
+    "date": "2024-02-19T13:54:36.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Snow",
+      "Icy"
+    ],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 37697807,
+    "trailId": 10307300,
+    "comment": "Fabulous. As long as you have crampons on.",
+    "date": "2024-02-10T19:06:49.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Snow",
+      "Icy"
+    ],
+    "hasRecording": true,
+    "recordingId": 239116688.0
+  },
+  {
+    "reviewId": 37434780,
+    "trailId": 10307300,
+    "comment": "Would highly recommend crampons for winter hiking. There were several elevations that were very slippery and difficult to manage. A gorgeous trail though!",
+    "date": "2024-02-08T15:33:00.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Snow",
+      "Icy",
+      "Slippery"
+    ],
+    "hasRecording": true,
+    "recordingId": 238089375.0
+  },
+  {
+    "reviewId": 37503003,
+    "trailId": 10307300,
+    "comment": "Perfect winter weather for a hike.  Some spots were a little icy, but overall good trail.",
+    "date": "2024-02-07T17:55:48.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Icy"
+    ],
+    "hasRecording": true,
+    "recordingId": 237941662.0
+  },
+  {
+    "reviewId": 37387524,
+    "trailId": 10307300,
+    "comment": "The trail is quite slick, and very packed.  Would definitely suggest ice grippers of some kind.",
+    "date": "2024-02-04T17:16:31.000Z",
+    "rating": 3,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Icy",
+      "Slippery"
+    ],
+    "hasRecording": true,
+    "recordingId": 237208098.0
+  },
+  {
+    "reviewId": 37285988,
+    "trailId": 10307300,
+    "comment": "Awesome trail!! Must do again o. The spring hidden gem",
+    "date": "2024-01-28T14:20:50.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 235275247.0
+  },
+  {
+    "reviewId": 36972634,
+    "trailId": 10307300,
+    "comment": "This is truly a WOW trail !!!\nStunning views in EVERY direction, immaculately clean, and the trail markers are perfectly visible.\nThis is now one of our favorite trails, definitely coming back again ",
+    "date": "2024-01-03T01:30:29.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Great!"
+    ],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 36826379,
+    "trailId": 10307300,
+    "comment": "Nice trail, but muddy and icy.",
+    "date": "2023-12-26T17:27:41.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Muddy",
+      "Icy"
+    ],
+    "hasRecording": true,
+    "recordingId": 226520882.0
+  },
+  {
+    "reviewId": 36842948,
+    "trailId": 10307300,
+    "comment": "Trail was muddy with icy sections. It was a beautiful hike. ",
+    "date": "2023-12-15T00:40:29.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Muddy",
+      "Icy"
+    ],
+    "hasRecording": true,
+    "recordingId": 226760348.0
+  },
+  {
+    "reviewId": 36659943,
+    "trailId": 10307300,
+    "comment": "Unfortunately we were a little crunched for time so we only walked about 1/3 of it and back but it was a really pretty winter trail with pretty views of the lake. We only passed one small group of people, otherwise it was very quiet.",
+    "date": "2023-12-04T17:43:52.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 222444103.0
+  },
+  {
+    "reviewId": 36398456,
+    "trailId": 10307300,
+    "comment": "Limberlost - Solitaire Lake trail",
+    "date": "2023-11-18T17:12:01.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 218723546.0
+  },
+  {
+    "reviewId": 36207176,
+    "trailId": 10307300,
+    "comment": "There’s muddsy parts this time of the year",
+    "date": "2023-11-05T16:08:01.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 215746640.0
+  },
+  {
+    "reviewId": 36163674,
+    "trailId": 10307300,
+    "comment": "Excellent trail around the lake.  Thankfully the leaves had helped it seem less muddy than it is.  Would have loved to explore a couple weeks earlier , when the leaves were changing colours.  Great afternoon on November 3rd , 2023!",
+    "date": "2023-11-03T15:00:12.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Muddy"
+    ],
+    "hasRecording": true,
+    "recordingId": 215056760.0
+  },
+  {
+    "reviewId": 36086914,
+    "trailId": 10307300,
+    "comment": "Muddy on portions. \nBeautiful lookout but a little challenging terrain to get to it.",
+    "date": "2023-10-28T16:10:30.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Muddy"
+    ],
+    "hasRecording": true,
+    "recordingId": 213877161.0
+  },
+  {
+    "reviewId": 35993655,
+    "trailId": 10307300,
+    "comment": "Wonderful trail. Well maintained. Few mud sections, but, it's nature! Easy to navigate.",
+    "date": "2023-10-22T20:40:02.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Great!"
+    ],
+    "trailConditions": [
+      "Muddy"
+    ],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 35836676,
+    "trailId": 10307300,
+    "comment": "Free parking, bathrooms and tuck shop at the entrance of the trail. Great trail along the water. The last km of the loop is on the road with no shoulder/side walk. A bit muddy but very well kept!",
+    "date": "2023-10-14T19:42:19.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Muddy"
+    ],
+    "hasRecording": true,
+    "recordingId": 209999542.0
+  },
+  {
+    "reviewId": 35921380,
+    "trailId": 10307300,
+    "comment": "Muddy is some parts but a beautiful fall walk.",
+    "date": "2023-10-14T18:24:37.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Muddy"
+    ],
+    "hasRecording": true,
+    "recordingId": 211237130.0
+  },
+  {
+    "reviewId": 36891786,
+    "trailId": 10307300,
+    "comment": "Little wet but beautiful",
+    "date": "2023-10-11T13:39:31.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 227793184.0
+  },
+  {
+    "reviewId": 35662911,
+    "trailId": 10307300,
+    "comment": "Lots of colorful carpets of leaves!!",
+    "date": "2023-10-06T20:16:32.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 207324296.0
+  },
+  {
+    "reviewId": 35643061,
+    "trailId": 10307300,
+    "comment": "Nice trail around lake.  Nice climb to Echo Rock.  Didn’t like the first part that takes you through the front of private cottages.",
+    "date": "2023-10-05T15:47:43.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 206960993.0
+  },
+  {
+    "reviewId": 35541251,
+    "trailId": 10307300,
+    "comment": "Very beautiful with one steep section to the echo rock lookout. Lots of boardwalks and points of interest. Muddy in some places but nothing too bad.",
+    "date": "2023-09-30T18:10:18.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Muddy"
+    ],
+    "hasRecording": true,
+    "recordingId": 205482507.0
+  },
+  {
+    "reviewId": 35498182,
+    "trailId": 10307300,
+    "comment": "Lots of tree roots, but a very pretty view of the lake",
+    "date": "2023-09-28T16:05:18.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 204842835.0
+  },
+  {
+    "reviewId": 35479726,
+    "trailId": 10307300,
+    "comment": "Beautiful trail.",
+    "date": "2023-09-27T14:44:31.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 204407943.0
+  },
+  {
+    "reviewId": 35827462,
+    "trailId": 10307300,
+    "comment": "Really pretty,lots of shade, a few moderate climbs",
+    "date": "2023-09-23T15:44:28.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 209878291.0
+  },
+  {
+    "reviewId": 35342923,
+    "trailId": 10307300,
+    "comment": "This trail is awesome.  Beautiful views, lots of photo ops, and places to rest along the way. ",
+    "date": "2023-09-20T16:37:53.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 202182319.0
+  },
+  {
+    "reviewId": 35272130,
+    "trailId": 10307300,
+    "comment": "Well-marked trail, begins/ends on a road. Gets wet easily.",
+    "date": "2023-09-17T14:12:37.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 201236254.0
+  },
+  {
+    "reviewId": 35107640,
+    "trailId": 10307300,
+    "comment": "We’ll marked trail. Dry with a bit of mud  in spots. Very pretty",
+    "date": "2023-09-09T14:38:47.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Muddy"
+    ],
+    "hasRecording": true,
+    "recordingId": 198879165.0
+  },
+  {
+    "reviewId": 35456958,
+    "trailId": 10307300,
+    "comment": "Pretty easy trail, a bit of elevation but not too bad. Not too buggy in late August. Not too muddy either!",
+    "date": "2023-08-26T18:05:42.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 203918753.0
+  },
+  {
+    "reviewId": 34759684,
+    "trailId": 10307300,
+    "comment": "Good infrastructure, a little bit of mud in a couple of spots but no big deal.",
+    "date": "2023-08-23T17:53:06.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Muddy"
+    ],
+    "hasRecording": true,
+    "recordingId": 194447171.0
+  },
+  {
+    "reviewId": 34768657,
+    "trailId": 10307300,
+    "comment": "Beautiful trail. A bit marshy/wet in spots but overall a great hike.",
+    "date": "2023-08-23T16:22:30.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 194426561.0
+  },
+  {
+    "reviewId": 34742949,
+    "trailId": 10307300,
+    "comment": "Great scenery; lookout is amazing and the trail is so beautiful by the water ",
+    "date": "2023-08-22T20:35:01.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Great!"
+    ],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 34675909,
+    "trailId": 10307300,
+    "comment": "Nice shady trail with cool bridges. But I think the elevation was approximately 100m (Not 280m per current description). Great lookout. Saw some loons and falcons! Highly recommend!",
+    "date": "2023-08-19T22:51:12.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Great!"
+    ],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 34669069,
+    "trailId": 10307300,
+    "comment": "You finish on the road .",
+    "date": "2023-08-19T16:53:39.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 193464894.0
+  },
+  {
+    "reviewId": 34662967,
+    "trailId": 10307300,
+    "comment": "Easy trail. Beautiful views. Really enjoyable hike.",
+    "date": "2023-08-19T14:43:50.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 193398053.0
+  },
+  {
+    "reviewId": 34644638,
+    "trailId": 10307300,
+    "comment": "Pretty but a lot cut through private properties/cottage and had to walk along road to connect back to start",
+    "date": "2023-08-18T15:27:28.000Z",
+    "rating": 2,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 193150585.0
+  },
+  {
+    "reviewId": 34472121,
+    "trailId": 10307300,
+    "comment": "Lovely day lovely day lovely day",
+    "date": "2023-08-10T19:19:19.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 191098826.0
+  },
+  {
+    "reviewId": 34275372,
+    "trailId": 10307300,
+    "comment": "Great trail. Very scenic with a beautiful look out point ",
+    "date": "2023-07-31T14:43:28.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 188800188.0
+  },
+  {
+    "reviewId": 34144851,
+    "trailId": 10307300,
+    "comment": "They recently cleaned up the fallen trees, it has also dried up so less bugs! Great time to hike this trail",
+    "date": "2023-07-27T13:55:43.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Bugs"
+    ],
+    "hasRecording": true,
+    "recordingId": 187358115.0
+  },
+  {
+    "reviewId": 33701792,
+    "trailId": 10307300,
+    "comment": "Well marked and maintained. Lots of things to see along the way, with the beautiful lake being the feature.",
+    "date": "2023-07-07T18:39:11.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 182392431.0
+  },
+  {
+    "reviewId": 33775349,
+    "trailId": 10307300,
+    "comment": "Overall in good condition.  Light long sleeves recommend to avoid mosquitos.  Overall easy hike.",
+    "date": "2023-07-07T13:28:11.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": null,
+    "obstacles": [],
+    "trailConditions": [
+      "Bugs"
+    ],
+    "hasRecording": true,
+    "recordingId": 182219968.0
+  },
+  {
+    "reviewId": 33548667,
+    "trailId": 10307300,
+    "comment": "Tons of mosquitoes,but the trail is fun and well groomed. \n",
+    "date": "2023-07-03T13:26:46.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Bugs"
+    ],
+    "hasRecording": true,
+    "recordingId": 181212089.0
+  },
+  {
+    "reviewId": 33113266,
+    "trailId": 10307300,
+    "comment": "I hiked this June 20th and it was awesome! I just found it to be one of the best trails I've hiked. Mosquitos were bad enough that I wished I'd put my bug jacket on. it's through forest mostly, so was able to be kept out of the really hot sun. Most of the way you are right at the waters edge. At one point there was such a wonderful breeze coming off the lake! There's a lot of easy areas, but be prepared for moderate also. There are muddy areas but most have a work-around. Lots of boardwalks over really wet areas. ",
+    "date": "2023-06-20T16:40:40.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Bugs",
+      "Muddy"
+    ],
+    "hasRecording": true,
+    "recordingId": 178151288.0
+  },
+  {
+    "reviewId": 32989771,
+    "trailId": 10307300,
+    "comment": "Pretty trail with views of the water and easy to follow signs. Only one steeper uphill/ downhill section otherwise relatively easy. Lots of bugs when the breeze dies down though!",
+    "date": "2023-06-15T18:14:52.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Bugs"
+    ],
+    "hasRecording": true,
+    "recordingId": 176973204.0
+  },
+  {
+    "reviewId": 32745204,
+    "trailId": 10307300,
+    "comment": "The bugs weren’t as bad as I thought. The breeze from the lake kept them at bay. A beautiful trail, many great spots to just sit and enjoy the view of the lake and the beauty of nature. A gorgeous lookout spot!",
+    "date": "2023-06-04T14:57:34.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Bugs"
+    ],
+    "hasRecording": true,
+    "recordingId": 174599444.0
+  },
+  {
+    "reviewId": 32755416,
+    "trailId": 10307300,
+    "comment": "Excellent conditions as always at Limberlost",
+    "date": "2023-06-04T14:17:29.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 174677114.0
+  },
+  {
+    "reviewId": 32710300,
+    "trailId": 10307300,
+    "comment": "Great hike around Solitaire lake. Some mosquitos in the forest area but nothing too bad.",
+    "date": "2023-06-03T16:12:03.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Bugs"
+    ],
+    "hasRecording": true,
+    "recordingId": 174308124.0
+  },
+  {
+    "reviewId": 32704924,
+    "trailId": 10307300,
+    "comment": "Beautiful views and an amazing breeze this morning that helped keep the bugs away. So refreshing now to enjoy the beach!",
+    "date": "2023-06-03T13:04:33.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Bugs"
+    ],
+    "hasRecording": true,
+    "recordingId": 174252139.0
+  },
+  {
+    "reviewId": 32893388,
+    "trailId": 10307300,
+    "comment": "Buggy",
+    "date": "2023-05-30T17:03:23.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Bugs"
+    ],
+    "hasRecording": true,
+    "recordingId": 176067273.0
+  },
+  {
+    "reviewId": 32264770,
+    "trailId": 10307300,
+    "comment": "Great trail, still slightly wet in places but completed easily in trail running trainers. \n\nPlenty of blackfly around but to be expected this time of year. \n\nSteep in places",
+    "date": "2023-05-15T14:55:48.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 170179652.0
+  },
+  {
+    "reviewId": 32260406,
+    "trailId": 10307300,
+    "comment": "So peaceful. I hiked at around 8 am and only encountered one other person.  Relatively easy, just a couple of “hills” most could manage. Highly recommend this trail!  Picturesque.",
+    "date": "2023-05-13T19:49:16.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 169909419.0
+  },
+  {
+    "reviewId": 31424951,
+    "trailId": 10307300,
+    "comment": "Have hiked this trail several times and it is always great.  With the thaw underway now, the trail is very icy and a bit treacherous.  I would not recommend doing this trail without micro-spikes at the moment",
+    "date": "2023-04-04T18:40:27.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Icy",
+      "Slippery"
+    ],
+    "trailConditions": [
+      "Snow",
+      "Icy"
+    ],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 31202687,
+    "trailId": 10307300,
+    "comment": "A bit icy but beautiful",
+    "date": "2023-03-24T19:14:19.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Walking",
+    "obstacles": [],
+    "trailConditions": [
+      "Icy"
+    ],
+    "hasRecording": true,
+    "recordingId": 161455586.0
+  },
+  {
+    "reviewId": 31124564,
+    "trailId": 10307300,
+    "comment": "An amazing, beautiful trail!! Starting from the parking lot, we hopped right on the trailhead which adds about another 1km to this loop. And it's definitely worth it...so very pretty!! The main trail (Solitaire Lake Loop) tours you around the lake, up and down you'll go, passing by and under giant granite and quartz boulders, photo-ops next to frozen waterfalls, amazing cliff views, wee cabins for respite, private cottages for inspiration...and very low human traffic. We explored this trail on the first day of spring, it was in full sparkle-magic-mode, and I couldn't have been more grateful. We were with our favourite adventure partner and pups...definitely check this trail out. Perfect Muskoka landscape. We cannot wait to come back in the summer for some sweet dives in the lake!! ",
+    "date": "2023-03-19T17:49:41.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Icy"
+    ],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 30674637,
+    "trailId": 10307300,
+    "comment": "Covered in snow but even better because of it. Absolutely love this trail.",
+    "date": "2023-02-23T18:14:30.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Snow"
+    ],
+    "hasRecording": true,
+    "recordingId": 157896359.0
+  },
+  {
+    "reviewId": 30619837,
+    "trailId": 10307300,
+    "comment": "Beautiful sunny day!",
+    "date": "2023-02-20T17:19:40.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 157580632.0
+  },
+  {
+    "reviewId": 30028322,
+    "trailId": 10307300,
+    "comment": "Very nice winter trail! Wear crampons!",
+    "date": "2023-01-22T17:27:22.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Snow",
+      "Icy"
+    ],
+    "hasRecording": true,
+    "recordingId": 154173032.0
+  },
+  {
+    "reviewId": 29803507,
+    "trailId": 10307300,
+    "comment": "Snowshoes not needed unless you are breaking trail after a snowfall.",
+    "date": "2023-01-14T17:14:33.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Snow"
+    ],
+    "hasRecording": true,
+    "recordingId": 152892904.0
+  },
+  {
+    "reviewId": 29624260,
+    "trailId": 10307300,
+    "comment": "Trail was great, a bit muddy and slippery as the snow was melting due to warmer weather temperatures. Free of charge as long as you register your vehicle. I am looking forward to exploring more trails here in the near future!",
+    "date": "2023-01-04T16:14:41.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Muddy",
+      "Snow",
+      "Slippery"
+    ],
+    "hasRecording": true,
+    "recordingId": 151798449.0
+  },
+  {
+    "reviewId": 29322271,
+    "trailId": 10307300,
+    "comment": "Easy but very pretty trail.  We  hiked this trail with a few inches of snow on the ground.  Not sure I would like it in the summer as presumably all of the cottages along the way would  be occupied….would feel like I was intruding.  Plenty of other wonderful trails here to hike though.",
+    "date": "2022-12-19T01:24:59.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Snow"
+    ],
+    "trailConditions": [
+      "Snow"
+    ],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 29216413,
+    "trailId": 10307300,
+    "comment": "Lots of sun; bit of ice. Great hike! Great views!",
+    "date": "2022-12-10T16:07:12.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Icy"
+    ],
+    "hasRecording": true,
+    "recordingId": 149430294.0
+  },
+  {
+    "reviewId": 28571476,
+    "trailId": 10307300,
+    "comment": "I loved this trail but couldn’t 5 star it because of the cottages around the lake. Off season is quiet but I imagine during the summer season, it would be weird hiking through cottage properties with people there.",
+    "date": "2022-11-04T13:24:48.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 145781173.0
+  },
+  {
+    "reviewId": 30941883,
+    "trailId": 10307300,
+    "comment": "Lovely spot\n",
+    "date": "2022-10-23T17:35:24.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 159658500.0
+  },
+  {
+    "reviewId": 28047045,
+    "trailId": 10307300,
+    "comment": "Parts of the trail are through private cottages, couple great views through the trees. \n\nWell maintained trail.",
+    "date": "2022-10-16T15:56:35.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 143182063.0
+  },
+  {
+    "reviewId": 27776940,
+    "trailId": 10307300,
+    "comment": "Got here at 9am Oct 9, only a couple cars. Wonderful hike, gorgeous fall colours and fairly dry conditions considering the rain.\nTook 2 hours with a couple photo stops, the lookout is beautiful.",
+    "date": "2022-10-09T15:15:31.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Great!"
+    ],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 141824791.0
+  },
+  {
+    "reviewId": 27723663,
+    "trailId": 10307300,
+    "comment": "It was cold and wet today but didn’t stop anyone! Trails were very busy. Beautiful loop!",
+    "date": "2022-10-08T14:40:23.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 141582710.0
+  },
+  {
+    "reviewId": 27648651,
+    "trailId": 10307300,
+    "comment": "Nice variety of terrain & scenic. Fairly quiet compared to Algonquin which was nice. Moderate trail",
+    "date": "2022-10-06T01:09:50.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Great!"
+    ],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 27668217,
+    "trailId": 10307300,
+    "comment": "We hiked in from the small parking area at the road to Echo Rock - a very pleasant trail with a couple of boardwalks; switchbacks up to the Rock. This is backward to the usual direction the trail is hiked.  After a stop at Echo Rock we visited the Quartz Deposit - amazing.  Then we elected to return via an alternate route through the forest, past apple orchard.  BUT we missed the beginning of that trail & instead ended up on a beautiful wide downhill slope (probably a ski trail) that brought us out due west at a eutrophic lake, not near our car where we should have been. After discerning we were not in in proper location, we had to back track uphill to the quartz deposit, and then out on the main trail.  Sigh.  It was a much longer hike than we had planned & getting off track kind of spoiled it.  A posted sign to the start of the return trail from near the quartz deposit would be a great improvement! \n",
+    "date": "2022-10-03T20:47:00.000Z",
+    "rating": 3,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Great!"
+    ],
+    "trailConditions": [
+      "Snow"
+    ],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 27560518,
+    "trailId": 10307300,
+    "comment": "Beautiful hike, full fall colours! Full loop may be difficult for people with mobility issues. Half way point there is an up hill and down. Great look out at the top. ",
+    "date": "2022-10-02T22:45:45.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Great!"
+    ],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 27557842,
+    "trailId": 10307300,
+    "comment": "Was good. Not too muddy :) rough just from roots and stuff. No strollers would make it. Saw lots of doggies!",
+    "date": "2022-10-02T16:15:35.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Muddy"
+    ],
+    "hasRecording": true,
+    "recordingId": 140681872.0
+  },
+  {
+    "reviewId": 27431297,
+    "trailId": 10307300,
+    "comment": "Cute trail hike with lots of little bridges! ",
+    "date": "2022-09-28T23:33:12.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Great!"
+    ],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 26633164,
+    "trailId": 10307300,
+    "comment": "Great",
+    "date": "2022-09-03T18:11:27.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 135679948.0
+  },
+  {
+    "reviewId": 26623020,
+    "trailId": 10307300,
+    "comment": "Great trail, pretty easy. A little odd waking on people's property in front of their cottage, but a really nice trail. ",
+    "date": "2022-09-03T17:08:23.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 26627287,
+    "trailId": 10307300,
+    "comment": "A little Challenging with little ones but amazing! Beautiful views and nice little look out. Worth it!",
+    "date": "2022-09-03T13:56:25.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 135652281.0
+  },
+  {
+    "reviewId": 26612412,
+    "trailId": 10307300,
+    "comment": "What a lovely trail.  You have a wonderful view from a crazy high cliff,   and tons of other beautiful places to stop and enjoy the serenity.  It is quite quiet on this walk and it's a pleasant escape from some of the other trails that are busy.   The climbs aren't bad and it's mostly flat.\n",
+    "date": "2022-09-03T13:28:26.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Great!"
+    ],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 26401686,
+    "trailId": 10307300,
+    "comment": "A lot of hazards with large branches and stumps. Have to keep your eyes on the pathway. Steep  in many parts. Very scenic!",
+    "date": "2022-08-27T20:12:00.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": null,
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 26172208,
+    "trailId": 10307300,
+    "comment": "Beautiful well groomed trails.",
+    "date": "2022-08-20T15:12:41.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 133104592.0
+  },
+  {
+    "reviewId": 26105698,
+    "trailId": 10307300,
+    "comment": "Great trail in very good condition, well marked. Lots of baby toads everywhere, watch your step!\n",
+    "date": "2022-08-18T14:09:52.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 132705018.0
+  },
+  {
+    "reviewId": 25839025,
+    "trailId": 10307300,
+    "comment": "Love it in the summer time too!",
+    "date": "2022-08-10T16:33:48.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 131254394.0
+  },
+  {
+    "reviewId": 25639696,
+    "trailId": 10307300,
+    "comment": "Excellent trail. So impressed with how well marked it was. Fairly easy hike with some hills!! ",
+    "date": "2022-08-04T17:52:26.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 130137162.0
+  },
+  {
+    "reviewId": 25636042,
+    "trailId": 10307300,
+    "comment": "Amazing hike! Conditions were great and everything was well marked. Little buggy but made sure to pack spray and just kept moving. The look out point was amazing!! ",
+    "date": "2022-08-04T17:32:30.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Great!"
+    ],
+    "trailConditions": [
+      "Bugs"
+    ],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 25305903,
+    "trailId": 10307300,
+    "comment": "Really fun trail! Super cool lots of rocks and  hills. But pretty long and a little confusing to navigate at some points.",
+    "date": "2022-07-25T20:40:27.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Great!"
+    ],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 25221752,
+    "trailId": 10307300,
+    "comment": "Favourite trail in the area",
+    "date": "2022-07-23T12:45:47.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 127851676.0
+  },
+  {
+    "reviewId": 24962658,
+    "trailId": 10307300,
+    "comment": "Amazing and beautiful with a bit of challenge! One of the best!",
+    "date": "2022-07-14T16:35:25.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 126279250.0
+  },
+  {
+    "reviewId": 24892719,
+    "trailId": 10307300,
+    "comment": "The trail is very pretty and for the most part is easy, there is a bit of a climb at one point making this a more moderate level hike. The issue with this hike is that for the first half or so you walk through cottage properties (with permission) which takes away from the peaceful feeling of a hike. The second half of the hike this doesn't happen so it is more enjoyable. The trail is well groomed and marked throughout and has some beautiful views of the lake. Would recommend! ",
+    "date": "2022-07-12T13:42:22.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Private property",
+      "Great!"
+    ],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 24779834,
+    "trailId": 10307300,
+    "comment": "Stunning!",
+    "date": "2022-07-09T15:46:21.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 125320140.0
+  },
+  {
+    "reviewId": 24402102,
+    "trailId": 10307300,
+    "comment": "It was a nice little walk along the edge of the water and quiet peaceful within the forest. A few cute lookouts along the way.",
+    "date": "2022-06-27T17:44:46.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 123108643.0
+  },
+  {
+    "reviewId": 24047868,
+    "trailId": 10307300,
+    "comment": "The trail is amazing!!!  Some people had said it was not well marked. I get that, there are signs when you need them the most, but they are not intuitive. BUT at least the trail follows the lake so if you’re not sure, as long as the lake is to your right, you’re on the trail! There is a sign that says Quartz Deposit and another on saying Echo Rock. These are not suggestions of fun things to do, they are trail markers. So when you see them, go where they say :). Otherwise you’ll be in a bit of a mess!  Also, the elevation gain says something like 283m and there was mention of a climb up the rock. The whole 283 isn’t the rock climb :). It is quite a scramble, but not hard. Places are muddy but manageable. Bring proper waterproof footwear and your insect repellent and you’ll be fine. All in all, amazing hike!",
+    "date": "2022-06-16T13:39:06.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Muddy"
+    ],
+    "hasRecording": true,
+    "recordingId": 121154896.0
+  },
+  {
+    "reviewId": 23520272,
+    "trailId": 10307300,
+    "comment": "Loved this trail though it’s not well marked so I was grateful for this app. Saw frogs and turtles on the trail so please watch your step and keep dogs on a leash.",
+    "date": "2022-05-29T14:36:20.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 118295496.0
+  },
+  {
+    "reviewId": 23291566,
+    "trailId": 10307300,
+    "comment": "Trail was great, a bit confusing towards the end. Nice views around the lake!",
+    "date": "2022-05-22T15:19:48.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 117002519.0
+  },
+  {
+    "reviewId": 23219744,
+    "trailId": 10307300,
+    "comment": "Loved it!",
+    "date": "2022-05-18T13:49:04.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 116551931.0
+  },
+  {
+    "reviewId": 23025532,
+    "trailId": 10307300,
+    "comment": "Beautiful trail! Bugs are out though...wear bug spray!",
+    "date": "2022-05-10T17:44:12.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Bugs"
+    ],
+    "hasRecording": true,
+    "recordingId": 115432683.0
+  },
+  {
+    "reviewId": 23247559,
+    "trailId": 10307300,
+    "comment": "A likkle bit muddy but good trail",
+    "date": "2022-05-07T17:27:05.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Muddy"
+    ],
+    "hasRecording": true,
+    "recordingId": 116721663.0
+  },
+  {
+    "reviewId": 22935483,
+    "trailId": 10307300,
+    "comment": "Great trail around the lake. There is one short, odd stretch where the trail passes the waterfront of private cottages. The hills are a good challenge. Beautiful!",
+    "date": "2022-05-07T16:51:50.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 114976760.0
+  },
+  {
+    "reviewId": 22928894,
+    "trailId": 10307300,
+    "comment": "Stunning!",
+    "date": "2022-05-07T15:30:54.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 114941366.0
+  },
+  {
+    "reviewId": 22405346,
+    "trailId": 10307300,
+    "comment": "very beautiful trail. most of trail is flat and easy.  some portion of the trail is muddy and need to find a detour route. some portion needs to be maintained",
+    "date": "2022-04-17T23:15:41.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Flooded"
+    ],
+    "trailConditions": [
+      "Muddy"
+    ],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 21759349,
+    "trailId": 10307300,
+    "comment": "Beautiful trail.  But make sure you have ice tracks or poles with carbide tips.  Very icy.",
+    "date": "2022-03-19T14:49:53.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Icy"
+    ],
+    "hasRecording": true,
+    "recordingId": 108225157.0
+  },
+  {
+    "reviewId": 21691688,
+    "trailId": 10307300,
+    "comment": "For the most part it was a well marked trail (the only issue being the entrance). 90% of the trail was easy, however one approx 200 ft section near the quartz cliff was almost completely vertical. That being said, our 6 year managed just fine, even if there were a few extra snack stops. A few challenging sections with the melting snow and ice underneath, so definitely recommend crampons or ice trax.",
+    "date": "2022-03-15T18:18:00.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Walking",
+    "obstacles": [],
+    "trailConditions": [
+      "Snow",
+      "Icy"
+    ],
+    "hasRecording": true,
+    "recordingId": 107785506.0
+  },
+  {
+    "reviewId": 19080562,
+    "trailId": 10307300,
+    "comment": "Icy in spots in the winter. But with the lake frozen, we were able to walk on it, and skipped the quartz deposit and that hill to walk on the lake in front of the rock face - super cool!",
+    "date": "2022-01-04T18:26:21.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 100273234.0
+  },
+  {
+    "reviewId": 19067119,
+    "trailId": 10307300,
+    "comment": "There are sections of the trail that are super icy, definitely need crampons. Otherwise it was a beautiful day for a hike.",
+    "date": "2022-01-03T14:01:52.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 100172076.0
+  },
+  {
+    "reviewId": 19054549,
+    "trailId": 10307300,
+    "comment": "Excellent trail.  Mostly easy but with some moderate sections.  If doing in winter crampons are a must as there are some very icy sections.  Pretty scenery.  The icefalls near the boardwalk over the lake edge was a highlight!   ",
+    "date": "2022-01-02T20:35:39.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Icy",
+      "Great!"
+    ],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 18996384,
+    "trailId": 10307300,
+    "comment": "Great trail! Still super icy on some parts",
+    "date": "2021-12-30T16:31:11.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 99693039.0
+  },
+  {
+    "reviewId": 18990518,
+    "trailId": 10307300,
+    "comment": "It is an amazing trail with almost no traffic. We enjoyed the hike a lot. Some places were very icy, and crampons were really helpful.",
+    "date": "2021-12-30T03:37:44.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Icy"
+    ],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 18953395,
+    "trailId": 10307300,
+    "comment": "Too icey had to turn back",
+    "date": "2021-12-27T16:18:07.000Z",
+    "rating": 2,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 99376313.0
+  },
+  {
+    "reviewId": 18480066,
+    "trailId": 10307300,
+    "comment": "Amazing trail! Not beginner friendly or great for little humans - especially if you intend on seeing the lookout point - no railing or danger signs and it’s very high.  Amazing hike for the fall - muddy in some places but that’s too be expected. 10/10 would recommend ",
+    "date": "2021-11-13T18:02:18.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Great!"
+    ],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 18462258,
+    "trailId": 10307300,
+    "comment": "Amazing trail! Beautiful view !",
+    "date": "2021-11-12T16:11:14.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 95734170.0
+  },
+  {
+    "reviewId": 18436285,
+    "trailId": 10307300,
+    "comment": "Nice trail, relatively easy, with a great climb to a lookout over the lake. Can be very wet and muddy.",
+    "date": "2021-11-10T16:27:20.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Muddy",
+      "Flooded"
+    ],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 18387616,
+    "trailId": 10307300,
+    "comment": "Great trail. Nice scenery. Muddy in spots",
+    "date": "2021-11-07T14:22:36.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 95223317.0
+  },
+  {
+    "reviewId": 18346560,
+    "trailId": 10307300,
+    "comment": "Very pretty trail around the lake \nQuite enjoyed it",
+    "date": "2021-11-05T18:10:30.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 94951470.0
+  },
+  {
+    "reviewId": 18280754,
+    "trailId": 10307300,
+    "comment": "There is something wrong about the km count for this trail because the map and legend at Limberlost say it is 13km.  It was more like 8 or 9km.  Easy to follow, you basically go all around the lake. There is a nice lookout, and some quartz rock once you get about half way.",
+    "date": "2021-10-31T00:11:23.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": null,
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 18188659,
+    "trailId": 10307300,
+    "comment": "Enjoyed it but QUITE muddy today. Have mid length boots or be content with wet socks. ",
+    "date": "2021-10-23T22:36:30.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Muddy"
+    ],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 18125024,
+    "trailId": 10307300,
+    "comment": "Nice to walk beside the lake. However, a big part felt like walking in people’s backyard.  Buck Lake trail was better.",
+    "date": "2021-10-19T18:26:52.000Z",
+    "rating": 3,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 93179936.0
+  },
+  {
+    "reviewId": 17947747,
+    "trailId": 10307300,
+    "comment": "\ngood but didn't like having to track across people's yard.  ",
+    "date": "2021-10-10T13:01:29.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 91925543.0
+  },
+  {
+    "reviewId": 17912563,
+    "trailId": 10307300,
+    "comment": "Very nice trail for beginners. ",
+    "date": "2021-10-09T15:39:16.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 91717105.0
+  },
+  {
+    "reviewId": 18091173,
+    "trailId": 10307300,
+    "comment": "Beautiful day. Beautiful trail.  Love that I have a view of the lake on the entire trail",
+    "date": "2021-10-01T14:19:38.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 92943060.0
+  },
+  {
+    "reviewId": 17740802,
+    "trailId": 10307300,
+    "comment": "A few muddy spots but can easily get around them with no issues. Overall great trail",
+    "date": "2021-09-30T14:28:57.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 90482007.0
+  },
+  {
+    "reviewId": 17553350,
+    "trailId": 10307300,
+    "comment": "Great lil hike. No route finding needed. A couple muddy spots, but that's it. Almost completely in the shade of the forest. I would put it closer to the easy side of moderate. ",
+    "date": "2021-09-20T14:33:52.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 89150315.0
+  },
+  {
+    "reviewId": 17401053,
+    "trailId": 10307300,
+    "comment": "Nice trail to walk around the lake. Cool lookout at echo rock. Path is well used and easy to follow.",
+    "date": "2021-09-12T16:37:18.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 88091895.0
+  },
+  {
+    "reviewId": 17314707,
+    "trailId": 10307300,
+    "comment": "At the beginning of the trail, for the first 20-30 minutes you are walking through peoples cottages. Walking along the water and the view was worth it in the end.",
+    "date": "2021-09-08T15:22:46.000Z",
+    "rating": 3,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 87477732.0
+  },
+  {
+    "reviewId": 17244177,
+    "trailId": 10307300,
+    "comment": "Beautiful trail with enough ups and downs for a good workout, almost always right along a lake shore.",
+    "date": "2021-09-05T16:36:32.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 87027004.0
+  },
+  {
+    "reviewId": 17208333,
+    "trailId": 10307300,
+    "comment": "Fairly easy hike, scenic lookout",
+    "date": "2021-09-04T18:03:10.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 86799002.0
+  },
+  {
+    "reviewId": 17201562,
+    "trailId": 10307300,
+    "comment": "Beautiful, well marked trail along the lake edges.",
+    "date": "2021-09-04T14:44:44.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 86763626.0
+  },
+  {
+    "reviewId": 17100385,
+    "trailId": 10307300,
+    "comment": "My boyfriend and I we hiked the trail today! It's a moderate trail lots of rocks  and roots 2 watch out for! beautiful though at the lookout! ",
+    "date": "2021-08-29T16:08:24.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 85976909.0
+  },
+  {
+    "reviewId": 16947411,
+    "trailId": 10307300,
+    "comment": "Beautiful! Easy to follow except a bit near the quartz deposit which was a bit hard to tell but very much worth the trip.",
+    "date": "2021-08-22T03:28:20.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Great!"
+    ],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 16883650,
+    "trailId": 10307300,
+    "comment": "It’s a super nice loop… note it’s wrongly labeled in many places as 13 km but is really only 1/2 that as shown here. Oops just realized that I accidentally left the app on while driving back to the cottage!  Kinda messed up the stats just a tad. Lol.",
+    "date": "2021-08-18T19:19:38.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 16791898,
+    "trailId": 10307300,
+    "comment": "nice trail \n",
+    "date": "2021-08-14T15:23:59.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 83813318.0
+  },
+  {
+    "reviewId": 16759476,
+    "trailId": 10307300,
+    "comment": "Amazing trail!",
+    "date": "2021-08-12T18:47:37.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 16678372,
+    "trailId": 10307300,
+    "comment": "Beautiful trail , some buggy and muddy. Make sure you follow the app in certain points for not getting lost on intersections.",
+    "date": "2021-08-08T15:17:23.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 82982381.0
+  },
+  {
+    "reviewId": 16595435,
+    "trailId": 10307300,
+    "comment": "Decent trail, good condition, easy to follow",
+    "date": "2021-08-04T17:34:11.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 82390839.0
+  },
+  {
+    "reviewId": 17196156,
+    "trailId": 10307300,
+    "comment": "no bugs, plenty of treeroots, started at 9.30 and only towards the very end did we see others",
+    "date": "2021-08-02T15:28:58.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 86728387.0
+  },
+  {
+    "reviewId": 16646673,
+    "trailId": 10307300,
+    "comment": "Muddy and buggy in parts, but a great workout and great views!",
+    "date": "2021-07-28T15:40:58.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 82785602.0
+  },
+  {
+    "reviewId": 16346334,
+    "trailId": 10307300,
+    "comment": "Great trail! Little bit of everything. Only negative is the one spot you go in front of private cottages.",
+    "date": "2021-07-24T13:52:25.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Great!"
+    ],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 80699604.0
+  },
+  {
+    "reviewId": 16344929,
+    "trailId": 10307300,
+    "comment": "Incredible trail. A spicy uphill that leads to a gorgeous view. Worth the climb!",
+    "date": "2021-07-24T13:30:45.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 80689653.0
+  },
+  {
+    "reviewId": 16219517,
+    "trailId": 10307300,
+    "comment": "Limberlost is a hidden gem! Ample, free parking and some of the most well-maintained trails out there! I am baffled by the comments saying they found the trail wasn’t well marked - those people must not have been paying attention as I find all the trails to be exceptionally well marked, even the smaller link trails! Yes, you pass by some of the rental cottages (the income they generate is how the park operates) and should you see people, you simply wave and say hello and carry on with your hike!",
+    "date": "2021-07-18T00:13:02.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Great!"
+    ],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 16208365,
+    "trailId": 10307300,
+    "comment": "Weird at the start walking on the cottage land but a very nice walk ",
+    "date": "2021-07-17T18:19:36.000Z",
+    "rating": 3,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 16211185,
+    "trailId": 10307300,
+    "comment": "Great trail amazing views",
+    "date": "2021-07-17T16:19:22.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 79736277.0
+  },
+  {
+    "reviewId": 16124566,
+    "trailId": 10307300,
+    "comment": "nice trail, some fallen trees and muddy patches along the way. overall a great experience.",
+    "date": "2021-07-12T17:10:21.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 16074012,
+    "trailId": 10307300,
+    "comment": "One of my favourite trails yet! \nI travel with a friend, and we brought our 3 kids with us (all under 6 years of age). Our hiking time was obviously longer than average, but very doable to bring kids!  There was many insects and mushrooms along the way, and we even saw a fox. \nYes, you do walk along the front of some cottages, but anyone we came across were super friendly and understanding of that.  There is a view of the lake for 90% of the hike, which was great. The quartz deposit was on top of the steepest portion, that part of the hike was tricky for the kids. Ample parking, and there were other hiking trails nearby. There is a beach, but available to the cottages only.  All around, fantastic hike! ",
+    "date": "2021-07-10T18:11:15.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Flooded",
+      "Great!"
+    ],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 16071083,
+    "trailId": 10307300,
+    "comment": "Awesome trail!",
+    "date": "2021-07-10T15:12:12.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 78739167.0
+  },
+  {
+    "reviewId": 16179056,
+    "trailId": 10307300,
+    "comment": "Great trail that loops around a beautiful lake. The trail goes through camp grounds at times. Minimal bugs even in early July which was refreshing. I definitely needed my app to navigate the trail at certain points.",
+    "date": "2021-07-04T03:58:00.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Muddy",
+      "Great!"
+    ],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 15921105,
+    "trailId": 10307300,
+    "comment": "difficult finding the trailheads, and awkward at first that you have to walk in front of the cottages for the first km or so, but the lookout is beautiful and once you’re on it, the trail is well marked in most spots",
+    "date": "2021-07-03T16:24:59.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 77694507.0
+  },
+  {
+    "reviewId": 15900613,
+    "trailId": 10307300,
+    "comment": "amazing trail.\n",
+    "date": "2021-07-02T16:05:57.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 77528197.0
+  },
+  {
+    "reviewId": 15895929,
+    "trailId": 10307300,
+    "comment": "I usually walk alone so it's important that the trail is very well marked. This one was not. About 3/4 of the way around the lake, I felt lost as the trail veered away from the lake and path got much narrower. This was at the Quartz Deposit. This was just before the lookout. I had to turn back. It was quite muddy in spots too. And walking through cottage properties felt weird...like I was trespassing. On the positive side, I loved the rock formations and boardwalks and always having a view of the lake.",
+    "date": "2021-07-02T14:04:20.000Z",
+    "rating": 3,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Muddy"
+    ],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 15732953,
+    "trailId": 10307300,
+    "comment": "Great views, especially from echo rock lookout ",
+    "date": "2021-06-23T20:02:24.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 15732932,
+    "trailId": 10307300,
+    "comment": "Very easy to get lost! Be careful!",
+    "date": "2021-06-23T20:02:02.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 76359368.0
+  },
+  {
+    "reviewId": 15674946,
+    "trailId": 10307300,
+    "comment": "Amazing trail - we went around 3PM and we only saw 2 other people on the trail. First part of the hike you do walk through cottage properties but it’s beautiful still. Brought my mini poodle with us and he was able to do the hike no problem. Gets a bit buggy towards the end but I would say this is one of my favourite hikes to date! Highly recommend.",
+    "date": "2021-06-20T19:23:52.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Great!"
+    ],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 15505411,
+    "trailId": 10307300,
+    "comment": "Beautiful! Super easy and amazing views the entire time. I did get a little lost at the quartz part and ended up climbing down through the brush to find the main loop again, but other than that it was easy to navigate and really lovely. What a view at the rock! Wow ",
+    "date": "2021-06-12T21:19:46.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Private property",
+      "Great!"
+    ],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 15368177,
+    "trailId": 10307300,
+    "comment": "A little challenging on the uphills but overall, it was a fun hike!",
+    "date": "2021-06-05T23:34:01.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 74035014.0
+  },
+  {
+    "reviewId": 15294897,
+    "trailId": 10307300,
+    "comment": "A little bit of everything you want on a cool hike!",
+    "date": "2021-06-02T15:42:48.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Great!"
+    ],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 15074991,
+    "trailId": 10307300,
+    "comment": "One of the nicest trails in Ontario. Great views of Solitaire Lake.",
+    "date": "2021-05-23T21:08:05.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 72237725.0
+  },
+  {
+    "reviewId": 15041462,
+    "trailId": 10307300,
+    "comment": "The view is nice but too many mosquitos in May.",
+    "date": "2021-05-22T21:33:08.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 72065441.0
+  },
+  {
+    "reviewId": 15012789,
+    "trailId": 10307300,
+    "comment": "Definitely one for your bucket list absolutely beautiful scenery with the trail going around the lake nice soft breeze on a very hot may day. Be careful at some of the crossing point where the trails meet other trails. highly recommend love it here",
+    "date": "2021-05-21T22:06:52.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Great!"
+    ],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 14920895,
+    "trailId": 10307300,
+    "comment": "trail portion by the water was nice. it was difficult to find the trail head and at the end you walk along a road. muddy in spots but not too bad ",
+    "date": "2021-05-16T17:53:51.000Z",
+    "rating": 3,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Bugs",
+      "Muddy",
+      "Private property"
+    ],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 14865425,
+    "trailId": 10307300,
+    "comment": "Beautiful trail! Parts of it passes through a few private cottage land, as it is on the lake’s edge. Some wet areas, about 400m elevation gain for the last 3 km, but all in all moderate hike. Located within Limberlost Forest so the trail is quite remote!",
+    "date": "2021-05-14T20:29:40.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 71014789.0
+  },
+  {
+    "reviewId": 14574289,
+    "trailId": 10307300,
+    "comment": "Fabulous trail! Amazing look out points.\nTry to extend through the wetland trail, then over to Helve lake and Buck lake. Amazing loops. \nBarlow lake offers a complete  different vantage point again. Go out there and enjoy  ",
+    "date": "2021-04-28T18:22:42.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Rocky",
+      "Great!"
+    ],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 14473506,
+    "trailId": 10307300,
+    "comment": "The first half has you basically walking through some private cottage properties, but it’s a well kept trail and the lookout was a nice view.",
+    "date": "2021-04-23T15:36:34.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 68605744.0
+  },
+  {
+    "reviewId": 14446803,
+    "trailId": 10307300,
+    "comment": "Great trail, good condition.",
+    "date": "2021-04-21T14:01:09.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 68417241.0
+  },
+  {
+    "reviewId": 14351197,
+    "trailId": 10307300,
+    "comment": "Gorgeous trail. Good variety in terrain with a lot of the trail running  right beside the lake. Well marked. Got a little mixed up around the cliff/lookout area. A little muddy but managed fine in running shoes. Highly recommend.",
+    "date": "2021-04-16T16:01:15.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Great!"
+    ],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 14307817,
+    "trailId": 10307300,
+    "comment": "Well maintained trail. Some muddy patches but to be expected. Weird that you cut thru people’s front yards but...",
+    "date": "2021-04-12T16:02:06.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 14283538,
+    "trailId": 10307300,
+    "comment": "Really nice trail, little muddy this time of year but gorgeous views ",
+    "date": "2021-04-11T15:00:33.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Trail running",
+    "obstacles": [
+      "Muddy",
+      "Great!"
+    ],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 14163231,
+    "trailId": 10307300,
+    "comment": "Such a great hike! Everything was good except for the very icy spots, and there were several of them!",
+    "date": "2021-04-04T18:03:49.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 66810324.0
+  },
+  {
+    "reviewId": 14095204,
+    "trailId": 10307300,
+    "comment": "Was lovely.  This time of year it’s SUPER icy so wear your crampons.  Otherwise beautiful views and varied terrain.  People were out skating on the ice, was great.  Would recommend for a good drop in hike.",
+    "date": "2021-03-15T17:12:01.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 66455081.0
+  },
+  {
+    "reviewId": 13559975,
+    "trailId": 10307300,
+    "comment": "Super fun. One large hill.",
+    "date": "2021-03-02T15:30:57.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 64028833.0
+  },
+  {
+    "reviewId": 13538208,
+    "trailId": 10307300,
+    "comment": "Went on a warming winter day (4c) and a wonderful walk in a very peaceful environment. One of the best I have done in this region if not the best. ",
+    "date": "2021-02-28T21:13:15.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 13340268,
+    "trailId": 10307300,
+    "comment": "Nice",
+    "date": "2021-02-14T15:34:05.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 62937577.0
+  },
+  {
+    "reviewId": 13006526,
+    "trailId": 10307300,
+    "comment": "It was INCREDIBLE. lots of scenic views, rock faces with icicles, empty cottages, and even a cool quartz deposit. Highly recommend!! \nThis park is free. Closes at 5. ",
+    "date": "2021-01-22T02:56:30.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Great!"
+    ],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 12946886,
+    "trailId": 10307300,
+    "comment": "Awesome trail, lots of snow !",
+    "date": "2021-01-17T19:09:34.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 61168571.0
+  },
+  {
+    "reviewId": 12765735,
+    "trailId": 10307300,
+    "comment": "Beautiful trail; ",
+    "date": "2021-01-10T02:57:24.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Trail running",
+    "obstacles": [
+      "Great!"
+    ],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 12613006,
+    "trailId": 10307300,
+    "comment": "Decent trail, some nice views with the snowy boardwalks and ice formations. Lookout towards the end was ok (sure it’s better in the fall or summer). Just didn’t like having to come on the main road to loop back. ",
+    "date": "2021-01-01T15:56:00.000Z",
+    "rating": 3,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 59700166.0
+  },
+  {
+    "reviewId": 12324745,
+    "trailId": 10307300,
+    "comment": "this had to have been my favorite hike this year. the lakes were beautiful. would do this again.  ",
+    "date": "2020-12-10T00:40:48.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": null,
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 12272453,
+    "trailId": 10307300,
+    "comment": "Absolutely beautiful",
+    "date": "2020-12-05T18:52:29.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 58195572.0
+  },
+  {
+    "reviewId": 11963232,
+    "trailId": 10307300,
+    "comment": "this trail has everything a nature lover would want - fairytale like paths with moss and birch, lake looks,  bit of inclines here and there, one larger more challenging one near the quartz deposit and lookout point, and of course the view from lookout. ",
+    "date": "2020-11-14T15:28:08.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 56839915.0
+  },
+  {
+    "reviewId": 11923781,
+    "trailId": 10307300,
+    "comment": "Definitely need to be steady and have strong ankles, very ‘rooty’ trail but loved it. Got a little sidetracked going up the cliff but it was all good. Trail is muddy in spots but it’s the time of year. ",
+    "date": "2020-11-11T13:06:12.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Muddy"
+    ],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 11875549,
+    "trailId": 10307300,
+    "comment": "Stunning views\nModerately difficult",
+    "date": "2020-11-08T13:40:17.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 56451613.0
+  },
+  {
+    "reviewId": 11821804,
+    "trailId": 10307300,
+    "comment": "Tranquil, beautiful, pristine waters....and on a gorgeous November day (15 degrees) ",
+    "date": "2020-11-05T15:34:42.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 56207900.0
+  },
+  {
+    "reviewId": 11803279,
+    "trailId": 10307300,
+    "comment": "nice trail some challenge a short steep incline. some nice views. well maintained. \n",
+    "date": "2020-11-03T17:41:41.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 56117152.0
+  },
+  {
+    "reviewId": 11766772,
+    "trailId": 10307300,
+    "comment": "great hike, well marked, steep climb to the look out. would do this hike again ",
+    "date": "2020-11-01T04:46:46.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Muddy",
+      "Great!"
+    ],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 11645302,
+    "trailId": 10307300,
+    "comment": "Beautiful Trail around the lake in Limberlost Forest.  Most of the trail is along the waters edge with some beautiful vistas. There is a look out up on Echo rock and a nice big quartz deposit. As mentioned in other posts the last little bit of the loop is along the road that takes you back to the Limberlost Forest and Wildlife reserve parking lot. There is no charge to enter the reserve or to park ",
+    "date": "2020-10-24T15:05:31.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Great!"
+    ],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 11457743,
+    "trailId": 10307300,
+    "comment": "Great! Beautiful and muddy, just like life ",
+    "date": "2020-10-13T17:12:20.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 54660724.0
+  },
+  {
+    "reviewId": 11175160,
+    "trailId": 10307300,
+    "comment": "Lots of private cottages. However, a well maintained and marked trail. Great view on a cloudy fall day.",
+    "date": "2020-09-30T18:35:12.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 53581038.0
+  },
+  {
+    "reviewId": 10931841,
+    "trailId": 10307300,
+    "comment": "It’s a very nice and relaxing walk.",
+    "date": "2020-09-19T17:17:21.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 52645729.0
+  },
+  {
+    "reviewId": 10841737,
+    "trailId": 10307300,
+    "comment": "Zero bugs. Zero people. Monday in mid September is a great time to go!  A bit muddy in a few places but lots of workarounds.",
+    "date": "2020-09-14T14:17:44.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 52246393.0
+  },
+  {
+    "reviewId": 10800915,
+    "trailId": 10307300,
+    "comment": "Beautiful and great views around the lake. The Quarzrock was very interesting and Echo Rock offered a great view to the lake. Very well maintained.",
+    "date": "2020-09-12T22:13:26.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 10688601,
+    "trailId": 10307300,
+    "comment": "The most beautiful lake trail...  The outlook was a nice reward.  ",
+    "date": "2020-09-07T13:27:17.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": null,
+    "obstacles": [
+      "Great!"
+    ],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 10624123,
+    "trailId": 10307300,
+    "comment": "Fantastic trail make sure to use sturdy foot wear",
+    "date": "2020-09-05T16:16:17.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 51412027.0
+  },
+  {
+    "reviewId": 10581663,
+    "trailId": 10307300,
+    "comment": "Loved the trail! a few wet spots likely due to heavy rain yesterday, but nothing terrible. the giant quartz deposit is MASSIVE must see for rock hounds haha",
+    "date": "2020-09-03T18:10:20.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 51193553.0
+  },
+  {
+    "reviewId": 10536214,
+    "trailId": 10307300,
+    "comment": "Nice length well kept trail",
+    "date": "2020-08-31T20:24:59.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Muddy"
+    ],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 10421475,
+    "trailId": 10307300,
+    "comment": "Amazing views all around",
+    "date": "2020-08-26T18:49:41.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 50547394.0
+  },
+  {
+    "reviewId": 10358402,
+    "trailId": 10307300,
+    "comment": "Great trail by the water, one hill about 250 m not to bad",
+    "date": "2020-08-23T13:42:23.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 50294622.0
+  },
+  {
+    "reviewId": 10186445,
+    "trailId": 10307300,
+    "comment": "Trail was awesome.  Easy hike. Beautiful lookout !!!",
+    "date": "2020-08-15T16:33:08.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 49602558.0
+  },
+  {
+    "reviewId": 10142293,
+    "trailId": 10307300,
+    "comment": "Great trail. Well maintained for the most part aside from a few small bridges that were not in good shape. Relatively flat aside from a steeper climb up to a lookout point with some pretty amazing views. Would definitely recommend bug spray",
+    "date": "2020-08-13T18:56:34.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Bugs"
+    ],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 10019349,
+    "trailId": 10307300,
+    "comment": "enjoyable hike, moderate to easy.  few bugs, well maintained nice views. cool quartz outcrop. two hours at good pace.",
+    "date": "2020-08-08T13:43:31.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": null,
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 9907931,
+    "trailId": 10307300,
+    "comment": "Great trail. Well maintained. Sections with recently constructed boardwalks. Took us about 1.5 hours with a deluge of rain about halfway. We got soaked and sections got muddy but really enjoyable nonetheless. Bugs weren’t too bad but definitely bring the bug spray. Some great views! ",
+    "date": "2020-08-02T18:55:21.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Muddy",
+      "Great!"
+    ],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 9741910,
+    "trailId": 10307300,
+    "comment": "Great trail.  Took about 1:20 moving time.  Echo point was a nice place to enjoy a cold drink.  ",
+    "date": "2020-07-25T19:11:53.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 47693713.0
+  },
+  {
+    "reviewId": 9579451,
+    "trailId": 10307300,
+    "comment": "An easy trail around a beautiful lake. Somewhat buggy but the breeze kept them off of me for the most part. Rocks, roots and mud. Definitely worth it if you're in the area. ",
+    "date": "2020-07-17T16:47:14.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Blowdown",
+      "Muddy",
+      "Private property"
+    ],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 46992537.0
+  },
+  {
+    "reviewId": 9253496,
+    "trailId": 10307300,
+    "comment": "Great trail! Definitely very hard mountain biking or at least for me as I am not a pro. But I would do this trail again if I was hiking or I improved on my biking skills. ",
+    "date": "2020-06-30T02:56:14.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Mountain biking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 7921346,
+    "trailId": 10307300,
+    "comment": "Just an FYI - closed due to Covid! ",
+    "date": "2020-04-22T19:05:27.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 7490813,
+    "trailId": 10307300,
+    "comment": "My favourite of the Limberlost trails. Features a couple great viewpoints, great for your average hiker or trail runners. If you’re visiting in the winter make sure to wear snowshoes or at least spikes. ",
+    "date": "2020-03-17T22:19:23.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 6795579,
+    "trailId": 10307300,
+    "comment": "Great trail. Beautiful scenery. Took approximately 2 hours to complete. Without the recent snowfall, it would have been icy. Absolutely perfect conditions today, a few inches of snow, and well maintained trail. Would highly recommend!",
+    "date": "2020-01-02T03:57:47.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Snow"
+    ],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 6576243,
+    "trailId": 10307300,
+    "comment": "Beautiful area and 80% is a nice and easy walk around the lake. The only challenging part is getting up to the lookout however we did the trail backwards so this may be the reason why, since going up we didn't have the steps that were available on the other side. Some parts of the trail were iced over and slippery but with proper footwear we were fine. Gorgeous views, will definitely be back again soon",
+    "date": "2019-11-25T00:19:21.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Snow"
+    ],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 6371369,
+    "trailId": 10307300,
+    "comment": "alot harder than I expected, but totally worth it when you reach the lookout! wear appropriate hiking shoes!",
+    "date": "2019-10-28T12:57:52.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Rocky",
+      "Flooded"
+    ],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 30579794.0
+  },
+  {
+    "reviewId": 6261928,
+    "trailId": 10307300,
+    "comment": "Had a great time on this trail. Follows the water so there's always a nice view. \nMost of the hike is stepping over small rocks and tree roots. There are some board walks along the way to step over muddy parts and streams. AMAZING (small ledge tho!) lookout just after Quartz rock. \nI stopped at the additional lake (clear lake I think it was called) and took the road back to the entrance!\nWill definitely do this trail again! ",
+    "date": "2019-10-17T20:17:09.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Muddy",
+      "Rocky"
+    ],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 6001598,
+    "trailId": 10307300,
+    "comment": "Beautiful day!! The lookout was so busy though. Must have been 15 people and 4 dogs. Not quite peak colours yet.",
+    "date": "2019-09-29T16:10:03.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 29664024.0
+  },
+  {
+    "reviewId": 4590922,
+    "trailId": 10307300,
+    "comment": "This was my first ever Hike. I couldn't have been more pleased with the entire loop. There is an incredibly steep climb at one point but it is totally worth it. \nThere is a new wooden  foot path, and scenic stops along the way. Stop at the walkway against the rock wall and take a dip to cool off. I cannot wait to come back and walk this trail again. The only awkward part is having the trail lead right thru people cottage grounds near the end of the trail.",
+    "date": "2019-07-17T18:39:12.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 4302131,
+    "trailId": 10307300,
+    "comment": "I was pleasantly surprised by this trail. The first few kilometres are walking alongside cottages before breaking into a bit more solitude. No one but myself and my partner on the trail today. We did this loop backwards, starting on the trail from the opposite side of the beach, and ending our trip coming out of the trailhead near the front gates to the park, found that way was more downhill. No bugs until the last half of a kilometre was left on the trail. Would highly recommend! ",
+    "date": "2019-07-08T00:12:17.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 2760501,
+    "trailId": 10307300,
+    "comment": "It's been a couple of years since I hiked this trail but I remember how great it was! \nMake sure to have strong bug spray with you though; the flies bite and there are a lot of them!",
+    "date": "2018-12-09T22:11:15.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": null,
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 2703328,
+    "trailId": 10307300,
+    "comment": "Kim and I had an exhausting day. We love it up here. Great trails and the scenery at this time of year is awesome.",
+    "date": "2018-11-04T16:31:47.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 21906761.0
+  },
+  {
+    "reviewId": 2598737,
+    "trailId": 10307300,
+    "comment": "Amazing trail. Lots of extensions to make it more difficult.",
+    "date": "2018-09-22T21:24:00.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 2553060,
+    "trailId": 10307300,
+    "comment": "This was an absolutely amazing hike. The check in point was a great way to gain your barings. I started in the directions of the beach and cabins. I think walking past cabins was pretty cool. Then as the hike continued you gained more and more solitude, which I loved. Gorgeous look at point if you can find it , just a couple minutes after the quartz check point. Highly recommend hiking this lake",
+    "date": "2018-09-05T01:07:41.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 2001995,
+    "trailId": 10307300,
+    "comment": "Solitaire Lake loop is a 6.2 km relatively flat trail until the lookout rock there is a mildly steep uphill and downhill section. The trail finishes along the road or can be combined with other loops.",
+    "date": "2017-12-29T18:06:10.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 14203575,
+    "trailId": 10307300,
+    "comment": "",
+    "date": "2021-04-06T18:30:12.000Z",
+    "rating": 3,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 67009387.0
+  },
+  {
+    "reviewId": 13867235,
+    "trailId": 10307300,
+    "comment": "",
+    "date": "2021-03-20T16:15:50.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Snowshoeing",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 65401346.0
+  },
+  {
+    "reviewId": 13648128,
+    "trailId": 10307300,
+    "comment": "",
+    "date": "2021-03-07T16:52:56.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 64432518.0
+  },
+  {
+    "reviewId": 13513525,
+    "trailId": 10307300,
+    "comment": "",
+    "date": "2021-02-27T19:15:12.000Z",
+    "rating": 3,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 63813212.0
+  },
+  {
+    "reviewId": 13436801,
+    "trailId": 10307300,
+    "comment": "",
+    "date": "2021-02-21T18:47:33.000Z",
+    "rating": 3,
+    "difficulty": null,
+    "activity": "Road biking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 63415476.0
+  },
+  {
+    "reviewId": 13427567,
+    "trailId": 10307300,
+    "comment": "",
+    "date": "2021-02-21T15:25:29.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 63379845.0
+  },
+  {
+    "reviewId": 12633130,
+    "trailId": 10307300,
+    "comment": "",
+    "date": "2021-01-02T14:21:18.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 59823504.0
+  },
+  {
+    "reviewId": 12068791,
+    "trailId": 10307300,
+    "comment": "",
+    "date": "2020-11-21T19:50:43.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 57294624.0
+  },
+  {
+    "reviewId": 11853380,
+    "trailId": 10307300,
+    "comment": "",
+    "date": "2020-11-07T18:09:11.000Z",
+    "rating": 3,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 56368922.0
+  },
+  {
+    "reviewId": 12705589,
+    "trailId": 10307300,
+    "comment": "",
+    "date": "2020-10-17T20:41:30.000Z",
+    "rating": 3,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 60101129.0
+  },
+  {
+    "reviewId": 11419823,
+    "trailId": 10307300,
+    "comment": "",
+    "date": "2020-10-11T16:47:36.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 54523450.0
+  },
+  {
+    "reviewId": 11382210,
+    "trailId": 10307300,
+    "comment": "",
+    "date": "2020-10-10T18:38:24.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 54398308.0
+  },
+  {
+    "reviewId": 11282453,
+    "trailId": 10307300,
+    "comment": "",
+    "date": "2020-10-05T18:28:51.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 54014390.0
+  },
+  {
+    "reviewId": 11128198,
+    "trailId": 10307300,
+    "comment": "",
+    "date": "2020-09-27T15:45:12.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 53386129.0
+  },
+  {
+    "reviewId": 10705729,
+    "trailId": 10307300,
+    "comment": "",
+    "date": "2020-09-07T17:58:19.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 51697453.0
+  },
+  {
+    "reviewId": 10553108,
+    "trailId": 10307300,
+    "comment": "",
+    "date": "2020-09-01T15:37:45.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 51050267.0
+  },
+  {
+    "reviewId": 10241653,
+    "trailId": 10307300,
+    "comment": "",
+    "date": "2020-08-17T17:58:26.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 49802712.0
+  },
+  {
+    "reviewId": 11598575,
+    "trailId": 10307300,
+    "comment": "",
+    "date": "2020-07-01T21:45:54.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 55214978.0
+  }
+]

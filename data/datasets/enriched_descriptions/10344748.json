@@ -1,0 +1,69 @@
+{
+  "trailId": "10344748",
+  "trailSlug": "trail/canada/ontario/white-trail-outer-loop",
+  "name": "White Trail Outer Loop",
+  "description": "Enjoy this 8.4-km loop trail near London, Ontario. Generally considered a moderately challenging route, it takes an average of 1 h 57 min to complete. This is a very popular area for hiking and trail running, so you'll likely encounter other people while exploring. The best times to visit this trail are January through November. Dogs are welcome, but must be on a leash.",
+  "addressLocality": "London, Ontario, Canada",
+  "latitude": 42.95312,
+  "longitude": -81.38421,
+  "ratingValue": 4.7,
+  "reviewCount": 1291,
+  "worstRating": "0",
+  "bestRating": "5",
+  "images": [
+    "https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMzc3MzU3OTgvNDk2ZmMwNjE3Mzc5NTUxYzljYzNkODc0MjJkOWVmMDguanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJ3ZWJwIiwicmVzaXplIjp7IndpZHRoIjoiNTAwIiwiaGVpZ2h0IjoiNTAwIiwiZml0IjoiaW5zaWRlIn0sInJvdGF0ZSI6bnVsbCwianBlZyI6eyJ0cmVsbGlzUXVhbnRpc2F0aW9uIjp0cnVlLCJvdmVyc2hvb3REZXJpbmdpbmciOnRydWUsIm9wdGltaXNlU2NhbnMiOnRydWUsInF1YW50aXNhdGlvblRhYmxlIjozfX19"
+  ],
+  "features": [
+    "Fee required",
+    "Dogs on leash",
+    "Kid-friendly"
+  ],
+  "surfaceTypes": [
+    {
+      "label": "unknown",
+      "percentOfSurface": 92.73,
+      "totalLength": 7829.14
+    },
+    {
+      "label": "natural",
+      "percentOfSurface": 6.46,
+      "totalLength": 545.55
+    },
+    {
+      "label": "steps",
+      "percentOfSurface": 0.81,
+      "totalLength": 68.09
+    }
+  ],
+  "length": 8368.568,
+  "durationMinutes": 117,
+  "difficultyRating": "3",
+  "areaName": "Komoka Provincial Park",
+  "popularity": 98.0303,
+  "terrainData": {
+    "rock": {
+      "rockType": " ",
+      "rockDescription": "Limestone, dolostone, shale",
+      "geologicProvince": " ",
+      "geologicEra": "PALEOZOIC (251.0 Ma to 542.0 Ma)",
+      "rockCategories": [
+        "carbonate_sedimentary",
+        "fine_clastic_sedimentary"
+      ],
+      "rockSlipRisk": "high"
+    },
+    "soil": {
+      "soilName": "TUSCOLA",
+      "texture": "loam",
+      "textureGroup": "loam",
+      "textureMudPotential": 1,
+      "drainage": "imperfect",
+      "drainageRank": 4,
+      "slopePercent": 3.5,
+      "stoniness": 0,
+      "parentMaterial": null
+    },
+    "percentNearWater": 39.8,
+    "waterCrossingCount": 7
+  }
+}

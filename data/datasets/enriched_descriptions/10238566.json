@@ -1,0 +1,89 @@
+{
+  "trailId": "10238566",
+  "trailSlug": "trail/canada/ontario/moore-park-ravine-trail-loop",
+  "name": "Moore Park Ravine Trail",
+  "description": "Explore this 6.1-km loop trail near Toronto, Ontario. Generally considered an easy route, it takes an average of 1 h 23 min to complete. This is a very popular area for hiking, mountain biking, and snowshoeing, so you'll likely encounter other people while exploring. The trail is open year-round and is beautiful to visit anytime. Dogs are welcome, but must be on a leash.",
+  "addressLocality": "Toronto, Ontario, Canada",
+  "latitude": 43.69474,
+  "longitude": -79.38061,
+  "ratingValue": 4.5,
+  "reviewCount": 1587,
+  "worstRating": "0",
+  "bestRating": "5",
+  "images": [
+    "https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMzczODMzNDkvMGJiNTRlOWVlODU2MWE5ZWNhNzQyMDM4MDU5MTc2MmEuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJ3ZWJwIiwicmVzaXplIjp7IndpZHRoIjoiNTAwIiwiaGVpZ2h0IjoiNTAwIiwiZml0IjoiaW5zaWRlIn0sInJvdGF0ZSI6bnVsbCwianBlZyI6eyJ0cmVsbGlzUXVhbnRpc2F0aW9uIjp0cnVlLCJvdmVyc2hvb3REZXJpbmdpbmciOnRydWUsIm9wdGltaXNlU2NhbnMiOnRydWUsInF1YW50aXNhdGlvblRhYmxlIjozfX19"
+  ],
+  "features": [
+    "Dogs on leash",
+    "Kid-friendly",
+    "Forests"
+  ],
+  "surfaceTypes": [
+    {
+      "label": "gravel",
+      "percentOfSurface": 62.14,
+      "totalLength": 3757.13
+    },
+    {
+      "label": "paved",
+      "percentOfSurface": 25.0,
+      "totalLength": 1511.53
+    },
+    {
+      "label": "unknown",
+      "percentOfSurface": 9.69,
+      "totalLength": 585.99
+    },
+    {
+      "label": "natural",
+      "percentOfSurface": 2.05,
+      "totalLength": 124.14
+    },
+    {
+      "label": "steps",
+      "percentOfSurface": 0.93,
+      "totalLength": 56.33
+    },
+    {
+      "label": "rock",
+      "percentOfSurface": 0.09,
+      "totalLength": 5.71
+    },
+    {
+      "label": "wood",
+      "percentOfSurface": 0.09,
+      "totalLength": 5.49
+    }
+  ],
+  "length": 6115.492,
+  "durationMinutes": 83,
+  "difficultyRating": "1",
+  "areaName": "Moore Park Ravine",
+  "popularity": 98.7522,
+  "terrainData": {
+    "rock": {
+      "rockType": " ",
+      "rockDescription": "Shale, limestone, dolostone, siltstone",
+      "geologicProvince": " ",
+      "geologicEra": "PALEOZOIC (251.0 Ma to 542.0 Ma)",
+      "rockCategories": [
+        "carbonate_sedimentary",
+        "fine_clastic_sedimentary"
+      ],
+      "rockSlipRisk": "high"
+    },
+    "soil": {
+      "soilName": "URBAN",
+      "texture": null,
+      "textureGroup": null,
+      "textureMudPotential": null,
+      "drainage": null,
+      "drainageRank": null,
+      "slopePercent": -9.0,
+      "stoniness": null,
+      "parentMaterial": null
+    },
+    "percentNearWater": 70.1,
+    "waterCrossingCount": 7
+  }
+}

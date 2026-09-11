@@ -1,0 +1,49 @@
+{
+  "trailId": "10238597",
+  "trailSlug": "trail/canada/ontario/bat-lake-trail",
+  "name": "Bat Lake Trail",
+  "description": "Explore this 5.8-km loop trail near Nipissing, Ontario. Generally considered a moderately challenging route, it takes an average of 1 h 54 min to complete. This is a very popular area for hiking and trail running, so you'll likely encounter other people while exploring. The best times to visit this trail are April through October. Dogs are welcome, but must be on a leash.",
+  "addressLocality": "Nipissing, Ontario, Canada",
+  "latitude": 45.57699,
+  "longitude": -78.52242,
+  "ratingValue": 4.6,
+  "reviewCount": 1325,
+  "worstRating": "0",
+  "bestRating": "5",
+  "images": [
+    "https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvNTk4NjY5NTEvMTlhOGM2YjExNDZjNjQyYThjNWYzMjQ4ZWNmYTJhZjUuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJ3ZWJwIiwicmVzaXplIjp7IndpZHRoIjoiNTAwIiwiaGVpZ2h0IjoiNTAwIiwiZml0IjoiaW5zaWRlIn0sInJvdGF0ZSI6bnVsbCwianBlZyI6eyJ0cmVsbGlzUXVhbnRpc2F0aW9uIjp0cnVlLCJvdmVyc2hvb3REZXJpbmdpbmciOnRydWUsIm9wdGltaXNlU2NhbnMiOnRydWUsInF1YW50aXNhdGlvblRhYmxlIjozfX19"
+  ],
+  "features": [
+    "Fee required",
+    "Dogs on leash",
+    "Kid-friendly"
+  ],
+  "surfaceTypes": [
+    {
+      "label": "unknown",
+      "percentOfSurface": 100,
+      "totalLength": 5838.15
+    }
+  ],
+  "length": 5793.624,
+  "durationMinutes": 114,
+  "difficultyRating": "3",
+  "areaName": "Algonquin Provincial Park",
+  "popularity": 98.2285,
+  "terrainData": {
+    "rock": {
+      "rockType": "Felsic igneous rocks",
+      "rockDescription": "Tonalite, granodiorite, monzonite, granite, syenite; derived gneisses",
+      "geologicProvince": "GRENVILLE",
+      "geologicEra": "MESOPROTEROZOIC (1.0 Ga to 1.6 Ga)",
+      "rockCategories": [
+        "gneiss_migmatite",
+        "granitic_intrusive"
+      ],
+      "rockSlipRisk": "moderate"
+    },
+    "soil": null,
+    "percentNearWater": 31.1,
+    "waterCrossingCount": 8
+  }
+}

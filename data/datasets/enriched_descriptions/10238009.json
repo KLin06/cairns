@@ -1,0 +1,74 @@
+{
+  "trailId": "10238009",
+  "trailSlug": "trail/canada/ontario/orchard-trail",
+  "name": "Orchard Trail",
+  "description": "Try this 5.1-km loop trail near Pickering, Ontario. Generally considered a moderately challenging route, it takes an average of 1 h 9 min to complete. This is a very popular area for birding, cross-country skiing, and hiking, so you'll likely encounter other people while exploring. The trail is open year-round and is beautiful to visit anytime. Dogs are welcome, but must be on a leash.",
+  "addressLocality": "Pickering, Ontario, Canada",
+  "latitude": 43.81424,
+  "longitude": -79.15372,
+  "ratingValue": 4.4,
+  "reviewCount": 1245,
+  "worstRating": "0",
+  "bestRating": "5",
+  "images": [
+    "https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMTAwMTIxNjgyLzU2NTUzMjlkYTQ0ZThjNzQxOWNlMGQ2YTI5MmFkOGNhLmpwZyIsImVkaXRzIjp7InRvRm9ybWF0Ijoid2VicCIsInJlc2l6ZSI6eyJ3aWR0aCI6IjUwMCIsImhlaWdodCI6IjUwMCIsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ=="
+  ],
+  "features": [
+    "Fee required",
+    "Dogs on leash",
+    "Kid-friendly"
+  ],
+  "surfaceTypes": [
+    {
+      "label": "unknown",
+      "percentOfSurface": 78.91,
+      "totalLength": 4050.31
+    },
+    {
+      "label": "gravel",
+      "percentOfSurface": 19.37,
+      "totalLength": 994.34
+    },
+    {
+      "label": "paved",
+      "percentOfSurface": 1.07,
+      "totalLength": 55.07
+    },
+    {
+      "label": "wood",
+      "percentOfSurface": 0.64,
+      "totalLength": 32.98
+    }
+  ],
+  "length": 5149.888,
+  "durationMinutes": 69,
+  "difficultyRating": "3",
+  "areaName": "Rouge National Urban Park",
+  "popularity": 98.0549,
+  "terrainData": {
+    "rock": {
+      "rockType": " ",
+      "rockDescription": "Shale, limestone, dolostone, siltstone",
+      "geologicProvince": " ",
+      "geologicEra": "PALEOZOIC (251.0 Ma to 542.0 Ma)",
+      "rockCategories": [
+        "carbonate_sedimentary",
+        "fine_clastic_sedimentary"
+      ],
+      "rockSlipRisk": "high"
+    },
+    "soil": {
+      "soilName": "BOTTOM LAND",
+      "texture": "variable",
+      "textureGroup": null,
+      "textureMudPotential": null,
+      "drainage": "poor",
+      "drainageRank": 5,
+      "slopePercent": -9.0,
+      "stoniness": 0,
+      "parentMaterial": null
+    },
+    "percentNearWater": 44.9,
+    "waterCrossingCount": 0
+  }
+}

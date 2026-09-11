@@ -1,0 +1,69 @@
+{
+  "trailId": "10238326",
+  "trailSlug": "trail/canada/ontario/beartree-south-dogsled-pwt-north-dogsled",
+  "name": "Beartree - South Dogsled - PWT - North Dogsled",
+  "description": "Discover this 8.5-km loop trail near Westwood, Ontario. Generally considered a moderately challenging route, it takes an average of 1 h 55 min to complete. This is a very popular area for birding, hiking, and mountain biking, so you'll likely encounter other people while exploring. The trail is open year-round and is beautiful to visit anytime. Dogs are welcome, but must be on a leash.",
+  "addressLocality": "Westwood, Ontario, Canada",
+  "latitude": 45.34627,
+  "longitude": -75.94631,
+  "ratingValue": 4.6,
+  "reviewCount": 1352,
+  "worstRating": "0",
+  "bestRating": "5",
+  "images": [
+    "https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvNDc3MzU1NjEvMTcwOWZlMzM1Y2EwZWU0ZTM1MzNjYTI2ZTM5YTZiZWIuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJ3ZWJwIiwicmVzaXplIjp7IndpZHRoIjoiNTAwIiwiaGVpZ2h0IjoiNTAwIiwiZml0IjoiaW5zaWRlIn0sInJvdGF0ZSI6bnVsbCwianBlZyI6eyJ0cmVsbGlzUXVhbnRpc2F0aW9uIjp0cnVlLCJvdmVyc2hvb3REZXJpbmdpbmciOnRydWUsIm9wdGltaXNlU2NhbnMiOnRydWUsInF1YW50aXNhdGlvblRhYmxlIjozfX19"
+  ],
+  "features": [
+    "Dogs on leash",
+    "Kid-friendly",
+    "Forests"
+  ],
+  "surfaceTypes": [
+    {
+      "label": "natural",
+      "percentOfSurface": 98.4,
+      "totalLength": 8382.12
+    },
+    {
+      "label": "wood",
+      "percentOfSurface": 0.93,
+      "totalLength": 79.19
+    },
+    {
+      "label": "unknown",
+      "percentOfSurface": 0.67,
+      "totalLength": 57.04
+    }
+  ],
+  "length": 8529.502,
+  "durationMinutes": 115,
+  "difficultyRating": "3",
+  "areaName": "South March Highlands Conservation Forest",
+  "popularity": 97.5067,
+  "terrainData": {
+    "rock": {
+      "rockType": " ",
+      "rockDescription": "Dolostone, sandstone",
+      "geologicProvince": " ",
+      "geologicEra": "PALEOZOIC (251.0 Ma to 542.0 Ma)",
+      "rockCategories": [
+        "carbonate_sedimentary",
+        "coarse_clastic_sedimentary"
+      ],
+      "rockSlipRisk": "high"
+    },
+    "soil": {
+      "soilName": "NEPEAN",
+      "texture": "loamy sand",
+      "textureGroup": "sand",
+      "textureMudPotential": 0,
+      "drainage": "well",
+      "drainageRank": 2,
+      "slopePercent": 3.5,
+      "stoniness": 3,
+      "parentMaterial": null
+    },
+    "percentNearWater": 7.7,
+    "waterCrossingCount": 3
+  }
+}

@@ -1,0 +1,3440 @@
+[
+  {
+    "reviewId": 77834492,
+    "trailId": 10342043,
+    "comment": "Great hike, it is very diverse. The two fall are awesome. It is very muddy and a lot of bugs",
+    "date": "2026-08-03T16:18:00.000Z",
+    "rating": 5,
+    "difficulty": 3.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Bugs",
+      "Muddy",
+      "Muddy",
+      "Buggy"
+    ],
+    "hasRecording": true,
+    "recordingId": 405856464.0
+  },
+  {
+    "reviewId": 74114077,
+    "trailId": 10342043,
+    "comment": "Awesome trail! Well maintained, beautiful views, waterfall swimming available. It’s definitely a moderate hike, lots of elevation gains, some switch backs. Definitely buggy, the weather was great for us and not too muddy but I could see fresh rain being an issue. We decided to park at hoggs falls, (free) and in my opinion starting and ending the hike here was the best choice. 10/10 recommend!",
+    "date": "2026-07-12T17:16:08.000Z",
+    "rating": 5,
+    "difficulty": 3.0,
+    "activity": "Hiking",
+    "obstacles": [
+      "Bugs",
+      "Well maintained"
+    ],
+    "trailConditions": [
+      "Bugs",
+      "Buggy"
+    ],
+    "hasRecording": true,
+    "recordingId": 399229902.0
+  },
+  {
+    "reviewId": 73522801,
+    "trailId": 10342043,
+    "comment": "Bugs!!! :)",
+    "date": "2026-07-09T14:32:56.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Bugs",
+      "Buggy"
+    ],
+    "hasRecording": true,
+    "recordingId": 398222038.0
+  },
+  {
+    "reviewId": 73131996,
+    "trailId": 10342043,
+    "comment": "Lots of elevation difference be ready for uphill/downhill",
+    "date": "2026-07-06T14:22:47.000Z",
+    "rating": 4,
+    "difficulty": 3.0,
+    "activity": "Hiking",
+    "obstacles": [
+      "Bugs",
+      "Muddy"
+    ],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 397478493.0
+  },
+  {
+    "reviewId": 71802786,
+    "trailId": 10342043,
+    "comment": "Hogg's loop is more scenic. Eugenia to Hogg's was buggy and all in deep forest. Parking at Eugenia was $11.30. ",
+    "date": "2026-06-28T15:10:23.000Z",
+    "rating": 3,
+    "difficulty": 1.0,
+    "activity": null,
+    "obstacles": [
+      "Bugs",
+      "Buggy"
+    ],
+    "trailConditions": [
+      "Bugs",
+      "Buggy"
+    ],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 71221217,
+    "trailId": 10342043,
+    "comment": "Trail is clearly marked. Be prepared for the mosquitos",
+    "date": "2026-06-24T14:39:01.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Bugs",
+      "Buggy"
+    ],
+    "hasRecording": true,
+    "recordingId": 394126943.0
+  },
+  {
+    "reviewId": 70745103,
+    "trailId": 10342043,
+    "comment": "Challenging and buggy. ",
+    "date": "2026-06-21T13:11:45.000Z",
+    "rating": 3,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Bugs",
+      "Buggy"
+    ],
+    "hasRecording": true,
+    "recordingId": 393276746.0
+  },
+  {
+    "reviewId": 69795375,
+    "trailId": 10342043,
+    "comment": "Bug spray and drinks",
+    "date": "2026-06-15T17:05:55.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Bugs",
+      "Buggy"
+    ],
+    "hasRecording": true,
+    "recordingId": 391650656.0
+  },
+  {
+    "reviewId": 68593302,
+    "trailId": 10342043,
+    "comment": "Trail conditions are great right now, bugs weren't too bad, mosquitoes only if you stopped, view of both Eugenia and Hoggs falls are on this route, I don't remember seeing that stated.  I got there around 10am and parking was great. ",
+    "date": "2026-06-07T15:01:58.000Z",
+    "rating": 4,
+    "difficulty": 3.0,
+    "activity": "Hiking",
+    "obstacles": [
+      "Bugs"
+    ],
+    "trailConditions": [
+      "Bugs",
+      "Buggy"
+    ],
+    "hasRecording": true,
+    "recordingId": 389503510.0
+  },
+  {
+    "reviewId": 67825434,
+    "trailId": 10342043,
+    "comment": "The mosquitos and I had a great day!",
+    "date": "2026-06-03T13:37:26.000Z",
+    "rating": 5,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Bugs",
+      "Buggy"
+    ],
+    "hasRecording": true,
+    "recordingId": 388351884.0
+  },
+  {
+    "reviewId": 67747031,
+    "trailId": 10342043,
+    "comment": "You get to see two different sets of waterfalls. I really enjoy hogs falls.. if you're more adventurous, go to the side and there's a rope that you can climb down to get to the base. If you're coming in summer months, bring bug spray mosquitoes can be bad",
+    "date": "2026-06-02T16:52:33.000Z",
+    "rating": 5,
+    "difficulty": 3.0,
+    "activity": "Paddle sports",
+    "obstacles": [],
+    "trailConditions": [
+      "Bugs",
+      "Buggy"
+    ],
+    "hasRecording": true,
+    "recordingId": 388114504.0
+  },
+  {
+    "reviewId": 65690360,
+    "trailId": 10342043,
+    "comment": "Easy to follow path.  A couple of nice waterfalls and streams but mostly forested. ",
+    "date": "2026-05-20T17:43:34.000Z",
+    "rating": 4,
+    "difficulty": 3.0,
+    "activity": "Hiking",
+    "obstacles": [
+      "Bugs",
+      "Muddy"
+    ],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 384468153.0
+  },
+  {
+    "reviewId": 60977153,
+    "trailId": 10342043,
+    "comment": "I call this hike \"City Girl Goes Hiking and Does Not Think Ahead\". Only hard because the snow is super deep right now, and I did not bring snowshoes. It’s fine sometimes, then suddenly you’re knee deep in snow but only one leg, so you can imagine the noises and effort that come along with getting out of that situation. At least it’s quiet so you’ve got the freedom to do what you gotta do. Will definitely come back in the summer. Falls view is 10/10 and is right at the beginning.",
+    "date": "2026-02-15T18:07:05.000Z",
+    "rating": 5,
+    "difficulty": 5.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Snow",
+      "Snow"
+    ],
+    "hasRecording": true,
+    "recordingId": 364347774.0
+  },
+  {
+    "reviewId": 58654226,
+    "trailId": 10342043,
+    "comment": "Lovely, scenic hike with nice elevation. Started the trail at Hogg’s fall parking instead of Eugenia Falls. \n\nTrail length was pretty accurate at 12.5km. My poor navigation skills added extra length but that’s a personal problem.\n\nEnjoyed the hike. A bit hilly but spaced out enough that it’s not constant uphill. You get some reprieve in between inclines. Lots of gentle creeks spread throughout the trail with bridges, small and larger. \n\nVery well kept trail, no litter except at the base of Hogg’s fall. You can access the base of the fall by climbing down a rock wall with provided ropes. \n\nBoth Hogg’s and Eugenia falls are great. You can really see the culmination of your incline efforts at Eugenia falls. Very satisfying if starting at Hogg’s. \n\nSome benches along the trail for rest. Maps are spread through the trail, with more closer to trailheads.\n\nMuddy!  I went after 3 consecutive days of sunny conditions and it was muddy in many parts of the trail. It’ll probably be even more so after rainfall. Beware!",
+    "date": "2025-10-29T14:30:57.000Z",
+    "rating": 5,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [
+      "Muddy",
+      "Wildflowers",
+      "Well maintained"
+    ],
+    "trailConditions": [
+      "Muddy"
+    ],
+    "hasRecording": true,
+    "recordingId": 348673868.0
+  },
+  {
+    "reviewId": 58123698,
+    "trailId": 10342043,
+    "comment": "Lovely short hike. Good elevations which adds a nice cardio component. Slippery with leaves and moss; best to have shoes/boots with tread. Falls not fantastic due to summer drought.  But always nice",
+    "date": "2025-10-12T15:55:14.000Z",
+    "rating": 5,
+    "difficulty": 3.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Slippery"
+    ],
+    "hasRecording": true,
+    "recordingId": 345654490.0
+  },
+  {
+    "reviewId": 58123991,
+    "trailId": 10342043,
+    "comment": "We went an hour in on the trail from Eugenia Falls then turned around for the hour hike back. Drove to Hoggs Falls Parking to see the Falls from there. Highly recommend that route as the elevation gain just before the J is quite brutal.",
+    "date": "2025-10-12T15:31:16.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Muddy"
+    ],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 345663717.0
+  },
+  {
+    "reviewId": 58619245,
+    "trailId": 10342043,
+    "comment": "A long but good walk",
+    "date": "2025-10-06T15:32:03.000Z",
+    "rating": 5,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 348432857.0
+  },
+  {
+    "reviewId": 57694506,
+    "trailId": 10342043,
+    "comment": "Lots of hills.",
+    "date": "2025-09-30T18:54:19.000Z",
+    "rating": 5,
+    "difficulty": 0.0,
+    "activity": "Walking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 343265775.0
+  },
+  {
+    "reviewId": 57093145,
+    "trailId": 10342043,
+    "comment": "Amazing\n",
+    "date": "2025-09-14T12:49:09.000Z",
+    "rating": 5,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 339927715.0
+  },
+  {
+    "reviewId": 56498210,
+    "trailId": 10342043,
+    "comment": "Very nice trial , moderate, well maintained",
+    "date": "2025-08-30T14:00:28.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 336633164.0
+  },
+  {
+    "reviewId": 55924903,
+    "trailId": 10342043,
+    "comment": "Be prepared for mosquitoes!! But even with that, we love it!!",
+    "date": "2025-08-15T14:29:54.000Z",
+    "rating": 5,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Bugs"
+    ],
+    "hasRecording": true,
+    "recordingId": 333514578.0
+  },
+  {
+    "reviewId": 55878163,
+    "trailId": 10342043,
+    "comment": "Beautiful. My dogs love it! Minimal bugs. The trees help keep you cool.  Some horse poop here and there.  ",
+    "date": "2025-08-07T14:38:24.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Trail running",
+    "obstacles": [],
+    "trailConditions": [
+      "Bugs"
+    ],
+    "hasRecording": true,
+    "recordingId": 331487413.0
+  },
+  {
+    "reviewId": 64626875,
+    "trailId": 10342043,
+    "comment": "Fun hike! Wear a hat and bring bug spray the flies can be annoying in the summer ☺️ Eugenia Falls is a nice view but you can get closer to Hogg’s Falls and even walk or swim in the water if you’d like!",
+    "date": "2025-07-27T14:39:19.000Z",
+    "rating": 5,
+    "difficulty": 3.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Bugs",
+      "Buggy"
+    ],
+    "hasRecording": true,
+    "recordingId": 382502198.0
+  },
+  {
+    "reviewId": 54831521,
+    "trailId": 10342043,
+    "comment": "Beautiful trail, well marked- lots of inclines & declines. Was muddy and slippery at times. Walked the trail to Eugenia falls from Hoggs falls.",
+    "date": "2025-07-20T13:00:40.000Z",
+    "rating": 5,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [
+      "Bugs",
+      "Muddy",
+      "Wildflowers",
+      "Well maintained"
+    ],
+    "trailConditions": [
+      "Muddy",
+      "Slippery"
+    ],
+    "hasRecording": true,
+    "recordingId": 327597857.0
+  },
+  {
+    "reviewId": 54760976,
+    "trailId": 10342043,
+    "comment": "The trail was amazing. It wasn’t as quiet as I wanted to however beautiful sceneries and waterfalls are absolutely stunning and picturesque. The trail is well marked and challenging enough for a moderate hike.",
+    "date": "2025-07-19T15:08:23.000Z",
+    "rating": 5,
+    "difficulty": 3.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 327274152.0
+  },
+  {
+    "reviewId": 54480534,
+    "trailId": 10342043,
+    "comment": "Awesome run!!",
+    "date": "2025-07-13T11:08:10.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Trail running",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 325929395.0
+  },
+  {
+    "reviewId": 54426434,
+    "trailId": 10342043,
+    "comment": "BUGGY!!!",
+    "date": "2025-07-12T14:14:08.000Z",
+    "rating": 3,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Bugs"
+    ],
+    "hasRecording": true,
+    "recordingId": 325674716.0
+  },
+  {
+    "reviewId": 53982742,
+    "trailId": 10342043,
+    "comment": "Great hike in the woods. Easy paid parking in Eugenia. Hogg’s Falls is amazing! Some slippery mud from heavy rain last night and the mosquitoes were out in force, but not too horrible. Lots of ups and downs made for a very sweaty adventure in the humidity.",
+    "date": "2025-07-01T12:41:55.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Bugs",
+      "Muddy",
+      "Slippery"
+    ],
+    "hasRecording": true,
+    "recordingId": 323360289.0
+  },
+  {
+    "reviewId": 53923723,
+    "trailId": 10342043,
+    "comment": "Nice challenging hike with elevation. Both waterfalls were nice to see. Some bugs, but not too bad. ",
+    "date": "2025-06-29T15:54:55.000Z",
+    "rating": 5,
+    "difficulty": 5.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Bugs"
+    ],
+    "hasRecording": true,
+    "recordingId": 323040592.0
+  },
+  {
+    "reviewId": 53430920,
+    "trailId": 10342043,
+    "comment": "This trail is very well marked. There are frequent signs and maps along the trail. You can venture off and do side trails if desired. Beautiful waterfalls. Easy/Moderate hills. BRING BUG SPRAY. The mosquitos are no joke.",
+    "date": "2025-06-16T16:31:38.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Bugs"
+    ],
+    "hasRecording": true,
+    "recordingId": 320322650.0
+  },
+  {
+    "reviewId": 53334332,
+    "trailId": 10342043,
+    "comment": "A beautiful day on trail. The trail is well maintained, mosquitoes were not too bad.",
+    "date": "2025-06-14T14:00:28.000Z",
+    "rating": 3,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Bugs"
+    ],
+    "hasRecording": true,
+    "recordingId": 319939016.0
+  },
+  {
+    "reviewId": 53119382,
+    "trailId": 10342043,
+    "comment": "The trek itself is moderate. But there a crazy number of uphills and downhills within short span. Its quiet and not crowded. Towards the end, is an amazing view of the Eugenia falls. The trail still goes beyond after that. Great place to test your stamina. Luckily no bugs.",
+    "date": "2025-06-08T23:25:13.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": null,
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 52262093,
+    "trailId": 10342043,
+    "comment": "Beautiful, hilly and a little mucky but a great hike! Actually 14km for the total trail",
+    "date": "2025-05-18T14:34:12.000Z",
+    "rating": 5,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 314455384.0
+  },
+  {
+    "reviewId": 52168538,
+    "trailId": 10342043,
+    "comment": "Well maintained and clearly marked wooded trail with beautiful views.",
+    "date": "2025-05-16T16:48:40.000Z",
+    "rating": 5,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 313997693.0
+  },
+  {
+    "reviewId": 51961001,
+    "trailId": 10342043,
+    "comment": "Fantastic trail, a bit longer than the map shows and that’s with me taking a short cut but overall, a decent day trail! Bring extra water with that said! For parking, I would recommend parking at Hoggs Falls as that’s the only free parking in the Beaver Valley area. Also better to arrive early as there isn’t many spots, and it fills up quick, lot of people double park too. Where I started off is another spot that could fit 2-3 cars. 100% recommend!",
+    "date": "2025-05-10T15:26:50.000Z",
+    "rating": 5,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 312871380.0
+  },
+  {
+    "reviewId": 50768223,
+    "trailId": 10342043,
+    "comment": "Decent stroll",
+    "date": "2025-04-06T17:06:43.000Z",
+    "rating": 5,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 306604874.0
+  },
+  {
+    "reviewId": 47382276,
+    "trailId": 10342043,
+    "comment": "Beautiful section",
+    "date": "2024-11-11T15:08:38.000Z",
+    "rating": 5,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 287581533.0
+  },
+  {
+    "reviewId": 46641602,
+    "trailId": 10342043,
+    "comment": "Amazing trail, well groomed. Good challenge",
+    "date": "2024-10-19T16:01:39.000Z",
+    "rating": 5,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 283983034.0
+  },
+  {
+    "reviewId": 46929997,
+    "trailId": 10342043,
+    "comment": "Graat hike, many hill",
+    "date": "2024-10-19T12:37:49.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Muddy"
+    ],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 285330333.0
+  },
+  {
+    "reviewId": 46501373,
+    "trailId": 10342043,
+    "comment": "Fall is not worth it. You have to pay for parking. If you just want to get your steps in, pick a side trail entrance.",
+    "date": "2024-10-14T17:06:22.000Z",
+    "rating": 5,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 283173089.0
+  },
+  {
+    "reviewId": 53180889,
+    "trailId": 10342043,
+    "comment": "The lot near Eugenia falls was $10 per car but they said it would be free after Thanksgiving ",
+    "date": "2024-10-14T14:27:10.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 319091637.0
+  },
+  {
+    "reviewId": 46452942,
+    "trailId": 10342043,
+    "comment": "The falls at the beginning were beautiful, but the rail itself was a little boring - just woods, limited views. We didn’t have 3 hrs so we didn’t get all the way to Hogg’s Falls - next time we’ll go from another direction.",
+    "date": "2024-10-13T18:06:04.000Z",
+    "rating": 3,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 282993721.0
+  },
+  {
+    "reviewId": 46409384,
+    "trailId": 10342043,
+    "comment": "I always love seeing Hogg's Falls and the fall weather and leaves were gorgeous today.",
+    "date": "2024-10-12T15:29:03.000Z",
+    "rating": 4,
+    "difficulty": 3.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 282872332.0
+  },
+  {
+    "reviewId": 45525890,
+    "trailId": 10342043,
+    "comment": "Really nice, well kept trail on a beautiful fall day. There is a sign at the Eugenia falls to Hogg’s falls that says the round trip takes 5-6 hours, which scared us, but we did it in under 4 with stops.",
+    "date": "2024-09-19T17:27:36.000Z",
+    "rating": 5,
+    "difficulty": 3.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 278821155.0
+  },
+  {
+    "reviewId": 45406009,
+    "trailId": 10342043,
+    "comment": "Always a great trail. Went swimming at the base of Hoggs Falls. Multiple beautiful lookouts of the changing leaves. Highly recommend!",
+    "date": "2024-09-16T17:13:43.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 278311369.0
+  },
+  {
+    "reviewId": 45311025,
+    "trailId": 10342043,
+    "comment": "Beautiful trail, some small ups but not too bad. Hogg’s falls is totally worth it to climb down the rope and explore. Would definitely consider doing the full loop next time to add on the lookout. Took our time and the total time posted for this hike by All Trails is quite generous.",
+    "date": "2024-09-14T17:31:24.000Z",
+    "rating": 5,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 277894056.0
+  },
+  {
+    "reviewId": 44806600,
+    "trailId": 10342043,
+    "comment": "Great moments",
+    "date": "2024-09-01T16:49:44.000Z",
+    "rating": 5,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 275500169.0
+  },
+  {
+    "reviewId": 44636580,
+    "trailId": 10342043,
+    "comment": "Awesome trail bring lots of water and bug spray ",
+    "date": "2024-08-29T14:19:19.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Bugs"
+    ],
+    "hasRecording": true,
+    "recordingId": 274762564.0
+  },
+  {
+    "reviewId": 44512737,
+    "trailId": 10342043,
+    "comment": "Phone died towards the end. Oops! \n",
+    "date": "2024-08-25T17:56:42.000Z",
+    "rating": 5,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 274166063.0
+  },
+  {
+    "reviewId": 44372777,
+    "trailId": 10342043,
+    "comment": "So happy I parked at Hogg’s and did the loop to Eugenia and back. Apple orchard, boardwalks and intense hills. Nice to finish off with the rope down to the falls.",
+    "date": "2024-08-20T12:40:33.000Z",
+    "rating": 5,
+    "difficulty": 3.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 273574840.0
+  },
+  {
+    "reviewId": 43979157,
+    "trailId": 10342043,
+    "comment": "The trail had minimal mud and water with no bugs. We parked at and started the hike at Hogg Falls parking area going towards Euginia Falls. There was nobody on the trail just at both falls. We brought our sandals as Hogg Falls access, and the bottom was rocky. We didn't swim but did get our feet wet. There is a rope and about a 15-foot cliff to get down to Hogg Falls.",
+    "date": "2024-08-13T15:04:30.000Z",
+    "rating": 5,
+    "difficulty": 3.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Muddy"
+    ],
+    "hasRecording": true,
+    "recordingId": 271755005.0
+  },
+  {
+    "reviewId": 43410489,
+    "trailId": 10342043,
+    "comment": "You're better off starting from Hoggs Falls where you hike most of the uphill while your legs are still fresh. Parking is free but only good for 8-10 cars. I find there's less uphill on your way back from Eugenia Falls. Bug spray is a must. It rained hard while we were hiking so the bug situation is less intense but I still got bitten by mosquitos.",
+    "date": "2024-07-30T16:34:35.000Z",
+    "rating": 4,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Bugs"
+    ],
+    "hasRecording": true,
+    "recordingId": 269133530.0
+  },
+  {
+    "reviewId": 43365659,
+    "trailId": 10342043,
+    "comment": "Trust your friend",
+    "date": "2024-07-29T16:10:48.000Z",
+    "rating": 5,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 268911615.0
+  },
+  {
+    "reviewId": 43327739,
+    "trailId": 10342043,
+    "comment": "If you are taking this lollipop trail in the summer, or warm days, DEFINITELY, start this trail in Hogg’s Falls. Two reasons: 1. Parking is free. 2. After a verrrry heated hike, you will be treated to sinking into the cool flowing waters under Hogg’s Falls. (Note: Eugenia falls are just a look out, no interaction). Just as the others have noted, this hike is burning inclines and glorious declines. It is strenuous (for Ontario). There were zero people on the trail but plenty on each of the fall’s starting points.  We read a ton of the reviews before heading out.  And the best takeaway is  bug spray. Holy smokes. BUG SPRAY.  So to recap, start at Hogg’s Falls so that you will end at Hogg’s Falls which means you can soak your weary limbs. And wear all the bug spray you can ever imagine.",
+    "date": "2024-07-28T18:29:04.000Z",
+    "rating": 5,
+    "difficulty": 3.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Bugs"
+    ],
+    "hasRecording": true,
+    "recordingId": 268748802.0
+  },
+  {
+    "reviewId": 43229418,
+    "trailId": 10342043,
+    "comment": "Nice walk, good for trail run. But THOUSANDS of mosquitoes!",
+    "date": "2024-07-26T17:49:43.000Z",
+    "rating": 4,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [
+      "Bugs"
+    ],
+    "trailConditions": [
+      "Bugs"
+    ],
+    "hasRecording": true,
+    "recordingId": 268338110.0
+  },
+  {
+    "reviewId": 41085009,
+    "trailId": 10342043,
+    "comment": "This hike had a lot of up and downhill so it was fairly tiring. The trail was easy to follow and it’s really exciting getting to see a waterfall at the start and finish. Hiking poles would be a great help on this hike with the hills. I would recommend going early to avoid  crowds. ",
+    "date": "2024-07-05T03:41:17.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": null,
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 48403117,
+    "trailId": 10342043,
+    "comment": "Well marked some challenging sections where the path is rocky and scaling up or down is needed. Manageable for an avid hiker.",
+    "date": "2024-06-01T16:11:57.000Z",
+    "rating": 5,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 293419464.0
+  },
+  {
+    "reviewId": 39614305,
+    "trailId": 10342043,
+    "comment": "Great trail with waterfalls at either end. The trail is very well maintained and not at all busy. It’s mostly through the woods and there are some meadows mixed in. There’s a good amount of up and down; that’s the escarpment for you. \n\nParking by Eugina Falls costs $10, I think it’s free at Hoggs Falls. You can start at either easily.",
+    "date": "2024-05-26T16:19:45.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 257385999.0
+  },
+  {
+    "reviewId": 39450688,
+    "trailId": 10342043,
+    "comment": "Really beautiful trail forest trail which was not too challenging but there were so many mosquitos which made the first half pretty unenjoyable. Eugenia falls is a view I was surprised to see in southern ontario it was really nice",
+    "date": "2024-05-21T17:36:34.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Bugs"
+    ],
+    "hasRecording": true,
+    "recordingId": 256467933.0
+  },
+  {
+    "reviewId": 39386718,
+    "trailId": 10342043,
+    "comment": "Lots of bugs. Beautiful trail. It’s all either uphill or downhill, no flat areas so it’s a workout",
+    "date": "2024-05-19T16:17:51.000Z",
+    "rating": 4,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Bugs"
+    ],
+    "hasRecording": true,
+    "recordingId": 256166816.0
+  },
+  {
+    "reviewId": 39335296,
+    "trailId": 10342043,
+    "comment": "A few bugs and a little mud but well-cared for trail in a mixed forest. We left cars on both ends to avoid needing to turn around and go back. Gorgeous Trilliums, Jack in the pulpits, & ferns. Quintessential Bruce Trail roots, rocks and varied elevation. ",
+    "date": "2024-05-18T14:11:22.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Bugs",
+      "Muddy"
+    ],
+    "hasRecording": true,
+    "recordingId": 255892278.0
+  },
+  {
+    "reviewId": 39204894,
+    "trailId": 10342043,
+    "comment": "Some bugs! 13km trail worth it to see the two falls. Lots of small creeks along the way :)",
+    "date": "2024-05-12T16:28:17.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Bugs"
+    ],
+    "hasRecording": true,
+    "recordingId": 255058652.0
+  },
+  {
+    "reviewId": 38619663,
+    "trailId": 10342043,
+    "comment": "13.25km with some added stuff checking out Eugenia Falls which had an epic volume of water due to this wet Spring.  Beauty trail and well worth the elevation gain of almost 500m.  Saw a large porcupine.  Took us 3 hours 14 min of moving time.  Conditions were almost perfect with some mud.",
+    "date": "2024-04-16T16:41:36.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Muddy"
+    ],
+    "hasRecording": true,
+    "recordingId": 250897247.0
+  },
+  {
+    "reviewId": 37329626,
+    "trailId": 10342043,
+    "comment": "Easy way to make trails in winter.",
+    "date": "2024-01-21T14:34:04.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 233651012.0
+  },
+  {
+    "reviewId": 36897546,
+    "trailId": 10342043,
+    "comment": "an awesome, well marked,tranquil hardwood/ cedar/ maple forest. Especially for this time of year. We are spoiled with no snow. Lots of inclines, not many wet bog to traverse. The cedar forest parts are my favorite in any hike. \nEnding at the falls is a true highlight.  Make sure to bring water/ Gatorade and nutritious snacks.  ",
+    "date": "2023-12-30T15:02:50.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 227790173.0
+  },
+  {
+    "reviewId": 36526069,
+    "trailId": 10342043,
+    "comment": "Awesome!! Trail run w tri club",
+    "date": "2023-11-26T13:54:42.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 220861706.0
+  },
+  {
+    "reviewId": 36427759,
+    "trailId": 10342043,
+    "comment": "Great hike! Quiet trail with many beautiful views, can't wait too go back in the fall when the colours are changing.",
+    "date": "2023-11-16T17:56:29.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 219149367.0
+  },
+  {
+    "reviewId": 36345703,
+    "trailId": 10342043,
+    "comment": "Fun hike today. Trail has lots of up and down along the way. Muddy with leaves stuck on top so some areas you really had to watch your footsteps. Eugenia Falls only had a small trickle going over. Hogg’s Falls was worth the walk.",
+    "date": "2023-11-13T16:31:16.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Muddy"
+    ],
+    "hasRecording": true,
+    "recordingId": 217714366.0
+  },
+  {
+    "reviewId": 36115873,
+    "trailId": 10342043,
+    "comment": "Great.",
+    "date": "2023-10-29T14:57:03.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 214235840.0
+  },
+  {
+    "reviewId": 36086603,
+    "trailId": 10342043,
+    "comment": "Great conditions. Nice point to point 14kms 3hrs falls to falls",
+    "date": "2023-10-28T14:51:13.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 213873877.0
+  },
+  {
+    "reviewId": 37147557,
+    "trailId": 10342043,
+    "comment": "Markers very well! Beautiful in the fall",
+    "date": "2023-10-04T13:07:56.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 232385324.0
+  },
+  {
+    "reviewId": 35539154,
+    "trailId": 10342043,
+    "comment": "Was a beautiful day to be out on the trail. Is it just me, or is this trail 75% uphill?  Dry conditions,  and believe it or not, 2 mosquitoes were biting me!\n",
+    "date": "2023-09-30T16:11:06.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Bugs"
+    ],
+    "hasRecording": true,
+    "recordingId": 205458918.0
+  },
+  {
+    "reviewId": 35556805,
+    "trailId": 10342043,
+    "comment": "Beautiful, well marked and diverse ecosystems. Loved the falls at each end of the hike!",
+    "date": "2023-09-30T14:26:15.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 205679970.0
+  },
+  {
+    "reviewId": 35515183,
+    "trailId": 10342043,
+    "comment": "Did the whole loop today. Very nice trail to visit, water fall at the start and at the middle, beautiful fall colors, nicely marked, occasional flies here and there, no other bugs. ",
+    "date": "2023-09-29T21:13:25.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Bugs"
+    ],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 35274460,
+    "trailId": 10342043,
+    "comment": "Afternoon hike falls to falls ",
+    "date": "2023-09-17T14:22:23.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 201270052.0
+  },
+  {
+    "reviewId": 34850415,
+    "trailId": 10342043,
+    "comment": "Not one waterfall but TWO?? That’s a reward at the beginning and the end for all the ups and downs and mud and bugs. But you also get to see TWO whole waterfalls? Worth it.",
+    "date": "2023-08-28T13:56:50.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Great!"
+    ],
+    "trailConditions": [
+      "Bugs",
+      "Muddy"
+    ],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 34310698,
+    "trailId": 10342043,
+    "comment": "the main through of the bruce trail has changed since this was published. in a positive way avoiding a former road section requirement.   The entire area is extremely well marked and not as busy as you would expect when moving away from the parking lots.  parking at the balls falls end and making minor changes to the route would be our recommendation.",
+    "date": "2023-08-03T15:12:37.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 189203467.0
+  },
+  {
+    "reviewId": 34289295,
+    "trailId": 10342043,
+    "comment": "Early morning summer falls to falls hike.  We did not see any other hikers, but there were lots of bugs.",
+    "date": "2023-08-02T11:27:25.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Bugs"
+    ],
+    "hasRecording": true,
+    "recordingId": 188967561.0
+  },
+  {
+    "reviewId": 33698905,
+    "trailId": 10342043,
+    "comment": "Great trail conditions. Trails were well maintained and well marked (thanks, BTC!). Lots of mosquitoes, but bug spray kept them at bay. ",
+    "date": "2023-07-08T00:36:43.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Bugs",
+      "Fee",
+      "Great!"
+    ],
+    "trailConditions": [
+      "Bugs"
+    ],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 33698798,
+    "trailId": 10342043,
+    "comment": "Excellent trail conditions. Very well maintained and marked (thank you BTC!). There were a lot of mosquitoes about, but bug spray kept them at bay.",
+    "date": "2023-07-07T14:45:05.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Bugs"
+    ],
+    "hasRecording": true,
+    "recordingId": 182273844.0
+  },
+  {
+    "reviewId": 33272737,
+    "trailId": 10342043,
+    "comment": "Ton of mosquitos, no real swampy spots after all the rain. As someone else mentioned, this doesn't take you to the falls, just the trailheads, budget another 2km to add the views",
+    "date": "2023-06-27T17:07:31.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Bugs"
+    ],
+    "hasRecording": true,
+    "recordingId": 179753110.0
+  },
+  {
+    "reviewId": 32715430,
+    "trailId": 10342043,
+    "comment": "Great hike, a bit buggy.  Both sets of falls were beautiful.  ",
+    "date": "2023-06-03T15:12:00.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Bugs"
+    ],
+    "hasRecording": true,
+    "recordingId": 174350069.0
+  },
+  {
+    "reviewId": 32363270,
+    "trailId": 10342043,
+    "comment": "Middle of may was perfect. Little to no bugs, muddy spots but nothing that soaked your boots. Give it a moderate to hard rating, Nice views, active dog approved.",
+    "date": "2023-05-20T19:57:47.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Muddy"
+    ],
+    "hasRecording": true,
+    "recordingId": 171147301.0
+  },
+  {
+    "reviewId": 32332208,
+    "trailId": 10342043,
+    "comment": "This trail doesn't actually go to Hogg's Falls, just the trail head. Also, VERY buggy! Bring bugspray and be prepared to go off trail if you want to see both falls.",
+    "date": "2023-05-19T15:55:03.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Bugs"
+    ],
+    "hasRecording": true,
+    "recordingId": 170849369.0
+  },
+  {
+    "reviewId": 32212186,
+    "trailId": 10342043,
+    "comment": "An awesome walk. We had to turn around though because of my really bad period pains  so annoyed. I guess we’ll have to come back. Just keep in mind that it’s nice trek uphill on the way back",
+    "date": "2023-05-13T14:39:30.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 169780493.0
+  },
+  {
+    "reviewId": 33436353,
+    "trailId": 10342043,
+    "comment": "very buggy, wear pug spray or long clothes!!",
+    "date": "2023-05-03T20:52:11.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Bugs"
+    ],
+    "hasRecording": true,
+    "recordingId": 180630383.0
+  },
+  {
+    "reviewId": 31924702,
+    "trailId": 10342043,
+    "comment": "Muddy need good footwear \n",
+    "date": "2023-04-29T16:25:37.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Muddy"
+    ],
+    "hasRecording": true,
+    "recordingId": 167292428.0
+  },
+  {
+    "reviewId": 30583296,
+    "trailId": 10342043,
+    "comment": "Eugenia Falls parking lot is closed, as is a section of the trail leading to the falls. Ended up parking at Hoggs Falls lot and doing the loop + a portion of the way to Eugenia Falls where the trail is closed. Crampons came in handy!",
+    "date": "2023-02-19T19:22:01.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Snow",
+      "Icy"
+    ],
+    "hasRecording": true,
+    "recordingId": 157410984.0
+  },
+  {
+    "reviewId": 29642734,
+    "trailId": 10342043,
+    "comment": "Check Bruce Trail site as the trail North of the Hoggs loop en route to Eugenia Falls was closed. Long detour with large parts on the road was required. ",
+    "date": "2023-01-06T01:43:11.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 28379644,
+    "trailId": 10342043,
+    "comment": "Great hike. We parked at Eugenia entrance and hiked to Hogg Falls and back. Just under 14 kms. Hogg falls was especially beautiful! Met up with several hikers near both falls but pretty quiet hike between. My phone/app was freaking out on this trail for some reason so it didn’t accurately record. Great hike!",
+    "date": "2022-11-01T19:18:15.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 145454669.0
+  },
+  {
+    "reviewId": 28462821,
+    "trailId": 10342043,
+    "comment": "Fantastic hike! Followed the marked trails opposed to the ones on all trail, did not want to walk along the roadside.\nBe careful, with the leaves on the ground it’s extra slippery and those ankle-breaking-rocks are well hidden!",
+    "date": "2022-10-30T15:17:07.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Slippery"
+    ],
+    "hasRecording": true,
+    "recordingId": 145284493.0
+  },
+  {
+    "reviewId": 28402357,
+    "trailId": 10342043,
+    "comment": "Good trail, dry under the leaves for the most part. If you want to see the Hoggs waterfall, you have to add the lower Hoggs trail (or the Upper if you’re turning off right at the fork ) as it is not part of this trail. It is worth the extra km or so. We sort of muddled through, following signs to the falls. Total distance 13.5 km",
+    "date": "2022-10-28T17:46:32.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 145002179.0
+  },
+  {
+    "reviewId": 28305858,
+    "trailId": 10342043,
+    "comment": "Not much colour left but the ground is covered in what looks like a carpet of fall colours with a maple leaf pattern! Golden yellow and orange. Hoggs Falls was worth the hike!",
+    "date": "2022-10-24T15:49:19.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 144450311.0
+  },
+  {
+    "reviewId": 28281672,
+    "trailId": 10342043,
+    "comment": "Beautiful trail with lots of different ecosystems.  Not for beginners!  Challenging and lots of roots and rocks.  Worth the views at both falls.  Closer to 14k with the side trail to Hoggs.  Will do again!",
+    "date": "2022-10-23T22:29:10.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 28217141,
+    "trailId": 10342043,
+    "comment": "Great trail. Just need a bit of extra caution due to a lot of leaves on the trail. They tend to hide roots. Perfect weather sunny and 20°C \n",
+    "date": "2022-10-22T14:19:49.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 144071973.0
+  },
+  {
+    "reviewId": 27924804,
+    "trailId": 10342043,
+    "comment": "Trail was beautiful, muddy this time of year (to be expected). Very well marked trail, not too busy in the morning",
+    "date": "2022-10-13T20:38:02.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Muddy",
+      "Great!",
+      "Slippery"
+    ],
+    "trailConditions": [
+      "Muddy"
+    ],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 27920828,
+    "trailId": 10342043,
+    "comment": "Perfect hike for my first solo. Trail is very well marked. Lots to see. ",
+    "date": "2022-10-13T13:42:30.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 142543812.0
+  },
+  {
+    "reviewId": 27836417,
+    "trailId": 10342043,
+    "comment": "Not an easy trail but beautiful fall hike!",
+    "date": "2022-10-10T13:36:39.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 142089475.0
+  },
+  {
+    "reviewId": 27743122,
+    "trailId": 10342043,
+    "comment": "This trail is one of the best marked ones we have hiked. Blazes are so evident. And the ropes on the slopes were incredibly brilliant - thank you! ",
+    "date": "2022-10-08T21:13:08.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Great!",
+      "Slippery"
+    ],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 27752975,
+    "trailId": 10342043,
+    "comment": "Great hike not for beginners.",
+    "date": "2022-10-08T14:49:17.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 141704372.0
+  },
+  {
+    "reviewId": 27539855,
+    "trailId": 10342043,
+    "comment": "Beautiful view of Eugenia Falls. There are quite a few steep hills so it can be challenging.",
+    "date": "2022-10-02T13:41:34.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Horseback riding",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 140599934.0
+  },
+  {
+    "reviewId": 26688408,
+    "trailId": 10342043,
+    "comment": "Route differs from map. 14 km with detour to actually see both falls. Worth it as they each offer something different.",
+    "date": "2022-09-04T17:39:06.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 135956496.0
+  },
+  {
+    "reviewId": 26643600,
+    "trailId": 10342043,
+    "comment": "Be prepared for lots of hills!",
+    "date": "2022-08-31T13:26:34.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 135725969.0
+  },
+  {
+    "reviewId": 26450910,
+    "trailId": 10342043,
+    "comment": "Nice trail",
+    "date": "2022-08-27T14:17:38.000Z",
+    "rating": 3,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 134634004.0
+  },
+  {
+    "reviewId": 25863035,
+    "trailId": 10342043,
+    "comment": "A bit buggy in places, but overall beautiful! The map was not as accurate as I thought it would be but the Bruce Trail￼ is clearly marked, so just pay attention and you’ll be fine￼. Excellent hike!￼￼",
+    "date": "2022-08-11T14:50:33.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Bugs"
+    ],
+    "hasRecording": true,
+    "recordingId": 131420328.0
+  },
+  {
+    "reviewId": 25837532,
+    "trailId": 10342043,
+    "comment": "Nice waterfalls that are relatively close to parking areas. Well maintained trails w wooden walkways to divert from muddy areas. ",
+    "date": "2022-08-10T13:42:33.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Muddy"
+    ],
+    "hasRecording": true,
+    "recordingId": 131245415.0
+  },
+  {
+    "reviewId": 25637028,
+    "trailId": 10342043,
+    "comment": "Challenging!!! ",
+    "date": "2022-08-04T18:11:57.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 25663140,
+    "trailId": 10342043,
+    "comment": "Amazing",
+    "date": "2022-08-04T15:02:14.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 130120737.0
+  },
+  {
+    "reviewId": 25380831,
+    "trailId": 10342043,
+    "comment": "Trail was closed and had to turn around.\nBring bug spray.\n",
+    "date": "2022-07-27T16:40:34.000Z",
+    "rating": 3,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Bugs"
+    ],
+    "hasRecording": true,
+    "recordingId": 128646752.0
+  },
+  {
+    "reviewId": 24828918,
+    "trailId": 10342043,
+    "comment": "so many mosquitos.  :(    ",
+    "date": "2022-07-10T17:51:18.000Z",
+    "rating": 3,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Bugs"
+    ],
+    "hasRecording": true,
+    "recordingId": 125596944.0
+  },
+  {
+    "reviewId": 24659695,
+    "trailId": 10342043,
+    "comment": "lots of mosquitoes but beautiful and worth it!",
+    "date": "2022-07-03T11:48:26.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Bugs"
+    ],
+    "hasRecording": true,
+    "recordingId": 124551071.0
+  },
+  {
+    "reviewId": 24550030,
+    "trailId": 10342043,
+    "comment": "Awesome, was a perfect day, sunny,  gentle breeze no bugs",
+    "date": "2022-07-02T18:46:42.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 124012772.0
+  },
+  {
+    "reviewId": 24120611,
+    "trailId": 10342043,
+    "comment": "Great trail with different terrain. Hogg’s are accessible from the bottom, Eugenia is not. Bring snacks and mosquito repellent. Some interesting history along. There is a beautiful lookout overlooking the valley. Nice to see this in the fall when leaves are turning colours. GPS is not working at times so download maps or get familiar with the route.",
+    "date": "2022-06-18T14:24:02.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Bugs"
+    ],
+    "hasRecording": true,
+    "recordingId": 121584227.0
+  },
+  {
+    "reviewId": 24006883,
+    "trailId": 10342043,
+    "comment": "Well maintained. A little bit muddy but to be expected with the recent rain. The waterfalls were pushing more water. Overall a very enjoyable hike. ",
+    "date": "2022-06-14T15:41:18.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Muddy"
+    ],
+    "hasRecording": true,
+    "recordingId": 120909725.0
+  },
+  {
+    "reviewId": 23831414,
+    "trailId": 10342043,
+    "comment": "Nice hike. Muddy and buggy today!",
+    "date": "2022-06-08T15:26:49.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Bugs",
+      "Muddy"
+    ],
+    "hasRecording": true,
+    "recordingId": 119955232.0
+  },
+  {
+    "reviewId": 23726633,
+    "trailId": 10342043,
+    "comment": "Beautiful trail with lovely falls. Very well marked. Tough to find the parking lot as it’s off a wee residential street.",
+    "date": "2022-06-05T12:53:50.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 119479520.0
+  },
+  {
+    "reviewId": 23568567,
+    "trailId": 10342043,
+    "comment": "The trail is good with few patches of ups and down. ",
+    "date": "2022-05-30T17:43:12.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Great!"
+    ],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 23672049,
+    "trailId": 10342043,
+    "comment": "Amazing trail! Definitely for more experienced hikers. Overall amazing hike and great views",
+    "date": "2022-05-28T16:54:17.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 119140625.0
+  },
+  {
+    "reviewId": 22237036,
+    "trailId": 10342043,
+    "comment": "The north end of the trail is diverted around Eugenia Falls until the end of April due to maple syrup collection. Please respect land owners wishes. We started at the southern end at the Hoggs Falls parking lot and walked north until we reached the other end of the closure. It's still a nice hike even without seeing Eugenia Falls.",
+    "date": "2022-04-10T18:06:47.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Muddy",
+      "Private property",
+      "Icy"
+    ],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 20940168,
+    "trailId": 10342043,
+    "comment": "Hard to see mark during winter season.",
+    "date": "2022-02-06T14:51:15.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 103614943.0
+  },
+  {
+    "reviewId": 19080118,
+    "trailId": 10342043,
+    "comment": "Love this trail. Trail is closed to Eugenia Falls and definitely dint recommend trying to loop around. Access The falls is closed because some people think it’s a good idea to jump the wall in the winter and slip on the icy rocks ma hurt themselves. ",
+    "date": "2022-01-04T18:17:51.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 100270542.0
+  },
+  {
+    "reviewId": 18580012,
+    "trailId": 10342043,
+    "comment": "it's really muddy. Still one of my favorite trails but at this moment wait for colder weather.\n",
+    "date": "2021-11-20T15:32:40.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 96540076.0
+  },
+  {
+    "reviewId": 18380437,
+    "trailId": 10342043,
+    "comment": "Visited Aug 14, 2021.  Started from Hogg’s, went to Eugenia and then back again.  Eugenia wasn’t worth it but the trail was fun. It was pretty long!  Took around 5 hours including a stop to have lunch.",
+    "date": "2021-11-07T03:19:23.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 18214243,
+    "trailId": 10342043,
+    "comment": "We had a lot of fun on this one! Watch out for mud though! We were really excited about Hog's falls, I thought it was a remote location that you'd have to hike to get to. Turns out there's a road that goes there, so expect to see a lot of people in that particular spot. \nAlso, if you plan on bringing a dog, please, for the love of God, leash them. I understand hiking with a leashed dog is a bit more challenging and not as fun, but it's really not fun that my dog almost got attacked by an off leash dog that \"had never done it before\". ",
+    "date": "2021-10-24T22:24:12.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Muddy",
+      "Fee",
+      "Great!"
+    ],
+    "trailConditions": [
+      "Muddy"
+    ],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 18161972,
+    "trailId": 10342043,
+    "comment": "Fantastic!",
+    "date": "2021-10-22T17:12:18.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 93491679.0
+  },
+  {
+    "reviewId": 17953022,
+    "trailId": 10342043,
+    "comment": "It was a excellent hike. Lots of different elevations so your going up and down embankments. Today's hike was pretty muddy but totally worth it. The colors, smells, views and weather were amazing. Just remember when using Alltrails maps that they don't indicate trails that are prohibited to use. I had to back track alittle as you can see on my route.  ",
+    "date": "2021-10-10T14:44:54.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 91953466.0
+  },
+  {
+    "reviewId": 17785774,
+    "trailId": 10342043,
+    "comment": "What a wonderful October day! First of 4 hiking days in the area starting Hoggs Falls, Eugenia Falls and the trails to Old Baltimore ... battery died, so the recording is inaccuarate, but the trail was fantastic.",
+    "date": "2021-10-02T12:45:09.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 90815028.0
+  },
+  {
+    "reviewId": 17751005,
+    "trailId": 10342043,
+    "comment": "Loved it. Beautiful views and not too easy or too hard.  Will be returning",
+    "date": "2021-09-29T16:16:38.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 90398627.0
+  },
+  {
+    "reviewId": 17537942,
+    "trailId": 10342043,
+    "comment": "nice up and hills. falls are not enormously huge like Niagara falls, but refreshing. many pebbles and rocks on paths. hiking shoes are highly recommended",
+    "date": "2021-09-19T16:14:22.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Walking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 89051640.0
+  },
+  {
+    "reviewId": 17330855,
+    "trailId": 10342043,
+    "comment": "Beautiful. Fair bit of elevation.",
+    "date": "2021-09-09T17:05:20.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 87612419.0
+  },
+  {
+    "reviewId": 17259508,
+    "trailId": 10342043,
+    "comment": "Beautiful scenery, trail is well marked, moderate difficulty is accurate, lots of tree roots, rocks and terrain. If starting from Eugenia, most of the trek back is uphill. \n\nFew thing to note: \n- There’s a $10 fee at Eugenia. There was someone from the conservatory collecting payment when we went. \n- The reentry trail to go back was closed. There’s a blue trail just before it that you  can take to reenter. \n- Eugenia Falls: can only be seen from the top of the falls, no access to go down to the bottom. There is a better look out past the bend if you follow the trail from the top to the falls to the left.\n- Hoggs Falls: definitely the highlight on the trail. There’s no direct access to the bottom of the falls, but there is a single rope that leads you down the cliff edge to go to the bottom of the falls. Many have referenced swimming but the water isn’t very deep.",
+    "date": "2021-09-06T11:34:57.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Great!",
+      "Rocky",
+      "Fee"
+    ],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 17173124,
+    "trailId": 10342043,
+    "comment": "Beautiful scenery everywhere you look. You can stand literally at the top of the falls or below it and swim. Lots to do. Not a lot of parking though, get there early",
+    "date": "2021-09-03T14:06:45.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Rocky",
+      "Unmarked",
+      "Great!"
+    ],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 17109562,
+    "trailId": 10342043,
+    "comment": "Great trail.  Best hike I’ve had in some time.  The distance pushed my limit.  Still have some stamina to work ok.  Agree with previous post - Hoggs Falls is the highlight.  Not easy but not hard either.  ",
+    "date": "2021-08-30T00:05:03.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 17095157,
+    "trailId": 10342043,
+    "comment": "Great trail. Well marked with optional side trails. Arrived early - be aware there is a $10 parking fee you must pay online at Eugenia Falls. Easy enough trail with some ups and downs. Highlight is Hoggs Falls - you can go down  and swim out behind the water fall. Hike time was roughly 3 hours.",
+    "date": "2021-08-29T17:04:53.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Muddy",
+      "Overgrown",
+      "Fee"
+    ],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 16963946,
+    "trailId": 10342043,
+    "comment": "Surprisingly quiet for a Sunday - only really saw anyone else around the falls access.",
+    "date": "2021-08-22T15:40:19.000Z",
+    "rating": 3,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 85002857.0
+  },
+  {
+    "reviewId": 16963657,
+    "trailId": 10342043,
+    "comment": "lots of hills, roots, medium to hard trail. pack lots of water",
+    "date": "2021-08-22T14:35:42.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 85002835.0
+  },
+  {
+    "reviewId": 16916825,
+    "trailId": 10342043,
+    "comment": "Decent escarpment loop - road section was tedious, but good morning walk.",
+    "date": "2021-08-20T13:25:49.000Z",
+    "rating": 3,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 84618022.0
+  },
+  {
+    "reviewId": 16756186,
+    "trailId": 10342043,
+    "comment": "Amazing and challenging. Beautiful sights",
+    "date": "2021-08-12T14:02:12.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 83534981.0
+  },
+  {
+    "reviewId": 16565192,
+    "trailId": 10342043,
+    "comment": "Beautiful trail!\n",
+    "date": "2021-08-02T15:39:17.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 82160482.0
+  },
+  {
+    "reviewId": 16357306,
+    "trailId": 10342043,
+    "comment": "Great trail, beautiful",
+    "date": "2021-07-24T15:10:39.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 80758544.0
+  },
+  {
+    "reviewId": 16321332,
+    "trailId": 10342043,
+    "comment": "One of my favourite Grey county hikes! We started our hike at Hoggs falls. The trail is well marked. Not too busy on a week day. ",
+    "date": "2021-07-23T10:32:06.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Bugs",
+      "Muddy",
+      "Great!"
+    ],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 16300813,
+    "trailId": 10342043,
+    "comment": "There is no reentry at the road on the main trail... the trail is blocked with dead branches and says trespassing concerns. Otherwise, mosquitoes are minimal and trail is well marked. Met a nice man who attempted to help us find reentry. kind people all along the way. Both falls Gorgeous!",
+    "date": "2021-07-21T15:47:04.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 80336922.0
+  },
+  {
+    "reviewId": 16232330,
+    "trailId": 10342043,
+    "comment": "Two routes, one towards Hoggs Falls and the other one towards a never ending trail. Unfortunately entered the never reaching the trail. Pretty spotty 3G reception before entering Flesherton so have your offline map ready, we couldn’t even verify we were going the wrong way because of this. Will have to try this trail again.",
+    "date": "2021-07-17T20:15:14.000Z",
+    "rating": 3,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 79872885.0
+  },
+  {
+    "reviewId": 16198262,
+    "trailId": 10342043,
+    "comment": "looks like a lot of confusion around , what is closed what is open, so we just avoid the area altogether. there are many other trails to go.",
+    "date": "2021-07-17T11:52:38.000Z",
+    "rating": 1,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 16175896,
+    "trailId": 10342043,
+    "comment": "Loved the trail - slightly challenging for our toddler but she managed with our help. Part of the trail was closed so we weren’t able to complete the loop. We would definitely visit again. ",
+    "date": "2021-07-15T23:15:46.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Bugs",
+      "Rocky",
+      "Fee"
+    ],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 15926366,
+    "trailId": 10342043,
+    "comment": "Great but challenging hike!",
+    "date": "2021-07-03T16:08:46.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 77722280.0
+  },
+  {
+    "reviewId": 15566508,
+    "trailId": 10342043,
+    "comment": "Beautiful hike",
+    "date": "2021-06-15T15:53:58.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 75288410.0
+  },
+  {
+    "reviewId": 15523837,
+    "trailId": 10342043,
+    "comment": "decent trail. moderate in some spots rocky and hills but great. bugs weren't too bad but bring spray.\n\n",
+    "date": "2021-06-13T16:02:22.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 75036879.0
+  },
+  {
+    "reviewId": 15458220,
+    "trailId": 10342043,
+    "comment": "From hoggs upper trail to eugenia falls is mostly flat and narrow except 5 hills! They are BIG but the incline is steady. Nothing special at Eugenia falls so dont really recommend it",
+    "date": "2021-06-10T16:25:16.000Z",
+    "rating": 3,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 74589957.0
+  },
+  {
+    "reviewId": 15425703,
+    "trailId": 10342043,
+    "comment": "Nice mix of scenery and good lookouts. Mostly shaded if you go on a hot day. Was challenging at some points, so good to bring some water and snacks. Finished just under three hours. ",
+    "date": "2021-06-08T14:27:10.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Great!"
+    ],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 15406415,
+    "trailId": 10342043,
+    "comment": "Beautiful and scenic trail with a gorgeous waterfall and some creeks. $10 parking, but well worth it. Bring a good quality camera, bug spray, and lots of water. The rocky and difficult trails can be quite challenging for a novice hiker, so well fitted hiking shoes are a must.",
+    "date": "2021-06-07T04:39:50.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Bugs",
+      "Rocky",
+      "Fee",
+      "Great!"
+    ],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 15386914,
+    "trailId": 10342043,
+    "comment": "Recommend early morning hike about 4 hrs to complete. My first trail and it was a challenge needs lots of water",
+    "date": "2021-06-06T17:19:07.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 74147973.0
+  },
+  {
+    "reviewId": 15369110,
+    "trailId": 10342043,
+    "comment": "Need so much water. 2 litres. Not for out of shape person with no hiking this season. One way would have been great but the loop is hard.",
+    "date": "2021-06-06T00:05:59.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 15367883,
+    "trailId": 10342043,
+    "comment": "This was a tough trail in the heat today. Either going down or going up, no real flat breaks. Nice walk, and well marked. Falls at both ends!",
+    "date": "2021-06-05T21:52:58.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 74022019.0
+  },
+  {
+    "reviewId": 15342332,
+    "trailId": 10342043,
+    "comment": "It’s a great trail! Enjoy, but bring lots of water :)",
+    "date": "2021-06-05T11:49:47.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 73904571.0
+  },
+  {
+    "reviewId": 15243970,
+    "trailId": 10342043,
+    "comment": "Great hike, short one from The park g lot of Hoggs Falls but to Eugenia falls was long. Not well marked from Hoggs falls to the Eugenia  falls",
+    "date": "2021-05-31T14:51:54.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Great!"
+    ],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 73296024.0
+  },
+  {
+    "reviewId": 15146032,
+    "trailId": 10342043,
+    "comment": "Was disappointed because we can’t reach the fall. Just watched, but it’s a good trails",
+    "date": "2021-05-27T21:18:30.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 72684659.0
+  },
+  {
+    "reviewId": 15101247,
+    "trailId": 10342043,
+    "comment": "I definitely enjoyed it but it is not for beginners.  I love how there are water features at each side. Pack a good amount of water!",
+    "date": "2021-05-24T23:17:56.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Great!"
+    ],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 14978005,
+    "trailId": 10342043,
+    "comment": "Nice views and 2 waterfalls.  Good elevations and some flat areas for resting and catching some rat.",
+    "date": "2021-05-19T18:32:51.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 71665710.0
+  },
+  {
+    "reviewId": 14924518,
+    "trailId": 10342043,
+    "comment": "Did the full loop last weekend. Good views and variety in locations/vegetation/water. Trail was rather heavily trafficked, lost track of how many people we saw after I got to 100, but it is a nice trail so I can see why!",
+    "date": "2021-05-16T19:02:37.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Great!"
+    ],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 14890059,
+    "trailId": 10342043,
+    "comment": "Good trail  started at Hoggs Eugina area is closed ",
+    "date": "2021-05-15T19:22:12.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 14866932,
+    "trailId": 10342043,
+    "comment": "Beautiful trail, access Eugenia falls and hoggs falls , some areas have many rocks so could be challenging for some people . I tried to run this trail but could only in some parts because some area were too steep or too many rocks or roots to run so it took me longer than expected ",
+    "date": "2021-05-14T21:38:14.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Trail running",
+    "obstacles": [
+      "Great!"
+    ],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 14392764,
+    "trailId": 10342043,
+    "comment": "beautiful ",
+    "date": "2021-04-18T11:46:26.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 68110693.0
+  },
+  {
+    "reviewId": 14172704,
+    "trailId": 10342043,
+    "comment": "Great trail great hike",
+    "date": "2021-04-04T18:32:34.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 66841865.0
+  },
+  {
+    "reviewId": 13519963,
+    "trailId": 10342043,
+    "comment": "Parking at Eugenia Falls was closed. Started at Hogg’s Falls",
+    "date": "2021-02-27T15:24:40.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Snow",
+      "Icy"
+    ],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 63802905.0
+  },
+  {
+    "reviewId": 13360079,
+    "trailId": 10342043,
+    "comment": "Absolutely amazing. So worth it doing the whole loop (and exhausting)! Start at Hoggs falls cause Eugina is closed",
+    "date": "2021-02-15T16:17:58.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 63016918.0
+  },
+  {
+    "reviewId": 13251724,
+    "trailId": 10342043,
+    "comment": "Amazing trail!! This one is “must to visit”:) we will definitely go back!! ",
+    "date": "2021-02-07T17:38:45.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Snow",
+      "Great!"
+    ],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 13237921,
+    "trailId": 10342043,
+    "comment": "Best trail so far. Very well marked, did not have to look at the app at all.",
+    "date": "2021-02-06T16:24:51.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 62473022.0
+  },
+  {
+    "reviewId": 13196801,
+    "trailId": 10342043,
+    "comment": "trail was well traveled but some icy spots to watch out for..falls is always beautiful and not many people during the week..really enjoy this place ",
+    "date": "2021-02-03T23:54:14.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Snow"
+    ],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 13175107,
+    "trailId": 10342043,
+    "comment": "That was a doozy! Forgot about the huge uphill at the end, even though we slide down it on the way out.",
+    "date": "2021-02-01T16:32:27.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 62177604.0
+  },
+  {
+    "reviewId": 13058025,
+    "trailId": 10342043,
+    "comment": "Well marked and beautiful lookouts.  It was a lot of uphill.",
+    "date": "2021-01-24T15:37:36.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 61676874.0
+  },
+  {
+    "reviewId": 12756716,
+    "trailId": 10342043,
+    "comment": "A great 13 and a 1/2 kilometre hike in the Winter, very demanding. Starting your hike at the Eugenia falls parking lot you get to enjoy about a kilometre downhill to start. Keep in mind that's exactly how you finish with a very demanding uphill. \nThe trails are in great shape but a little narrow. If you do happen to venture off the trail you'll be in deep snow, make sure to bring your poles. When you reach the Hoggs Falls loop suggest you take the lower trail first. It is a much more hilly and demanding portion of the loop to start, the upper loop is relatively flat in comparison and is a welcome easier portion after enjoying Hoggs Falls. Pack a lunch and enjoy some time at the falls, you will need to hydrate and replenish some calories. This hike is definitely a calorie burner. ",
+    "date": "2021-01-09T17:21:32.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 60315710.0
+  },
+  {
+    "reviewId": 12004847,
+    "trailId": 10342043,
+    "comment": "Trail was in good condition for the season. Very muddy.",
+    "date": "2020-11-16T14:37:52.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Muddy",
+      "Rocky",
+      "Snow",
+      "Great!"
+    ],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 56993956.0
+  },
+  {
+    "reviewId": 11990654,
+    "trailId": 10342043,
+    "comment": "A little muddy as it  had really rained but a great day none the less",
+    "date": "2020-11-15T14:51:25.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 56940485.0
+  },
+  {
+    "reviewId": 11801718,
+    "trailId": 10342043,
+    "comment": "Beautiful hike Muddy in November",
+    "date": "2020-11-03T16:31:50.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 56110795.0
+  },
+  {
+    "reviewId": 11584272,
+    "trailId": 10342043,
+    "comment": "The hog fall was great! We can get so close to it!",
+    "date": "2020-10-19T13:15:58.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 55149698.0
+  },
+  {
+    "reviewId": 11528206,
+    "trailId": 10342043,
+    "comment": "Awesome, hilly great trail\n",
+    "date": "2020-10-17T14:17:17.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 54966322.0
+  },
+  {
+    "reviewId": 11504389,
+    "trailId": 10342043,
+    "comment": "great hike ! I'd say it was pretty easy some spots were muddy due to rain but a great variation of uphill and down! ",
+    "date": "2020-10-16T16:40:08.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 54860877.0
+  },
+  {
+    "reviewId": 11475866,
+    "trailId": 10342043,
+    "comment": "well blazed, trail is mostly mud free, low traffic during weekdays. \n",
+    "date": "2020-10-14T18:13:27.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 54734639.0
+  },
+  {
+    "reviewId": 11359681,
+    "trailId": 10342043,
+    "comment": "This trail has a bit of everything!!! Highly recommended especially the rope climb down the escarpment by hoggs falls",
+    "date": "2020-10-09T16:37:03.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 54299728.0
+  },
+  {
+    "reviewId": 11117800,
+    "trailId": 10342043,
+    "comment": "It was very moderate. A good trek to hoggs falls. A lot of incline which was a good workout and a lot of good lookout points. Want to come back and see how to get to the bottom of Eugenia falls",
+    "date": "2020-09-27T14:40:22.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 53361298.0
+  },
+  {
+    "reviewId": 10993432,
+    "trailId": 10342043,
+    "comment": "Trail is fairly challenging with narrow at times pathways great sight seeing at hoggs falls all in all the trail was completed in just over 3 hours moving time. Highly recommended for people that love the challenge",
+    "date": "2020-09-21T17:37:58.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 52855495.0
+  },
+  {
+    "reviewId": 10939646,
+    "trailId": 10342043,
+    "comment": "Good hike! Took us just under 4hrs at a good pace and a stop for a snack at Hogg’s fall",
+    "date": "2020-09-19T23:07:45.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Great!"
+    ],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 10930391,
+    "trailId": 10342043,
+    "comment": "Beautiful long hike with lovely scenes. Kids did very well and were excited about the waterfalls. ",
+    "date": "2020-09-19T14:45:06.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Fee",
+      "Great!"
+    ],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 52642039.0
+  },
+  {
+    "reviewId": 10818442,
+    "trailId": 10342043,
+    "comment": "A few elevation gain and losses, beautiful",
+    "date": "2020-09-12T16:38:38.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 52166852.0
+  },
+  {
+    "reviewId": 10346985,
+    "trailId": 10342043,
+    "comment": "Can't get very close to Eugenia Falls, just a lookout from the top so hiked to Hoggs Falls. Can get right up to Hoggs Falls, both the top and bottom of the falls. Be prepared to climb a small rope to get to the bottom of Hoggs!\n",
+    "date": "2020-08-22T20:36:49.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 50234716.0
+  },
+  {
+    "reviewId": 10199272,
+    "trailId": 10342043,
+    "comment": "Excellent hike with good up and down hills. View from the top was beautiful, a bit disappointed of Eugeenia falls but Hoggs falls is beautiful though too many ppl there. ",
+    "date": "2020-08-16T01:50:17.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Great!"
+    ],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 10035249,
+    "trailId": 10342043,
+    "comment": "Brilliantly signed, good mix of elevations and excellent terrain.\nA little busy.",
+    "date": "2020-08-08T21:10:20.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 9876249,
+    "trailId": 10342043,
+    "comment": "The actual trail was closed (probably due to COVID and vegetation regrowth). But you can access the Bruce trail from this location, you just aren’t going to see the river or waterfalls you might have expected. ",
+    "date": "2020-08-01T19:02:09.000Z",
+    "rating": 3,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Fee"
+    ],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 9838195,
+    "trailId": 10342043,
+    "comment": "Really lovely trail with lots of different vegetation, wildlife ect. Like most sections of the Bruce it's well marked and fairly easy to navigate. More of an in and out than a loop, but using the side trails definitely makes it more interesting! Not too technical, some hills make it \"moderate\" but only big one is at Eugenia falls so easy to go at your own pace.  Definitely bring fly spray, and if planning to swim in Hoggs Falls bring sandals or water shoes. ",
+    "date": "2020-07-30T16:13:28.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 48129463.0
+  },
+  {
+    "reviewId": 9751780,
+    "trailId": 10342043,
+    "comment": "Did the trail from euginie falls to hogg fals. Nice well marked trail. Bug spray a must.",
+    "date": "2020-07-26T03:21:49.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": null,
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 9735273,
+    "trailId": 10342043,
+    "comment": "another great trail and Hogg falls was brilliant. The ending was a challenge for me. \n\nA really tough workout!",
+    "date": "2020-07-25T14:03:59.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Bugs",
+      "Rocky",
+      "Great!"
+    ],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 47675736.0
+  },
+  {
+    "reviewId": 9613974,
+    "trailId": 10342043,
+    "comment": "Euginia falls to Hoggs falls is open now.   we did the 12.6 km loop today.  trail is pretty tough.  My legs were pretty tired after this one.  Nice trail with lots of ups and downs.  The falls were beautiful.  The bugs were really bad.  Tons of deer flies everywhere.  Couldnt really stop for a break at all or they would be all over you.",
+    "date": "2020-07-19T01:21:29.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": null,
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 10181879,
+    "trailId": 10342043,
+    "comment": "Great one",
+    "date": "2020-07-11T23:41:29.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 9203287,
+    "trailId": 10342043,
+    "comment": "If Eugenia falls trail is still closed, go to hoggs falls (hoggs trail is still open). Beautiful trail that takes you deep into the forest, next to a river, and through open meadows. Lots of inclines and declines!",
+    "date": "2020-06-27T21:42:18.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 8969196,
+    "trailId": 10342043,
+    "comment": "This is an amazing trail, there is a little elevation (at least by Ontario standards) but the trail is well makred and beautiful. Takes you through some old maple forests and along a beautiful section of the Bruce trail. ",
+    "date": "2020-06-13T00:00:00.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 8884280,
+    "trailId": 10342043,
+    "comment": "The trail was great! Some nice light elevations to get your heart rate up! Easily marked so it was easy to follow. There were some trees down but nothing you can’t get around!",
+    "date": "2020-06-12T15:05:31.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 44104402.0
+  },
+  {
+    "reviewId": 8837683,
+    "trailId": 10342043,
+    "comment": "Loved this trail!",
+    "date": "2020-06-07T19:00:46.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 43920774.0
+  },
+  {
+    "reviewId": 8594365,
+    "trailId": 10342043,
+    "comment": "FALLS ARE CLOSED. DO NOT GO",
+    "date": "2020-05-30T13:53:05.000Z",
+    "rating": 3,
+    "difficulty": null,
+    "activity": null,
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 8585418,
+    "trailId": 10342043,
+    "comment": "Went hiking today! The trail has a great combination of challenging and easy areas which makes so a good hike! Trail has a decent amount of shade. Only 4 stars because I found the side loop to hogs trail kinda boring and muddy! \n\nbring bug spray!!! ",
+    "date": "2020-05-25T20:46:00.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 8071701,
+    "trailId": 10342043,
+    "comment": "If you’re looking for a quick whip into summer shape, look no further. This booty-blasting trail will take you through more ups and downs than a teenage son/daughter - but THESE ups and downs come with two spectacular waterfalls! ",
+    "date": "2020-05-02T23:40:25.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 7149289,
+    "trailId": 10342043,
+    "comment": "Great hike, fantastic company. Very snowy. Will repeat in the summer!",
+    "date": "2020-02-15T17:45:16.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 38343724.0
+  },
+  {
+    "reviewId": 7127985,
+    "trailId": 10342043,
+    "comment": "Took The side trail to Eugenia Falls: lots of ups and downs, but slippery in spots under the snow. Not enough to stop you though. Not much water Flowing at Eugene Falls after all the effort. Lol. Hoggs Falls are flowing, \nPicturesque and right at the trail head. A good  workout and winter walk for the surefooted.",
+    "date": "2020-02-12T18:10:46.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Snow",
+      "Icy"
+    ],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 38263781.0
+  },
+  {
+    "reviewId": 7061476,
+    "trailId": 10342043,
+    "comment": "Ran the better travelled portion of the trail until snow got too slippery and deep, will be back to run in the spring. Nice scenery and good views of both waterfalls.",
+    "date": "2020-02-03T12:57:13.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Snow",
+      "Icy"
+    ],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 38039778.0
+  },
+  {
+    "reviewId": 6810853,
+    "trailId": 10342043,
+    "comment": "Awesome trail! Very challenging. Lots of beauty to be seen. Some slippery and Icy parts but nothing unmanageable. There were some trees down on the trail so we had to maneuver around. Took us four hours. Some nice benches along the way to stop for a rest.    ",
+    "date": "2020-01-04T04:54:42.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Rocky",
+      "Snow",
+      "Icy"
+    ],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 6418765,
+    "trailId": 10342043,
+    "comment": "The trail is quite nice. I would imagine in the Fall the colours would be spectacular. It was fairly muddy so I would definitely recommend hiking boots. Easy to moderate trail! ",
+    "date": "2019-11-03T16:57:04.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 30734542.0
+  },
+  {
+    "reviewId": 6407962,
+    "trailId": 10342043,
+    "comment": "Great trail but it’s starting to get a bit mucky, so it may be nearing the end of the season!",
+    "date": "2019-11-02T16:05:29.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Muddy"
+    ],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 30699920.0
+  },
+  {
+    "reviewId": 6240822,
+    "trailId": 10342043,
+    "comment": "The trail was muddy in some places but great overall. Beautiful colors of the leafs everywhere. Saw some turkeys, quail & chipmunks.",
+    "date": "2019-10-14T17:52:45.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Muddy"
+    ],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 30181890.0
+  },
+  {
+    "reviewId": 6139878,
+    "trailId": 10342043,
+    "comment": "Excellent hike I do at least once a year. ",
+    "date": "2019-10-06T15:43:08.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 5394591,
+    "trailId": 10342043,
+    "comment": "Great trail, marked well and a good workout.",
+    "date": "2019-08-26T16:11:18.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 28359818.0
+  },
+  {
+    "reviewId": 5191739,
+    "trailId": 10342043,
+    "comment": "Great trail for a good work out. Trails were marked well. Wouldn’t recommend it if you have kids. Bring lots of water. Falls were beautiful. \n",
+    "date": "2019-08-20T15:33:48.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 5333909,
+    "trailId": 10342043,
+    "comment": "Lots of mosquitos after you get off the side road. Too many mosquitos ",
+    "date": "2019-08-19T02:47:35.000Z",
+    "rating": 1,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 5046244,
+    "trailId": 10342043,
+    "comment": "Trail is quite rocky and there is a lot of hills! Well marked all along the trail  and well maintained - great hike ",
+    "date": "2019-08-10T22:09:47.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Rocky"
+    ],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 3954747,
+    "trailId": 10342043,
+    "comment": "Really great hike. Diverse and challenging terrain. The 4.6km in and out to Eugenia Falls portion of the hike is a solid 5 stars. The Hogg’s has some sections where you hear quiet a bit of street noise, and some less interesting sections. That being said, the Bogg’s Falls is a great payoff. \nBugs are particularly bad on the Hogg’s Falls trail, bug spray (Deet 15) has little impact. Moving quickly was the only real solution. ",
+    "date": "2019-06-07T02:08:24.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Bugs",
+      "Muddy"
+    ],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 3816927,
+    "trailId": 10342043,
+    "comment": "Enjoyed the trail, it is well marked. Muddy in some sections but not enough to make it unpleasant. The trees offered protection when it rained. Lots of flowers and birds along the route. Hoggs Falls are smaller but you can get much closer. Walked back from Hoggs Falls on the road so we had the river to keep us company, love the sound of the rushing water. Would definitely do it again.",
+    "date": "2019-05-26T03:57:01.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Bugs",
+      "Muddy"
+    ],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 3443750,
+    "trailId": 10342043,
+    "comment": "Did the Hogg's Falls side loop, water levels are very high which makes for some beautiful river views and swollen falls. A few patches of ice along the trail and quite a bit of mud, waterproof boots recommended.",
+    "date": "2019-04-23T05:52:51.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": null,
+    "obstacles": [
+      "Muddy"
+    ],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 3326970,
+    "trailId": 10342043,
+    "comment": "Excellent hike. Didnt make it to Hoggs Falls, but enjoyed the section we hiked.",
+    "date": "2019-04-13T17:25:31.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Muddy",
+      "Rocky"
+    ],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 23651089.0
+  },
+  {
+    "reviewId": 2569985,
+    "trailId": 10342043,
+    "comment": "Hiked from Hoggs Falls to Eugenia Falls. Did not go to the bottom of either falls but would like to if I go again. Would agree this trail is moderate difficulty. The bugs were really bad.",
+    "date": "2018-08-02T16:05:14.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 20608374.0
+  },
+  {
+    "reviewId": 13871204,
+    "trailId": 10342043,
+    "comment": "",
+    "date": "2021-03-20T15:42:31.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 65413282.0
+  },
+  {
+    "reviewId": 13440024,
+    "trailId": 10342043,
+    "comment": "",
+    "date": "2021-02-21T16:29:42.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 63425447.0
+  },
+  {
+    "reviewId": 13135460,
+    "trailId": 10342043,
+    "comment": "",
+    "date": "2021-01-30T18:27:09.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 62026518.0
+  },
+  {
+    "reviewId": 12209864,
+    "trailId": 10342043,
+    "comment": "",
+    "date": "2020-11-29T16:44:24.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 12205729,
+    "trailId": 10342043,
+    "comment": "",
+    "date": "2020-11-29T14:32:50.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 57891774.0
+  },
+  {
+    "reviewId": 11959084,
+    "trailId": 10342043,
+    "comment": "",
+    "date": "2020-11-14T12:34:32.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 56821911.0
+  },
+  {
+    "reviewId": 11859323,
+    "trailId": 10342043,
+    "comment": "",
+    "date": "2020-11-07T17:36:17.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 56387654.0
+  },
+  {
+    "reviewId": 11824191,
+    "trailId": 10342043,
+    "comment": "",
+    "date": "2020-11-05T17:04:13.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 56217520.0
+  },
+  {
+    "reviewId": 11845272,
+    "trailId": 10342043,
+    "comment": "",
+    "date": "2020-10-24T15:01:07.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 56330525.0
+  },
+  {
+    "reviewId": 11563560,
+    "trailId": 10342043,
+    "comment": "",
+    "date": "2020-10-17T14:34:51.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 55084222.0
+  },
+  {
+    "reviewId": 11441518,
+    "trailId": 10342043,
+    "comment": "",
+    "date": "2020-10-12T14:27:53.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Great!"
+    ],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 54598701.0
+  },
+  {
+    "reviewId": 11423703,
+    "trailId": 10342043,
+    "comment": "",
+    "date": "2020-10-11T16:14:45.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 54532784.0
+  },
+  {
+    "reviewId": 11299824,
+    "trailId": 10342043,
+    "comment": "",
+    "date": "2020-10-06T15:07:55.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 54076502.0
+  },
+  {
+    "reviewId": 11256386,
+    "trailId": 10342043,
+    "comment": "",
+    "date": "2020-10-04T15:21:04.000Z",
+    "rating": 1,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 53926769.0
+  },
+  {
+    "reviewId": 11255925,
+    "trailId": 10342043,
+    "comment": "",
+    "date": "2020-10-04T14:51:54.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 53925361.0
+  },
+  {
+    "reviewId": 11183929,
+    "trailId": 10342043,
+    "comment": "",
+    "date": "2020-10-01T15:51:42.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 53625703.0
+  },
+  {
+    "reviewId": 11183850,
+    "trailId": 10342043,
+    "comment": "",
+    "date": "2020-10-01T15:51:25.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 53625485.0
+  },
+  {
+    "reviewId": 11100428,
+    "trailId": 10342043,
+    "comment": "",
+    "date": "2020-09-26T14:07:15.000Z",
+    "rating": 1,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 53300991.0
+  },
+  {
+    "reviewId": 11051235,
+    "trailId": 10342043,
+    "comment": "",
+    "date": "2020-09-25T15:43:46.000Z",
+    "rating": 1,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 53110141.0
+  },
+  {
+    "reviewId": 10971635,
+    "trailId": 10342043,
+    "comment": "",
+    "date": "2020-09-20T18:52:25.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 52778169.0
+  },
+  {
+    "reviewId": 10901767,
+    "trailId": 10342043,
+    "comment": "",
+    "date": "2020-09-18T15:11:54.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 52524435.0
+  },
+  {
+    "reviewId": 10674240,
+    "trailId": 10342043,
+    "comment": "",
+    "date": "2020-09-06T21:39:31.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Great!"
+    ],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 10341289,
+    "trailId": 10342043,
+    "comment": "",
+    "date": "2020-08-22T17:58:16.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 50226331.0
+  },
+  {
+    "reviewId": 10300391,
+    "trailId": 10342043,
+    "comment": "",
+    "date": "2020-08-20T14:04:57.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 50027833.0
+  },
+  {
+    "reviewId": 9115069,
+    "trailId": 10342043,
+    "comment": "",
+    "date": "2018-10-13T00:00:00.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  }
+]

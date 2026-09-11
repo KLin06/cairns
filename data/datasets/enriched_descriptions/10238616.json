@@ -1,0 +1,64 @@
+{
+  "trailId": "10238616",
+  "trailSlug": "trail/canada/ontario/glen-major-forest-loop-trail",
+  "name": "Glen Major Forest Loop",
+  "description": "Experience this 6.4-km loop trail near Claremont, Ontario. Generally considered a moderately challenging route, it takes an average of 1 h 53 min to complete. This is a very popular area for birding, hiking, and horseback riding, so you'll likely encounter other people while exploring. The trail is open year-round and is beautiful to visit anytime. Dogs are welcome, but must be on a leash.",
+  "addressLocality": "Claremont, Ontario, Canada",
+  "latitude": 44.00605,
+  "longitude": -79.10161,
+  "ratingValue": 4.6,
+  "reviewCount": 1427,
+  "worstRating": "0",
+  "bestRating": "5",
+  "images": [
+    "https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMzA5ODkwNzgvNjNlMjE5ZjE1ZDAzYjNiZTFlOGRhYmRjYmQwZWY4NGIuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJ3ZWJwIiwicmVzaXplIjp7IndpZHRoIjoiNTAwIiwiaGVpZ2h0IjoiNTAwIiwiZml0IjoiaW5zaWRlIn0sInJvdGF0ZSI6bnVsbCwianBlZyI6eyJ0cmVsbGlzUXVhbnRpc2F0aW9uIjp0cnVlLCJvdmVyc2hvb3REZXJpbmdpbmciOnRydWUsIm9wdGltaXNlU2NhbnMiOnRydWUsInF1YW50aXNhdGlvblRhYmxlIjozfX19"
+  ],
+  "features": [
+    "Dogs on leash",
+    "Kid-friendly",
+    "Forests"
+  ],
+  "surfaceTypes": [
+    {
+      "label": "unknown",
+      "percentOfSurface": 99.66,
+      "totalLength": 6409.1
+    },
+    {
+      "label": "natural",
+      "percentOfSurface": 0.34,
+      "totalLength": 22.01
+    }
+  ],
+  "length": 6437.36,
+  "durationMinutes": 113,
+  "difficultyRating": "3",
+  "areaName": "Uxbridge Woodlands",
+  "popularity": 97.8178,
+  "terrainData": {
+    "rock": {
+      "rockType": " ",
+      "rockDescription": "Shale, limestone, dolostone, siltstone",
+      "geologicProvince": " ",
+      "geologicEra": "PALEOZOIC (251.0 Ma to 542.0 Ma)",
+      "rockCategories": [
+        "carbonate_sedimentary",
+        "fine_clastic_sedimentary"
+      ],
+      "rockSlipRisk": "high"
+    },
+    "soil": {
+      "soilName": "PONTYPOOL SANDY LOAM",
+      "texture": "sandy loam",
+      "textureGroup": "loam",
+      "textureMudPotential": 1,
+      "drainage": "rapid",
+      "drainageRank": 1,
+      "slopePercent": 22.5,
+      "stoniness": 0,
+      "parentMaterial": null
+    },
+    "percentNearWater": 32.0,
+    "waterCrossingCount": 6
+  }
+}

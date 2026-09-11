@@ -1,0 +1,64 @@
+{
+  "trailId": "10298362",
+  "trailSlug": "trail/canada/ontario/thames-valley-trail-loop",
+  "name": "Thames Valley Trail Loop",
+  "description": "Try this 7.7-km loop trail near Komoka, Ontario. Generally considered a moderately challenging route, it takes an average of 1 h 43 min to complete. This is a very popular area for birding, hiking, and trail running, so you'll likely encounter other people while exploring. The best times to visit this trail are March through November.",
+  "addressLocality": "Komoka, Ontario, Canada",
+  "latitude": 42.97062,
+  "longitude": -81.36792,
+  "ratingValue": 4.6,
+  "reviewCount": 1716,
+  "worstRating": "0",
+  "bestRating": "5",
+  "images": [
+    "https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMzk4OTIyMzgvOTVhYWQ5MzcwYTZmNzczODkzOWQyNzk0ZmE5OGQ5OWEuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJ3ZWJwIiwicmVzaXplIjp7IndpZHRoIjoiNTAwIiwiaGVpZ2h0IjoiNTAwIiwiZml0IjoiaW5zaWRlIn0sInJvdGF0ZSI6bnVsbCwianBlZyI6eyJ0cmVsbGlzUXVhbnRpc2F0aW9uIjp0cnVlLCJvdmVyc2hvb3REZXJpbmdpbmciOnRydWUsIm9wdGltaXNlU2NhbnMiOnRydWUsInF1YW50aXNhdGlvblRhYmxlIjozfX19"
+  ],
+  "features": [
+    "Kid-friendly",
+    "Forests",
+    "Rivers"
+  ],
+  "surfaceTypes": [
+    {
+      "label": "unknown",
+      "percentOfSurface": 86.12,
+      "totalLength": 6718.38
+    },
+    {
+      "label": "paved",
+      "percentOfSurface": 13.88,
+      "totalLength": 1082.94
+    }
+  ],
+  "length": 7724.832,
+  "durationMinutes": 103,
+  "difficultyRating": "3",
+  "areaName": "Kains Woods",
+  "popularity": 97.654,
+  "terrainData": {
+    "rock": {
+      "rockType": " ",
+      "rockDescription": "Limestone, dolostone, shale",
+      "geologicProvince": " ",
+      "geologicEra": "PALEOZOIC (251.0 Ma to 542.0 Ma)",
+      "rockCategories": [
+        "carbonate_sedimentary",
+        "fine_clastic_sedimentary"
+      ],
+      "rockSlipRisk": "high"
+    },
+    "soil": {
+      "soilName": "FANSHAWE",
+      "texture": "silt loam",
+      "textureGroup": "silt",
+      "textureMudPotential": 2,
+      "drainage": "imperfect",
+      "drainageRank": 4,
+      "slopePercent": 3.5,
+      "stoniness": 0,
+      "parentMaterial": null
+    },
+    "percentNearWater": 54.8,
+    "waterCrossingCount": 5
+  }
+}

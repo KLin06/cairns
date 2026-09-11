@@ -1,0 +1,65 @@
+{
+  "trailId": "10280436",
+  "trailSlug": "trail/canada/ontario/black-walnut-trail-loop",
+  "name": "Black Walnut Trail Loop",
+  "description": "Check out this 5.3-km loop trail near Thorold, Ontario. Generally considered a moderately challenging route, it takes an average of 1 h 17 min to complete. This is a very popular area for hiking and walking, so you'll likely encounter other people while exploring. The best times to visit this trail are January through November. Dogs are welcome, but must be on a leash.",
+  "addressLocality": "Thorold, Ontario, Canada",
+  "latitude": 43.10828,
+  "longitude": -79.28708,
+  "ratingValue": 4.5,
+  "reviewCount": 1007,
+  "worstRating": "0",
+  "bestRating": "5",
+  "images": [
+    "https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvNzQ4MzEwMjgvOWE0OTg3YTg4YjA0MTViNGE0ZjBlYzU2NmY4MzAxZmYuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJ3ZWJwIiwicmVzaXplIjp7IndpZHRoIjoiNTAwIiwiaGVpZ2h0IjoiNTAwIiwiZml0IjoiaW5zaWRlIn0sInJvdGF0ZSI6bnVsbCwianBlZyI6eyJ0cmVsbGlzUXVhbnRpc2F0aW9uIjp0cnVlLCJvdmVyc2hvb3REZXJpbmdpbmciOnRydWUsIm9wdGltaXNlU2NhbnMiOnRydWUsInF1YW50aXNhdGlvblRhYmxlIjozfX19"
+  ],
+  "features": [
+    "Dogs on leash",
+    "Kid-friendly",
+    "Forests"
+  ],
+  "surfaceTypes": [
+    {
+      "label": "natural",
+      "percentOfSurface": 62.45,
+      "totalLength": 3329.11
+    },
+    {
+      "label": "unknown",
+      "percentOfSurface": 37.55,
+      "totalLength": 2001.43
+    }
+  ],
+  "length": 5310.822,
+  "durationMinutes": 77,
+  "difficultyRating": "3",
+  "areaName": "Short Hills Provincial Park",
+  "popularity": 97.506,
+  "terrainData": {
+    "rock": {
+      "rockType": " ",
+      "rockDescription": "Sandstone, shale, dolostone, siltstone",
+      "geologicProvince": " ",
+      "geologicEra": "PALEOZOIC (251.0 Ma to 542.0 Ma)",
+      "rockCategories": [
+        "carbonate_sedimentary",
+        "coarse_clastic_sedimentary",
+        "fine_clastic_sedimentary"
+      ],
+      "rockSlipRisk": "high"
+    },
+    "soil": {
+      "soilName": "BEVERLY",
+      "texture": "silty clay loam",
+      "textureGroup": "silt",
+      "textureMudPotential": 2,
+      "drainage": "imperfect",
+      "drainageRank": 4,
+      "slopePercent": 3.5,
+      "stoniness": 0,
+      "parentMaterial": null
+    },
+    "percentNearWater": 47.3,
+    "waterCrossingCount": 12
+  }
+}

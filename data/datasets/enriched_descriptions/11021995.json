@@ -1,0 +1,65 @@
+{
+  "trailId": "11021995",
+  "trailSlug": "trail/canada/ontario/mckay-s-harbour-trail",
+  "name": "McKay's Harbour Trail",
+  "description": "Get to know this 10.9-km loop trail near Lion's Head, Ontario. Generally considered a moderately challenging route, it takes an average of 2 h 54 min to complete. This is a popular trail for hiking, but you can still enjoy some solitude during quieter times of day. The best times to visit this trail are June through October.",
+  "addressLocality": "Lion's Head, Ontario, Canada",
+  "latitude": 44.98986,
+  "longitude": -81.24213,
+  "ratingValue": 4.8,
+  "reviewCount": 607,
+  "worstRating": "0",
+  "bestRating": "5",
+  "images": [
+    "https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvNjIwNTQwMDMvYjgyN2JiNzQ0Yzg1NTAyNTk3Y2Q1NGFlNzdiOGJlM2UuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJ3ZWJwIiwicmVzaXplIjp7IndpZHRoIjoiNTAwIiwiaGVpZ2h0IjoiNTAwIiwiZml0IjoiaW5zaWRlIn0sInJvdGF0ZSI6bnVsbCwianBlZyI6eyJ0cmVsbGlzUXVhbnRpc2F0aW9uIjp0cnVlLCJvdmVyc2hvb3REZXJpbmdpbmciOnRydWUsIm9wdGltaXNlU2NhbnMiOnRydWUsInF1YW50aXNhdGlvblRhYmxlIjozfX19"
+  ],
+  "features": [
+    "Fee required",
+    "Forests",
+    "Lakes"
+  ],
+  "surfaceTypes": [
+    {
+      "label": "unknown",
+      "percentOfSurface": 99.34,
+      "totalLength": 10854.85
+    },
+    {
+      "label": "natural",
+      "percentOfSurface": 0.66,
+      "totalLength": 71.68
+    }
+  ],
+  "length": 10943.512,
+  "durationMinutes": 174,
+  "difficultyRating": "3",
+  "areaName": "Lion's Head Provincial Nature Reserve",
+  "popularity": 97.5887,
+  "terrainData": {
+    "rock": {
+      "rockType": " ",
+      "rockDescription": "Sandstone, shale, dolostone, siltstone",
+      "geologicProvince": " ",
+      "geologicEra": "PALEOZOIC (251.0 Ma to 542.0 Ma)",
+      "rockCategories": [
+        "carbonate_sedimentary",
+        "coarse_clastic_sedimentary",
+        "fine_clastic_sedimentary"
+      ],
+      "rockSlipRisk": "high"
+    },
+    "soil": {
+      "soilName": "SARGENT LOAM",
+      "texture": "loam",
+      "textureGroup": "loam",
+      "textureMudPotential": 1,
+      "drainage": "well",
+      "drainageRank": 2,
+      "slopePercent": 7.0,
+      "stoniness": 1,
+      "parentMaterial": null
+    },
+    "percentNearWater": 2.6,
+    "waterCrossingCount": 0
+  }
+}

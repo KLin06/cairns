@@ -1,0 +1,70 @@
+{
+  "trailId": "10236774",
+  "trailSlug": "trail/canada/ontario/bennett-heritage-trail",
+  "name": "Bennett Heritage Trail",
+  "description": "Head out on this 9.2-km loop trail near Ballinafad, Ontario. Generally considered a moderately challenging route, it takes an average of 2 h 0 min to complete. This is a very popular area for hiking and trail running, so you'll likely encounter other people while exploring. The trail is open year-round and is beautiful to visit anytime. Dogs are welcome, but must be on a leash.",
+  "addressLocality": "Ballinafad, Ontario, Canada",
+  "latitude": 43.68739,
+  "longitude": -79.9908,
+  "ratingValue": 4.6,
+  "reviewCount": 1461,
+  "worstRating": "0",
+  "bestRating": "5",
+  "images": [
+    "https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMTEwODg2MjU3LzFmZTY5MjVmYjY1NWY3ZTYxNWUyYmUwOGEwOGQxMDRlLmpwZyIsImVkaXRzIjp7InRvRm9ybWF0Ijoid2VicCIsInJlc2l6ZSI6eyJ3aWR0aCI6IjUwMCIsImhlaWdodCI6IjUwMCIsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ=="
+  ],
+  "features": [
+    "Dogs on leash",
+    "Kid-friendly",
+    "Rocky"
+  ],
+  "surfaceTypes": [
+    {
+      "label": "natural",
+      "percentOfSurface": 56.7,
+      "totalLength": 5200.2
+    },
+    {
+      "label": "unknown",
+      "percentOfSurface": 41.67,
+      "totalLength": 3821.91
+    },
+    {
+      "label": "wood",
+      "percentOfSurface": 1.63,
+      "totalLength": 149.91
+    }
+  ],
+  "length": 9173.238,
+  "durationMinutes": 120,
+  "difficultyRating": "3",
+  "areaName": "Silver Creek Conservation Area",
+  "popularity": 98.3448,
+  "terrainData": {
+    "rock": {
+      "rockType": " ",
+      "rockDescription": "Sandstone, shale, dolostone, siltstone",
+      "geologicProvince": " ",
+      "geologicEra": "PALEOZOIC (251.0 Ma to 542.0 Ma)",
+      "rockCategories": [
+        "carbonate_sedimentary",
+        "coarse_clastic_sedimentary",
+        "fine_clastic_sedimentary"
+      ],
+      "rockSlipRisk": "high"
+    },
+    "soil": {
+      "soilName": "DUMFRIES LOAM",
+      "texture": "loam",
+      "textureGroup": "loam",
+      "textureMudPotential": 1,
+      "drainage": "well",
+      "drainageRank": 2,
+      "slopePercent": 12.0,
+      "stoniness": 2,
+      "parentMaterial": null
+    },
+    "percentNearWater": 25.9,
+    "waterCrossingCount": 11
+  }
+}

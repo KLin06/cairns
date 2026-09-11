@@ -1,0 +1,64 @@
+{
+  "trailId": "10969060",
+  "trailSlug": "trail/canada/ontario/nassagaweya-gorge-trail",
+  "name": "Nassagaweya Gorge Trail",
+  "description": "Check out this 10.9-km out-and-back trail near Milton, Ontario. Generally considered a moderately challenging route, it takes an average of 2 h 40 min to complete. This is a very popular area for birding, hiking, and snowshoeing, so you'll likely encounter other people while exploring. The trail is open year-round and is beautiful to visit anytime. Dogs are welcome, but must be on a leash.",
+  "addressLocality": "Milton, Ontario, Canada",
+  "latitude": 43.46932,
+  "longitude": -79.91352,
+  "ratingValue": 4.7,
+  "reviewCount": 638,
+  "worstRating": "0",
+  "bestRating": "5",
+  "images": [
+    "https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvNDE3NjExMzMvNmJlMTJkMmIyYTEyMTQyMmE0NDcxNmY5YmViZjg0YTIuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJ3ZWJwIiwicmVzaXplIjp7IndpZHRoIjoiNTAwIiwiaGVpZ2h0IjoiNTAwIiwiZml0IjoiaW5zaWRlIn0sInJvdGF0ZSI6bnVsbCwianBlZyI6eyJ0cmVsbGlzUXVhbnRpc2F0aW9uIjp0cnVlLCJvdmVyc2hvb3REZXJpbmdpbmciOnRydWUsIm9wdGltaXNlU2NhbnMiOnRydWUsInF1YW50aXNhdGlvblRhYmxlIjozfX19"
+  ],
+  "features": [
+    "Fee required",
+    "Dogs on leash",
+    "Partially paved"
+  ],
+  "surfaceTypes": [
+    {
+      "label": "natural",
+      "percentOfSurface": 66.64,
+      "totalLength": 7286.8
+    },
+    {
+      "label": "unknown",
+      "percentOfSurface": 33.36,
+      "totalLength": 3647.55
+    }
+  ],
+  "length": 10943.512,
+  "durationMinutes": 160,
+  "difficultyRating": "3",
+  "areaName": "Rattlesnake Point Conservation Area",
+  "popularity": 98.2511,
+  "terrainData": {
+    "rock": {
+      "rockType": " ",
+      "rockDescription": "Shale, limestone, dolostone, siltstone",
+      "geologicProvince": " ",
+      "geologicEra": "PALEOZOIC (251.0 Ma to 542.0 Ma)",
+      "rockCategories": [
+        "carbonate_sedimentary",
+        "fine_clastic_sedimentary"
+      ],
+      "rockSlipRisk": "high"
+    },
+    "soil": {
+      "soilName": "GUELPH LOAM - SHALLOW PHASE",
+      "texture": "loam",
+      "textureGroup": "loam",
+      "textureMudPotential": 1,
+      "drainage": "well",
+      "drainageRank": 2,
+      "slopePercent": 7.0,
+      "stoniness": 2,
+      "parentMaterial": null
+    },
+    "percentNearWater": 2.2,
+    "waterCrossingCount": 1
+  }
+}

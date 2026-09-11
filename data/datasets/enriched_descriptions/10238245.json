@@ -1,0 +1,64 @@
+{
+  "trailId": "10238245",
+  "trailSlug": "trail/canada/ontario/red-oak-trail-the-maze-ogre-and-out-white-pine-trail",
+  "name": "Red Oak Trail - The Maze - Ogre and Out - White Pine Trail",
+  "description": "Try this 10.6-km loop trail near Uxbridge, Ontario. Generally considered a moderately challenging route, it takes an average of 3 h 23 min to complete. This is a very popular area for birding, cross-country skiing, and hiking, so you'll likely encounter other people while exploring. The trail is open year-round and is beautiful to visit anytime. Dogs are welcome, but must be on a leash.",
+  "addressLocality": "Uxbridge, Ontario, Canada",
+  "latitude": 44.05062,
+  "longitude": -79.09242,
+  "ratingValue": 4.6,
+  "reviewCount": 1207,
+  "worstRating": "0",
+  "bestRating": "5",
+  "images": [
+    "https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMzE5NTYxMDUvOTI4YmY2M2IzM2QwOGE1ZmFiMjkxMjBjNWZkMmYwZmMuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJ3ZWJwIiwicmVzaXplIjp7IndpZHRoIjoiNTAwIiwiaGVpZ2h0IjoiNTAwIiwiZml0IjoiaW5zaWRlIn0sInJvdGF0ZSI6bnVsbCwianBlZyI6eyJ0cmVsbGlzUXVhbnRpc2F0aW9uIjp0cnVlLCJvdmVyc2hvb3REZXJpbmdpbmciOnRydWUsIm9wdGltaXNlU2NhbnMiOnRydWUsInF1YW50aXNhdGlvblRhYmxlIjozfX19"
+  ],
+  "features": [
+    "Dogs on leash",
+    "Forests",
+    "Wildlife"
+  ],
+  "surfaceTypes": [
+    {
+      "label": "unknown",
+      "percentOfSurface": 99.47,
+      "totalLength": 10618.31
+    },
+    {
+      "label": "natural",
+      "percentOfSurface": 0.53,
+      "totalLength": 56.51
+    }
+  ],
+  "length": 10621.644,
+  "durationMinutes": 203,
+  "difficultyRating": "3",
+  "areaName": "Durham Regional Forest",
+  "popularity": 97.3877,
+  "terrainData": {
+    "rock": {
+      "rockType": " ",
+      "rockDescription": "Shale, limestone, dolostone, siltstone",
+      "geologicProvince": " ",
+      "geologicEra": "PALEOZOIC (251.0 Ma to 542.0 Ma)",
+      "rockCategories": [
+        "carbonate_sedimentary",
+        "fine_clastic_sedimentary"
+      ],
+      "rockSlipRisk": "high"
+    },
+    "soil": {
+      "soilName": "PONTYPOOL SAND",
+      "texture": "sand",
+      "textureGroup": "sand",
+      "textureMudPotential": 0,
+      "drainage": "rapid",
+      "drainageRank": 1,
+      "slopePercent": 22.5,
+      "stoniness": 0,
+      "parentMaterial": null
+    },
+    "percentNearWater": 0.0,
+    "waterCrossingCount": 0
+  }
+}

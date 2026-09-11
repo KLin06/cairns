@@ -1,0 +1,2848 @@
+[
+  {
+    "reviewId": 77356363,
+    "trailId": 10407252,
+    "comment": "Trail around Crawford lake is still under construction ",
+    "date": "2026-08-01T14:06:17.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 405040232.0
+  },
+  {
+    "reviewId": 76878475,
+    "trailId": 10407252,
+    "comment": "Great! We got lost closer to the lake but overall super fun!",
+    "date": "2026-07-29T19:16:18.000Z",
+    "rating": 5,
+    "difficulty": 3.0,
+    "activity": null,
+    "obstacles": [
+      "Obstructions",
+      "No bugs",
+      "Obstructions",
+      "Obstructions"
+    ],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 76227723,
+    "trailId": 10407252,
+    "comment": "Good conditions, however the bridge at Crawford lake is under construction so it’s hard to see the view",
+    "date": "2026-07-25T19:49:18.000Z",
+    "rating": 4,
+    "difficulty": 1.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 403010478.0
+  },
+  {
+    "reviewId": 74124422,
+    "trailId": 10407252,
+    "comment": "Great trail. Crawford lake trail is still closed for construction ",
+    "date": "2026-07-12T23:29:37.000Z",
+    "rating": 5,
+    "difficulty": 3.0,
+    "activity": null,
+    "obstacles": [
+      "Bugs",
+      "Buggy"
+    ],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 77734367,
+    "trailId": 10407252,
+    "comment": "The Crawford lake is blocked off. Not sure if you can get there off trail. Also a hat is a must, too many annoying bugs that were sticking to my head",
+    "date": "2026-07-11T13:47:52.000Z",
+    "rating": 4,
+    "difficulty": 1.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Bugs",
+      "Buggy"
+    ],
+    "hasRecording": true,
+    "recordingId": 405675545.0
+  },
+  {
+    "reviewId": 74278337,
+    "trailId": 10407252,
+    "comment": "Bring hiking poles",
+    "date": "2026-06-21T17:52:11.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 399520387.0
+  },
+  {
+    "reviewId": 70554962,
+    "trailId": 10407252,
+    "comment": "Its a lovely hike .. some parts were muddy and wet. We hiked to Crawford lake and back",
+    "date": "2026-06-20T14:50:53.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Muddy",
+      "Muddy"
+    ],
+    "hasRecording": true,
+    "recordingId": 392966136.0
+  },
+  {
+    "reviewId": 65341819,
+    "trailId": 10407252,
+    "comment": "Board walk closed around Crawford lake. The rest was beautiful",
+    "date": "2026-05-17T19:56:37.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 383791343.0
+  },
+  {
+    "reviewId": 62959678,
+    "trailId": 10407252,
+    "comment": "The crawford lake was closed and I only found out when i got there. Active construction so couldn’t do much. Great hike tho, would definitely do it again",
+    "date": "2026-04-21T17:32:26.000Z",
+    "rating": 4,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 376915396.0
+  },
+  {
+    "reviewId": 62785699,
+    "trailId": 10407252,
+    "comment": "Crawford lake trail is close",
+    "date": "2026-04-17T11:53:32.000Z",
+    "rating": 4,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [
+      "Obstructions"
+    ],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 375791399.0
+  },
+  {
+    "reviewId": 58549618,
+    "trailId": 10407252,
+    "comment": "The trail around the lake is closed due to cobstruction.",
+    "date": "2025-10-25T20:10:14.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 348074342.0
+  },
+  {
+    "reviewId": 58224004,
+    "trailId": 10407252,
+    "comment": "Crawford lake under construction :(",
+    "date": "2025-10-15T16:33:34.000Z",
+    "rating": 5,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [
+      "Obstructions"
+    ],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 346221259.0
+  },
+  {
+    "reviewId": 58168870,
+    "trailId": 10407252,
+    "comment": "Muddy but easy trail.",
+    "date": "2025-10-13T15:55:27.000Z",
+    "rating": 5,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [
+      "Muddy",
+      "Trash on trail"
+    ],
+    "trailConditions": [
+      "Muddy"
+    ],
+    "hasRecording": true,
+    "recordingId": 345881786.0
+  },
+  {
+    "reviewId": 58165435,
+    "trailId": 10407252,
+    "comment": "Nice trail but very busy….",
+    "date": "2025-10-13T13:26:05.000Z",
+    "rating": 4,
+    "difficulty": 3.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 345863772.0
+  },
+  {
+    "reviewId": 57741623,
+    "trailId": 10407252,
+    "comment": "Very nice trail. A must do type.",
+    "date": "2025-10-02T14:33:13.000Z",
+    "rating": 5,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [
+      "No bugs",
+      "Well maintained"
+    ],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 343586858.0
+  },
+  {
+    "reviewId": 57674106,
+    "trailId": 10407252,
+    "comment": "Just follow the markings, I got lost in between because I missed a mark.\n\nEasy but long, not so many views because you are walking in the forest.",
+    "date": "2025-09-29T14:36:36.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 343050727.0
+  },
+  {
+    "reviewId": 57540793,
+    "trailId": 10407252,
+    "comment": "Great views. Well maintained. Leaves are starting to change colour.",
+    "date": "2025-09-27T12:15:52.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 342493826.0
+  },
+  {
+    "reviewId": 57261961,
+    "trailId": 10407252,
+    "comment": "Laws of human nature, chapter 12",
+    "date": "2025-09-19T16:37:59.000Z",
+    "rating": 5,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [
+      "Overgrown",
+      "Poisonous plants",
+      "No bugs",
+      "Wildflowers",
+      "Well maintained"
+    ],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 340929351.0
+  },
+  {
+    "reviewId": 57195273,
+    "trailId": 10407252,
+    "comment": "This was a pretty good and easy hike with a couple of good views, but most of trail is through the forest. The boardwalk around Crawford Lake seemed to be in need of some maintenance. Also there are only a few spots with a good view of the lake, most of it is obstructed by trees. Good hike to be in nature but the views were underwhelming.",
+    "date": "2025-09-16T17:11:39.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 340391572.0
+  },
+  {
+    "reviewId": 57060070,
+    "trailId": 10407252,
+    "comment": "Hard trail",
+    "date": "2025-09-13T18:14:40.000Z",
+    "rating": 5,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 339768865.0
+  },
+  {
+    "reviewId": 56674232,
+    "trailId": 10407252,
+    "comment": "I expected the trail to be more scenic.",
+    "date": "2025-09-02T15:24:41.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Scenic driving",
+    "obstacles": [
+      "Bugs",
+      "Well maintained"
+    ],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 337505918.0
+  },
+  {
+    "reviewId": 56570655,
+    "trailId": 10407252,
+    "comment": "There is a lookout spot with a beautiful view",
+    "date": "2025-08-31T18:42:27.000Z",
+    "rating": 5,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 337030733.0
+  },
+  {
+    "reviewId": 56280397,
+    "trailId": 10407252,
+    "comment": "Went on weekend. Slightly muddy near the drainage ditches, lots of families/slower walkers at Crawford Lake. Views are great.",
+    "date": "2025-08-24T18:00:23.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Muddy"
+    ],
+    "hasRecording": true,
+    "recordingId": 335440430.0
+  },
+  {
+    "reviewId": 55660261,
+    "trailId": 10407252,
+    "comment": "Hard",
+    "date": "2025-08-09T20:40:57.000Z",
+    "rating": 4,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 332057183.0
+  },
+  {
+    "reviewId": 55648765,
+    "trailId": 10407252,
+    "comment": "Easy to moderate hike. Awesome views.",
+    "date": "2025-08-09T11:45:10.000Z",
+    "rating": 4,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 331927619.0
+  },
+  {
+    "reviewId": 55292192,
+    "trailId": 10407252,
+    "comment": "Beautiful trail, great lookouts along the way, varied terrain, easy access from the parking lot.  The trail is well-marked and well-travelled.  After a rain, I imagine that parts would be slippery (rocks and wooden boardwalk).  Not too buggy for early August!",
+    "date": "2025-08-01T13:24:53.000Z",
+    "rating": 5,
+    "difficulty": 3.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Slippery"
+    ],
+    "hasRecording": true,
+    "recordingId": 330060315.0
+  },
+  {
+    "reviewId": 55136366,
+    "trailId": 10407252,
+    "comment": "It was a bit muddy when we entered Crawford Lake from Rattlesnake Point. Expect a lot of climbing in Crawford Lake. It was fun tho and our group enjoyed it ",
+    "date": "2025-07-26T14:33:55.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Muddy"
+    ],
+    "hasRecording": true,
+    "recordingId": 328791521.0
+  },
+  {
+    "reviewId": 54934037,
+    "trailId": 10407252,
+    "comment": "Some parts were rocky. I diverged a bit from the main trail to be closer to the cliff where it was more rocky. All in all pretty fun hike. Decent challenge",
+    "date": "2025-07-23T16:15:35.000Z",
+    "rating": 5,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 328164619.0
+  },
+  {
+    "reviewId": 54859302,
+    "trailId": 10407252,
+    "comment": "Great , The only issue was that the victors center closes at 4:30 on Sunday ",
+    "date": "2025-07-21T18:34:46.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": null,
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 54507544,
+    "trailId": 10407252,
+    "comment": "Beautiful day, lovely walk. Not much to say, pretty simple trail… buggy yes, but that’s just the time of year!",
+    "date": "2025-07-13T16:10:40.000Z",
+    "rating": 5,
+    "difficulty": 1.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Bugs"
+    ],
+    "hasRecording": true,
+    "recordingId": 326057146.0
+  },
+  {
+    "reviewId": 54164518,
+    "trailId": 10407252,
+    "comment": "so far the most life i've seen in my hikes. snek, spooders, chimps, and frogs",
+    "date": "2025-07-05T17:39:06.000Z",
+    "rating": 5,
+    "difficulty": 3.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 324270713.0
+  },
+  {
+    "reviewId": 54004349,
+    "trailId": 10407252,
+    "comment": "July 1 hike! A little slippery, muddy, and very buggy but we hit the trails early at 8:30am from Crawford Lake and didn’t see more than a couple folks until we hit Rattlesnake. It did get busy after that but always a pleasant trail.",
+    "date": "2025-07-01T12:42:53.000Z",
+    "rating": 5,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [
+      "Bugs",
+      "Muddy",
+      "Well maintained"
+    ],
+    "trailConditions": [
+      "Bugs",
+      "Muddy",
+      "Slippery"
+    ],
+    "hasRecording": true,
+    "recordingId": 323471647.0
+  },
+  {
+    "reviewId": 53384528,
+    "trailId": 10407252,
+    "comment": "Rattle snake to crawford lake is 10km trail, first 3 km is plain track and afterward couple of hikes in loop. Alot of mosquitos, however views are worth watching",
+    "date": "2025-06-15T21:33:56.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Bugs",
+      "Overgrown"
+    ],
+    "trailConditions": [
+      "Bugs"
+    ],
+    "hasRecording": true,
+    "recordingId": 320178881.0
+  },
+  {
+    "reviewId": 53322940,
+    "trailId": 10407252,
+    "comment": "Lots of up and down. Fucked my lungs up.",
+    "date": "2025-06-14T16:21:14.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 319841254.0
+  },
+  {
+    "reviewId": 53247589,
+    "trailId": 10407252,
+    "comment": "Trails vary from easy to moderate. Expect some steep sections.",
+    "date": "2025-06-12T14:36:46.000Z",
+    "rating": 5,
+    "difficulty": 3.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 319467430.0
+  },
+  {
+    "reviewId": 53189440,
+    "trailId": 10407252,
+    "comment": "This trail has 3 main sections: \n\nRattlesnake point: a trail that tracks along the escarpment and has some beautiful views \n\nCrawford Lake: a scenic raised boardwalk trail around a pretty little lake \n\nPath adjoining the two parks: a beautiful canopied area with a lot of ups and downs. \n\nOverall a great hike with some cool payoffs. 13 dollar entrance fee.",
+    "date": "2025-06-10T23:24:27.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": null,
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 53110275,
+    "trailId": 10407252,
+    "comment": "Family friendly with not to challenging elevations, but enough to get a breathe out of you. Beautiful scenery with areas to stop. Lots of roots and stones so recommended proper foot protection.",
+    "date": "2025-06-08T17:24:01.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Muddy"
+    ],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 318733480.0
+  },
+  {
+    "reviewId": 53096299,
+    "trailId": 10407252,
+    "comment": "This is a paid area, might want to make reservations on weekends and go early, as I was leaving buses of people showed up.",
+    "date": "2025-06-08T14:29:03.000Z",
+    "rating": 5,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 318671345.0
+  },
+  {
+    "reviewId": 53269037,
+    "trailId": 10407252,
+    "comment": "Some sections can be really muddy so I’d recommend proper hiking shoes - saw some people struggling in certain sections from not having the right shoes. If you’re lucky you might see the foxes and/or salamanders. Bring bug spray. It was pretty busy on a Saturday so I’d recommend reserving online ahead of timeor coming on a weekday if you can.",
+    "date": "2025-06-07T19:15:54.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Bugs",
+      "Muddy"
+    ],
+    "hasRecording": true,
+    "recordingId": 318494243.0
+  },
+  {
+    "reviewId": 53060485,
+    "trailId": 10407252,
+    "comment": "Took 2 cars, parked one at Rattlesnake and then parked the other at Crawford. Started at Crawford Lake with the loop trail, then did the canyon trail to rattlesnake. Great views",
+    "date": "2025-06-07T17:32:47.000Z",
+    "rating": 5,
+    "difficulty": 3.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 318507532.0
+  },
+  {
+    "reviewId": 52266723,
+    "trailId": 10407252,
+    "comment": "Great trail! Didn't even need to use bugspray on my visit. Super nice views, and about 2-3 hours to do the Crawford lake route. Reasonable inclines spread out through the trail. ",
+    "date": "2025-05-18T17:39:31.000Z",
+    "rating": 5,
+    "difficulty": 3.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 314474200.0
+  },
+  {
+    "reviewId": 52117835,
+    "trailId": 10407252,
+    "comment": "Absolutely beautiful trail. My only complaint was that someone was flying a drone over Crawford lake the entire time I was there and it was very disruptive. Other than that, highly recommend",
+    "date": "2025-05-14T17:26:08.000Z",
+    "rating": 4,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 313688905.0
+  },
+  {
+    "reviewId": 51974255,
+    "trailId": 10407252,
+    "comment": "Sight view of the Crawford lake trail is more enjoyable than the rattlesnake point part. The trail is in good condition for walking but not delightful if you are looking for views.",
+    "date": "2025-05-10T18:14:40.000Z",
+    "rating": 3,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 312929066.0
+  },
+  {
+    "reviewId": 51899190,
+    "trailId": 10407252,
+    "comment": "Such a great hike. \nIt's about three km's longer than stated if you go around Crawford Lake at the end, before you turn back.\nGreat views.\nA bit mucky on the Crawford Lake side of the ravine. \n",
+    "date": "2025-05-08T19:07:41.000Z",
+    "rating": 5,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 312544174.0
+  },
+  {
+    "reviewId": 51627711,
+    "trailId": 10407252,
+    "comment": "Going in late spring/early summer means seeing white and red trilliums everywhere. They’re a protected flower in Ontario so don’t pick them! ",
+    "date": "2025-05-01T13:20:44.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": null,
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 51297409,
+    "trailId": 10407252,
+    "comment": "Nice trails with good views along the cliff side. Crawford lake is small but beautiful and the boardwalk around it is nice. We took a deviation on our return through Crawford conservation area (check my trail recording) and that was quieter and a good change of scenery vs. the in and out route.",
+    "date": "2025-04-21T15:02:02.000Z",
+    "rating": 5,
+    "difficulty": 1.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 309317678.0
+  },
+  {
+    "reviewId": 50472052,
+    "trailId": 10407252,
+    "comment": "Trail slightly muddy in spots but otherwise in great shape. Not a lot of foliage this time of year but always good views off the ridge and pleasant walk around Crawford Lake.",
+    "date": "2025-03-28T17:31:14.000Z",
+    "rating": 4,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Muddy"
+    ],
+    "hasRecording": true,
+    "recordingId": 305033106.0
+  },
+  {
+    "reviewId": 49844094,
+    "trailId": 10407252,
+    "comment": "Trail gets harder as you progress. Very icy this time of the year.",
+    "date": "2025-03-07T16:18:15.000Z",
+    "rating": 4,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [
+      "Snow",
+      "Icy"
+    ],
+    "trailConditions": [
+      "Icy"
+    ],
+    "hasRecording": true,
+    "recordingId": 301640722.0
+  },
+  {
+    "reviewId": 48484378,
+    "trailId": 10407252,
+    "comment": "Awesome views and great workout with the different elevations! Very easy to follow and nicely marked trail!!!",
+    "date": "2025-01-04T18:11:38.000Z",
+    "rating": 5,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [
+      "Icy"
+    ],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 293824370.0
+  },
+  {
+    "reviewId": 48112481,
+    "trailId": 10407252,
+    "comment": "A good workout and good views a few patches of ice, but beautiful sunny trail not crowded",
+    "date": "2024-12-22T13:58:25.000Z",
+    "rating": 5,
+    "difficulty": 3.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Icy"
+    ],
+    "hasRecording": true,
+    "recordingId": 291931702.0
+  },
+  {
+    "reviewId": 47528212,
+    "trailId": 10407252,
+    "comment": "The trail gets harder later on.",
+    "date": "2024-11-17T16:06:31.000Z",
+    "rating": 5,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 288376706.0
+  },
+  {
+    "reviewId": 47310373,
+    "trailId": 10407252,
+    "comment": "Parking cost $10.50 per person, didn't charge by car",
+    "date": "2024-11-09T18:13:56.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 287264000.0
+  },
+  {
+    "reviewId": 47690256,
+    "trailId": 10407252,
+    "comment": "Popular so it pays to arrive early. Fall leaves were a bit past their best.",
+    "date": "2024-11-03T13:54:57.000Z",
+    "rating": 5,
+    "difficulty": 3.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 289296778.0
+  },
+  {
+    "reviewId": 47108122,
+    "trailId": 10407252,
+    "comment": "Beautiful in the fall!! Easy trail with some moderate slopes, and a few great viewpoints along the path.",
+    "date": "2024-11-02T16:34:03.000Z",
+    "rating": 5,
+    "difficulty": 1.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 286238935.0
+  },
+  {
+    "reviewId": 46951740,
+    "trailId": 10407252,
+    "comment": "This place is getting busier!",
+    "date": "2024-10-27T14:41:45.000Z",
+    "rating": 4,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 285421102.0
+  },
+  {
+    "reviewId": 46939448,
+    "trailId": 10407252,
+    "comment": "Not very difficult. The sections with elevation gains were very manageable. Beautiful views and pretty creek.",
+    "date": "2024-10-27T14:11:01.000Z",
+    "rating": 5,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 285371827.0
+  },
+  {
+    "reviewId": 46746650,
+    "trailId": 10407252,
+    "comment": "Great trail to hike in the fall!",
+    "date": "2024-10-21T19:08:33.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 284413120.0
+  },
+  {
+    "reviewId": 46705249,
+    "trailId": 10407252,
+    "comment": "Nice out and back trail with nice view of fall colours at look outs. It gets pretty busy closer to rattlesnake point. \n\nAlso, the closer you get to rattlesnake point conservation… the more it smells like literal feces. Kind of ruined that experience.",
+    "date": "2024-10-20T20:27:59.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": null,
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 46704986,
+    "trailId": 10407252,
+    "comment": "Great views and conditions.  Very cool indigenous house replicas",
+    "date": "2024-10-20T15:00:02.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 284242602.0
+  },
+  {
+    "reviewId": 46664033,
+    "trailId": 10407252,
+    "comment": "Amazing but crowded ",
+    "date": "2024-10-20T03:05:55.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": null,
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 46603014,
+    "trailId": 10407252,
+    "comment": "Great conditions, some areas can be slippery if there are wet rocks/mud. Make sure to wear proper shoes. Some nice side trails as well ",
+    "date": "2024-10-18T22:22:28.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": null,
+    "obstacles": [],
+    "trailConditions": [
+      "Muddy",
+      "Slippery"
+    ],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 46602951,
+    "trailId": 10407252,
+    "comment": "Nice moderate hike, some nice side trails as well. Some areas can be slippery if the ground/rocks are wet. Make sure to wear proper shoes!",
+    "date": "2024-10-18T12:35:42.000Z",
+    "rating": 5,
+    "difficulty": 3.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Slippery"
+    ],
+    "hasRecording": true,
+    "recordingId": 283803730.0
+  },
+  {
+    "reviewId": 46568088,
+    "trailId": 10407252,
+    "comment": "Amazing as always.",
+    "date": "2024-10-17T14:51:25.000Z",
+    "rating": 5,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 283621677.0
+  },
+  {
+    "reviewId": 46571106,
+    "trailId": 10407252,
+    "comment": "It was a picture perfect day. Entrance fee to get in. A few dollars cheaper to do it ahead online. Moderate trail. Hiking poles are not a bad idea.",
+    "date": "2024-10-17T14:26:14.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 283637865.0
+  },
+  {
+    "reviewId": 46488952,
+    "trailId": 10407252,
+    "comment": "Some of the trails/viewpoints are closed. Disappointed with the closure of several viewpoints along the boardwalk of the lake. Very busy on the Thanksgiving day. Thousands of people are here, long queue for a single toilet for all men and women.",
+    "date": "2024-10-14T14:29:31.000Z",
+    "rating": 5,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 283116937.0
+  },
+  {
+    "reviewId": 46333307,
+    "trailId": 10407252,
+    "comment": "The trails and view is good. But if you're coming for fall colour. Probably wait for another week or two. They are still pretty green and only some of tips turning orange.",
+    "date": "2024-10-11T17:00:59.000Z",
+    "rating": 5,
+    "difficulty": 0.0,
+    "activity": null,
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 45895603,
+    "trailId": 10407252,
+    "comment": "Beautiful trail not too busy, a small mudy section on the incline but otherwise not too bad. Very enjoyable, good mix of different sections.",
+    "date": "2024-09-30T15:00:29.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 280755654.0
+  },
+  {
+    "reviewId": 45866803,
+    "trailId": 10407252,
+    "comment": "This was the best trail at the conservation area. Moderate difficulty and some mud in one area (heavy rain yesterday). Well marked and maintained path. Would definitely recommend!",
+    "date": "2024-09-29T21:13:50.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": null,
+    "obstacles": [],
+    "trailConditions": [
+      "Muddy"
+    ],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 45827255,
+    "trailId": 10407252,
+    "comment": "too muddy and elevation gain is crazy\n",
+    "date": "2024-09-29T04:41:59.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": null,
+    "obstacles": [],
+    "trailConditions": [
+      "Muddy"
+    ],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 45768245,
+    "trailId": 10407252,
+    "comment": "Amazing views. Trails are well maintained ",
+    "date": "2024-09-27T15:01:53.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 280183623.0
+  },
+  {
+    "reviewId": 45714965,
+    "trailId": 10407252,
+    "comment": "very nice trail good views and vibes scary at night most definitely ",
+    "date": "2024-09-25T14:00:47.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 279881043.0
+  },
+  {
+    "reviewId": 45252371,
+    "trailId": 10407252,
+    "comment": "Awesome trail lots of water snacks bug spray good hiking boots steep hills ",
+    "date": "2024-09-13T12:48:36.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Bugs"
+    ],
+    "hasRecording": true,
+    "recordingId": 277608728.0
+  },
+  {
+    "reviewId": 45225264,
+    "trailId": 10407252,
+    "comment": "Awesome! Only God can do these wonderful things.",
+    "date": "2024-09-12T14:53:32.000Z",
+    "rating": 5,
+    "difficulty": 0.0,
+    "activity": "Walking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 277456288.0
+  },
+  {
+    "reviewId": 45177350,
+    "trailId": 10407252,
+    "comment": "The view at the beginning of the trail is great and the lake at the end is very much worth seeing. Trail conditions were good and the path was well maintained",
+    "date": "2024-09-10T19:21:58.000Z",
+    "rating": 5,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 277190471.0
+  },
+  {
+    "reviewId": 45105966,
+    "trailId": 10407252,
+    "comment": "The trail was busy today but conditions were great. Trail was wide in parts and well marked. Recommend",
+    "date": "2024-09-08T16:42:30.000Z",
+    "rating": 5,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 276848736.0
+  },
+  {
+    "reviewId": 45105147,
+    "trailId": 10407252,
+    "comment": "Great trail close to Toronto! Crawford Lake was really pretty and it's got a good amount of terrain changes and nice views throughout!",
+    "date": "2024-09-08T16:34:21.000Z",
+    "rating": 5,
+    "difficulty": 1.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 276845535.0
+  },
+  {
+    "reviewId": 44530321,
+    "trailId": 10407252,
+    "comment": "Well groomed and accessible trail with nice lookout points, and clear signage. Most of the hike is under the tree canopy so not so exposed to sun and rain.",
+    "date": "2024-08-25T14:38:00.000Z",
+    "rating": 4,
+    "difficulty": 1.0,
+    "activity": "Hiking",
+    "obstacles": [
+      "Bugs"
+    ],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 44475332,
+    "trailId": 10407252,
+    "comment": "Great trail, not too busy.",
+    "date": "2024-08-25T12:38:44.000Z",
+    "rating": 5,
+    "difficulty": 3.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 274017455.0
+  },
+  {
+    "reviewId": 44442487,
+    "trailId": 10407252,
+    "comment": "We did the well marked rattlesnake trail to Crawford but then came back via the Bruce trail. Very fun, changing terrains.. lot of bugs though.",
+    "date": "2024-08-24T19:07:16.000Z",
+    "rating": 5,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Bugs"
+    ],
+    "hasRecording": true,
+    "recordingId": 273885388.0
+  },
+  {
+    "reviewId": 44199161,
+    "trailId": 10407252,
+    "comment": "Wonderful hike despite the rain - trees kept me dry enough. I wish I had brought bugs spray! I was unprepared for the mosquitoes. Other than that, it was great.",
+    "date": "2024-08-18T15:58:25.000Z",
+    "rating": 5,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Bugs"
+    ],
+    "hasRecording": true,
+    "recordingId": 272753327.0
+  },
+  {
+    "reviewId": 44011903,
+    "trailId": 10407252,
+    "comment": "Signs aren’t clear ",
+    "date": "2024-08-14T16:52:40.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": null,
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 43993087,
+    "trailId": 10407252,
+    "comment": "Solid hike (for GTA standards) with a variety of terrains and a couple of nice viewpoints. ",
+    "date": "2024-08-14T04:45:42.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": null,
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 43605377,
+    "trailId": 10407252,
+    "comment": "It was just what I needed today. Not too hard but still worked up a sweat.",
+    "date": "2024-08-04T18:26:41.000Z",
+    "rating": 4,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 270043448.0
+  },
+  {
+    "reviewId": 42970824,
+    "trailId": 10407252,
+    "comment": "Great views, some up and down for exercise, no mosquitoes today!\nA little part close to Crawford Lake is muddy.",
+    "date": "2024-07-20T17:10:25.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Muddy"
+    ],
+    "hasRecording": true,
+    "recordingId": 267146612.0
+  },
+  {
+    "reviewId": 42958668,
+    "trailId": 10407252,
+    "comment": "Great views and very good condition. Bugs issue was better than I thought. Spray is necessary tho",
+    "date": "2024-07-20T14:44:52.000Z",
+    "rating": 5,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [
+      "Bugs",
+      "Muddy"
+    ],
+    "trailConditions": [
+      "Bugs"
+    ],
+    "hasRecording": true,
+    "recordingId": 267097978.0
+  },
+  {
+    "reviewId": 42042041,
+    "trailId": 10407252,
+    "comment": "Went in July and there were a lot of mosquitos. Being extra clothes and a towel, and some snacks. It becomes a little tight in some wolves so make sure you have the gear , especially shoes",
+    "date": "2024-07-14T18:45:24.000Z",
+    "rating": 5,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Bugs"
+    ],
+    "hasRecording": true,
+    "recordingId": 266082314.0
+  },
+  {
+    "reviewId": 41701978,
+    "trailId": 10407252,
+    "comment": "Trail is marked clearly and easy to follow. Spray recommended! Can be very buggy this time of year. \n\nThe path can also get quite muddy on rainy days, would suggest bringing hiking boots  if there's been a lot of rain!",
+    "date": "2024-07-12T18:59:45.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Bugs",
+      "Muddy"
+    ],
+    "hasRecording": true,
+    "recordingId": 265654870.0
+  },
+  {
+    "reviewId": 41051042,
+    "trailId": 10407252,
+    "comment": "bring bug spray because today they are super actives ",
+    "date": "2024-07-04T13:19:13.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Bugs"
+    ],
+    "hasRecording": true,
+    "recordingId": 264118358.0
+  },
+  {
+    "reviewId": 40168076,
+    "trailId": 10407252,
+    "comment": "A very nice and easy trail. A bit muddy. No mosquitoes ",
+    "date": "2024-06-10T14:28:17.000Z",
+    "rating": 4,
+    "difficulty": 0.0,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Muddy"
+    ],
+    "hasRecording": true,
+    "recordingId": 259898664.0
+  },
+  {
+    "reviewId": 40081352,
+    "trailId": 10407252,
+    "comment": "Its an awesome trail Great 13km walk ",
+    "date": "2024-06-08T17:09:19.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": null,
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 259551974.0
+  },
+  {
+    "reviewId": 39949616,
+    "trailId": 10407252,
+    "comment": "Muddy at some parts and bugs otherwise nice :P",
+    "date": "2024-06-04T17:45:52.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": null,
+    "obstacles": [],
+    "trailConditions": [
+      "Bugs",
+      "Muddy"
+    ],
+    "hasRecording": true,
+    "recordingId": 258891356.0
+  },
+  {
+    "reviewId": 39439665,
+    "trailId": 10407252,
+    "comment": "Great hike! Not muddy. Perfect conditions!",
+    "date": "2024-05-21T18:36:27.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 256469962.0
+  },
+  {
+    "reviewId": 39279950,
+    "trailId": 10407252,
+    "comment": "One of my favourite trails as always. Please clean up after yourself!",
+    "date": "2024-05-16T12:01:23.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 255535475.0
+  },
+  {
+    "reviewId": 39085397,
+    "trailId": 10407252,
+    "comment": "Good lookout points. \nDog friendly. \nClean. \nVery spacious. ",
+    "date": "2024-05-08T23:42:29.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 38299907,
+    "trailId": 10407252,
+    "comment": "Really great hike spot. A lot of different sections with great views of outlooks, boardwalks, lakes. A bit of mud in some spots, good to wear boots. Good inclines and rocky trails.\nThere's sections that look good for families to walk but a lot of great options for more advanced hiking.\nSome alternative trails to take that loop back into the main trail if you dont want to walk the same trail on the way back.\n",
+    "date": "2024-03-31T14:23:57.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Muddy"
+    ],
+    "hasRecording": true,
+    "recordingId": 248420957.0
+  },
+  {
+    "reviewId": 38369163,
+    "trailId": 10407252,
+    "comment": "Nice walk but I didn’t like having to pay $20 in fees to do it. It was a pretty average hike and it wasn’t worth the entry fees in my opinion. \nThe trail was pretty muddy especially when walking up hill towards Crawford lake so I’d recommend wearing hiking boots and bringing crampons or walking poles to help stay upright while walking through the mud.",
+    "date": "2024-03-30T12:48:46.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Muddy",
+      "Snow",
+      "Icy"
+    ],
+    "hasRecording": true,
+    "recordingId": 248162808.0
+  },
+  {
+    "reviewId": 37985694,
+    "trailId": 10407252,
+    "comment": "Beautiful trail. Footwear choice is important! It is muddy and there are a lot of tree roots and uneven terrain. We heard coyotes yipping and howling around 7pm as we were leaving. Awesome hike!",
+    "date": "2024-03-13T20:03:33.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Muddy"
+    ],
+    "hasRecording": true,
+    "recordingId": 245788019.0
+  },
+  {
+    "reviewId": 37202066,
+    "trailId": 10407252,
+    "comment": "Awesome trail! The snow is packed down on the trail which was nice! Not too slippery but wore crampons anyway which I always like in the winter! Beautiful day for it! Definitely busier around Crawford Lake as opposed to the rest of the trail!",
+    "date": "2024-01-21T14:32:16.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Snow",
+      "Icy"
+    ],
+    "hasRecording": true,
+    "recordingId": 233565931.0
+  },
+  {
+    "reviewId": 36910423,
+    "trailId": 10407252,
+    "comment": "Fantastic but smell from nearby factory near Crawford Lake was disgusting",
+    "date": "2023-12-17T16:05:56.000Z",
+    "rating": 3,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 228087614.0
+  },
+  {
+    "reviewId": 36204749,
+    "trailId": 10407252,
+    "comment": "-Nice adventure\n-Little muddy go geared\n-Had fun birdwatching ",
+    "date": "2023-11-05T13:03:09.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Muddy"
+    ],
+    "hasRecording": true,
+    "recordingId": 215710912.0
+  },
+  {
+    "reviewId": 36177951,
+    "trailId": 10407252,
+    "comment": "A cool November walk. A little muddy after the rain, leaves mostly off the trees near Crawford lake. ",
+    "date": "2023-11-04T15:00:08.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Muddy"
+    ],
+    "hasRecording": true,
+    "recordingId": 215338554.0
+  },
+  {
+    "reviewId": 36612779,
+    "trailId": 10407252,
+    "comment": "Good trail well maintained",
+    "date": "2023-11-04T13:07:44.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 215333697.0
+  },
+  {
+    "reviewId": 36127530,
+    "trailId": 10407252,
+    "comment": "Completed the trail on Oct 29\nReservation needed to pass through the gate (available online) or can be purchased at gate based on availability \nMuddy trail paths seen in minor places\nDidn't see too many bugs\nBeautiful view points\nCrawford lake was quiet and peaceful\nPet friendly trail, but dogs were on leash\nGot to learn about Longhouse tribe people near Crawford lake visitor center",
+    "date": "2023-10-30T21:47:02.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Great!"
+    ],
+    "trailConditions": [
+      "Muddy"
+    ],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 36050952,
+    "trailId": 10407252,
+    "comment": "Wet and muddy due to recent rain. Great fall colors!",
+    "date": "2023-10-26T14:31:32.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Muddy"
+    ],
+    "hasRecording": true,
+    "recordingId": 213256994.0
+  },
+  {
+    "reviewId": 36027145,
+    "trailId": 10407252,
+    "comment": "Great trail.  Wonderful fall walk in the perfect day. Can be as short as 1 min from parking to hours along the trails.  Will be back.",
+    "date": "2023-10-24T16:04:22.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 212858865.0
+  },
+  {
+    "reviewId": 35992805,
+    "trailId": 10407252,
+    "comment": "Paid. Was crowded, but lovely views, awesome fall leaves. Definitely not an easy hike, my foot bled...",
+    "date": "2023-10-22T17:19:32.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Great!"
+    ],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 212392914.0
+  },
+  {
+    "reviewId": 35867308,
+    "trailId": 10407252,
+    "comment": "Was wet today.\nMostly flat trail w a few up's and downs. Falls colours aren't in full yet. The look out is nice and about 5 mins beyond that. And a smallish Cave feature after. . Wasn't long to get there. Nothing much to see along the way.\n\nWent to Carson lake. Hmmm nothing crazy to brag about. I'd prob skip this bit. \n",
+    "date": "2023-10-15T17:50:05.000Z",
+    "rating": 3,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 210420571.0
+  },
+  {
+    "reviewId": 35857398,
+    "trailId": 10407252,
+    "comment": "A little muddy but ",
+    "date": "2023-10-15T14:27:11.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Muddy"
+    ],
+    "hasRecording": true,
+    "recordingId": 210304927.0
+  },
+  {
+    "reviewId": 35862806,
+    "trailId": 10407252,
+    "comment": "some challenging parts, especially steep inclines. lots of technical sections with rock and roots to make it interesting. very muddy in parts so careful of slip hazards.  wear proper shoes.  crevices are a nice area to explore and the escarpment views are pretty but fall are not been very vibrant at this time.  good break at the lake to take it some water serenity.  the boardwalk around the lake was a nice touch.",
+    "date": "2023-10-15T12:39:57.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Muddy",
+      "Slippery"
+    ],
+    "hasRecording": true,
+    "recordingId": 210326377.0
+  },
+  {
+    "reviewId": 35746929,
+    "trailId": 10407252,
+    "comment": "Lots of people near the parking lots but not crowded. Good fractals",
+    "date": "2023-10-09T15:19:12.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 208501520.0
+  },
+  {
+    "reviewId": 35687745,
+    "trailId": 10407252,
+    "comment": "root and rocks but not much incline",
+    "date": "2023-10-07T15:24:22.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 207697966.0
+  },
+  {
+    "reviewId": 35681432,
+    "trailId": 10407252,
+    "comment": "Nice trail but super crowded. Go early.",
+    "date": "2023-10-07T15:21:07.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 207671864.0
+  },
+  {
+    "reviewId": 35424443,
+    "trailId": 10407252,
+    "comment": "Beautiful, well maintained trail 95% of the way. Small stretch that was slightly muddy. Not an issue at all for me this morning as we have not had much rain lately, but, I could see it being slippery under wet conditions.\n\nBusy trail so be prepared to see folks walking dogs, running, etc. Trail is wide with nice lookouts and the boardwalk loop around Crawford Lake was in good condition. \n\nNo bugs today, bonus. :) ",
+    "date": "2023-09-24T12:38:43.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Muddy",
+      "Slippery"
+    ],
+    "hasRecording": true,
+    "recordingId": 203459206.0
+  },
+  {
+    "reviewId": 35392151,
+    "trailId": 10407252,
+    "comment": "MAKE SURE TO PAY FOR A PARKING ON THEIR WEBSITE BEFORE YOU COME. Pros: \nGreat hiking trail through shaded forest and wetland. The terrain gets very rocky at times which can make it pretty challenging but the views are amazing. Bug spray is needed just like on all hikes, but shade makes sunscreen not necessary.  Not too much mud and the trail is mostly flat. There are a lot of alternative routes you can take to make your journey more interesting. \nCons:\nYou must pay to access the trails and since it’s paid, the route is maintained very well. I personally like trails which have a more wild feel to them. This place also gets a lot of traction especially at noon due to rock climbing, so if you want to experience the silence of the forest, come at 8:30 (which is when it opens). Overall very positive experience, especially from the side trail routes.",
+    "date": "2023-09-23T12:59:39.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Bugs"
+    ],
+    "hasRecording": true,
+    "recordingId": 203072934.0
+  },
+  {
+    "reviewId": 35285386,
+    "trailId": 10407252,
+    "comment": "Buggy but nice.",
+    "date": "2023-09-17T17:05:35.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Bugs"
+    ],
+    "hasRecording": true,
+    "recordingId": 201382457.0
+  },
+  {
+    "reviewId": 35023958,
+    "trailId": 10407252,
+    "comment": "Very rocky on some areas and was worth it. We went all the way to Crawford Lake.",
+    "date": "2023-09-04T16:06:42.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 197774894.0
+  },
+  {
+    "reviewId": 34956717,
+    "trailId": 10407252,
+    "comment": "Easy mostly flat trail. The view at the lake is okay, lots of mosquitos even with bug spray.",
+    "date": "2023-09-02T19:30:00.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Bugs"
+    ],
+    "hasRecording": true,
+    "recordingId": 197044111.0
+  },
+  {
+    "reviewId": 34876688,
+    "trailId": 10407252,
+    "comment": "August 2023 - park at the lower lot. The entrance to the trail is to the left of the information board (the right entrance is closed for construction to the trail).  Keep walking until buffalo crag lookout. For some reason the next part of the trail has that orange construction fence.  Ignore it and keep walking ahead to Crawford lake. The trail is maintained and lots of people were using it. A comfortable hike should take around 3 hours for a total of 11km.  This was my second time doing this hike.",
+    "date": "2023-08-29T15:25:15.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 195922494.0
+  },
+  {
+    "reviewId": 34675035,
+    "trailId": 10407252,
+    "comment": "This trail was marked closed about 1/4 into it (with a sign, but fencing was removed - and hikers were using it) and then totally closed about 3/4 of the way with many cut trees blocking it, so there we detoured to the lake. Before that last bit, the trail was beautiful and the terrain was wonderful - with lots of roots and rocks so you have to pay attention to where you step, and good elevation changes that weren’t too challenging but were worthy of a rest here and there. Kudos to the volunteers who created a lovely boardwalk/bridge spot with built-in benches. So grateful to friends of parks!",
+    "date": "2023-08-19T15:33:00.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Walking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 193516902.0
+  },
+  {
+    "reviewId": 34610999,
+    "trailId": 10407252,
+    "comment": "Bugs and around the Crawford lake there’s lots of mud make sure to bring bug spray. It was a quiet walk and didn’t see many people it was a Wednesday. It’s a great walk for an afternoon but make sure to bring proper footwear as it’s rocky.",
+    "date": "2023-08-16T18:00:43.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Walking",
+    "obstacles": [],
+    "trailConditions": [
+      "Bugs",
+      "Muddy"
+    ],
+    "hasRecording": true,
+    "recordingId": 192716982.0
+  },
+  {
+    "reviewId": 34223541,
+    "trailId": 10407252,
+    "comment": "Lots of moquitos. Part of the Bruce trail was not marked",
+    "date": "2023-07-30T15:16:38.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 188259441.0
+  },
+  {
+    "reviewId": 34217974,
+    "trailId": 10407252,
+    "comment": "Gorgeous after the rain, lots of moss and mushrooms.",
+    "date": "2023-07-30T11:51:51.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 188199544.0
+  },
+  {
+    "reviewId": 33989363,
+    "trailId": 10407252,
+    "comment": "Very muddy sections which had tons of mosquitoes, but drier sections were good.\n\nLovely around lake Crawford!",
+    "date": "2023-07-20T13:51:33.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Bugs",
+      "Muddy"
+    ],
+    "hasRecording": true,
+    "recordingId": 185573859.0
+  },
+  {
+    "reviewId": 33558795,
+    "trailId": 10407252,
+    "comment": "Bit muddy and slippery after all the recent rain. There is a tree that fell blocking the last bit of the path close to the lake loop.",
+    "date": "2023-07-03T18:57:00.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Muddy",
+      "Slippery"
+    ],
+    "hasRecording": true,
+    "recordingId": 181331103.0
+  },
+  {
+    "reviewId": 33022831,
+    "trailId": 10407252,
+    "comment": "Nice 13 km hike out from Rattlesnake to Crawford Lake and back. Moderate trail system. Some elevation gain/loss, rocky, outcrop’s, and exposed root formations however, for the most part a relatively easy go. Started at 9:30 AM and finished just after lunch. Not many mosquitoes. Only in the lower watery sections of the trail. That is for about 10 minutes. Enjoy!",
+    "date": "2023-06-17T13:00:05.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 177341198.0
+  },
+  {
+    "reviewId": 32806912,
+    "trailId": 10407252,
+    "comment": "Fantastic trail! A few spectacular viewpoints along the way. Just before Crawford Lake, you'll have access to a visitor center with clean restrooms. The lake itself is gorgeous, and the boardwalk around it is very serene. We ended up taking the escarpment trail on the way back to the main trail (highly recommended as there is a beautiful viewpoint along this trail). Bring bug spray - there are a lot of mosquitos in the muddy parts. Overall, it was a super fun hike! If you're looking to get out of the city and challenge yourself, then this is it! :)",
+    "date": "2023-06-07T15:49:47.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Bugs",
+      "Rocky",
+      "Scramble",
+      "Great!"
+    ],
+    "trailConditions": [
+      "Bugs",
+      "Muddy"
+    ],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 32832204,
+    "trailId": 10407252,
+    "comment": "Great hike! A bit of elevation but not too bad. Beautiful views at the lookout. A bit buggy so be prepared.",
+    "date": "2023-06-03T17:10:19.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Bugs"
+    ],
+    "hasRecording": true,
+    "recordingId": 175426648.0
+  },
+  {
+    "reviewId": 32527628,
+    "trailId": 10407252,
+    "comment": "The hike trail was an absolute delight! The stunning scenery and breathtaking beauty of nature were truly captivating. The trail itself was well maintained, making it easy to navigate. Although the bugs were a minor inconvenience, it didn't overshadow the overall experience. Undoubtedly, one of the best hikes I've had recently!\n\nAnd it’s 12KM+ ",
+    "date": "2023-05-27T23:02:40.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Great!"
+    ],
+    "trailConditions": [
+      "Bugs"
+    ],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 32449527,
+    "trailId": 10407252,
+    "comment": "Very scenic trail, suggest hiking around Crawford Lake loop trail first.",
+    "date": "2023-05-22T14:54:55.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 171629791.0
+  },
+  {
+    "reviewId": 32395800,
+    "trailId": 10407252,
+    "comment": "I put rattlesnake trail and Crawford lake together for a great 8 mile, almost 4 hr hike",
+    "date": "2023-05-21T18:30:50.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Bike touring",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 171419689.0
+  },
+  {
+    "reviewId": 32385358,
+    "trailId": 10407252,
+    "comment": "Pretty easygoing, not too crowded. Nice afternoon cruise ",
+    "date": "2023-05-21T15:10:19.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 171341029.0
+  },
+  {
+    "reviewId": 32284349,
+    "trailId": 10407252,
+    "comment": "Easy trail. Very classic Ontario hiking. Nice boardwalk around the lake.",
+    "date": "2023-05-16T20:44:49.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 170371646.0
+  },
+  {
+    "reviewId": 30589314,
+    "trailId": 10407252,
+    "comment": "Muddy in low areas",
+    "date": "2023-02-19T17:25:50.000Z",
+    "rating": 3,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Muddy"
+    ],
+    "hasRecording": true,
+    "recordingId": 157434519.0
+  },
+  {
+    "reviewId": 30368028,
+    "trailId": 10407252,
+    "comment": "This was challenging- icy at this of the year, but also muddy, ups and downs, beautiful views, Crawford Lake and lovely creek. I had my crampons. Got busier in the afternoon as the sun came out.",
+    "date": "2023-02-11T15:24:40.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Muddy",
+      "Snow",
+      "Icy"
+    ],
+    "hasRecording": true,
+    "recordingId": 156201904.0
+  },
+  {
+    "reviewId": 29700767,
+    "trailId": 10407252,
+    "comment": "Just to be clear, this trail is awesome!  The smell that people are referring to has nothing to do with with toilets. There is a  local mushroom farm that can occasionally let go of some nasty odours that disperse locally  depending the direction of the wind.",
+    "date": "2023-01-04T14:13:00.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Great!"
+    ],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 28658723,
+    "trailId": 10407252,
+    "comment": "It is not easy walking. If you are an avid hiker, you will love it though",
+    "date": "2022-11-07T18:26:32.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 146289051.0
+  },
+  {
+    "reviewId": 28625053,
+    "trailId": 10407252,
+    "comment": "Concur about the poop smell in the last 2 km. There was a storm last night but only one muddy section. It's windy on the ridge.",
+    "date": "2022-11-06T14:14:43.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [
+      "Muddy"
+    ],
+    "hasRecording": true,
+    "recordingId": 146143329.0
+  },
+  {
+    "reviewId": 28426563,
+    "trailId": 10407252,
+    "comment": "Trail was super great! So many different paths,  twists and turns you can take. Instead of the out and back we made it into a  mostly loop except for the last 2-3km’s where you have to follow the same trail back to your car. Lots of parking for the insane amount of people there.  Get there early!! The only real downside was the smell of the toilets that carried along the breeze through a good portion of the first 3-5kms. It was vile and disgusting and I really hope that the smell wasn’t coming from them leaching into the ground/streams etc. not sure how else it would smell that badly but it was pretty awful!!",
+    "date": "2022-10-29T14:39:30.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 145116187.0
+  },
+  {
+    "reviewId": 28049506,
+    "trailId": 10407252,
+    "comment": "Trail is nice, a lot of nice lookout spots. Went on a Sunday morning and it wasn’t too packed. When we left around 12:15pm, it was really packed. Washrooms are gross. ",
+    "date": "2022-10-16T18:52:26.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Great!"
+    ],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 28063347,
+    "trailId": 10407252,
+    "comment": "Beautiful hike , start early to avoid crowd",
+    "date": "2022-10-15T15:21:30.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 143242753.0
+  },
+  {
+    "reviewId": 27850380,
+    "trailId": 10407252,
+    "comment": "You do not have to pay a second, different entry fee to do Crawford Lake. We did pay for both Rattlesnake Point and Crawford Lake and did not need the Crawford Lake one.",
+    "date": "2022-10-10T16:15:40.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 142152733.0
+  },
+  {
+    "reviewId": 27809843,
+    "trailId": 10407252,
+    "comment": "A nice trail, be careful of all the roots and rocks, I saw multiple people trip, myself included. Gorgeous view this time of year, went on a Sunday and it was really packed around the lake and lookout points. Would pick a weekday next time.",
+    "date": "2022-10-09T23:17:43.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Rocky",
+      "Great!"
+    ],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 27703227,
+    "trailId": 10407252,
+    "comment": "Amazing colours highly recommend this time of year.",
+    "date": "2022-10-07T17:58:04.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 141409970.0
+  },
+  {
+    "reviewId": 27624109,
+    "trailId": 10407252,
+    "comment": "Good trail, fairly easy has its ups and downs. Went at around 1pm on a weekday, little to no foot traffic. Views were very nice except seeing the farm in the distance. Perfect time to go since the leaves are starting to change colour.",
+    "date": "2022-10-04T17:17:54.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 140989667.0
+  },
+  {
+    "reviewId": 27469272,
+    "trailId": 10407252,
+    "comment": "Beautiful!",
+    "date": "2022-09-30T16:24:04.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 140220852.0
+  },
+  {
+    "reviewId": 27083250,
+    "trailId": 10407252,
+    "comment": "Beautiful hike, quite a few people but many peaceful moments too, a couple fairly steep hills near Crawford lake. Got a tiny bit lost near Crawford/Nassagaweya/return to Rattlesnake point intersection due to a little bit of a late-marked trail closure and ended up on Escarpment trail, had to backtrack a bit, but still fun!",
+    "date": "2022-09-17T18:35:08.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 138126957.0
+  },
+  {
+    "reviewId": 27067105,
+    "trailId": 10407252,
+    "comment": "Great route!",
+    "date": "2022-09-17T13:36:25.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 138055493.0
+  },
+  {
+    "reviewId": 26911144,
+    "trailId": 10407252,
+    "comment": "I love this hike. It never gets old.\n",
+    "date": "2022-09-11T17:03:11.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 137175875.0
+  },
+  {
+    "reviewId": 26906579,
+    "trailId": 10407252,
+    "comment": "Whoever said there was too much boardwalk and you couldn’t get close to the water probably took another section. This trail is everything it promises",
+    "date": "2022-09-11T16:49:30.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Great!"
+    ],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 26830577,
+    "trailId": 10407252,
+    "comment": "Good trail at moderate level.  Lots of ascents and descents.",
+    "date": "2022-09-09T14:06:06.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 136715486.0
+  },
+  {
+    "reviewId": 26490559,
+    "trailId": 10407252,
+    "comment": "Too much boardwalk and no sections close enough to the water. ",
+    "date": "2022-08-30T00:19:17.000Z",
+    "rating": 2,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 26413705,
+    "trailId": 10407252,
+    "comment": "Beautiful trail.  The lake is breathtaking, but no access to the water.  Boardwalk loop around lake is much shorter than I expected.  Some carved wooden statues at the lake.  Took us a bit over three hours, but we stopped for lunch and to take some photos.  A few steeper hills, but still a moderate trail.  Mostly shady, but no bugs. I will definitely be returning.",
+    "date": "2022-08-28T00:52:38.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Great!"
+    ],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 26540547,
+    "trailId": 10407252,
+    "comment": "nice ups and downs, beautiful scenery\n\n",
+    "date": "2022-08-27T16:52:30.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 135108966.0
+  },
+  {
+    "reviewId": 25943171,
+    "trailId": 10407252,
+    "comment": "Well marked moderate to rocky with some elevation at the gorge",
+    "date": "2022-08-13T17:24:52.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 131841345.0
+  },
+  {
+    "reviewId": 25744609,
+    "trailId": 10407252,
+    "comment": "A great hike ending with a nice loop around the lake. Definitely moderate level with the elevation. Clearly marked. Highly recommend and will be returning!",
+    "date": "2022-08-07T23:35:08.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Great!"
+    ],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 25691208,
+    "trailId": 10407252,
+    "comment": "Ran the out-and-back trail in 1hr 10min. Awesome terrain variation. Rocky section at the connection between the Rattlesnake side and Crawford Lake side. Started the run at 9:30am on a Saturday and it only started to get busy on the return leg, but the trail is wide enough to not have to slow down.",
+    "date": "2022-08-06T18:09:12.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Trail running",
+    "obstacles": [
+      "Bugs",
+      "Muddy",
+      "Rocky",
+      "Great!"
+    ],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 26128637,
+    "trailId": 10407252,
+    "comment": "Trail was amazing!",
+    "date": "2022-08-01T15:30:55.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Snowshoeing",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 132868403.0
+  },
+  {
+    "reviewId": 25250005,
+    "trailId": 10407252,
+    "comment": "Excellent trail with varied terrains! Arrived early on Sunday and the trail was blissfully quiet. It took me about 2 hours and 40 minutes to complete the whole thing and it was a great weekend workout. Highly recommend!",
+    "date": "2022-07-24T03:05:47.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Great!"
+    ],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 24760564,
+    "trailId": 10407252,
+    "comment": "It was awesome",
+    "date": "2022-07-08T19:09:35.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 125174051.0
+  },
+  {
+    "reviewId": 24726101,
+    "trailId": 10407252,
+    "comment": "Great hike ,",
+    "date": "2022-07-07T16:46:00.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 124963378.0
+  },
+  {
+    "reviewId": 23674745,
+    "trailId": 10407252,
+    "comment": "went on a Friday afternoon, not busy. beautiful trail along the edge of the escarpment with nice lookout points.",
+    "date": "2022-06-03T21:40:25.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 119160067.0
+  },
+  {
+    "reviewId": 22292068,
+    "trailId": 10407252,
+    "comment": "it was great. a little challenging. Bring poles for walking. Great help.",
+    "date": "2022-04-13T14:35:16.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 111495735.0
+  },
+  {
+    "reviewId": 21662380,
+    "trailId": 10407252,
+    "comment": "This was a really nice trail, but was very icy at some parts so watch where you’re stepping.",
+    "date": "2022-03-14T12:49:14.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Icy"
+    ],
+    "trailConditions": [
+      "Icy"
+    ],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 20223442,
+    "trailId": 10407252,
+    "comment": "Awesome. Take crampons for the icy bits.",
+    "date": "2022-01-16T14:41:07.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 101379294.0
+  },
+  {
+    "reviewId": 18810001,
+    "trailId": 10407252,
+    "comment": "I really enjoy the escarpment.  Beautiful...  Sure wish people would be more responsible.  coffee cups, used masks, toilet paper, etc, etc.  We should be grateful that we have this beauty.",
+    "date": "2021-12-11T23:00:27.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 18450740,
+    "trailId": 10407252,
+    "comment": "Trail was covered in leaves but it was fairly dry so the footing was easy. Nice easy trail woth a bit of up a d down. Nothing strenuous.",
+    "date": "2021-11-11T15:38:09.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 95636298.0
+  },
+  {
+    "reviewId": 18391393,
+    "trailId": 10407252,
+    "comment": "Beauty fall day. Nice trail.",
+    "date": "2021-11-07T15:21:38.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 95246635.0
+  },
+  {
+    "reviewId": 17692229,
+    "trailId": 10407252,
+    "comment": "Great Trail. A little busy.",
+    "date": "2021-09-26T14:51:53.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 90108013.0
+  },
+  {
+    "reviewId": 17538385,
+    "trailId": 10407252,
+    "comment": "Greta views and changes in elevation. Off beat trails need more grooming.",
+    "date": "2021-09-19T17:29:41.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 89053562.0
+  },
+  {
+    "reviewId": 17274977,
+    "trailId": 10407252,
+    "comment": "Great route for my first 10k hike!  The markers are well placed and to reach Crawford Lake was extremely rewarding! The hike back up was harder and hiking sticks are recommended!",
+    "date": "2021-09-06T16:38:59.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Great!"
+    ],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 17312270,
+    "trailId": 10407252,
+    "comment": "Excellent. Don’t forget to wear hiking shoes. You will find areas muddy, root branches and steep slopes. Protect you feet and knees!",
+    "date": "2021-09-06T15:48:49.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 87459568.0
+  },
+  {
+    "reviewId": 17036292,
+    "trailId": 10407252,
+    "comment": "Barely any bugs & had some great views, interesting rocks. Costs $9 to get in & there was some garbage along the trail. Access to the boardwalk around Crawford lake is partially blocked.",
+    "date": "2021-08-27T00:20:47.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Rocky",
+      "Fee",
+      "Great!"
+    ],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 16565141,
+    "trailId": 10407252,
+    "comment": "Superb trails.  Crystal lake.  Nassagaweya trail to Rattlesnake Point was awesome.  Turkey vultures.  Stunning vistas.",
+    "date": "2021-08-02T13:48:02.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 82093551.0
+  },
+  {
+    "reviewId": 16406440,
+    "trailId": 10407252,
+    "comment": "long walk, 2 areas with steep elevation going into the canyon, great shade and a little buggy",
+    "date": "2021-07-26T17:57:42.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Great!"
+    ],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 15531894,
+    "trailId": 10407252,
+    "comment": "Lovely !",
+    "date": "2021-06-12T22:18:25.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 74926173.0
+  },
+  {
+    "reviewId": 14818300,
+    "trailId": 10407252,
+    "comment": "It was a great trail with some elevation. Not too busy for a tues",
+    "date": "2021-05-11T19:47:16.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": null,
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 70696456.0
+  },
+  {
+    "reviewId": 14179039,
+    "trailId": 10407252,
+    "comment": "Great trail. ",
+    "date": "2021-03-30T17:09:11.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 66881317.0
+  },
+  {
+    "reviewId": 11904358,
+    "trailId": 10407252,
+    "comment": "Very well marked and it was not too busy as we came not too late.",
+    "date": "2020-11-09T15:12:17.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 56553709.0
+  },
+  {
+    "reviewId": 11028437,
+    "trailId": 10407252,
+    "comment": "Great ",
+    "date": "2020-09-24T00:11:03.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Great!"
+    ],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 11011315,
+    "trailId": 10407252,
+    "comment": "Great",
+    "date": "2020-09-22T21:41:55.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Great!"
+    ],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 52929211.0
+  },
+  {
+    "reviewId": 10969844,
+    "trailId": 10407252,
+    "comment": "Had a great time. Would recommend.",
+    "date": "2020-09-20T17:24:54.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Great!"
+    ],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 52773684.0
+  },
+  {
+    "reviewId": 9216426,
+    "trailId": 10407252,
+    "comment": "We went saturday 19th and the crawford lake loop was still closed so you can only do the shorter trails. cute walk but not a hike right now.",
+    "date": "2020-06-24T12:41:42.000Z",
+    "rating": 3,
+    "difficulty": null,
+    "activity": null,
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 9009241,
+    "trailId": 10407252,
+    "comment": "Make note, you must make a reservation time slot online at parkvisit.ca and it’s $6.50 per adult. Reservation is by license plate. Depending on if it’s busy or not, you can buy outside the gate on your phone and go in then. Trail was gorgeous, 10.2km round but we didn’t loop the lake as we’ve done it before. Take the side trails to the left on the first straight trail, lots of views of the valley. Also make note, when you get to the lookout point, the main trail is closed, but you can continue along the side trails marked blue, just go to the left pathway if you’re going from the main trail and it’s to the right of the lookout, it’ll take you around to the main trail. Keep in mind it is very rocky, and quite rugged terrain but as an experienced hiker it’s expected and not hard (also lots of steep cliffs as you hike so do not bring your kids). The lake was nice to hike to. You’ll see cool wood carved statues as you get to the lake, worth the long hike if you’re looking for some exercise. Also tons of bugs, put bug spray before if they like you lol.",
+    "date": "2020-06-16T22:11:09.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [
+      "Bugs",
+      "Muddy",
+      "Rocky",
+      "Unmarked",
+      "Fee"
+    ],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 44486814.0
+  },
+  {
+    "reviewId": 5916580,
+    "trailId": 10407252,
+    "comment": "One of the best in southwestern Ontario.",
+    "date": "2019-09-22T12:17:01.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 4398793,
+    "trailId": 10407252,
+    "comment": "This is my go-to and one of my favorite trails. It's hilly, scenic, and beautiful!You're in for a moderate hike/workout. It's not a looped trail but either end is a destination (if that's important to you), whether it is Rattlesnake Point for the view or Crawford lake for the lake. ",
+    "date": "2019-07-16T02:29:41.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 4187998,
+    "trailId": 10407252,
+    "comment": "Definitely a challenging hike, because it ends in a different spot so you need to hike the whole thing twice! Rattlesnake point is a beautiful lookout, and the entire trail is well-marked, but there are no updates as to where you are, the the part close to the buffalo crag lookout seems to really drag on.",
+    "date": "2019-06-29T02:16:57.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 4135321,
+    "trailId": 10407252,
+    "comment": "great",
+    "date": "2019-06-23T13:46:05.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 5726363,
+    "trailId": 10407252,
+    "comment": "just remember to bypass the steep rocky section when heading back from crawford to rattlesnack. its a treacherous downhill stretch.\n",
+    "date": "2019-06-11T18:08:23.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 24791666.0
+  },
+  {
+    "reviewId": 3829573,
+    "trailId": 10407252,
+    "comment": "some spots could have been better marked as to which direction to go to de spite there being some maps on th",
+    "date": "2019-05-26T16:20:53.000Z",
+    "rating": 3,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 24429380.0
+  },
+  {
+    "reviewId": 3522387,
+    "trailId": 10407252,
+    "comment": "One of my favourite trails in the area. \nNice incline midway!",
+    "date": "2019-04-30T01:48:46.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 5320704,
+    "trailId": 10407252,
+    "comment": "Oops forgot to stop recording after we finished. And went for dinner by the water. 13.54 km is true kn based on the watch.\n\nWe started early just stopped raining a couple of hours ago. It made no difference, it was an easy hike, yes with some very muddy places between rattlesnake and Crawford lake on the orange trail. But nothing anyone would cry over.  At some points we thought the mud would have eaten our boots. It was just so funny. Had lunch and a good break at the visitors area at Crawford centre and we were ready for the return hike. \nLots of people everywhere, nice to see families even with strollers which I wouldn’t recommend, but everyone was having fun.  At the end skies cleared and were amazing spots for photos.",
+    "date": "2018-11-03T14:05:40.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 21890354.0
+  },
+  {
+    "reviewId": 13971321,
+    "trailId": 10407252,
+    "comment": "",
+    "date": "2021-03-25T15:29:12.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 65828354.0
+  },
+  {
+    "reviewId": 13660542,
+    "trailId": 10407252,
+    "comment": "",
+    "date": "2021-03-07T16:17:04.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 64468064.0
+  },
+  {
+    "reviewId": 13369109,
+    "trailId": 10407252,
+    "comment": "",
+    "date": "2021-02-13T18:10:51.000Z",
+    "rating": 4,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 63063942.0
+  },
+  {
+    "reviewId": 13161188,
+    "trailId": 10407252,
+    "comment": "",
+    "date": "2021-01-31T20:10:11.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 62125128.0
+  },
+  {
+    "reviewId": 12783273,
+    "trailId": 10407252,
+    "comment": "",
+    "date": "2021-01-10T16:50:26.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 60417406.0
+  },
+  {
+    "reviewId": 12783702,
+    "trailId": 10407252,
+    "comment": "",
+    "date": "2021-01-10T16:12:25.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 60418465.0
+  },
+  {
+    "reviewId": 12784567,
+    "trailId": 10407252,
+    "comment": "",
+    "date": "2021-01-10T16:00:27.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 60420657.0
+  },
+  {
+    "reviewId": 12378201,
+    "trailId": 10407252,
+    "comment": "",
+    "date": "2020-12-13T18:49:07.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": false,
+    "recordingId": null
+  },
+  {
+    "reviewId": 12058842,
+    "trailId": 10407252,
+    "comment": "",
+    "date": "2020-11-21T16:16:52.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 57266398.0
+  },
+  {
+    "reviewId": 11965263,
+    "trailId": 10407252,
+    "comment": "",
+    "date": "2020-11-14T17:03:47.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 56847024.0
+  },
+  {
+    "reviewId": 11830023,
+    "trailId": 10407252,
+    "comment": "",
+    "date": "2020-11-01T18:12:14.000Z",
+    "rating": 5,
+    "difficulty": null,
+    "activity": "Hiking",
+    "obstacles": [],
+    "trailConditions": [],
+    "hasRecording": true,
+    "recordingId": 56246758.0
+  }
+]

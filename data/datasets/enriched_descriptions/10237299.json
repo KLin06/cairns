@@ -1,0 +1,58 @@
+{
+  "trailId": "10237299",
+  "trailSlug": "trail/canada/ontario/booths-rock-trail",
+  "name": "Booth's Rock Trail",
+  "description": "Check out this 6.0-km loop trail near Algonquin Park, Ontario. Generally considered a moderately challenging route, it takes an average of 1 h 52 min to complete. This is a very popular area for camping, hiking, and paddle sports, so you'll likely encounter other people while exploring. The trail is open year-round and is beautiful to visit anytime. Dogs are welcome, but must be on a leash.",
+  "addressLocality": "Algonquin Park, Ontario, Canada",
+  "latitude": 45.51813,
+  "longitude": -78.39935,
+  "ratingValue": 4.7,
+  "reviewCount": 1677,
+  "worstRating": "0",
+  "bestRating": "5",
+  "images": [
+    "https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvNjM2MjA1OTAvZmZhN2JhZDU1ZjU4MWE1ZGQwMjBjOWQ3NjUyZTc5NmIuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJ3ZWJwIiwicmVzaXplIjp7IndpZHRoIjoiNTAwIiwiaGVpZ2h0IjoiNTAwIiwiZml0IjoiaW5zaWRlIn0sInJvdGF0ZSI6bnVsbCwianBlZyI6eyJ0cmVsbGlzUXVhbnRpc2F0aW9uIjp0cnVlLCJvdmVyc2hvb3REZXJpbmdpbmciOnRydWUsIm9wdGltaXNlU2NhbnMiOnRydWUsInF1YW50aXNhdGlvblRhYmxlIjozfX19"
+  ],
+  "features": [
+    "Fee required",
+    "Dogs on leash",
+    "Kid-friendly"
+  ],
+  "surfaceTypes": [
+    {
+      "label": "natural",
+      "percentOfSurface": 85.15,
+      "totalLength": 5080.51
+    },
+    {
+      "label": "unknown",
+      "percentOfSurface": 14.76,
+      "totalLength": 880.94
+    },
+    {
+      "label": "gravel",
+      "percentOfSurface": 0.09,
+      "totalLength": 5.21
+    }
+  ],
+  "length": 5954.558,
+  "durationMinutes": 112,
+  "difficultyRating": "3",
+  "areaName": "Algonquin Provincial Park",
+  "popularity": 99.0006,
+  "terrainData": {
+    "rock": {
+      "rockType": "Migmatitic rocks and gneisses of undetermined protolith",
+      "rockDescription": "Commonly layered biotite gneisses and migmatites; locally includes quartzofeldspathic gneisses, orthogneisses, paragneisses",
+      "geologicProvince": "GRENVILLE",
+      "geologicEra": "MESOPROTEROZOIC (1.0 Ga to 1.6 Ga)",
+      "rockCategories": [
+        "gneiss_migmatite"
+      ],
+      "rockSlipRisk": "moderate"
+    },
+    "soil": null,
+    "percentNearWater": 36.9,
+    "waterCrossingCount": 3
+  }
+}

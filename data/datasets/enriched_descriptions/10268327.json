@@ -1,0 +1,53 @@
+{
+  "trailId": "10268327",
+  "trailSlug": "trail/canada/ontario/algonquin-track-and-tower-trail",
+  "name": "Track and Tower Trail",
+  "description": "Head out on this 8.4-km loop trail near Nipissing, Ontario. Generally considered a moderately challenging route, it takes an average of 2 h 25 min to complete. This is a very popular area for birding, hiking, and snowshoeing, so you'll likely encounter other people while exploring. The trail is open year-round and is beautiful to visit anytime.",
+  "addressLocality": "Nipissing, Ontario, Canada",
+  "latitude": 45.55999,
+  "longitude": -78.57765,
+  "ratingValue": 4.7,
+  "reviewCount": 4285,
+  "worstRating": "0",
+  "bestRating": "5",
+  "images": [
+    "https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMTA4NjMyODY0L2YyNWVmZDY5MzhkZjY4NWM5MDllNWM1NTNiMmRhNmM2LmpwZyIsImVkaXRzIjp7InRvRm9ybWF0Ijoid2VicCIsInJlc2l6ZSI6eyJ3aWR0aCI6IjUwMCIsImhlaWdodCI6IjUwMCIsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ=="
+  ],
+  "features": [
+    "Fee required",
+    "Forests",
+    "Lakes"
+  ],
+  "surfaceTypes": [
+    {
+      "label": "natural",
+      "percentOfSurface": 99.33,
+      "totalLength": 8284.91
+    },
+    {
+      "label": "gravel",
+      "percentOfSurface": 0.67,
+      "totalLength": 55.78
+    }
+  ],
+  "length": 8368.568,
+  "durationMinutes": 145,
+  "difficultyRating": "3",
+  "areaName": "Algonquin Provincial Park",
+  "popularity": 99.7353,
+  "terrainData": {
+    "rock": {
+      "rockType": "Migmatitic rocks and gneisses of undetermined protolith",
+      "rockDescription": "Commonly layered biotite gneisses and migmatites; locally includes quartzofeldspathic gneisses, orthogneisses, paragneisses",
+      "geologicProvince": "GRENVILLE",
+      "geologicEra": "MESOPROTEROZOIC (1.0 Ga to 1.6 Ga)",
+      "rockCategories": [
+        "gneiss_migmatite"
+      ],
+      "rockSlipRisk": "moderate"
+    },
+    "soil": null,
+    "percentNearWater": 32.2,
+    "waterCrossingCount": 6
+  }
+}

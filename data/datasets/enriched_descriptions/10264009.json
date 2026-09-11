@@ -1,0 +1,65 @@
+{
+  "trailId": "10264009",
+  "trailSlug": "trail/canada/ontario/swayze-falls-loop",
+  "name": "Swayze Falls Loop",
+  "description": "Head out on this 6.6-km loop trail near Pelham, Ontario. Generally considered a moderately challenging route, it takes an average of 1 h 31 min to complete. This is a very popular area for cross-country skiing, hiking, and snowshoeing, so you'll likely encounter other people while exploring. The best times to visit this trail are January through November. Dogs are welcome, but must be on a leash.",
+  "addressLocality": "Pelham, Ontario, Canada",
+  "latitude": 43.09032,
+  "longitude": -79.30514,
+  "ratingValue": 4.4,
+  "reviewCount": 1071,
+  "worstRating": "0",
+  "bestRating": "5",
+  "images": [
+    "https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvNTIyMDMxNzEvMjIyNjk3YjcyYTY5OThlYWIzYTI5OGY5ZjBiMjVjMTYuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJ3ZWJwIiwicmVzaXplIjp7IndpZHRoIjoiNTAwIiwiaGVpZ2h0IjoiNTAwIiwiZml0IjoiaW5zaWRlIn0sInJvdGF0ZSI6bnVsbCwianBlZyI6eyJ0cmVsbGlzUXVhbnRpc2F0aW9uIjp0cnVlLCJvdmVyc2hvb3REZXJpbmdpbmciOnRydWUsIm9wdGltaXNlU2NhbnMiOnRydWUsInF1YW50aXNhdGlvblRhYmxlIjozfX19"
+  ],
+  "features": [
+    "Dogs on leash",
+    "Kid-friendly",
+    "Forests"
+  ],
+  "surfaceTypes": [
+    {
+      "label": "unknown",
+      "percentOfSurface": 77.09,
+      "totalLength": 5134.16
+    },
+    {
+      "label": "natural",
+      "percentOfSurface": 22.91,
+      "totalLength": 1525.81
+    }
+  ],
+  "length": 6598.294,
+  "durationMinutes": 91,
+  "difficultyRating": "3",
+  "areaName": "Short Hills Provincial Park",
+  "popularity": 97.947,
+  "terrainData": {
+    "rock": {
+      "rockType": " ",
+      "rockDescription": "Sandstone, shale, dolostone, siltstone",
+      "geologicProvince": " ",
+      "geologicEra": "PALEOZOIC (251.0 Ma to 542.0 Ma)",
+      "rockCategories": [
+        "carbonate_sedimentary",
+        "coarse_clastic_sedimentary",
+        "fine_clastic_sedimentary"
+      ],
+      "rockSlipRisk": "high"
+    },
+    "soil": {
+      "soilName": "BRANTFORD",
+      "texture": "silty clay loam",
+      "textureGroup": "silt",
+      "textureMudPotential": 2,
+      "drainage": "moderately well",
+      "drainageRank": 3,
+      "slopePercent": 12.0,
+      "stoniness": 0,
+      "parentMaterial": null
+    },
+    "percentNearWater": 38.3,
+    "waterCrossingCount": 9
+  }
+}

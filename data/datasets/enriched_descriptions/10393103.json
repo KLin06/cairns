@@ -1,0 +1,74 @@
+{
+  "trailId": "10393103",
+  "trailSlug": "trail/canada/ontario/rouge-valley-loop-via-vista-trail",
+  "name": "Rouge Valley Loop: Vista and Mast Trails",
+  "description": "Check out this 9.3-km loop trail near Pickering, Ontario. Generally considered a moderately challenging route, it takes an average of 2 h 12 min to complete. This is a very popular area for birding, camping, and hiking, so you'll likely encounter other people while exploring. The trail is open year-round and is beautiful to visit anytime. Dogs are welcome, but must be on a leash.",
+  "addressLocality": "Pickering, Ontario, Canada",
+  "latitude": 43.81839,
+  "longitude": -79.17059,
+  "ratingValue": 4.5,
+  "reviewCount": 2873,
+  "worstRating": "0",
+  "bestRating": "5",
+  "images": [
+    "https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvNjQ5MDk0ODUvYzBhNjAwZDk2Njg0MTA2MWQyMzVhOGU5YTBhZmNhYzEuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJ3ZWJwIiwicmVzaXplIjp7IndpZHRoIjoiNTAwIiwiaGVpZ2h0IjoiNTAwIiwiZml0IjoiaW5zaWRlIn0sInJvdGF0ZSI6bnVsbCwianBlZyI6eyJ0cmVsbGlzUXVhbnRpc2F0aW9uIjp0cnVlLCJvdmVyc2hvb3REZXJpbmdpbmciOnRydWUsIm9wdGltaXNlU2NhbnMiOnRydWUsInF1YW50aXNhdGlvblRhYmxlIjozfX19"
+  ],
+  "features": [
+    "Fee required",
+    "Dogs on leash",
+    "Kid-friendly"
+  ],
+  "surfaceTypes": [
+    {
+      "label": "natural",
+      "percentOfSurface": 79.1,
+      "totalLength": 7331.66
+    },
+    {
+      "label": "unknown",
+      "percentOfSurface": 18.56,
+      "totalLength": 1720.45
+    },
+    {
+      "label": "grass",
+      "percentOfSurface": 1.8,
+      "totalLength": 166.71
+    },
+    {
+      "label": "paved",
+      "percentOfSurface": 0.54,
+      "totalLength": 49.68
+    }
+  ],
+  "length": 9334.172,
+  "durationMinutes": 132,
+  "difficultyRating": "3",
+  "areaName": "Rouge National Urban Park",
+  "popularity": 99.6253,
+  "terrainData": {
+    "rock": {
+      "rockType": " ",
+      "rockDescription": "Shale, limestone, dolostone, siltstone",
+      "geologicProvince": " ",
+      "geologicEra": "PALEOZOIC (251.0 Ma to 542.0 Ma)",
+      "rockCategories": [
+        "carbonate_sedimentary",
+        "fine_clastic_sedimentary"
+      ],
+      "rockSlipRisk": "high"
+    },
+    "soil": {
+      "soilName": "BRIGHTON SANDY LOAM - OVER GRAVEL",
+      "texture": "sandy loam",
+      "textureGroup": "loam",
+      "textureMudPotential": 1,
+      "drainage": "well",
+      "drainageRank": 2,
+      "slopePercent": 7.0,
+      "stoniness": 0,
+      "parentMaterial": null
+    },
+    "percentNearWater": 34.7,
+    "waterCrossingCount": 4
+  }
+}

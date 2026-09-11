@@ -1,0 +1,64 @@
+{
+  "trailId": "10365189",
+  "trailSlug": "trail/canada/ontario/lookout-trail--3",
+  "name": "Lookout Trail",
+  "description": "Enjoy this 6.6-km loop trail near Mono, Ontario. Generally considered a moderately challenging route, it takes an average of 1 h 55 min to complete. This is a very popular area for cross-country skiing, hiking, and snowshoeing, so you'll likely encounter other people while exploring. The trail is open year-round and is beautiful to visit anytime. Dogs are welcome, but must be on a leash.",
+  "addressLocality": "Mono, Ontario, Canada",
+  "latitude": 44.04673,
+  "longitude": -80.06221,
+  "ratingValue": 4.7,
+  "reviewCount": 718,
+  "worstRating": "0",
+  "bestRating": "5",
+  "images": [
+    "https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvNjE5NTUyMTQvMWFjOGIwNWFkYzgxNGI2MzlhYWEzZjBkNDc4MTE1ZTIuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJ3ZWJwIiwicmVzaXplIjp7IndpZHRoIjoiNTAwIiwiaGVpZ2h0IjoiNTAwIiwiZml0IjoiaW5zaWRlIn0sInJvdGF0ZSI6bnVsbCwianBlZyI6eyJ0cmVsbGlzUXVhbnRpc2F0aW9uIjp0cnVlLCJvdmVyc2hvb3REZXJpbmdpbmciOnRydWUsIm9wdGltaXNlU2NhbnMiOnRydWUsInF1YW50aXNhdGlvblRhYmxlIjozfX19"
+  ],
+  "features": [
+    "Fee required",
+    "Dogs on leash",
+    "Kid-friendly"
+  ],
+  "surfaceTypes": [
+    {
+      "label": "natural",
+      "percentOfSurface": 66.92,
+      "totalLength": 4393.8
+    },
+    {
+      "label": "unknown",
+      "percentOfSurface": 33.08,
+      "totalLength": 2171.78
+    }
+  ],
+  "length": 6598.294,
+  "durationMinutes": 115,
+  "difficultyRating": "3",
+  "areaName": "Mono Cliffs Provincial Park",
+  "popularity": 97.9084,
+  "terrainData": {
+    "rock": {
+      "rockType": " ",
+      "rockDescription": "Shale, limestone, dolostone, siltstone",
+      "geologicProvince": " ",
+      "geologicEra": "PALEOZOIC (251.0 Ma to 542.0 Ma)",
+      "rockCategories": [
+        "carbonate_sedimentary",
+        "fine_clastic_sedimentary"
+      ],
+      "rockSlipRisk": "high"
+    },
+    "soil": {
+      "soilName": "DUMFRIES LOAM",
+      "texture": "loam",
+      "textureGroup": "loam",
+      "textureMudPotential": 1,
+      "drainage": "well",
+      "drainageRank": 2,
+      "slopePercent": 57.5,
+      "stoniness": 2,
+      "parentMaterial": null
+    },
+    "percentNearWater": 41.2,
+    "waterCrossingCount": 7
+  }
+}

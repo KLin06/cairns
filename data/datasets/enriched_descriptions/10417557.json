@@ -1,0 +1,75 @@
+{
+  "trailId": "10417557",
+  "trailSlug": "trail/canada/ontario/felkers-falls-to-devils-punchbowl-lookout",
+  "name": "Felker's Falls to Devil's Punchbowl Lookout",
+  "description": "Get to know this 9.2-km out-and-back trail near Hamilton, Ontario. Generally considered a moderately challenging route, it takes an average of 2 h 23 min to complete. This is a very popular area for birding, hiking, and snowshoeing, so you'll likely encounter other people while exploring. The trail is open year-round and is beautiful to visit anytime. Dogs are welcome, but must be on a leash.",
+  "addressLocality": "Hamilton, Ontario, Canada",
+  "latitude": 43.20298,
+  "longitude": -79.79139,
+  "ratingValue": 4.5,
+  "reviewCount": 1298,
+  "worstRating": "0",
+  "bestRating": "5",
+  "images": [
+    "https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvOTk1NDY5MzcvYjg3Zjk0YmE4ODkxOGYyZGU4OGIzZTJiNzY4YTU4OTguanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJ3ZWJwIiwicmVzaXplIjp7IndpZHRoIjoiNTAwIiwiaGVpZ2h0IjoiNTAwIiwiZml0IjoiaW5zaWRlIn0sInJvdGF0ZSI6bnVsbCwianBlZyI6eyJ0cmVsbGlzUXVhbnRpc2F0aW9uIjp0cnVlLCJvdmVyc2hvb3REZXJpbmdpbmciOnRydWUsIm9wdGltaXNlU2NhbnMiOnRydWUsInF1YW50aXNhdGlvblRhYmxlIjozfX19"
+  ],
+  "features": [
+    "Dogs on leash",
+    "Kid-friendly",
+    "Forests"
+  ],
+  "surfaceTypes": [
+    {
+      "label": "natural",
+      "percentOfSurface": 74.77,
+      "totalLength": 6881.69
+    },
+    {
+      "label": "paved",
+      "percentOfSurface": 17.05,
+      "totalLength": 1569.21
+    },
+    {
+      "label": "unknown",
+      "percentOfSurface": 7.9,
+      "totalLength": 727.08
+    },
+    {
+      "label": "wood",
+      "percentOfSurface": 0.28,
+      "totalLength": 25.71
+    }
+  ],
+  "length": 9173.238,
+  "durationMinutes": 143,
+  "difficultyRating": "3",
+  "areaName": null,
+  "popularity": 98.6634,
+  "terrainData": {
+    "rock": {
+      "rockType": " ",
+      "rockDescription": "Sandstone, shale, dolostone, siltstone",
+      "geologicProvince": " ",
+      "geologicEra": "PALEOZOIC (251.0 Ma to 542.0 Ma)",
+      "rockCategories": [
+        "carbonate_sedimentary",
+        "coarse_clastic_sedimentary",
+        "fine_clastic_sedimentary"
+      ],
+      "rockSlipRisk": "high"
+    },
+    "soil": {
+      "soilName": "URBAN",
+      "texture": null,
+      "textureGroup": null,
+      "textureMudPotential": null,
+      "drainage": null,
+      "drainageRank": null,
+      "slopePercent": -9.0,
+      "stoniness": null,
+      "parentMaterial": null
+    },
+    "percentNearWater": 20.7,
+    "waterCrossingCount": 4
+  }
+}

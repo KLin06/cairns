@@ -1,0 +1,79 @@
+{
+  "trailId": "10957259",
+  "trailSlug": "trail/canada/ontario/mast-vista-cedar-orchard",
+  "name": "Mast - Vista - Cedar - Orchard",
+  "description": "Head out on this 10.5-km loop trail near Pickering, Ontario. Generally considered a moderately challenging route, it takes an average of 2 h 26 min to complete. This is a very popular area for birding, camping, and hiking, so you'll likely encounter other people while exploring. The trail is open year-round and is beautiful to visit anytime. Dogs are welcome, but must be on a leash.",
+  "addressLocality": "Pickering, Ontario, Canada",
+  "latitude": 43.80557,
+  "longitude": -79.13612,
+  "ratingValue": 4.6,
+  "reviewCount": 1247,
+  "worstRating": "0",
+  "bestRating": "5",
+  "images": [
+    "https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvODE2NjEzMDMvZjMyNTM0MWZiOGE4YmQwZWVjM2Y2OWQ5NTIyNDQyNTIuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJ3ZWJwIiwicmVzaXplIjp7IndpZHRoIjoiNTAwIiwiaGVpZ2h0IjoiNTAwIiwiZml0IjoiaW5zaWRlIn0sInJvdGF0ZSI6bnVsbCwianBlZyI6eyJ0cmVsbGlzUXVhbnRpc2F0aW9uIjp0cnVlLCJvdmVyc2hvb3REZXJpbmdpbmciOnRydWUsIm9wdGltaXNlU2NhbnMiOnRydWUsInF1YW50aXNhdGlvblRhYmxlIjozfX19"
+  ],
+  "features": [
+    "Fee required",
+    "Dogs on leash",
+    "Forests"
+  ],
+  "surfaceTypes": [
+    {
+      "label": "natural",
+      "percentOfSurface": 53.45,
+      "totalLength": 5567.92
+    },
+    {
+      "label": "unknown",
+      "percentOfSurface": 32.84,
+      "totalLength": 3420.19
+    },
+    {
+      "label": "paved",
+      "percentOfSurface": 8.57,
+      "totalLength": 893.01
+    },
+    {
+      "label": "gravel",
+      "percentOfSurface": 4.82,
+      "totalLength": 502.04
+    },
+    {
+      "label": "wood",
+      "percentOfSurface": 0.32,
+      "totalLength": 32.98
+    }
+  ],
+  "length": 10460.71,
+  "durationMinutes": 146,
+  "difficultyRating": "3",
+  "areaName": "Rouge National Urban Park",
+  "popularity": 98.764,
+  "terrainData": {
+    "rock": {
+      "rockType": " ",
+      "rockDescription": "Shale, limestone, dolostone, siltstone",
+      "geologicProvince": " ",
+      "geologicEra": "PALEOZOIC (251.0 Ma to 542.0 Ma)",
+      "rockCategories": [
+        "carbonate_sedimentary",
+        "fine_clastic_sedimentary"
+      ],
+      "rockSlipRisk": "high"
+    },
+    "soil": {
+      "soilName": "BRIGHTON SANDY LOAM",
+      "texture": "sandy loam",
+      "textureGroup": "loam",
+      "textureMudPotential": 1,
+      "drainage": "well",
+      "drainageRank": 2,
+      "slopePercent": 7.0,
+      "stoniness": 0,
+      "parentMaterial": null
+    },
+    "percentNearWater": 36.1,
+    "waterCrossingCount": 4
+  }
+}

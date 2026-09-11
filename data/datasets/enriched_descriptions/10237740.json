@@ -1,0 +1,75 @@
+{
+  "trailId": "10237740",
+  "trailSlug": "trail/canada/ontario/rattlesnake-point-via-nassagaweya-and-bruce-trails",
+  "name": "Rattlesnake Point via Nassagaweya and Bruce Trails",
+  "description": "Head out on this 10.1-km loop trail near Campbellville, Ontario. Generally considered a moderately challenging route, it takes an average of 2 h 25 min to complete. This is a very popular area for hiking, rock climbing, and snowshoeing, so you'll likely encounter other people while exploring. The best times to visit this trail are April through October. Dogs are welcome, but must be on a leash.",
+  "addressLocality": "Campbellville, Ontario, Canada",
+  "latitude": 43.4701,
+  "longitude": -79.95106,
+  "ratingValue": 4.7,
+  "reviewCount": 914,
+  "worstRating": "0",
+  "bestRating": "5",
+  "images": [
+    "https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMTI3OTA0OTc1LzdiYWZlZGE5ZTQ4YTViYTI1NzMwNGFkMzM1YzBjOGE3LmpwZyIsImVkaXRzIjp7InRvRm9ybWF0Ijoid2VicCIsInJlc2l6ZSI6eyJ3aWR0aCI6IjUwMCIsImhlaWdodCI6IjUwMCIsImZpdCI6Imluc2lkZSJ9LCJyb3RhdGUiOm51bGwsImpwZWciOnsidHJlbGxpc1F1YW50aXNhdGlvbiI6dHJ1ZSwib3ZlcnNob290RGVyaW5naW5nIjp0cnVlLCJvcHRpbWlzZVNjYW5zIjp0cnVlLCJxdWFudGlzYXRpb25UYWJsZSI6M319fQ=="
+  ],
+  "features": [
+    "Fee required",
+    "Dogs on leash",
+    "Kid-friendly"
+  ],
+  "surfaceTypes": [
+    {
+      "label": "natural",
+      "percentOfSurface": 76.08,
+      "totalLength": 7749.21
+    },
+    {
+      "label": "unknown",
+      "percentOfSurface": 20.46,
+      "totalLength": 2083.71
+    },
+    {
+      "label": "paved",
+      "percentOfSurface": 3.3,
+      "totalLength": 335.93
+    },
+    {
+      "label": "steps",
+      "percentOfSurface": 0.16,
+      "totalLength": 16.13
+    }
+  ],
+  "length": 10138.842,
+  "durationMinutes": 145,
+  "difficultyRating": "3",
+  "areaName": "Crawford Lake Conservation Area",
+  "popularity": 97.9436,
+  "terrainData": {
+    "rock": {
+      "rockType": " ",
+      "rockDescription": "Sandstone, shale, dolostone, siltstone",
+      "geologicProvince": " ",
+      "geologicEra": "PALEOZOIC (251.0 Ma to 542.0 Ma)",
+      "rockCategories": [
+        "carbonate_sedimentary",
+        "coarse_clastic_sedimentary",
+        "fine_clastic_sedimentary"
+      ],
+      "rockSlipRisk": "high"
+    },
+    "soil": {
+      "soilName": "FOX SANDY LOAM",
+      "texture": "sandy loam",
+      "textureGroup": "loam",
+      "textureMudPotential": 1,
+      "drainage": "well",
+      "drainageRank": 2,
+      "slopePercent": 3.5,
+      "stoniness": 1,
+      "parentMaterial": null
+    },
+    "percentNearWater": 6.7,
+    "waterCrossingCount": 2
+  }
+}

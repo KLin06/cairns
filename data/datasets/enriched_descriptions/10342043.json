@@ -1,0 +1,70 @@
+{
+  "trailId": "10342043",
+  "trailSlug": "trail/canada/ontario/eugenia-falls-and-hoggs-falls-loop-via-bruce-trail",
+  "name": "The Bruce Trail: Eugenia Falls and Hogg's Falls",
+  "description": "Head out on this 12.2-km loop trail near Grey Highlands, Ontario. Generally considered a moderately challenging route, it takes an average of 3 h 37 min to complete. This is a very popular area for birding, hiking, and snowshoeing, so you'll likely encounter other people while exploring. The best times to visit this trail are April through November. Dogs are welcome, but must be on a leash.",
+  "addressLocality": "Grey Highlands, Ontario, Canada",
+  "latitude": 44.31343,
+  "longitude": -80.5259,
+  "ratingValue": 4.6,
+  "reviewCount": 1012,
+  "worstRating": "0",
+  "bestRating": "5",
+  "images": [
+    "https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMzczMjQwNTkvYzcxY2Y4Mjg5MDBlNTQxNzUxNmVhYzRmMTgyZWY2NDQuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJ3ZWJwIiwicmVzaXplIjp7IndpZHRoIjoiNTAwIiwiaGVpZ2h0IjoiNTAwIiwiZml0IjoiaW5zaWRlIn0sInJvdGF0ZSI6bnVsbCwianBlZyI6eyJ0cmVsbGlzUXVhbnRpc2F0aW9uIjp0cnVlLCJvdmVyc2hvb3REZXJpbmdpbmciOnRydWUsIm9wdGltaXNlU2NhbnMiOnRydWUsInF1YW50aXNhdGlvblRhYmxlIjozfX19"
+  ],
+  "features": [
+    "Fee required",
+    "Dogs on leash",
+    "Kid-friendly"
+  ],
+  "surfaceTypes": [
+    {
+      "label": "unknown",
+      "percentOfSurface": 94.11,
+      "totalLength": 11458.34
+    },
+    {
+      "label": "natural",
+      "percentOfSurface": 5.83,
+      "totalLength": 710.26
+    },
+    {
+      "label": "steps",
+      "percentOfSurface": 0.06,
+      "totalLength": 6.72
+    }
+  ],
+  "length": 12230.984,
+  "durationMinutes": 217,
+  "difficultyRating": "3",
+  "areaName": "Eugenia Falls Conservation Area",
+  "popularity": 97.9727,
+  "terrainData": {
+    "rock": {
+      "rockType": " ",
+      "rockDescription": "Sandstone, shale, dolostone, siltstone",
+      "geologicProvince": " ",
+      "geologicEra": "PALEOZOIC (251.0 Ma to 542.0 Ma)",
+      "rockCategories": [
+        "carbonate_sedimentary",
+        "coarse_clastic_sedimentary",
+        "fine_clastic_sedimentary"
+      ],
+      "rockSlipRisk": "high"
+    },
+    "soil": {
+      "soilName": "BOTTOM LAND",
+      "texture": "variable",
+      "textureGroup": null,
+      "textureMudPotential": null,
+      "drainage": "variable",
+      "drainageRank": null,
+      "slopePercent": 3.5,
+      "stoniness": 0,
+      "parentMaterial": null
+    },
+    "percentNearWater": 16.7,
+    "waterCrossingCount": 5
+  }
+}

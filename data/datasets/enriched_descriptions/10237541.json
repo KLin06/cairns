@@ -1,0 +1,65 @@
+{
+  "trailId": "10237541",
+  "trailSlug": "trail/canada/ontario/lions-head-loop-via-bruce-trail",
+  "name": "Lion's Head Loop via Bruce Trail",
+  "description": "Get to know this 17.1-km loop trail near Lion's Head, Ontario. Generally considered a challenging route, it takes an average of 4 h 46 min to complete. This is a very popular area for birding, hiking, and snowshoeing, so you'll likely encounter other people while exploring. The best times to visit this trail are May through October. Dogs are welcome, but must be on a leash.",
+  "addressLocality": "Lion's Head, Ontario, Canada",
+  "latitude": 44.98973,
+  "longitude": -81.24207,
+  "ratingValue": 4.8,
+  "reviewCount": 1225,
+  "worstRating": "0",
+  "bestRating": "5",
+  "images": [
+    "https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvNjEyMjI5NzcvMzE0YWM2ZWMwZTc5M2VlMjcyZTE5ZmJmOTdkMWU1YTIuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJ3ZWJwIiwicmVzaXplIjp7IndpZHRoIjoiNTAwIiwiaGVpZ2h0IjoiNTAwIiwiZml0IjoiaW5zaWRlIn0sInJvdGF0ZSI6bnVsbCwianBlZyI6eyJ0cmVsbGlzUXVhbnRpc2F0aW9uIjp0cnVlLCJvdmVyc2hvb3REZXJpbmdpbmciOnRydWUsIm9wdGltaXNlU2NhbnMiOnRydWUsInF1YW50aXNhdGlvblRhYmxlIjozfX19"
+  ],
+  "features": [
+    "Fee required",
+    "Dogs on leash",
+    "Rocky"
+  ],
+  "surfaceTypes": [
+    {
+      "label": "unknown",
+      "percentOfSurface": 97.53,
+      "totalLength": 16681.77
+    },
+    {
+      "label": "natural",
+      "percentOfSurface": 2.47,
+      "totalLength": 422.17
+    }
+  ],
+  "length": 17059.004,
+  "durationMinutes": 286,
+  "difficultyRating": "5",
+  "areaName": "Lion's Head Provincial Nature Reserve",
+  "popularity": 98.4868,
+  "terrainData": {
+    "rock": {
+      "rockType": " ",
+      "rockDescription": "Sandstone, shale, dolostone, siltstone",
+      "geologicProvince": " ",
+      "geologicEra": "PALEOZOIC (251.0 Ma to 542.0 Ma)",
+      "rockCategories": [
+        "carbonate_sedimentary",
+        "coarse_clastic_sedimentary",
+        "fine_clastic_sedimentary"
+      ],
+      "rockSlipRisk": "high"
+    },
+    "soil": {
+      "soilName": "SARGENT LOAM",
+      "texture": "loam",
+      "textureGroup": "loam",
+      "textureMudPotential": 1,
+      "drainage": "well",
+      "drainageRank": 2,
+      "slopePercent": 7.0,
+      "stoniness": 1,
+      "parentMaterial": null
+    },
+    "percentNearWater": 4.0,
+    "waterCrossingCount": 1
+  }
+}

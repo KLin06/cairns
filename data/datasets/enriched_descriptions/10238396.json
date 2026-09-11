@@ -1,0 +1,69 @@
+{
+  "trailId": "10238396",
+  "trailSlug": "trail/canada/ontario/waterdown-trail",
+  "name": "Waterdown Trail to Smokey Hollow",
+  "description": "Head out on this 11.4-km out-and-back trail near Waterdown, Ontario. Generally considered a moderately challenging route, it takes an average of 3 h 17 min to complete. This is a very popular area for birding, hiking, and snowshoeing, so you'll likely encounter other people while exploring. The best times to visit this trail are March through November. Dogs are welcome, but must be on a leash.",
+  "addressLocality": "Waterdown, Ontario, Canada",
+  "latitude": 43.3308,
+  "longitude": -79.88709,
+  "ratingValue": 4.6,
+  "reviewCount": 2729,
+  "worstRating": "0",
+  "bestRating": "5",
+  "images": [
+    "https://images.alltrails.com/eyJidWNrZXQiOiJhc3NldHMuYWxsdHJhaWxzLmNvbSIsImtleSI6InVwbG9hZHMvcGhvdG8vaW1hZ2UvMzgzMzE5MDIvMTg4MTI0OGEwNjNjN2FjZjRlMDdmZjY3NTcyODZmZDMuanBnIiwiZWRpdHMiOnsidG9Gb3JtYXQiOiJ3ZWJwIiwicmVzaXplIjp7IndpZHRoIjoiNTAwIiwiaGVpZ2h0IjoiNTAwIiwiZml0IjoiaW5zaWRlIn0sInJvdGF0ZSI6bnVsbCwianBlZyI6eyJ0cmVsbGlzUXVhbnRpc2F0aW9uIjp0cnVlLCJvdmVyc2hvb3REZXJpbmdpbmciOnRydWUsIm9wdGltaXNlU2NhbnMiOnRydWUsInF1YW50aXNhdGlvblRhYmxlIjozfX19"
+  ],
+  "features": [
+    "Dogs on leash",
+    "Kid-friendly",
+    "Partially paved"
+  ],
+  "surfaceTypes": [
+    {
+      "label": "natural",
+      "percentOfSurface": 89.25,
+      "totalLength": 10146.47
+    },
+    {
+      "label": "unknown",
+      "percentOfSurface": 10.03,
+      "totalLength": 1140.09
+    },
+    {
+      "label": "gravel",
+      "percentOfSurface": 0.72,
+      "totalLength": 82.37
+    }
+  ],
+  "length": 11426.314,
+  "durationMinutes": 197,
+  "difficultyRating": "3",
+  "areaName": null,
+  "popularity": 99.4224,
+  "terrainData": {
+    "rock": {
+      "rockType": " ",
+      "rockDescription": "Shale, limestone, dolostone, siltstone",
+      "geologicProvince": " ",
+      "geologicEra": "PALEOZOIC (251.0 Ma to 542.0 Ma)",
+      "rockCategories": [
+        "carbonate_sedimentary",
+        "fine_clastic_sedimentary"
+      ],
+      "rockSlipRisk": "high"
+    },
+    "soil": {
+      "soilName": "GRIMSBY SANDY LOAM",
+      "texture": "sandy loam",
+      "textureGroup": "loam",
+      "textureMudPotential": 1,
+      "drainage": "well",
+      "drainageRank": 2,
+      "slopePercent": 12.0,
+      "stoniness": 0,
+      "parentMaterial": null
+    },
+    "percentNearWater": 48.0,
+    "waterCrossingCount": 11
+  }
+}
