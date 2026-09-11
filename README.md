@@ -4,6 +4,10 @@ Trail conditions app: a Postgres-backed FastAPI server (`server/`), a
 Vite/React client (`client/`), and a separate ML data/training pipeline
 (`data/`) that produces the trail-conditions prediction model.
 
+**Live (WIP):** [cairns-five.vercel.app](https://cairns-five.vercel.app/) —
+client on Vercel, backend on Render. Still under active development, expect
+rough edges.
+
 See `APP_SPEC.md` for the product/API spec, and `server/README.md` /
 `client/README.md` for each service's own docs.
 
