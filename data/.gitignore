@@ -8,3 +8,10 @@ datasets/*
 !datasets/enriched_descriptions/
 !datasets/cleaned_reviews/
 !datasets/route_geometry/
+# The deploy image also bakes in the one trained model the API serves
+# (condition_models.joblib, ~1.3MB) so no S3 bucket is needed at runtime.
+# Only that file - models/ also holds a 424MB random-forest variant that
+# must stay out of git and out of the image.
+!datasets/models/
+datasets/models/*
+!datasets/models/condition_models.joblib

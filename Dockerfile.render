@@ -26,6 +26,10 @@ COPY data/datasets/enriched_descriptions /data/datasets/enriched_descriptions
 COPY data/datasets/cleaned_reviews /data/datasets/cleaned_reviews
 COPY data/datasets/route_geometry /data/datasets/route_geometry
 
+# The trained model (~1.3MB), read straight off disk by conditions.py - replaces
+# the old S3 fetch, so the backend needs no bucket or AWS credentials.
+COPY data/datasets/models/condition_models.joblib /data/datasets/models/condition_models.joblib
+
 ENV DATA_BACKEND=memory
 
 EXPOSE 8000

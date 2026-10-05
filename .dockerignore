@@ -18,6 +18,9 @@ data/datasets/*
 !data/datasets/enriched_descriptions
 !data/datasets/cleaned_reviews
 !data/datasets/route_geometry
+!data/datasets/models
+data/datasets/models/*
+!data/datasets/models/condition_models.joblib
 specs/
 aws/cdk/
 aws/*.md
