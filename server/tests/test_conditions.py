@@ -60,7 +60,11 @@ def _fake_bundle(probas=None):
 
 
 @pytest.fixture(autouse=True)
-def _clear_cache():
+def _clear_cache(monkeypatch, tmp_path):
+    # Default to "no local model file" so tests that exercise the S3 fallback
+    # don't silently pick up the real data/datasets/models/condition_models.joblib
+    # that exists on a dev machine. Local-file tests override this.
+    monkeypatch.setattr(conditions_module, "MODEL_PATH", str(tmp_path / "no-such-model.joblib"))
     conditions_module._CACHE.clear()
     conditions_module._MODEL_BUNDLE = None
     yield
@@ -387,6 +391,32 @@ def test_load_model_bundle_caches_after_first_fetch(monkeypatch):
     assert fake_client.call_count == 1
 
 
+def test_load_model_bundle_concurrent_first_requests_fetch_once(monkeypatch):
+    # The client fires /conditions for ~16 dates at once on trail-open; each
+    # thread must not independently download + deserialize the model.
+    import threading
+    import time
+
+    fetch_count = {"n": 0}
+    count_lock = threading.Lock()
+
+    def _slow_fetch():
+        with count_lock:
+            fetch_count["n"] += 1
+        time.sleep(0.2)
+        return {"models": {}, "thresholds": {}, "features": FEATURES, "version": "x"}
+
+    monkeypatch.setattr(conditions_module, "_fetch_model_bundle", _slow_fetch)
+
+    threads = [threading.Thread(target=conditions_module._load_model_bundle) for _ in range(16)]
+    for t in threads:
+        t.start()
+    for t in threads:
+        t.join()
+
+    assert fetch_count["n"] == 1
+
+
 def test_load_model_bundle_missing_config_returns_503(monkeypatch):
     monkeypatch.setattr(conditions_module, "MODEL_S3_BUCKET", None)
     monkeypatch.setattr(conditions_module, "MODEL_S3_KEY", None)
@@ -417,6 +447,55 @@ def test_load_model_bundle_corrupted_artifact_returns_500(monkeypatch):
     monkeypatch.setattr(conditions_module, "MODEL_S3_KEY", "condition_models.joblib")
     fake_client = _FakeS3Client(response=_s3_response(b"not a joblib file", datetime(2026, 3, 14, tzinfo=timezone.utc)))
     monkeypatch.setattr(conditions_module.boto3, "client", lambda service: fake_client)
+
+    with pytest.raises(Exception) as exc_info:
+        conditions_module._load_model_bundle()
+
+    assert exc_info.value.status_code == 500
+    assert exc_info.value.detail["errorType"] == "model_corrupted"
+
+
+# --- Local model file (preferred over S3) ------------------------------------
+
+
+def test_load_model_bundle_reads_local_file_without_touching_s3(monkeypatch, tmp_path):
+    model_file = tmp_path / "condition_models.joblib"
+    model_file.write_bytes(_joblib_bytes({"models": {}, "thresholds": {}, "features": FEATURES}))
+    monkeypatch.setattr(conditions_module, "MODEL_PATH", str(model_file))
+    # S3 is configured too (as on a deployment that still carries the old env
+    # vars) - the local file must win and boto3 must never be called.
+    monkeypatch.setattr(conditions_module, "MODEL_S3_BUCKET", "cairns-models")
+    monkeypatch.setattr(conditions_module, "MODEL_S3_KEY", "condition_models.joblib")
+
+    def _boom(service):
+        raise AssertionError("S3 client must not be created when a local model file exists")
+
+    monkeypatch.setattr(conditions_module.boto3, "client", _boom)
+
+    bundle = conditions_module._load_model_bundle()
+
+    assert bundle["features"] == FEATURES
+    assert len(bundle["version"]) == 10  # short content hash, not a date
+
+
+def test_local_model_version_changes_only_when_the_file_content_changes(monkeypatch, tmp_path):
+    model_file = tmp_path / "condition_models.joblib"
+    monkeypatch.setattr(conditions_module, "MODEL_PATH", str(model_file))
+
+    model_file.write_bytes(_joblib_bytes({"models": {}, "thresholds": {}, "features": ["a"]}))
+    v1 = conditions_module._load_model_bundle_from_disk()["version"]
+    v1_again = conditions_module._load_model_bundle_from_disk()["version"]
+    model_file.write_bytes(_joblib_bytes({"models": {}, "thresholds": {}, "features": ["b"]}))
+    v2 = conditions_module._load_model_bundle_from_disk()["version"]
+
+    assert v1 == v1_again
+    assert v1 != v2
+
+
+def test_local_model_corrupted_file_returns_500(monkeypatch, tmp_path):
+    model_file = tmp_path / "condition_models.joblib"
+    model_file.write_bytes(b"not a joblib file")
+    monkeypatch.setattr(conditions_module, "MODEL_PATH", str(model_file))
 
     with pytest.raises(Exception) as exc_info:
         conditions_module._load_model_bundle()

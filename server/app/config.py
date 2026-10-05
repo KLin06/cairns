@@ -13,8 +13,10 @@ CLEANED_REVIEWS_DIR = os.path.join(DATASETS_DIR, "cleaned_reviews")
 ENRICHED_DESCRIPTIONS_DIR = os.path.join(DATASETS_DIR, "enriched_descriptions")
 ROUTE_GEOMETRY_DIR = os.path.join(DATASETS_DIR, "route_geometry")
 
-# condition_models.joblib now lives in S3 (see specs/007-docker-containerization)
-# instead of data/datasets/models/ - fetched by conditions.py via boto3 and
-# cached in memory for the process lifetime, not read off local disk.
+# condition_models.joblib is read from this local path when the file exists
+# (the Render image bakes it in, so no S3 bucket or AWS credentials are
+# needed to serve predictions). S3 is only a fallback for deployments that
+# don't ship the file - see conditions.py's _fetch_model_bundle.
+MODEL_PATH = os.environ.get("MODEL_PATH") or os.path.join(DATASETS_DIR, "models", "condition_models.joblib")
 MODEL_S3_BUCKET = os.environ.get("MODEL_S3_BUCKET")
 MODEL_S3_KEY = os.environ.get("MODEL_S3_KEY")

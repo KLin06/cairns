@@ -1,5 +1,7 @@
+import hashlib
 import io
 import logging
+import os
 import threading
 import time
 from datetime import date as date_cls
@@ -12,7 +14,7 @@ from botocore.exceptions import BotoCoreError, ClientError
 from fastapi import HTTPException
 from psycopg2.extras import RealDictCursor
 
-from app.config import MODEL_S3_BUCKET, MODEL_S3_KEY
+from app.config import MODEL_PATH, MODEL_S3_BUCKET, MODEL_S3_KEY
 from app.schemas import ConditionResult, ConditionsConfidence, ConditionsResponse, ValidRange, WeatherErrorDetail
 from app.services import data_store
 from app.services.activity import get_trail_activity
@@ -46,6 +48,7 @@ _TRAIL_LOCKS_GUARD = threading.Lock()
 _TRAIL_LOCKS: dict[str, threading.Lock] = {}
 
 _MODEL_BUNDLE: dict | None = None
+_MODEL_LOAD_LOCK = threading.Lock()
 
 _logger = logging.getLogger(__name__)
 
@@ -92,15 +95,49 @@ def _fetch_model_bundle_from_s3() -> dict:
     return bundle
 
 
+def _load_model_bundle_from_disk() -> dict:
+    """Reads the model from MODEL_PATH (baked into the Render image, so no
+    S3 bucket or AWS credentials are needed). version is a short content
+    hash, not the file's mtime: a git checkout/image build stamps every file
+    with "now", which would misreport when the model was actually trained,
+    while a content hash only changes when the model itself does."""
+    try:
+        with open(MODEL_PATH, "rb") as f:
+            body = f.read()
+        bundle = joblib.load(io.BytesIO(body))
+    except Exception as exc:
+        _logger.error("model artifact at %s failed to load: %s", MODEL_PATH, exc)
+        raise _error(500, "model_corrupted", "conditions model file is corrupted or unreadable") from exc
+
+    bundle["version"] = hashlib.sha256(body).hexdigest()[:10]
+    return bundle
+
+
+def _fetch_model_bundle() -> dict:
+    """Local file first; S3 only if no local file exists (deployments that
+    don't ship the model). A deployment still carrying MODEL_S3_* env vars
+    from before the model was baked in therefore uses the local file and
+    never touches S3."""
+    if os.path.exists(MODEL_PATH):
+        return _load_model_bundle_from_disk()
+    return _fetch_model_bundle_from_s3()
+
+
 def _load_model_bundle() -> dict:
     """Loaded once per process (not per-request, per the original TODO) and
     cached in this module-level global - {"models": {condition: fitted
     model}, "features": [...], "thresholds": {condition: float}, "version":
-    ...} - fetched from S3 on first call, then reused for the rest of the
-    process's lifetime (FR-005: at most one S3 fetch per process)."""
+    ...} - loaded on first call, then reused for the rest of the
+    process's lifetime (FR-005: at most one load per process). The
+    lock matters: opening a trail makes the client fire /conditions for every
+    date in the window at once (~16 threads), and without it each thread saw
+    the still-empty cache and did its own S3 download + joblib.load - enough
+    to exhaust a 512MB instance's memory on a cold start."""
     global _MODEL_BUNDLE
     if _MODEL_BUNDLE is None:
-        _MODEL_BUNDLE = _fetch_model_bundle_from_s3()
+        with _MODEL_LOAD_LOCK:
+            if _MODEL_BUNDLE is None:
+                _MODEL_BUNDLE = _fetch_model_bundle()
     return _MODEL_BUNDLE
 
 
