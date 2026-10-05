@@ -1,7 +1,16 @@
 import { forwardRef, useEffect, useImperativeHandle, useRef } from 'react'
 import * as maplibregl from 'maplibre-gl'
 import 'maplibre-gl/dist/maplibre-gl.css'
+// `?url` makes Vite emit the worker as a hashed asset and hand back its URL.
+// maplibre-gl 6 otherwise derives the worker's URL at runtime from
+// import.meta.url, which Vite can't see - so the production build never
+// shipped the file, /assets/maplibre-gl-worker.mjs 404'd, and the GeoJSON
+// trail source (clusters + pins) silently never loaded while the raster
+// basemap (which doesn't need the worker) still drew fine.
+import maplibreWorkerUrl from 'maplibre-gl/dist/maplibre-gl-worker.mjs?url'
 import type { TrailMarker } from '../api/trails'
+
+maplibregl.setWorkerUrl(maplibreWorkerUrl)
 
 // OSM raster tiles wrapped in a MapLibre style - no API key required. True
 // vector OSM tiles need a paid provider (MapTiler, etc.); this keeps the
